@@ -1,0 +1,305 @@
+{
+    "Changes": [
+        // Changes schedules from Archaeology Center to Community Center
+        //Also now school happens on rainy days too
+        //Penny schedules
+        {
+            "LogName": "Animations",
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                "vincent_read_right": "24/24/24"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Penny",
+            "Entries": {
+                "Tue": "830 Trailer 6 5 0/900 CommunityCenter 15 19 2 \"Strings\\schedules\\Penny:{{DayOfWeek}}_{{Random:Sch1, Sch2, Sch3 |key=school}}/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
+                "Wed": "MAIL Jasper_Penny/GOTO Wed_noTute/830 Trailer 6 5 0/900 CommunityCenter 14 19 1/1110 CommunityCenter 11 20 2 penny_read \"Strings\\schedules\\Penny:Wednesday_{{Random:Sch1, Sch2, Sch3 |key=school}}/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
+                "Wed_noTute": "GOTO Tue",
+                "Fri": "GOTO Tue",
+                "marriageJob": "830 CommunityCenter 15 19 2 \"Strings\\schedules\\Penny:marriageJob.000\"/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 BusStop -1 23 3",
+                "marriage_Wed": "MAIL Jasper_Penny/GOTO marriageJob/830 CommunityCenter 11 20 2 penny_read  \"Strings\\schedules\\Penny:Wednesday_{{Random:Sch4, Sch5, Sch6 |key=school}}/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 BusStop -1 23 3"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Penny",
+            "When": {
+                "DayOfWeek": "Tuesday, Wednesday, Friday"
+            },
+            "Entries": {
+                "9": "GOTO rain",
+                "9_6": "GOTO rain",
+                "23": "GOTO rain",
+                "23_6": "GOTO rain",
+                "rain": "830 Trailer 6 5 0/900 CommunityCenter 15 19 2 \"Strings\\schedules\\Penny:{{DayOfWeek}}_{{Random:Sch1, Sch2, Sch3 |key=school}}/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
+                "rain2": "830 Trailer 6 5 0/900 CommunityCenter 15 19 2 \"Strings\\schedules\\Penny:{{DayOfWeek}}_{{Random:Sch1, Sch2, Sch3 |key=school}}/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep"
+            }
+        },
+        //Jas schedules        
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Jas",
+            "Entries": {
+                "Tue": "820 CommunityCenter 19 20 3 jas_read \"Strings\\schedules\\Jas:{{DayOfWeek}}_{{Random:Sch1, Sch2, Sch3 |key=school}}/1400 Town 85 103 2/1620 Town 16 91 0/1750 AnimalShop 4 7 2/2100 AnimalShop 1 7 3 jas_sleep"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Jas",
+            "When": {
+                "DayOfWeek": "Tuesday, Wednesday, Friday"
+            },
+            "Entries": {
+                "9": "GOTO rain",
+                "23": "GOTO rain",
+                "rain": "900 CommunityCenter 19 20 3 jas_read \"Strings\\schedules\\Jas:{{DayOfWeek}}_{{Random:Sch1, Sch2, Sch3 |key=school}}/1620 Town 16 91 0/1750 AnimalShop 4 7 2/2100 AnimalShop 1 7 3 jas_sleep"
+            }
+        },
+        //Vincent schedules
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Vincent",
+            "Entries": {
+                "Tue": "900 CommunityCenter 15 20 1 vincent_read_right \"Strings\\schedules\\Vincent:{{DayOfWeek}}_{{Random:Sch1, Sch2, Sch3 |key=school}}/1400 Town 83 100 3/1620 Town 15 90 1/1740 SamHouse 4 8 0/2000 SamHouse 8 22 3 vincent_sleep"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Vincent",
+            "When": {
+                "DayOfWeek": "Tuesday, Wednesday, Friday"
+            },
+            "Entries": {
+                "9": "GOTO rain",
+                "23": "GOTO rain",
+                "rain": "900 CommunityCenter 15 20 1 vincent_read_right \"Strings\\schedules\\Vincent:{{DayOfWeek}}_{{Random:Sch1, Sch2, Sch3 |key=school}}/1620 Town 15 90 1/1740 SamHouse 4 8 0/2000 SamHouse 8 22 3 vincent_sleep"
+            }
+        },
+        //Eloise schedules
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Eloise",
+            "Entries": {
+                "Tue": "610 VetHouse 27 14 1/630 Town 100 95 1 \"Strings\\schedules\\Eloise:schoolday.000\"/900 CommunityCenter 18 22 0 Eloise_kneel \"Strings\\schedules\\Eloise:{{DayOfWeek}}_{{Random:Sch1, Sch2, Sch3 |key=school}}/1400 Town 88 103 2/1620 Town 17 91 0/1750 AnimalShop 6 5 0 Eloise_read",
+                "Wed": "610 VetHouse 27 14 1/630 Town 100 95 1 \"Strings\\schedules\\Eloise:schoolday.001\"/900 CommunityCenter 18 22 0 Eloise_kneel \"Strings\\schedules\\Eloise:{{DayOfWeek}}_{{Random:Sch1, Sch2, Sch3 |key=school}}/1400 Town 88 103 2/1640 VetHouse 24 15 0/2100 VetHouse 33 23 2"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Eloise",
+            "When": {
+                "DayOfWeek": "Tuesday, Wednesday, Friday"
+            },
+            "Entries": {
+                "9": "GOTO rain",
+                "23": "GOTO rain",
+                "rain": "630 Town 100 95 1 \"Strings\\schedules\\Eloise:schoolday.001\"/900 CommunityCenter 17 22 0 Eloise_kneel \"Strings\\schedules\\Eloise:{{DayOfWeek}}_{{Random:Sch1, Sch2, Sch3 |key=school}}/1640 VetHouse 24 15 0/2100 VetHouse 33 23 2"
+            }
+        },
+        //Jacob schedules
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Jacob",
+            "When": {
+                "DayOfWeek": "Tuesday, Wednesday, Friday"
+            },
+            "Entries": {
+                "Tue": "610 VetHouse 28 14 3/630 Town 101 95 3 \"Strings\\schedules\\Jacob:tuesday.000\"/900 VetHouse 5 12 2/1140 JacobOffice 5 5 0/1800 VetHouse 31 5 0/2200 VetHouse 20 4",
+                "rain": "GOTO Wed",
+                "Wed": "610 VetHouse 28 14 3/630 Town 101 95 3 \"Strings\\schedules\\Jacob:tuesday.001\"/900 EastScarpe 19 15 0/1620 EastScarpe 19 67 1/1800 VetHouse 23 15 0/2000 VetHouse 31 5 0/2200 VetHouse 20 4",
+                "Fri": "GOTO Wed"
+            }
+        },
+        //Jasper teaches the class on Wednesdays
+        //Does not when it rains!
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Jasper",
+            "Entries": {
+                "Wed": "MAIL Jasper_Penny/GOTO Wed_noTute/610 Museum2 18 13 0/900 CommunityCenter 15 19 3/1110 CommunityCenter 15 19 2 \"Strings\\schedules\\Jasper:Wednesday_{{Random:Sch1, Sch2, Sch3 |key=school}}\"/1400 Town 32 78 1/1630 Museum2 18 13 0/1830 Museum2 12 13 2 Jasper_Read",
+                "marriage_Wed": "MAIL Jasper_Penny/GOTO marriage_Wed_NoTute/800 CommunityCenter 15 19 3/1110 CommunityCenter 15 19 2 \"Strings\\schedules\\Jasper:Wednesday_{{Random:Sch1, Sch2, Sch3}}\"/1400 Forest 75 50 2 \"Strings\\schedules\\Jasper:marriage_{{Random:For1, For2, For3}}\"/1930 BusStop -1 23 3"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Beatrice",
+            "When": {
+                "HasMod": "attonbomb.Beatrice"
+            },
+            "Entries": {
+                "{{season}}_12": "610 Lighthouse 11 10 0 Beatrice_pjs \"Strings\\schedules\\Beatrice:sleep\"/730 Lighthouse 5 5 0/800 CommunityCenter 13 19 2 Beatrice_read \"Strings\\schedules\\Beatrice:read.002\"/1440 Saloon 19 23 3/1600 Lighthouse 2 10 3/1800 Lighthouse 18 4 0"
+            }
+        },
+        /*
+Penny       ArchaeologyHouse 17 9 2     to      CommunityCenter 15 19 2
+Jas         ArchaeologyHouse 19 10 3    to      CommunityCenter 18 20 3
+Vincent     ArchaeologyHouse 16 10 1    to      CommunityCenter 14 21 1
+Eloise      ArchaeologyHouse 18 12 0    to      CommunityCenter 17 22 0
+
+*/
+        //Compatibility with Help Penny
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Penny",
+            "When": {
+                "HasMod": "Fellowclown.PennyUpgrade",
+                "HasDialogueAnswer |contains=77710": "true"
+            },
+            "Entries": {
+                "Tue": "830 PennysHouse 9 7 0 penny_sit \"Strings\\schedules\\Penny:Upgrade.0014\"/900 CommunityCenter 15 19 2 \"Strings\\schedules\\Penny:{{DayOfWeek}}_{{Random:Sch1, Sch2, Sch3 |key=school}}/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 PennysHouse 10 5 1 penny_sleep",
+                "Wed": "MAIL Jasper_Penny/GOTO Wed_noTute/830 PennysHouse 9 7 0 penny_sit \"Strings\\schedules\\Penny:Upgrade.0014\"/900 CommunityCenter 11 20 2 penny_read \"Strings\\schedules\\Penny:{{DayOfWeek}}_{{Random:Sch1, Sch2, Sch3 |key=school}}/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1840 PennysHouse 10 5 1 penny_sleep"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Penny",
+            "When": {
+                "DayOfWeek": "Tuesday, Wednesday, Friday",
+                "HasMod": "Fellowclown.PennyUpgrade",
+                "HasDialogueAnswer |contains=77710": "true"
+            },
+            "Entries": {
+                "rain": "830 PennysHouse 2 5 0/900 CommunityCenter 15 19 2 \"Strings\\schedules\\Penny:{{DayOfWeek}}_{{Random:Sch1, Sch2, Sch3 |key=school}}/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 PennysHouse 10 5 1 penny_sleep",
+                "rain2": "830 PennysHouse 2 5 0/900 CommunityCenter 15 19 2 \"Strings\\schedules\\Penny:{{DayOfWeek}}_{{Random:Sch1, Sch2, Sch3 |key=school}}/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 PennysHouse 10 5 1 penny_sleep"
+            }
+        },
+        {
+            "LogName": "Classroom Strings",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Penny",
+            "Entries": {
+                "Tuesday_Sch1": "{{i18n:Penny.sch1}}",
+                "Tuesday_Sch2": "{{i18n:Penny.sch2}}",
+                "Tuesday_Sch3": "{{i18n:Penny.sch3}}",
+                "Wednesday_Sch1": "{{i18n:Penny.sch4}}",
+                "Wednesday_Sch2": "{{i18n:Penny.sch5}}",
+                "Wednesday_Sch3": "{{i18n:Penny.sch6}}",
+                "Friday_Sch1": "{{i18n:Penny.sch7}}",
+                "Friday_Sch2": "{{i18n:Penny.sch8}}",
+                "Friday_Sch3": "{{i18n:Penny.sch9}}"
+            }
+        },
+        {
+            "LogName": "Classroom Strings",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Penny",
+            "When": {
+                "HasSeenEvent": "55990006",
+                "Weather |contains=rain, storm": false
+            },
+            "Entries": {
+                "Wednesday_Sch1": "{{i18n:Penny.sch4.jasper}}",
+                "Wednesday_Sch2": "{{i18n:Penny.sch5.jasper}}",
+                "Wednesday_Sch3": "{{i18n:Penny.sch6.jasper}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Jas",
+            "Entries": {
+                "Tuesday_Sch1": "{{i18n:Jas.sch1}}",
+                "Tuesday_Sch2": "{{i18n:Jas.sch2}}",
+                "Tuesday_Sch3": "{{i18n:Jas.sch3}}",
+                "Wednesday_Sch1": "{{i18n:Jas.sch4}}",
+                "Wednesday_Sch2": "{{i18n:Jas.sch5}}",
+                "Wednesday_Sch3": "{{i18n:Jas.sch6}}",
+                "Friday_Sch1": "{{i18n:Jas.sch7}}",
+                "Friday_Sch2": "{{i18n:Jas.sch8}}",
+                "Friday_Sch3": "{{i18n:Jas.sch9}}"
+            }
+        },
+        {
+            "LogName": "Classroom Strings",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Jas",
+            "When": {
+                "HasSeenEvent": "55990006",
+                "Weather |contains=rain, storm": false
+            },
+            "Entries": {
+                "Wednesday_Sch1": "{{i18n:Jas.sch4.jasper}}",
+                "Wednesday_Sch2": "{{i18n:Jas.sch5.jasper}}",
+                "Wednesday_Sch3": "{{i18n:Jas.sch6.jasper}}"
+            }
+        },
+        {
+            "LogName": "Classroom Strings",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Vincent",
+            "Entries": {
+                "Tuesday_Sch1": "{{i18n:Vincent.sch1}}",
+                "Tuesday_Sch2": "{{i18n:Vincent.sch2}}",
+                "Tuesday_Sch3": "{{i18n:Vincent.sch3}}",
+                "Wednesday_Sch1": "{{i18n:Vincent.sch4}}",
+                "Wednesday_Sch2": "{{i18n:Vincent.sch5}}",
+                "Wednesday_Sch3": "{{i18n:Vincent.sch6}}",
+                "Friday_Sch1": "{{i18n:Vincent.sch7}}",
+                "Friday_Sch2": "{{i18n:Vincent.sch8}}",
+                "Friday_Sch3": "{{i18n:Vincent.sch9}}"
+            }
+        },
+        {
+            "LogName": "Classroom Strings",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Vincent",
+            "When": {
+                "HasSeenEvent": "55990006",
+                "Weather |contains=rain, storm": false
+            },
+            "Entries": {
+                "Wednesday_Sch1": "{{i18n:Vincent.sch4.jasper}}",
+                "Wednesday_Sch2": "{{i18n:Vincent.sch5.jasper}}",
+                "Wednesday_Sch3": "{{i18n:Vincent.sch6.jasper}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Eloise",
+            "When": {
+                "HasMod": "Lemurkat.JacobEloise.CP"
+            },
+            "Entries": {
+                "Tuesday_Sch1": "{{i18n:Eloise.sch1}}",
+                "Tuesday_Sch2": "{{i18n:Eloise.sch2}}",
+                "Tuesday_Sch3": "{{i18n:Eloise.sch3}}",
+                "Wednesday_Sch1": "{{i18n:Eloise.sch4}}",
+                "Wednesday_Sch2": "{{i18n:Eloise.sch5}}",
+                "Wednesday_Sch3": "{{i18n:Eloise.sch6}}",
+                "Friday_Sch1": "{{i18n:Eloise.sch7}}",
+                "Friday_Sch2": "{{i18n:Eloise.sch8}}",
+                "Friday_Sch3": "{{i18n:Eloise.sch9}}"
+            }
+        },
+        {
+            "LogName": "Classroom Strings",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Eloise",
+            "When": {
+                "HasSeenEvent": "55990006",
+                "Weather |contains=rain, storm": false,
+                "HasMod": "Lemurkat.JacobEloise.CP"
+            },
+            "Entries": {
+                "Wednesday_Sch1": "{{i18n:Eloise.sch4.jasper}}",
+                "Wednesday_Sch2": "{{i18n:Eloise.sch5.jasper}}",
+                "Wednesday_Sch3": "{{i18n:Eloise.sch6.jasper}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/Jasper",
+            "When": {
+                "HasMod": "Lemurkat.NPCJasper"
+            },
+            "Entries": {
+                "Wednesday_Sch1": "{{i18n:Jasper.sch4}}",
+                "Wednesday_Sch2": "{{i18n:Jasper.sch5}}",
+                "Wednesday_Sch3": "{{i18n:Jasper.sch6}}"
+              
+            }
+        }
+    ]
+}

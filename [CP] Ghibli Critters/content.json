@@ -1,0 +1,11 @@
+{
+	"Format": "1.0",
+	"Changes": [
+		{
+		"Action": "Load",
+		"Target": "TileSheets/critters",
+		"FromFile": "assets/critters.png",
+		"Enabled": true
+		},
+	]
+}

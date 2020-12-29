@@ -1,0 +1,11 @@
+{
+   "Name": "Peskit Hogwart's Express",
+   "Author": "Peskit",
+   "Version": "1.0",
+   "UniqueID": "Peskit.Hogwarts_Express",
+   "Description": "Replaces the train with the Hogwarts Express",
+   "UpdateKeys": ["Nexus:7338"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

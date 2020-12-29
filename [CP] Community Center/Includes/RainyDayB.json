@@ -1,0 +1,166 @@
+{
+    "Changes": [
+
+//Book Club        
+{   "LogName": "Schedule",  
+    "Action": "EditData",  
+    "Target": "Characters/schedules/Evelyn",
+    "Entries": {
+        "rain": "800 JoshHouse 3 17 0 square_3_1_0/1040 JoshHouse 17 22 3/1130 CommunityCenter 26 9 3 evelyn_sit_left \"Strings\\schedules\\Evelyn:BookClub_{{Random:Bo1, Bo2, Bo3 |key=BookClub }}\"/1700 JoshHouse 4 17 0 square_3_1_0/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1"
+            }
+        },
+{   "LogName": "Schedule",  
+    "Action": "EditData",  
+    "Target": "Characters/schedules/Jodi",
+    "Entries": {
+        "rain": "800 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 SamHouse 7 5 0/1020 SamHouse 4 5 0/1040 SamHouse 6 5 0 jodi_dishes/1130 CommunityCenter 24 8 2 jodi_sit_down \"Strings\\schedules\\Jodi:BookClub_{{Random:Bo1, Bo2, Bo3 |key=BookClub}}\"/1700 CommunityCenter 30 15 2/1730 SamHouse 6 5 0 jodi_dishes/1930 SamHouse 8 13 1/2100 SamHouse 10 22 3/2200 SamHouse 22 5 1 jodi_sleep"
+            }
+        },  
+{   "LogName": "Schedule",  
+    "Action": "EditData",  
+    "Target": "Characters/schedules/Caroline",
+    "Entries": {
+        "rain": "800 SeedShop 37 6 3/1130 CommunityCenter 23 9 2 caroline_read \"Strings\\schedules\\Caroline:BookClub_{{Random:Bo1, Bo2, Bo3 |key=BookClub}}\"/1700 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep"
+            }
+        },  
+{   "LogName": "Schedule",  
+    "Action": "EditData",  
+    "Target": "Characters/schedules/Marnie",
+    "When": {   "DayOfWeek": "Monday"  	},
+    "Entries": {	
+        "rain": "810 SeedShop 11 20 0/1100 CommunityCenter 22 10 1 \"Strings\\schedules\\Marnie:BookClub_{{Random:Bo1, Bo2, Bo3 |key=BookClub}}\"/1700 CommunityCenter 32 12 1/1730 AnimalShop 24 15 0/2100 AnimalShop 12 5 3 marnie_sleep"
+            }
+        },
+
+//Jas and Vincent play nearby
+{   "LogName": "Schedule",  
+    "Action": "EditData",  
+    "Target": "Characters/schedules/Jas",
+    "When": {   "DayOfWeek": "Monday"	},
+    "Entries": {	
+        "rain": "900 AnimalShop 7 5 0/1000 CommunityCenter 40 10 square_5_1_0 \"Strings\\schedules\\Jas:CommunityCenter_{{Random:Fi1, Fi2, Fi3}}\"/1500 CommunityCenter 43 10 3 jas_read \"Strings\\schedules\\Jas:CommunityCenter_{{Random:Bk1, Bk2, Bk3}}\"/1700 CommunityCenter 33 12 3/1730 AnimalShop 4 7 2/2100 AnimalShop 1 7 3 jas_sleep"
+    }
+        },
+{   "LogName": "Schedule",  
+    "Action": "EditData",  
+    "Target": "Characters/schedules/Vincent",
+    "When": {   "DayOfWeek": "Monday" 	},
+    "Entries": {	
+        "rain": "900 SamHouse 4 8 0/1130 CommunityCenter 37 9 2 vincent_play \"Strings\\schedules\\Vincent:CommunityCenter_{{Random:Pl1, Pl2, Pl3}}\"/1400 CommunityCenter 40 10 2 square_5_1_0 \"Strings\\schedules\\Vincent:CommunityCenter_{{Random:Fi1, Fi2, Fi3}}\"/1700 CommunityCenter 31 16 3/1730 SamHouse 5 7 3/1900 SamHouse 11 22 2 vincent_play/2000 SamHouse 8 22 3 vincent_sleep"
+    }
+        },
+
+//Schedule Dialogue
+{	"LogName": "Bookclub Strings",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Evelyn",
+    "Entries": {
+        "BookClub_Bo1": "{{i18n:RainyDayB.Evelyn.1}}",
+        "BookClub_Bo2": "{{i18n:RainyDayB.Evelyn.2}}",
+        "BookClub_Bo3": "{{i18n:RainyDayB.Evelyn.3}}"
+         }
+    },
+{	"LogName": "Bookclub Strings",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Caroline",
+    "Entries": {
+        "BookClub_Bo1": "{{i18n:RainyDayB.Caroline.1}}",
+        "BookClub_Bo2": "{{i18n:RainyDayB.Caroline.2}}",
+        "BookClub_Bo3": "{{i18n:RainyDayB.Caroline.3}}"
+            }
+    },
+{	"LogName": "Bookclub Strings",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Jodi",
+    "Entries": {
+        "BookClub_Bo1": "{{i18n:RainyDayB.Jodi.1}}",
+        "BookClub_Bo2": "{{i18n:RainyDayB.Jodi.2}}",
+        "BookClub_Bo3": "{{i18n:RainyDayB.Jodi.3}}"
+            }
+    },
+//Sam stays home if Vincent is not with his Mom on rainy days
+{	"LogName": "Bookclub Day - Sam",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Sam",
+    "When": {   "DayOfWeek": "Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"  },
+    "Entries": {
+        "rain2": "1000 SamHouse 15 13 0/1100 SamHouse 17 15 2 sam_guitar/1500 SamHouse 8 6 3 sam_gameboy/1700 SamHouse 17 13 0/1830 SamHouse 22 16 1/2000 SamHouse 22 13 1 sam_sleep"
+            }
+        },
+//Marnie, Jas and Vincent join them on Mondays.
+{	"LogName": "Bookclub Strings - Marnie",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Marnie",
+    "Entries": {
+        "BookClub_Bo1": "{{i18n:RainyDayB.Marnie.1}}",
+        "BookClub_Bo2": "{{i18n:RainyDayB.Marnie.2}}",
+        "BookClub_Bo3": "{{i18n:RainyDayB.Marnie.3}}"
+         }
+        },
+{	"LogName": "Bookclub Strings - Jas",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Jas",
+    "Entries": {
+        "CommunityCenter_Fi1": "{{i18n:RainyDayB.Jas.1}}",
+        "CommunityCenter_Fi2": "{{i18n:RainyDayB.Jas.2}}",
+        "CommunityCenter_Fi3": "{{i18n:RainyDayB.Jas.3}}",
+        "CommunityCenter_Bk1": "{{i18n:RainyDayB.Jas.4}}",
+        "CommunityCenter_Bk2": "{{i18n:RainyDayB.Jas.5}}",
+        "CommunityCenter_Bk3": "{{i18n:RainyDayB.Jas.6}}"
+            }
+        },
+{	"LogName": "Bookclub Strings - Vincent",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Vincent",
+    "Entries": {
+        "CommunityCenter_Pl1": "{{i18n:RainyDayB.Vincent.1}}",
+        "CommunityCenter_Pl2": "{{i18n:RainyDayB.Vincent.2}}",
+        "CommunityCenter_Pl3": "{{i18n:RainyDayB.Vincent.3}}",
+        "CommunityCenter_Fi1": "{{i18n:RainyDayB.Vincent.4}}",
+        "CommunityCenter_Fi2": "{{i18n:RainyDayB.Vincent.5}}",
+        "CommunityCenter_Fi3": "{{i18n:RainyDayB.Vincent.6}}"
+            }
+        },
+{   "Action": "EditData", 
+    "Target": "Data/Events/CommunityCenter",
+    "Entries":{ 
+        "69660007/q 958700/p Caroline/p Marnie/p Jodi/p Evelyn":"breezy/26 10/Evelyn 26 9 3 Jodi 24 8 2 Caroline 23 10 1 Marnie 25 11 0 farmer 29 14 0/skippable/pause 1000/move farmer 0 -4 3 true/speak Caroline \"I can't help but feel it's something of a self insert.\"/speak Marnie \"Really? So who do you think Clara is then?\"/pause 500/emote Caroline 40/speak Caroline \"Leah, possibly?\"/pause 500/speak Marnie \"Hmmm, maybe. She's not really train stewardess material though, is she?\"/pause 1000/speak Evelyn \"Horatio was really rather hopeless, wasn't he?#$b#I would've thought her better suited with Gozman.#$b#It's a pity he never confessed his feelings to her.\"/pause 1000/emote farmer 8/move farmer -2 0 3/move Jodi 0 1 1/faceDirection Marnie 1/faceDirection Evelyn 2/emote Evelyn 32/speak Jodi \"Oh, hello @! Welcome to our book club. We were just discussing 'Camellia Station'.#$b#Have you read it?\"/quickQuestion #I've been meaning to.#Oh yes, it was wonderful. I cried.#I tried, it wasn't for me.#Oh, I don't read.(break)speak Jodi \"Oh... you should! Especially since it's dedicated to you.#$b#But I suppose with farm life you get very little time to read?\"(break)speak Jodi \"Oh, me too! Especially that ending. Who knew Elliott had such a romantic soul?$2\"(break)speak Jodi \"That's a pity. Especially since it's dedicated to you.#$b#I suppose his use of language does take a bit of getting used to.\"(break)speak Jodi \"You don't? You're missing out. Still, to each their own, I guess.\"/pause 500/speak Evelyn \"You know, I see a bit of Clara in you, @.#$b#With a few changes, of course, but she has your spirit, your determination. Your fierce dedication.\"/pause 500/emote farmer 16/speak Jodi \"Oh...!#$b#I think our Elliott has feelings for you!$4\"/quickQuestion #Don't be ridiculous!#Of course he does, doesn't everyone?#Well, they're certainly not reciprocated!#Oh, I know. I have feelings for him too!(break)speak Marnie \"Oh, I wouldn't be so quick to scorn, if I were you. After all, he did dedicate this book to you.$1\"(break)speak Caroline \"Oh, I wouldn't say everyone.$4\"(break)speak Jodi \"Oh dear, you're going to break that young man's heart.$2\"(break)speak Evelyn \"Of course! Oh, to be young again and in love.$3\"/pause 1500/speak Caroline \"Well, I suppose you could join us, if you wanted?\"/pause 500/emote farmer 56/pause 2000/end"
+          }
+        },
+{   "Action": "EditData", 
+    "Target": "Data/Events/CommunityCenter",
+    "Entries":{ 
+        "69660008/q 958700/p Caroline/p Marnie/p Jodi/p Evelyn":"Near The Planet Core/26 10/Evelyn 26 9 3 Jodi 24 8 2 Caroline 23 10 1 Marnie 25 11 0 farmer 29 14 0/skippable/pause 1000/move farmer 0 -4 3 true/speak Caroline \"Oh, I never thought our Elliott had it in him...#$b#It was more the sort of book I'd expect Abigail to read.$2\"/speak Marnie \"It kept me up late into the night. Every rattle of the wind and I was imaginging those ... those things... scratching at the shivering walls of my bio-tent.$2\"/speak Evelyn \"George kept grumbling that I was keeping him awake. But I had to know if Yutkin was going to make it!\"/pause 1000/emote farmer 8/move farmer -2 0 3/move Jodi 0 1 1/faceDirection Marnie 1/faceDirection Evelyn 2/emote Evelyn 32/speak Jodi \"Oh, hello @! Welcome to our book club. We were just discussing 'The Rise And Fall Of Planet Yazzo'.#$b#Have you read it?\"/quickQuestion #I've been meaning to.#Oh yes, it was wonderful. I couldn't put it down!.#I tried, it wasn't for me.#Who has time to read?(break)speak Jodi \"I understand. It took me a few goes to get into it myself.\"(break)speak Jodi \"Really? You didn't find it a bit too creepy and dark?$2\"(break)speak Jodi \"Oh, me neither. It was a little too weird for my tastes.#$b#Sam seemed to enjoy it though.\"(break)speak Jodi \"Of course, life must be very busy on the farm. \"/pause 500/speak Evelyn \"That confrontation in the ruins of the Grand Spire... when Captain Yutkin's friend disappeared...$2#$b#Oh, I couldn't sleep a wink! And when they only found his... Oh! *shudders*\"/speak Marnie \"It was a bit on the gruesome side.$2#$b#The writing style though... It really gave me chills!\"/speak Jodi \"He said you were his inspiration, @. Did you put those frightening ideas in his head?\"/quickQuestion #Of course! Macabre is my middle name.#No! That's all him. Nothing to do with me.#I'm pretty sure he's inspired by the sea.(break)speak Marnie \"Oh!$4#$b#Sorry, @, now I'm a little scared of you.$2\"(break)speak Evelyn \"I never knew such a poetic soul could harbor such a macabre imagination.\"(break)speak Caroline \"Oh yes, the exoskeletons... the giant claws... I see it now!\"/pause 1500/speak Caroline \"Anyway, @, would you like to join us?\"/pause 500/emote farmer 56/pause 1000/end"
+        }
+    },
+
+/*
+Event discussing Elliott's book:
+69660007/q 958701/
+'The Rise And Fall Of Planet Yazzo'... It's a sci-fi epic spanning thousands of years in an exotic planetary system.
+Chapter One.
+Commander Yutkin stepped through the golden archway as the airlock snapped shut behind him. Today was his first day on Planet Yazzo, and all 14 of the alliance delegates had been summoned to the Grand Spire...
+...And as the 7th moon descended beneath the horizon, the planet of Yazzo would begin its sinister transformation... an event for which Commander Yutkin was completely unprepared.
+
+69660007/q 958699/
+958699:     'Blue Tower'... It's a mystery novel set in a surreal, dystopian future.
+Chapter One.
+From the shadows emerged a man, radiating with enigmatic omniscience. 'Good Evening, Mr. Lu,' he said, the corners of his mouth quivering. Lu seemed astonished. 'How did you know my name?'...
+... Lu checked Jenu's pockets, then stood up and walked into the bedroom. He quickly found the small golden key that he was looking for and slipped it into his coat pocket.
+
+
+"69660007/q 958700/p Caroline/p Marnie/p Jodi/p Evelyn":"50s/26 10/Evelyn 26 9 3 Jodi 24 8 2 Caroline 23 10 1 Marnie 25 11 0 farmer 29 14 0/skippable/pause 1000/advancedMove farmer false 0 -4 -2 0/speak Caroline \"I can't help but feel it's something of a self insert.\"/speak Marnie \"Really? So who do you think is Clara?\"/pause 500/emote Caroline 40/speak Caroline \"Leah, do you think?\"/pause 500/speak Marnie \"Hmmm, maybe. She's not really train stewardess material though, is she?\"/pause 1000/speak Evelyn \"Horatio was really rather hopeless though, wasn't he?#$b#I would've thought her better suited with Gozman.#$b#It's a pity he never confessed his feelings to her.\"/pause 1000/emote farmer 8/move Jodi 0 1 1/faceDirection Marnie 1/faceDirecion Evelyn 2/emote Evelyn 32/speak Jodi \"Oh, hello @! Welcome to our book club. We were just discussing 'Camellia Station'.#$b#Have you read it?\"/quickQuestion #I've been meaning to.#Oh yes, it was wonderful. I cried.#I tried, it wasn't for me.#Oh, I don't read.(break)speak Jodi \"Oh... you should! Especially since it's dedicated to you.#$b#But I suppose with farm life you get very little time to read?\"(break)speak Jodi \"Oh, me too! Especially that ending. Who knew Elliott had such a romantic soul?$2\"(break)speak Jodi \"That's a pity. Especially since it's dedicated to you.#$b#I suppose his use of language does take a bit of getting used to.\"(break)speak Jodi \"You don't? You're missing out. Still, to each their own, I guess.\"/pause 500/speak Evelyn \"You know, I see a bit of Clara in you, @.#$b#With a few changes, of course, but she has your spirit, your determination. Your fierce dedication.\"/pause 500/emote farmer 16/speak Jodi \"Oh...!#$b#I think our Elliott has feelings for you!\"/quickQuestion #Don't be ridiculous!#Of course he does, doesn't everyone?#Well, they're certainly not reciprocated!#Oh, I know. I have feelings for him too!(break)speak Marnie \"Oh, I wouldn't be so quick to scorn, if I were you. After all, he did dedicate this book to you.$1\"(break)speak Caroline \"\"(break)speak Jodi \"Oh, the poor man. I hope you've made that clear, @.$2\"(break)speak Evelyn \"Of course! Oh, to be young again and in love.$3\"/pause 500/speak Caroline \"You can join us, if you like?\"/pause 500/emote farmer 56/pause 1000/end"
+
+
+958700:     'Camellia Station'... It's a romance novel about a train stewardess who falls in love with a traveling architect...
+Chapter One.
+'Your ticket, sir?' Ticket collector Gozman extended a gloved hand towards the young commuter. 'Ah, yes. I have it right here,' he replied, reaching into his coat pocket. Mortified, he discovered that the ticket was missing....
+...'Clara, there's something I must tell you,' he blurted as she turned to leave. Clara turned, slowly, and saw the look of desperation in Horatio's eye. At that moment Gozman burst into the compartment, red-faced.
+*/
+
+
+
+
+
+    ]
+}

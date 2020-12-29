@@ -1,0 +1,13 @@
+{
+  "Name": "Farm Extended Unofficial Fix for FTM",
+  "Author": "Esca",
+  "Version": "1.0.0",
+  "Description": "This is an unofficially fixed content pack for Farm Extended's FTM settings",
+  "UniqueID": "Esca.FarmExtendedFTMFix",
+  "MinimumApiVersion": "2.5",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Esca.FarmTypeManager",
+    "MinimumVersion": "1.6.0"
+   }
+}

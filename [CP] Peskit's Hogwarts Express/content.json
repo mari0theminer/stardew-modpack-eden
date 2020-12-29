@@ -1,0 +1,42 @@
+{
+  "Format": "1.13",
+
+  "Changes": [
+       {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors, LooseSprites/Cursors.{{language}}",
+          "FromFile": "assets/HE_wheel.png",
+          	"ToArea": { "X": 192, "Y": 576, "Width": 20, "Height": 20 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors, LooseSprites/Cursors.{{language}}",
+          "FromFile": "assets/HE_engine.png",
+          	"ToArea": { "X": 576, "Y": 512, "Width": 128, "Height": 64 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors, LooseSprites/Cursors.{{language}}",
+          "FromFile": "assets/HE_coal.png",
+          	"ToArea": { "X": 320, "Y": 512, "Width": 128, "Height": 64 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors, LooseSprites/Cursors.{{language}}",
+          "FromFile": "assets/HE_closed.png",
+          	"ToArea": { "X": 192, "Y": 512, "Width": 128, "Height": 64 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors, LooseSprites/Cursors.{{language}}",
+          "FromFile": "assets/HE_passenger.png",
+          	"ToArea": { "X": 448, "Y": 512, "Width": 128, "Height": 64 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors, LooseSprites/Cursors.{{language}}",
+          "FromFile": "assets/HE_luggage.png",
+          	"ToArea": { "X": 448, "Y": 448, "Width": 128, "Height": 64 }
+       },
+    ]
+}
