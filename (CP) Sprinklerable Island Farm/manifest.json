@@ -1,0 +1,14 @@
+{
+   "Name": "Sprinklerable Island Farm",
+   "Author": "lech43",
+   "Version": "1.0.1",
+   "Description": "you can set sprikelers on the sand",
+   "UniqueID": "lech43.CP.SprinklerableIslandFarm",
+   "MinimumApiVersion": "3.8",
+   "UpdateKeys": ["Nexus:7319"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.19.0"
+   },
+   "Dependencies": [],
+}
