@@ -1,0 +1,13 @@
+{
+
+  "Name": "Abigial - The Extended Unrated Director's Cut 8K Gold Limited Edition",
+   "Author": "Uriziel",
+   "Description": "Abigail - Better, Longer, Uncut",
+   "Version": "1.0.1",
+   "UniqueID": "Uriziel.AbigailExtendedUpgraded",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "UpdateKeys": [ "" ],
+   
+}

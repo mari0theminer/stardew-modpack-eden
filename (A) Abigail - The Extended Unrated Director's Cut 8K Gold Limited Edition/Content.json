@@ -1,0 +1,2395 @@
+{
+  "Format": "1.6",
+  "Changes": [
+
+
+
+//AbigailDialogue
+
+          {
+          "LogName": "Abigail Dialogue (Custom Dialogue)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Abigail",
+          "Entries": {
+
+          "4": "Hiya @",
+          "Introduction": "Oh hello, I heard someone new was moving in to the old %farm Farm...#$b#Shame really, not that I don't enjoy the idea of having more people in town, I just always loved hanging out at that old farmhouse...#$b#Its so peaceful and quiet out there$h",
+
+        "Mon": "Hey, hows the farm coming along?",
+        "Tue": "I'm not in a very good mood today...$u",
+        "Wed": "Hey. Sorry in advance if I say anything rude, I was up all night working, so I'm tired and cranky$u",
+        "Thu": "I think Dad is going to try cooking tonight...$u#$b#Last time he tried the house smelled like burnt cheese for a week...$1",
+        "Fri": "Is it already Friday? Wow this week just flew by, at least I can relax tomorrow",
+        "Sat": "I complain a lot about spring, but the fresh air coming down from the mountains is nice",
+
+        "Mon2": "The cemetary is a nice peaceful place if you need some time to yourself, sometimes I go there just for the privacy",
+        "Tue2": "*sighs* I don't think my parents remember being young...#$b#They always complain when I want to have fun",
+        "Wed2": "The saloon has an arcade machine that takes a key to play, I wonder game it is?#$b#I'd love to find out, but Gus doesn't even know",
+        "Thu2": "My controller broke! I've got to order a new one before I can play any video game. I'm going to be angry and nude on the internet tonight$a",
+        "Fri2": "We're going to go hang out at the saloon tonight, its kind of become a Friday tradition",
+        "Sat2": "You ever seen that old mine up in the mountain? Someday I'd really like to explore it and see whats in there...",
+
+        "Mon4": "Spring is nice and all, but I'm more of a fall girl...",
+        "Tue4": "I love watching the sunset from the park in town, the colors are so amazing",
+        "Wed4": "Life in Pelican Town can be really boring sometimes...",
+        "Thu4": "'Journey of the Prairie King' is still kicking my cute little butt, I wish I was better at shooting games",
+        "Fri4": "I heard Gus made pizza, you know what that means? It means saloon night just became mandatory",
+        "Sat4": "I ate so much pizza at the saloon last night, I think my friends are actually impressed with how much I can stuff in my mouth$h#$b#That came out way more perverted than it was meant to...$4",
+
+        "Mon6": "$d joja#Mom and Dad were arguing this morning, I think JojaMart is really putting a strain on them$s|I heard Mom and Dad talking this morning, they were actually laughing, I hadn't heard that since JojaMart opened. Its nice that they're getting back to normal$h",
+        "Tue6": "$d joja#Dad is so stressed because of JojaMart, he is afraid he'll have to close the shop...$s|With JojaMart finally gone Dad has been so relaxed lately, I wonder if he was acting so angry because of them this whole time?$h",
+        "Wed6": "$d cc#The Community Center is an awesome place to hang out at night, no one is ever there so its totally private$h|Sometimes we go hang out in the old community center at night, its spooky but its completely private$h",
+        "Thu6": "$d joja#Morris gives me a bad case of the creeps, I can almost feel that troll undressing me with his eyes|I'm glad that JojaMart left and took Morris with them, that little troll always gave me the creeps",
+        "Fri6": "So, we're doing the saloon thing again tonight, I'd love it if you could join us if you aren't busy...",
+        "Sat6": "I might just go play video games, it seems like that kind of day to me...",
+
+        "Mon8": "Hey you! Its nice to see you...#$b#I always smile a little when I see you, is that weird?",
+        "Tue8": "I used to think this place was the back end of no where, but since I've gotten to know you it has become a much nicer place",
+        "Wed8": "I can barely remember what life was like here before you moved in to %farm Farm, you've really become an important part of my life *smiles*",
+        "Thu8": "Sebastian is basically my best friend, we grew up together and everyone has always assumed we were going to end up together...#$b#I'm not so sure anymore...$4",
+        "Fri8": "In a few short hours I will be eating pizza and drinking mead! Life is kind of cool sometimes...",
+        "Sat8": "I was out by %farm Farm yesterday, you've really turned that place in to something special#$b#Life in the Valley really fits you, I can tell you belong here",
+
+        "Mon10": "Mmm, there is my baby! I've missed you *smiles happily*$h",
+        "Tue10": "*shoves herself under your arm* Hi! I've missed you, and I just wanted a hug...#$b#Don't look at me like that, you knew I was weird#$b#Now love me damn it *giggles*$h",
+        "Wed10": "*swats your butt* Behold Dat Ass...#$b#What? *tries to look innocent*$4",
+        "Thu10": "*comes up from behind and hugs you* NINJA HUG!#$b#You make me really happy, I just wanted to tell you that...$4",
+        "Fri10": "Its Friday again, if you wanted me to skip the saloon tonight...#$b#Maybe we could sneak off somewhere and snuggle?",
+        "Sat10": "*nuzzles against your neck* So do you have to work today? Or can you spare some time for your needy, slightly crazy girl? $h",
+
+
+        "summer_Mon": "David, my guinea pig, just hates this hot weather. He is so fussy",
+        "summer_Tue": "Why is so hot today... *whines miserably*",
+        "summer_Wed": "Have you put up any decorations yet? If I lived in my own house I'd decorate all the time",
+        "summer_Thu": "I'm thinking of exploring that old mine, I wonder if a sword or a dagger would be a better weapon to take...",
+        "summer_Fri": "Its already Friday? Another week closer to fall!",
+        "summer_Sat": "I kind of wish I had a dog or a cat, but Dad is allergic to basically all animals except my guinea pig...",
+
+        "summer_Mon2": "Do you ever get lonely all by yourself out there on the farm?",
+        "summer_Tue2": "*sniffles* Much pollen, such hay fever, many sniffles$u",
+        "summer_Wed2": "I would love to live in an old farmhouse like you.#$b#It must be so peaceful out there on that farm, away from the town...maybe lonely though",
+        "summer_Thu2": "I bought a new sword, its nothing fancy but its sturdy at least",
+        "summer_Fri2": "The saloon is a good place to spend summer nights, Gus always keeps it nice and cool in there...",
+        "summer_Sat2": "I'm looking forward to fall, the cool breeze and weather...oh and the smell of pumpkins!",
+
+        "summer_Mon4": "I'm not a huge fan of this heat, kind of makes me hate the fact I have to wear clothes outside...",
+        "summer_Tue4": "You're an interesting guy, @. I'm glad you moved here.$h^You're an interesting lady, @. I'm glad you moved here.$h",
+        "summer_Wed4": "Linus is a nice guy, I wish people in town were nicer to him. I guess I have a soft spot for weirdos huh?",
+        "summer_Thu4": "Everyone loves going to the beach this time of year, but I'm so pale I almost burn in moonlight$s",
+        "summer_Fri4": "Rumour is that Gus was making chocolate cake today, I think its a secret plot to make me fat",
+        "summer_Sat4": "My parents didn't know I was going to dye my hair purple the first time, I tried hiding it for like a week. It was pretty funny",
+
+        "summer_Mon6": "I used to think Pelican Town was kinda dull, but lately I'm starting to love some things about it$h",
+        "summer_Tue6": "If this heat wasn't so unbearable right now I'd suggest we go for a walk, but right now I just want to get somewhere cool$s",
+        "summer_Wed6": "I'm melting, thats all there is too it. Summer is killing me. Please make sure that goes on my tombstone...",
+        "summer_Thu6": "I think I'll head over and get some ice cream, assuming this hellishly hot weather hasn't set it on fire somehow...$s",
+        "summer_Fri6": "You know you're more than welcome to join us at the saloon tonight? You're one of us now",
+        "summer_Sat6": "I'm actually enjoying myself this summer...$h#$e#Must be the new company I'm keeping, eh?",
+
+        "summer_Mon8": "I got a new fighting game this weekend, you want to see if you can take me on? *winks*$h",
+        "summer_Tue8": "I think I'm going to go to the cemetary tonight and practice with my sword, or maybe I'll just curl up with a book in the air conditioning...",
+        "summer_Wed8": "Wow, you look good today...#$e#I just meant that the summer air must be good for your complexion. Look over there! Quick! Stop paying attention to my awkwardness!$h",
+        "summer_Thu8": "Did you ever want to do something? Maybe something really important, something that could change your whole life?...#$b#But you know that once you do, once you take the leap to do it, you're totally vulnerable?#$b#*sighs* That once you jump there might not be someone to catch you if you fall...$4",
+        "summer_Fri8": "You should hang out with us tonight at the saloon, I'm probably going to drink too much mead and dance on a table. Do you really want to miss that?",
+        "summer_Sat8": "It doesn't matter how bad my day is, or how awful I feel...when I see you I smile, and everything suddenly doesn't seem so bad *blush*$4",
+
+        "summer_Mon10": "Its hot today isn't it? Has anyone ever told you that you're really sexy when you're all sweaty? *giggles*$1",
+        "summer_Tue10": "Dad came in to talk to me last night, he said you're good for me and that he likes you#$b#I think this is the first time he has ever approved of anything I've done. You know I have to leave you now that my father approves right? *giggles*$h#$b#I'm just kidding darling, but if you don't kiss me I might Falcon Punch you... *smiles*",
+        "summer_Wed10": "You going to the mines soon?#$b#Its dangerous to go alone! Here, take this! *slides her hand in yours and grins*$1",
+        "summer_Thu10": "I've never been the 'pretty one', or the popular one, but when I'm with you I feel beautiful...#$b#What I'm trying to say is this...what we have, feels right. You make things feel the way they are supposed to...",
+        "summer_Fri10": "If you don't want to do the saloon this week, I could skip it...#$b#We could grab a blanket and go lay under the stars, cuddle by the lake?",
+        "summer_Sat10": "You get me, you see me...the darkest parts of me, and you're still here... *hugs you*#$b#Thank you for being you, and letting me be me...",
+
+
+        "fall_Mon": "Now that fall is officially upon us, I believe I'll take that hike in the mountains I've been meaning to take",
+        "fall_Tue": "$d joja#I used to help out in the shop a lot, but since JojaMart came in its been so slow|Ever since Joja Mart shut down we've been doing great at the shop!$h",
+        "fall_Wed": "I'm a big fan of pumpkins, so if you grow any this year would you mind holding on to one for me? They go fast, especially with people buying them for Spirit's Eve",
+        "fall_Thu": "Fall is the most beautiful season, the forest is gorgeous with all the yellows and oranges",
+        "fall_Fri": "Gus normally keeps the saloon fully stocked with pumpkin pie this time of year, and I can't wait!$1",
+        "fall_Sat": "$d cc#I can't believe you fixed up that old Community Center all by yourself. I'm really impressed.|Do you have any scarecrows on your farm?",
+
+        "fall_Mon2": "I've been getting out more lately, I don't want to waste any of this season! Its basically the only time I enjoy being outside",
+        "fall_Tue2": "Gunther keeps a pretty decent collection of fantasy novels if you ask him, he might be as big of a dork as I am",
+        "fall_Wed2": "I made dinner last night, and it was actually good. I'm making a note here, HUGE SUCCESS$1",
+        "fall_Thu2": "The war is kind of scary, but I think we'll be alright here. The real world never really seems to touch the Valley...",
+        "fall_Fri2": "I almost don't feel like going to saloon tonight, but it always smells like nutmeg and pumpkin this time of year and that sounds heavenly right now",
+        "fall_Sat2": "Mom doesn't like the fact I bought a spirit board, she calls it 'strange', but its just for fun. I don't think it really works",
+
+        "fall_Mon4": "$d bus#Now that the bus is running again Mom wants to take a trip to Zuzu City, but I don't want to go|Mom wants to go shopping in Zuzu City when the bus is running again but I don't think I want to go",
+        "fall_Tue4": "My parents and I fight a lot, but I know deep down its just because they worry about me. I think all my dark colors and purple hair confuses them...",
+        "fall_Wed4": "I heard there is a cave out in the desert that has treasure in it, but its more dangerous than even the mines",
+        "fall_Thu4": "Mom hosts an aerobics class on Tuesdays most weeks, she wants me to do it with her but I prefer to do my sweating in private...",
+        "fall_Fri4": "I've been trying to talk Gus in to experimenting with pumpkin spiced mead, he said he'll try it but he doesn't think it'll come out well$s",
+        "fall_Sat4": "I've wanted to go inside the Adventurer's Guild forever, but they only let members inside. I even tried flirting with Marion and it didn't work *laughs*$1",
+
+        "fall_Mon6": "I think I'll go up to the lake today and play the flute a bit, I haven't practiced it much lately",
+        "fall_Tue6": "Did you hear they're making a sequel to 'Journey of the Prarie King'? I might need to try that game again so I can finally see the ending",
+        "fall_Wed6": "I went to the beach after dark last night, and its not so bad in the fall. Nice and cool, and the moonlight shining off the Gem Sea is gorgeous",
+        "fall_Thu6": "I wish fall lasted a little longer...$8#$e#When I'm outside with the leaves and cool air it makes me feel like a kid again",
+        "fall_Fri6": "The pool table at the saloon is uneven I think, sometimes the balls change direction for no reason! That or my controller is broken in real life",
+        "fall_Sat6": "Hi$h#$b#Your hair looks awesome today...did you change it or am I just now noticing how nice it is?",
+
+        "fall_Mon8": "You know, I could actually see myself living on a farm someday...#$b#I mean, if...uh, hey look at all this weather huh? *nervous chuckle*$l",
+        "fall_Tue8": "I came out to %farm Farm the other day and watched you work for a while, you were so busy you didn't even notice...do you ever just relax?",
+        "fall_Wed8": "Is it strange that you've kind of become my best friend? You haven't been here that long...but you make this place feel special",
+        "fall_Thu8": "Mom and Dad asked me why I've been smiling so much lately. I think they're worried I'm up to something, but I've just been happy lately",
+        "fall_Fri8": "Do you want to join us at the saloon tonight? You've earned your spot in our group as far as I'm concerned#$b#...And I really like you being there$4",
+        "fall_Sat8": "I stayed up last night watching horror movies, I got scared a little. I wish you'd been there, I feel safer when you're around$4",
+
+        "fall_Mon10": "Hey you! With the face, come here and hug your girlfriend, I've missed you",
+        "fall_Tue10": "I usually feel lonely this time of year, but not anymore$l#$e#I haven't felt happy like this in...well, ever I guess",
+        "fall_Wed10": "I talked to your girlfriend, and she isn't a happy kitten...$s#$b#She said you need to give her some affection RIGHT MEOW!$h",
+        "fall_Thu10": "I had an interesting dream last night, with you in it.#$e#It was...really hot$4",
+        "fall_Fri10": "We could skip the saloon tonight if you want? I think I'd rather find a nice spot to curl up and cuddle, I want you more than I want pizza *snickers*",
+        "fall_Sat10": "*shoves her hand in your back pocket* I've missed you, when you going to let me spend the night out at the farm with you?",
+
+
+        "winter_Mon": "It's just too cold to go outside much#$e#But I do want to build a snowman$h",
+        "winter_Tue": "Doesn't a steaming hot cup of cocoa sound good right now?",
+        "winter_Wed": "So what does a farmer do in the winter? I mean does anything even grow?",
+        "winter_Thu": "Another year is almost gone, seems like it goes so fast doesn't it?",
+        "winter_Fri": "Somehow Gus always manages to have fresh fruits and vegetables even in the winter, What sorcery is this...?",
+        "winter_Sat": "One thing I've learned living here, everyone stares at you if you have purple hair *snickers*",
+
+        "winter_Mon2": "I like that its cold, but there is a draft in my room from somewhere, I need to get Robin to come look at it",
+        "winter_Tue2": "I complain about the heat during summer, but winter is too cold. Its still better than summer though",
+        "winter_Wed2": "Dad gets bored during the winter because there is really nothing to do in the shop most of the time, he gets really annoying when he is bored$s",
+        "winter_Thu2": "I almost slipped on the ice yesterday, but I caught myself before I fell on my little butt$4",
+        "winter_Fri2": "Gus better have some hot cocoa or coffee tonight, or the locals might get restless$1",
+        "winter_Sat2": "It's the weekend, yay!#$e#I can play twice as many video games as normal!$h",
+
+        "winter_Mon4": "It's so cold, I wish we had a hot cup of cocoa to share.$h",
+        "winter_Tue4": "Try to stay warm will you? I don't want you frozen outside like a snowman!$1",
+        "winter_Wed4": "I wish Dad would stock video games, I think they might sell really well in the winter",
+        "winter_Thu4": "Its really bitter cold out, at least it'll warm up at the end of the month",
+        "winter_Fri4": "This time of year always makes me thankful for warm beverages and good company, speaking of that...#$b#Will you be at the saloon tonight?",
+        "winter_Sat4": "The world is so quiet in the winter, its beautiful in a stark kind of way isn't it?",
+
+        "winter_Mon6": "My toes are so cold, I really need to go buy a new pair of thicker boots...$s",
+        "winter_Tue6": "I've been learning to play the drums pretty quick, they say I'm a natural at it",
+        "winter_Wed6": "Looking forward to the Feast of the Winter Star? I hope we are gift buddies!",
+        "winter_Thu6": "Have you been exploring the mines now that the weather is too cold to grow anything?",
+        "winter_Fri6": "You know you're always welcome to join us at Gus' right? You're one of us now. One of Us! One of Us! *giggles while chanting*$1",
+        "winter_Sat6": "I've been daydreaming a lot lately...#$b#Oh! You want to know what it's about? Well...$u#$b#...It's a secret.$h",
+
+        "winter_Mon8": "If you're ever bored, you can always hang out in my room.#$b#I really enjoy the times were alone together",
+        "winter_Tue8": "Another year is almost over...#$e#But you've made this a very good year for me, so at least there is that$h",
+        "winter_Wed8": "Its a bit too cold to go up to the lake, but if you want to hang out its warm in my room$h",
+        "winter_Thu8": "Dad finally got some cocoa in, so when you have time we can make some and enjoy a nice hot cup and talk",
+        "winter_Fri8": "Everything has changed so much since you moved here, you're a catalyst you know that?#$b#I've never seen the town like this...",
+        "winter_Sat8": "It must be nice not having crops to worry about this time of year...#$e#And that means you can hang out with me more often!$h",
+
+        "winter_Mon10": "Hey, if you ever want to come into my room, you can just walk right in#$e#...Don't even knock, just surprise me *grins*$l",
+        "winter_Tue10": "Mom said she thinks you've been really good for me, that I'm happy and have a bounce in my step#$b#I don't have the heart to tell her that the bounce in my step is just to tease you... *smiles widely*$1",
+        "winter_Wed10": "You really shouldn't abandon your girlfriend in this weather y'know, I need your precious body warmth so I don't freeze$4",
+        "winter_Thu10": "*snuggles under your arm* Someone set us up the snuggles, All your cuddles are belong to me...",
+        "winter_Fri10": "I think I've always known you, that sounds crazy but I feel like you've always been here...#$b#Like, destiny or something...you were my person",
+        "winter_Sat10": "Baaaaabe...I'm freezing, isn't there some survival trick where we can strip and huddle under a blanket to stay warm? *innocent giggles*$1",
+
+
+        "Sun": "Hey @, so I'm curious...you lived in the city right?#$b#$q 550000/550001 question_SunSpring00#What made you decide to move to the Valley?#$b#$r 550000 25 question_SunSpring00_01#I needed a fresh start, city life was getting stale and I thought this place might be a new beginning#$r 550000 50 question_SunSpring00_02#I wanted to come out here and start a new life like my Grandfather did#$r 550001 -25 question_SunSpring00_03#I figured it'd be a lot easier to live in a backwoods town than a big city",
+        "Sun2": "So I'm wondering about something...#$b#$q 550002/550003 question_SunSpring02#What kind of video games do you like?#$b#$r 550002 50 question_SunSpring02_01#Roleplaying Games, I like growing a character as I play#$r 550002 25 question_SunSpring02_02#First Person Shooters, I love the action!#$r 550003 -25 question_SunSpring02_03#Video games are a silly waste of time, I've got a farm to run",
+        "Sun4": "Got something I wanted to ask you since you're dealing with both lately...#$b#$q 550004/550005 question_SunSpring04#Do you prefer my Dad's store or JojaMart??#$b#$r 550004 25 question_SunSpring04_01#Your Dad's shop is more personal, I get the feeling I actually belong#$r 550004 -25 question_SunSpring04_02#JojaMart has better prices so I prefer shopping there#$r 550005 50 question_SunSpring04_03#I shop at your Dad's because JojaMart doesn't stock cute purple haired girls",
+        "Sun6": "Hey @, you got a second?#$b#$q 550006/550007 question_SunSpring06#Do you think my parents are right? Should I try being more normal?#$b#$r 550007 -25 question_SunSpring06_01#Yeah, you're honestly a little much#$r 550006 25 question_SunSpring06_02#They just want what is best for you, maybe humor them just a tiny bit?#$r 550006 50 question_SunSpring06_03#No way, normal is boring. Let that freak flag fly!",
+        "Sun8": "Can I ask you a question?#$b#$q 550008/550009 question_SunSpring08#Do you think it is normal for someone my age to be playing video games?#$b#$r 550008 25 question_SunSpring08_01#Yeah, I mean everyone needs a hobby right?#$r 550009 -25 question_SunSpring08_02#Probably not, shouldn't you be doing something productive instead?#$r 550008 50 question_SunSpring08_03#Absolutely, if playing games is something only kids do I never want to grow up",
+        "Sun10": "Honey? Question for you...#$b#$q 550010/550011 question_SunSpring10#Do you think I should get a tan this summer?#$b#$r 550010 25 question_SunSpring10_01#That is totally up to you, you don't need one#$r 550010 50 question_SunSpring10_02#No, I love how pale you are!#$r 550011 -25 question_SunSpring10_03#You might want to, it would cut down on people thinking you're sick",
+
+        "question_SunSpring00_01": "Sometimes I think of getting a fresh start somewhere, but the Valley is the only place I've ever known, so I can understand that",
+        "question_SunSpring00_02": "You came here to seek your fortune then? Its like something out of an RPG. Here is 10 gold, a copper sword, and some crappy boots. Save the world! GO! *giggles*$h",
+        "question_SunSpring00_03": "So you thought you'd just come see how the yokels lived huh? Thats kind of offensive$a",
+        "question_SunSpring02_01": "Hey me too! I mean I like shooters and racing games too, but I love RPGs!$h",
+        "question_SunSpring02_02": "I'm not very good at shooters but I like playing them, if you ever want to play let me know. Just take it easy on me will ya?",
+        "question_SunSpring02_03": "Oh I see, yeah I can see you're a lot of fun...$a",
+        "question_SunSpring04_01": "Thats exactly what Dad wants, to make people feel like they belong. I'll let him know its working!",
+        "question_SunSpring04_02": "I wish I could see it that way, but JojaMart has hurt my family so much by just being here$a",
+        "question_SunSpring04_03": "I can't believe you just said that! You're a smooth one...$h",
+        "question_SunSpring06_01": "Y-you really think I'm too much? Wow, I figured you...I thought you'd understand$s",
+        "question_SunSpring06_02": "*sighs* Maybe you're right, I can still be myself most of the time. Maybe a little pretending around them might make things easier",
+        "question_SunSpring06_03": "I knew you'd understand! Why should I change who I am because they don't understand it?$h",
+        "question_SunSpring08_01": "Glad you understand, video games help me relieve my stress and anxiety",
+        "question_SunSpring08_02": "You're right, we should totally all just read the paper and tell kids to stay off our lawns$a",
+        "question_SunSpring08_03": "I'm right there with you, I can't imagine not getting joy out of something just because someone else thinks its childish!$h",
+        "question_SunSpring10_01": "I don't really, but if you wanted me to bronze up a bit I would have",
+        "question_SunSpring10_02": "Really? Phew, I was dreading laying in the sun, I burn so easy *giggles* I'm glad you like me as I am$h",
+        "question_SunSpring10_03": "Words hurt ya know, especially from you. Fine, I'll go try to get a tan...$s",
+
+
+        "summer_Sun": "Hey, I was just about to get a drink...#$b#$q 550012/550013 question_SunSummer00#What is your favorite drink?#$b#$r 550012 25 question_SunSummer00_01#Coffee or Tea#$r 550012 25 question_SunSummer00_02#Fruit or Vegetable Juice#$r 550013 50 question_SunSummer00_03#Mead",
+        "summer_Sun2": "I think I need to unwind a little...#$b#$q 550014/550015 question_SunSummer02#Where is your favorite place in the Valley to go to relax so far??#$b#$r 550014 25 question_SunSummer02_01#The lake, I love being up there when it rains, so pretty#$r 550014 20 question_SunSummer02_02#The beach, the sound of the waves crashing on the shore soothes my mind#$r 550014 50 question_SunSummer02_03#The graveyard, its so quiet and peaceful#$r 550014 25 question_SunSummer02_04#The saloon, its nice to be around people while I try to unwind",
+        "summer_Sun4": "Hey @?#$b#$q 550016/550017 question_SunSummer04#Whats your favorite part of working out on the farm?#$b#$r 550016 25 question_SunSummer04_01#Working outside, I love the fresh air and smell of things growing#$r 550016 25 question_SunSummer04_02#Not having a boss, I can do whatever I want whenever I want#$r 550018 -10 question_SunSummer04_03#Money, owning a farm is making me rich!",
+        "summer_Sun6": "Ok, time for me to get know you a little better...#$b#$q 550018/550019 question_SunSummer06#If you see a puddle on the ground, do you walk over it, or around it?#$b#$r 550018 25 question_SunSummer06_01#Over it, not worth the time to go around#$r 550019 -10 question_SunSummer06_02#Around it, I don't want to get my shoes wet#$r 550018 50 question_SunSummer06_03#Through it, and I'd splash with my feet while I did because its fun",
+        "summer_Sun8": "I'm probably going to regret this but...#$b#$q 550020/550021 question_SunSummer08#Lets hear your absolute worst dorky pickup line, go for it#$b#$r 550020 25 question_SunSummer08_01#Are you Donkey Kong? Cause I want to Super Smash#$r 550020 25 question_SunSummer08_02#Those are nice pants, whats the drop rate?#$r 550021 25 question_SunSummer08_03#Are you sitting on the F5 key? Because that ass is refreshing!",
+        "summer_Sun10": "Honey? I was thinking of dying my hair...#$b#$q 550022/550023 question_SunSummer10#Any suggestions on the color?#$b#$r 550023 -10 question_SunSummer10_01#You could always go with your natural hair color#$r 550022 25 question_SunSummer10_02#Why choose one? You could dye it in stripes like a rainbow zerba!#$r 550022 50 question_SunSummer10_03#Just leave it purple, it makes you look so epic!",
+
+        "question_SunSummer00_01": "Both of those are completely acceptable, there is nothing like a hot cup of either to wake you up in the morning",
+        "question_SunSummer00_02": "Really? I'm not a huge fan of juices, I don't know why I've just never liked them$s",
+        "question_SunSummer00_03": "Mead! Yes, finally someone else that knows the proper beverage for people to drink! I love mead!$h",
+        "question_SunSummer02_01": "Interesting, I do that too, go up to the lake during the rain I mean. You're right about it being beautiful",
+        "question_SunSummer02_02": "I might need to try it, I've never been big on the beach because I burn so easy, but it might not be bad at night...",
+        "question_SunSummer02_03": "Yes! I thought I was the only one that did that, some people think its creepy but it really is so peaceful$h",
+        "question_SunSummer02_04": "You are a social butterfly aren't you? I can understand that I guess, but I'm more of a solo relaxer",
+        "question_SunSummer04_01": "It must be nice to be doing something you love, I envy you",
+        "question_SunSummer04_02": "That sounds absolutely perfect, maybe I should look in to becoming a farmer...$h",
+        "question_SunSummer04_03": "That is surprising, I wouldn't have thought you were the type of be all about the money...$s",
+        "question_SunSummer06_01": "Me too I think, I don't remember ever walking around a puddle unless I knew it was hip deep...",
+        "question_SunSummer06_02": "Really? I didn't have you pegged as the type to worry about getting your feet wet...$s",
+        "question_SunSummer06_03": "Yeah you would, wouldn't you? I love that you're so mature sometimes and such a child other times$h",
+        "question_SunSummer08_01": "Oh my God, you are such a nerd...$h",
+        "question_SunSummer08_02": "I should probably be offended, but that was actually pretty good, and the drop rate is getting better for you *winks*$h",
+        "question_SunSummer08_03": "That might possibly be the most geeky thing anyone has ever said to me, and I've played Dungeons and Dragons...I love it$h",
+        "question_SunSummer10_01": "Well that sounds...boring$s",
+        "question_SunSummer10_02": "Oh my god! That sounds so cool, but my parents would absolutely die! *laughs*$h",
+        "question_SunSummer10_03": "Aww, babe...That is so sweet, fine I'll leave it purple for you *smiles*$h",
+
+
+        "fall_Sun": "Hey, I want to know something...#$b#$q 550024/550025 question_SunFall00#What is your favorite animal for a pet?#$b#$r 550024 25 question_SunFall00_01#Dog#$r 550024 25 question_SunFall00_02#Cat#$r 550025 -25 question_SunFall00_03#I don't really like pets",
+        "fall_Sun2": "Hey @, I got a little question for you...#$b#$q 550026/550027 question_SunFall02#If you could choose, what would your super power be?#$b#$r 550026 25 question_SunFall02_01#I want to have the power to fly#$r 550026 25 question_SunFall02_02#I want to be invincible#$r 550027 25 question_SunFall02_03#I want to have super strength",
+        "fall_Sun4": "Can I ask your opinion on something?#$b#$q 550028/550029 question_SunFall04#Is it sad that I still live with my parents at my age?#$b#$r 550028 25 question_SunFall04_01#Not really, there aren't that many houses in Pelican Town, so it sort of makes sense#$r 550029 -25 question_SunFall04_02#Maybe a little, especially with them struggling right now#$r 550028 25 question_SunFall04_03#I can't really say, I lived with my parents until Grandpa left me the farm",
+        "fall_Sun6": "Ok, pop quiz time!#$b#$q 550030/550031 question_SunFall06#Would you rather have an endless supply of pizza, or tacos?#$b#$r 550030 25 question_SunFall06_01#Pizza, no question about it#$r 550030 25 question_SunFall06_02#Depends, are the tacos hard or soft shell?#$r 550031 -25 question_SunFall06_03#I don't like pizza or tacos and I hate fun, I also have no friends and put my shoes on before my pants",
+        "fall_Sun8": "@, can I ask you something?#$b#$q 550032/550033 question_SunFall08#What do you think happens when we die? Like is there an afterlife?#$b#$r 550033 -25 question_SunFall08_01#Nope, you die and you just shut off for eternity. Like sleeping but forever#$r 550032 25 question_SunFall08_02#I guess maybe? I mean there has to be something right, we can't just cease to exist#$r 550032 50 question_SunFall08_03#I like to think that once we die, we get to come back as someone else and do it all over again. Have another chance to be better than the last time",
+        "fall_Sun10": "Hey sweetie, got time to answer a question for me?#$b#$q 550034/550035 question_SunFall10#What are your thoughts on y'know, open relationships?#$b#$r 550034 25 question_SunFall10_01#Its not really my thing, I don't judge people that do it though#$r 550034 50 question_SunFall10_02#I suppose as long as I got to watch, or hear about it I'd be alright with it...#$r 550034 -25 question_SunFall10_03#I'm all for it, why should we limit ourselves to one person?",
+
+        "question_SunFall00_01": "Yeah, dogs are pretty awesome. I always wanted one but Dad is allergic$h",
+        "question_SunFall00_02": "Aww yes! Cats are so cute, I wish I had one but Dad is allergic$h",
+        "question_SunFall00_03": "You don't like animals?! Do you even have a soul?$s",
+        "question_SunFall02_01": "That probably would be handy, no more bus riding for you!$h",
+        "question_SunFall02_02": "Now you're talking, the mines would be no problem at all if nothing could hurt you!$h",
+        "question_SunFall02_03": "I can see that being very useful, no more stuck jar lids for you!$h",
+        "question_SunFall04_01": "Thank you, I mean there isn't even really a house open if I wanted to or could move out...",
+        "question_SunFall04_02": "*sighs* Way to make me feel like total crap about it...$s",
+        "question_SunFall04_03": "Really? I guess I don't feel AS guilty then because you seem to be doing fine now...",
+        "question_SunFall06_01": "Yeah I'm fairly sure I'd pick pizza too, there is just something about a nice hot slice, even bad pizza is pretty good$h",
+        "question_SunFall06_02": "Why not both? They're both types of taco so I guess you can have both",
+        "question_SunFall06_03": "*blinks one time slowly* Ooookay, well that was certainly not the answer I expected$s",
+        "question_SunFall08_01": "So you think its all for nothing? We just exist then we don't? That is really bleak...$s",
+        "question_SunFall08_02": "I think you're probably right, its maddening that we don't know though, right?",
+        "question_SunFall08_03": "That is a really deep way to think of it, you'd be in a constant state of improvement. I like it$h",
+        "question_SunFall10_01": "I can respect that, I wasn't hinting that I wanted one...I was just curious",
+        "question_SunFall10_02": "That is kind of naughty isn't it? You know I have a weakness for being naughty!$h",
+        "question_SunFall10_03": "Oh...That isn't exactly the answer I was hoping for, I really don't want to share you$s",
+
+
+        "winter_Sun": "I feel really silly asking, but I'm curious...#$b#$q 550036/550037 question_SunWinter00#Do you miss the life you had before you came to the Valley?#$b#$r 550036 25 question_SunWinter00_01#Not really, this place and the people in it are much nicer than in the city#$r 550036 25 question_SunWinter00_02#I miss my old friends and family, but otherwise I'm happier here#$r 550037 -25 question_SunWinter00_03#Every. Single. Day. I keep wondering why I decided to come here",
+        "winter_Sun2": "I was chatting with someone the other day and I'm curious what you think...#$b#$q 550038/550039 question_SunWinter02#Do you think we're alone in the universe? Like do you believe in aliens?#$b#$r 550038 25 question_SunWinter02_01#We can't be, there has to be someone else out there. The universe is too big for us to be alone#$r 550038 25 question_SunWinter02_02#I hope we aren't. The idea of an entire empty universe is terrifying for some reason#$r 550039 -25 question_SunWinter02_03#We probably are, and even if we aren't look at the absolute state of this place, do you think they would want to even talk to us?",
+        "winter_Sun4": "I hate mornings, I never want to get out of bed ugh...#$b#$q 550040/550041 question_SunWinter04#What do you think about to motivate yourself to get out of bed in the morning?#$b#$r 550040 10 question_SunWinter04_01#Coffee, its basically the only reason I leave my blankets#$r 550040 25 question_SunWinter04_02#My responsibilities, if I don't get up and tend to the farm things will start to go downhill and too many people depend on it now#$r 550041 0 question_SunWinter04_03#Sometimes I don't, the days you don't see me? Yeah I'm totally sleeping all day because I can",
+        "winter_Sun6": "So, tell me...#$b#$q 550042/550043 question_SunWinter06#What do you do during the winter mostly since you can't really grow anything?#$b#$r 550042 25 question_SunWinter06_01#Fire up the old console and do some gaming#$r 550042 25 question_SunWinter06_02#I like to explore the mines, its always warm in there#$r 550043 50 question_SunWinter06_03#Ask purple haired girls to have some cocoa with me",
+        "winter_Sun8": "Question for you @...#$b#$q 550044/550045 question_SunWinter08#What is your opinion on public displays of affection?#$b#$r 550044 25 question_SunWinter08_01#I don't see the harm in it, as long as its not bothering anyone else#$r 550044 50 question_SunWinter08_02#I love doing it, its kind of hot to make sure everyone in the room knows we're together#$r 550045 -50 question_SunWinter08_03#Nope, can't do it. I don't like the idea of doing 'stuff' in public",
+        "winter_Sun10": "So babe, got a question for you...#$b#$q 550046/550047 question_SunWinter10#If you could change one thing about me, what would you change?#$b#$r 550046 25 question_SunWinter10_01#I might want to see you with blue hair...#$r 550047 -25 question_SunWinter10_02#A few sit-ups might not kill you, you've been chunking up lately#$r 550046 100 question_SunWinter10_03#Only that you feel the need to ask that, you're perfect for me the way you are",
+
+        "question_SunWinter00_01": "I can see that being true, the city always sounds so busy and impersonal. Surrounded by people but still alone",
+        "question_SunWinter00_02": "Leaving your life might not have been hard, but leaving the people in it? That had to be a rough choice",
+        "question_SunWinter00_03": "Well I mean if it sucks that bad, you can probably just move back, right?$s",
+        "question_SunWinter02_01": "That is what I was saying, I think they're out there like us probably...wondering if they're alone too",
+        "question_SunWinter02_02": "No kidding, its like realizing you're alone in an empty building. Its just so eerie to think we're alone",
+        "question_SunWinter02_03": "What do you mean? We're not THAT bad, surely they'd at least say Hi. Not everyone is as cynical as you y'know$s",
+        "question_SunWinter04_01": "Yeah, coffee is wonderful isn't it? Certainly the highlight of the morning and it is really hard to drink laying down...",
+        "question_SunWinter04_02": "Its awesome you've taken on such a sense of responsibility here, you've become a cornerstone of the Valley in such a short time$h",
+        "question_SunWinter04_03": "I'm so jealous of you right now I don't even know what to say. I'm turning green, do you see that? *laughs*$h",
+        "question_SunWinter06_01": "As a farmer you get a whole month to play video games per year?! I'm really wasting my life then!$h",
+        "question_SunWinter06_02": "That sounds exciting, I really wish I could explore them too. Maybe I can tag along sometime? If you don't mind I mean",
+        "question_SunWinter06_03": "Has anyone ever told you that it should be a crime to be as smooth as you are? *giggles*$h",
+        "question_SunWinter08_01": "I agree, I think its kind of old fashioned to have a big problem with it",
+        "question_SunWinter08_02": "Oh really, we're of the same mindset then. I've always really liked the idea of making out in public$h",
+        "question_SunWinter08_03": "I figured you'd be a bit more open minded, don't you think that is a bit prudish?$s",
+        "question_SunWinter10_01": "Oh really? Change things up a little huh? I might try going blue if you'd like...",
+        "question_SunWinter10_02": "WOW, Ok! I see you're being a jerk today$a",
+        "question_SunWinter10_03": "How is it possible that you always know just what to say? Its like I made you in a 3D printer$h",
+
+
+        "Event_Rain_1": "Yeah...I guess you wouldn't mind things being wet would you? *smirks*",
+        "Event_Rain_2": "So you came out here to get some wood, and found me? *grins*",
+        "Event_Rain_3": "Oh yeah? You enjoying watching me use my lips? *giggles*",
+        "Event_Grave1": "Thats what I always say! Everyone is so vanilla, I think a lot of people would be happier if they just had some fun...",
+        "Event_Grave2": "Oh! Look at you trying to be smooth...well it worked$1",
+        "Event_Grave3": "I'm choosing to ignore that because I'm going to assume you were joking...still that was mean$s",
+        "Event_Grave4": "I bet you say that to all the nerd girls with purple hair...$4",
+        "Event_Cave2_1": "Y-yeah, I'm ok. I just got spooked, I'll be alright...",
+        "Event_Cave2_2": "T-The bats, there were so many bats...#$b#They didn't hurt me, I just got spooked...",
+        "Event_Cave_1": "*sniffles* You really mean it? You'd really protect me?$4",
+        "Event_Cave_2": "...You're kind of smart sometimes...#$b#A complete and total dork though...#$b#But you're my dork at least...$3",
+        "Event_Cave_3": "I don't like it...but you could be right...$a",
+	"jojamart_question_01": "Really? You'll help? I don't know what to say except Thank you!$h#$b#I knew coming to you was a good idea#$b#Anyway, I'm heading back to town. Thank you again!$h",
+	"jojamart_question_02": "I understand, I don't like it but I do understand. You've got your own troubles without worrying about us$s#$b#I'm sorry I bothered you with it, its probably silly of me...$s#$b#I just thought I could help my parents, thats all$s#$b#Anyway...I'm heading back to town, thanks for hearing me out at least$s",
+
+
+        "spring_1": "First day of Spring, not my favorite time of year but at least the Egg Festival is coming up",
+        "spring_12": "You excited for the Egg Festival tomorrow? Sometimes I wonder if I'm too old for the egg hunt, but then again I'm not even the oldest person that enters!$h",
+        "spring_23": "Tomorrow is the Flower Dance isn't it? Ugh, I forgot...#$b#I guess I should unpack my dress and get it cleaned...$s",
+
+        "summer_1": "Summer...#$b#I don't mind summer except for the heat, I'm always so sweaty this time of year...",
+        "summer_10": "Woo! Luau tomorrow, I can't wait to try the soup this year, I bet its going to be great! I just hope the sun isn't too bright *chuckles*",
+        "summer_27": "The moonlight jellies are going to be passing by the beach tomorrow night, I wonder how come all the important things that happen in summer revolve around the beach?",
+
+        "fall_1": "Finally! Its Fall! I love this time of year! So many colors, so many pumpkins! ITS SPOOPY SEASON!!!",
+        "fall_15": "The Fair is tomorrow, believe me I know#$b#Dad won't stop planning his grange display! Its all he thinks about around this time of year",
+        "fall_26": "Spirit's Eve! I wait for this day all year long!. Best. Holiday. Ever!",
+
+        "winter_1": "Its first day of winter, how are you dealing with the snow?",
+        "winter_7": "Are you going to make a snowman for the Festival of Ice? I think plain snowmen are a little boring, why not a snowgoon, or a snow-Cthulhu?",
+        "winter_14": "Hey @, you excited for the night market to be in town? Its one of the most exciting things that happens all year",
+        "winter_24": "If you haven't gotten a gift for your secret friend, today is the last day. Dad always counts down the number of shopping days left until the Feast of the Winter Star, so I'm going to annoy people with it too$h",
+
+        "danceRejection": "I don't think you're quite ready for me, when I dance I bring the thunder! *makes finger guns at you*$1",
+        "divorced": "What? You want to hook up or something? Not happening, just go away$a",
+        "dumped_Girls": "I'm not your girl anymore, just leave me alone!$a",
+        "secondChance_Girls": "*sighs* Fine, I'll give you a second chance. You only get one, use it very wisely$s",}
+        },
+
+
+//AbigailGifts
+
+	   {
+          "LogName": "Abigail Gifts",
+          "Action": "EditData",
+          "Target": "Data/NPCGiftTastes",
+          "Entries": {
+          "Abigail": "This is one of my absolute favorites @!/66 128 220 226 276 611/Thank you! How'd you know I like this stuff?//I appreciate the thought @, but I'm just not a big fan of this kind of thing/-5 -75 -79 16 245 246/I know you meant well, but this is probably one of my least favorite things.../330/You got me a present? Thanks, I appreciate it!// ",},
+          },
+
+
+//AbigailMail
+
+	   {
+          "LogName": "Abigail Mail",
+          "Action": "EditData",
+          "Target": "Data/Mail",
+          "Entries": {
+          "abbySpiritBoard": "Hi @.^You should come by the shop after 8pm sometime. ^I've got something special I want to do with you^   -Abigail",},
+          },
+
+
+//AbigailExtraDialogue
+
+          {
+          "Action": "EditData",
+          "Target": "Data/ExtraDialogue",
+          "Entries": {
+          "SeedShop_Abigail_Drawers": "%You open the drawer and glance inside, Abigail owns a lot skimpy underwear, Oh my!",}
+          },
+
+
+//AbigailRainyDialogue
+
+          {
+          "LogName": "Abigail - Rain - 1 Heart",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/rainy",
+          "When": {
+          "Hearts:Abigail": "1",
+          },
+          "Entries": {
+          "Abigail": "I know some people don't like the rain, but I've always loved it",}
+          },
+
+          {
+          "LogName": "Abigail - Rain - 2 Hearts",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/rainy",
+          "When": {
+          "Hearts:Abigail": "2",
+          },
+          "Entries": {
+          "Abigail": "Must be nice for it to rain out on the farm, you don't have any crops to water when it does",}
+          },
+
+          {
+          "LogName": "Abigail - Rain - 3 Hearts",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/rainy",
+          "When": {
+          "Hearts:Abigail": "3",
+          },
+          "Entries": {
+          "Abigail": "Don't you just love the smell of rain on the pavement?",}
+          },
+
+          {
+          "LogName": "Abigail - Rain - 4 Hearts",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/rainy",
+          "When": {
+          "Hearts:Abigail": "4",
+          },
+          "Entries": {
+          "Abigail": "The world is peaceful when it rains, everyone stays inside mostly and the town is so quiet",}
+          },
+
+          {
+          "LogName": "Abigail - Rain - 5 Hearts",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/rainy",
+          "When": {
+          "Hearts:Abigail": "5",
+          },
+          "Entries": {
+          "Abigail": "They say the rain makes me people sad, but they should cheer up. After all, it can't rain all the time! *smiles*$h",}
+          },
+
+          {
+          "LogName": "Abigail - Rain - 6 Hearts",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/rainy",
+          "When": {
+          "Hearts:Abigail": "6",
+          },
+          "Entries": {
+          "Abigail": "I go up to the mountain lake sometimes when it rains, I feel like a kid again when I'm skipping through the puddles!$h",}
+          },
+
+          {
+          "LogName": "Abigail - Rain - 7 Hearts",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/rainy",
+          "When": {
+          "Hearts:Abigail": "7",
+          },
+          "Entries": {
+          "Abigail": "Everything looks so cool when it rains, but maybe I just prefer it to be dark and gloomy?",}
+          },
+
+          {
+          "LogName": "Abigail - Rain - 8 Hearts",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/rainy",
+          "When": {
+          "Hearts:Abigail": "8",
+          },
+          "Entries": {
+          "Abigail": "Do you ever just go out in the middle of the fields and stand in the rain with your eyes closed? That sounds so wonderful to me...",}
+          },
+
+          {
+          "LogName": "Abigail - Rain - 9 Hearts",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/rainy",
+          "When": {
+          "Hearts:Abigail": "9",
+          },
+          "Entries": {
+          "Abigail": "We should go take a walk, I'd love to head up to the lake and play a duet today. The weather is perfect for it *giggles*",}
+          },
+
+          {
+          "LogName": "Abigail - Rain - 10 Hearts",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/rainy",
+          "When": {
+          "Hearts:Abigail": "10",
+          },
+          "Entries": {
+          "Abigail": "I normally like going outside and enjoying days like this, but right now I'd rather cuddle up with a warm drink and snuggle with you...$4",}
+          },
+
+
+//AbigailHidingOnSundayDialogue
+
+          {
+          "LogName": "Abigail - Hiding on Sunday - 1-2 Hearts",
+          "Action": "EditData",
+          "Target": "Strings/schedules/Abigail",
+          "When": {
+          "Hearts:Abigail": "1, 2",
+          },
+          "Entries": {
+          "Sun.000": "Mom tries to get us to go pray at the Altar of Yoba, so we generally just hide on Sundays",}
+          },
+
+          {
+          "LogName": "Abigail - Hiding on Sunday - 3-4 Hearts",
+          "Action": "EditData",
+          "Target": "Strings/schedules/Abigail",
+          "When": {
+          "Hearts:Abigail": "3, 4",
+          },
+          "Entries": {
+          "Sun.000": "I'm hiding from my parents, its Sunday and I really don't want to have to do the church thing$s",}
+          },
+
+          {
+          "LogName": "Abigail - Hiding on Sunday - 5-6 Hearts",
+          "Action": "EditData",
+          "Target": "Strings/schedules/Abigail",
+          "When": {
+          "Hearts:Abigail": "5, 6",
+          },
+          "Entries": {
+          "Sun.000": "Did you decide to come hide with me to avoid church too? *giggles*",}
+          },
+
+          {
+          "LogName": "Abigail - Hiding on Sunday - 7-8 Hearts",
+          "Action": "EditData",
+          "Target": "Strings/schedules/Abigail",
+          "When": {
+          "Hearts:Abigail": "7, 8",
+          },
+          "Entries": {
+          "Sun.000": "I'm glad you're hanging out with us today, it makes me feel better that we're not the only ones ditching church *snickers*",}
+          },
+
+          {
+          "LogName": "Abigail - Hiding on Sunday - 9-10 Hearts",
+          "Action": "EditData",
+          "Target": "Strings/schedules/Abigail",
+          "When": {
+          "Hearts:Abigail": "9, 10",
+          },
+          "Entries": {
+          "Sun.000": "Heya honey, if Mom asks you haven't seen me today...I really don't want to listen to another list of reasons I should be praying today *cackles evilly*",}
+          },
+
+
+//AbigailDoctorVisitsDialogue
+
+          {
+          "LogName": "Abigail - Doctor Visit - 1-2 Hearts",
+          "Action": "EditData",
+          "Target": "Strings/schedules/Abigail",
+          "When": {
+          "Hearts:Abigail": "1, 2",
+          },
+          "Entries": {
+          "spring_4.001": "Hey, you here for your annual check-up too?",}
+          },
+
+          {
+          "LogName": "Abigail - Doctor Visit - 3-4 Hearts",
+          "Action": "EditData",
+          "Target": "Strings/schedules/Abigail",
+          "When": {
+          "Hearts:Abigail": "3, 4",
+          },
+          "Entries": {
+          "spring_4.001": "I really hate coming to the Doctor, I always feel so helpless while I'm waiting for results$s",}
+          },
+
+          {
+          "LogName": "Abigail - Doctor Visit - 5-6 Hearts",
+          "Action": "EditData",
+          "Target": "Strings/schedules/Abigail",
+          "When": {
+          "Hearts:Abigail": "5, 6",
+          },
+          "Entries": {
+          "spring_4.001": "This is so pointless, I always come for my check-up and I'm always fine#$b#Though I guess I should really be happy about that",}
+          },
+
+          {
+          "LogName": "Abigail - Doctor Visit - 7-8 Hearts",
+          "Action": "EditData",
+          "Target": "Strings/schedules/Abigail",
+          "When": {
+          "Hearts:Abigail": "7, 8",
+          },
+          "Entries": {
+          "spring_4.001": "You'd think I'd need to visit the Doctor more than once a year to stay healthy, but I just never seem to really get sick",}
+          },
+
+          {
+          "LogName": "Abigail - Doctor Visit - 9-10 Hearts",
+          "Action": "EditData",
+          "Target": "Strings/schedules/Abigail",
+          "When": {
+          "Hearts:Abigail": "9, 10",
+          },
+          "Entries": {
+          "spring_4.001": "I try to do my annual check-up in early spring so the Doctor can prescribe my allergy medicines before the pollen gets really bad#$b#My hay fever is terrible if I don't have it",}
+          },
+
+          {
+          "LogName": "Abigail - Doctor Visit - Married Abigail",
+          "Action": "EditData",
+          "Target": "Strings/schedules/Abigail",
+          "When": {
+          "Spouse": "Abigail",
+          },
+          "Entries": {
+          "spring_4.001": "@, what are you doing here? You aren't sick are you?#$b#Oh god, don't scare me like that!#$e#I'm just here for a check-up, don't worry I'm not pregnant or anything *giggles*$h",}
+          },
+
+
+//AbigailEggFestivalDialogue
+
+          {
+          "LogName": "Abigail - Egg Festival - 1-2 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/spring13",
+          "When": {
+          "Hearts:Abigail": "1, 2",
+          },
+          "Entries": {
+          "Abigail": "This is my second favorite holiday, I take the egg hunt very seriously",}
+          },
+
+          {
+          "LogName": "Abigail - Egg Festival - 3-4 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/spring13",
+          "When": {
+          "Hearts:Abigail": "3, 4",
+          },
+          "Entries": {
+          "Abigail": "I win the egg hunt nearly every year, this is the closest I've ever gotten to being good at a sport$h",}
+          },
+
+          {
+          "LogName": "Abigail - Egg Festival - 5-6 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/spring13",
+          "When": {
+          "Hearts:Abigail": "5, 6",
+          },
+          "Entries": {
+          "Abigail": "I won a hat my first year I won the egg hunt, but I've never worn it. I hung it in my room though. Its my sports trophy *giggles*$h",}
+          },
+
+          {
+          "LogName": "Abigail - Egg Festival - 7-8 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/spring13",
+          "When": {
+          "Hearts:Abigail": "7, 8",
+          },
+          "Entries": {
+          "Abigail": "I hope they let Linus hide the eggs this year, Mayor Lewis does a good job but its harder to find them when Linus does it",}
+          },
+
+          {
+          "LogName": "Abigail - Egg Festival - 9-10 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/spring13",
+          "When": {
+          "Hearts:Abigail": "9, 10",
+          },
+          "Entries": {
+          "Abigail": "Don't think just because we're together now I'm going to take it easy on you, if I let you win it doesn't mean anything. I want you to feel a sense of accomplishment! *snickers*",}
+          },
+
+          {
+          "LogName": "Abigail - Egg Festival - Married Abigail",
+          "Action": "EditData",
+          "Target": "Data/Festivals/spring13",
+          "When": {
+          "Spouse": "Abigail",
+          },
+
+          "Entries": {
+          "Abigail": "I'm still going to kick your butt in the egg hunt, just warning you$h#b$#Marrying me doesn't mean I'm going to let you win, this is still my dojo *snickers*$h",}
+          },
+
+
+//AbigailFlowerFestivalDialogue
+
+          {
+          "LogName": "Abigail - Flower Dance - 1-2 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/spring24",
+          "When": {
+          "Hearts:Abigail": "1, 2",
+          },
+          "Entries": {
+          "Abigail": "Oh hey @, this whole dance thing is a little bit silly...#$b#...But its a tradition so this one time a year I give in and wear a dress...$s",}
+          },
+
+          {
+          "LogName": "Abigail - Flower Dance - 3-4 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/spring24",
+          "When": {
+          "Hearts:Abigail": "3, 4",
+          },
+          "Entries": {
+          "Abigail": "Another year, another Flower Dance *sighs* I guess this isn't THAT bad. My Mom makes a big deal out of it though...$s",}
+          },
+
+          {
+          "LogName": "Abigail - Flower Dance - 5-6 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/spring24",
+          "When": {
+          "Hearts:Abigail": "5, 6",
+          },
+          "Entries": {
+          "Abigail": "I really wish I was at home playing video games instead, not that this isn't fun sometimes...#$b#Its just not really my scene, ya know?",}
+          },
+
+          {
+          "LogName": "Abigail - Flower Dance - 7-8 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/spring24",
+          "When": {
+          "Hearts:Abigail": "7, 8",
+          },
+          "Entries": {
+          "Abigail": "I am so glad to see you, you can save me this year. I'd rather dance with you if you're free, I'm comfortable with you and... *blushes and trails off*$4",}
+          },
+
+          {
+          "LogName": "Abigail - Flower Dance - 9-10 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/spring24",
+          "When": {
+          "Hearts:Abigail": "9, 10",
+          },
+          "Entries": {
+          "Abigail": "Hey honey! *smiles* I used to really dislike this holiday, but now that we're together I like it. Its an excuse for me to show the whole town we're together$4#$b#Let me know when its time for the dance will you, I'm going to get something to drink$h",}
+          },
+
+          {
+          "LogName": "Abigail - Flower Dance - Married Abigail",
+          "Action": "EditData",
+          "Target": "Data/Festivals/spring24",
+          "When": {
+          "Spouse": "Abigail",
+          },
+
+          "Entries": {
+          "Abigail": "Hello darling. This whole holiday is a lot more fun now that we're married, I'm not worried about embarrassing myself anymore!#$b#Well maybe I still am a little, but I know you'll still love me *smiles*$h",}
+          },
+
+
+//AbigailLuauDialogue
+
+          {
+          "LogName": "Abigail - Luau - 1-2 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/summer11",
+          "When": {
+          "Hearts:Abigail": "1, 2",
+          },
+          "Entries": {
+          "Abigail": "I wish we could have the Luau somewhere other than the beach, but I guess then it wouldn't be a luau would it?...",}
+          },
+
+          {
+          "LogName": "Abigail - Luau - 3-4 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/summer11",
+          "When": {
+          "Hearts:Abigail": "3, 4",
+          },
+          "Entries": {
+          "Abigail": "I didn't have anything to add to the soup this year, so I had to get a few blueberries from Dad...did you sell them to the shop? They were really high quality",}
+          },
+
+          {
+          "LogName": "Abigail - Luau - 5-6 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/summer11",
+          "When": {
+          "Hearts:Abigail": "5, 6",
+          },
+          "Entries": {
+          "Abigail": "I went foraging this year so I could add something to the soup, I added some really nice salmonberries I found out in the forest",}
+          },
+
+          {
+          "LogName": "Abigail - Luau - 7-8 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/summer11",
+          "When": {
+          "Hearts:Abigail": "7, 8",
+          },
+          "Entries": {
+          "Abigail": "There was almost nothing to forage for the soup this year! I ended going to the traveling merchant to buy a bottle of wine, I hope it helps...",}
+          },
+
+          {
+          "LogName": "Abigail - Luau - 9-10 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/summer11",
+          "When": {
+          "Hearts:Abigail": "9, 10",
+          },
+          "Entries": {
+          "Abigail": "This holiday is such a big deal, I really hope the Governor likes the soup this year...#$b#I have faith in you though, I'm sure whatever you added will make the soup absolutely delicious!$h",}
+          },
+
+          {
+          "LogName": "Abigail - Luau - Married Abigail",
+          "Action": "EditData",
+          "Target": "Data/Festivals/summer11",
+          "When": {
+          "Spouse": "Abigail",
+          },
+
+          "Entries": {
+          "Abigail": "I'm so nervous!#$b#I really hope that our farm's contribution to the soup this year makes the Governor like it! I have total faith in you though$h",}
+          },
+
+
+//AbigailMoonlightJelliesDialogue
+
+          {
+          "LogName": "Abigail - Moonlight Jellies - 1-2 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/summer28",
+          "When": {
+          "Hearts:Abigail": "1, 2",
+          },
+          "Entries": {
+          "Abigail": "Have you ever seen the moonlight jellies before? Its one of the most beautiful things I've ever seen, this is the one time I don't complain about the beach",}
+          },
+
+          {
+          "LogName": "Abigail - Moonlight Jellies - 3-4 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/summer28",
+          "When": {
+          "Hearts:Abigail": "3, 4",
+          },
+          "Entries": {
+          "Abigail": "I come here every year and watch this, there is absolutely nothing like it anywhere else in the Valley",}
+          },
+
+          {
+          "LogName": "Abigail - Moonlight Jellies - 5-6 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/summer28",
+          "When": {
+          "Hearts:Abigail": "5, 6",
+          },
+          "Entries": {
+          "Abigail": "If we're SUPER lucky this year maybe we'll see a rare green moonlight jelly! I thought I saw one when I was younger, but Dad says I must have imagined it...",}
+          },
+
+          {
+          "LogName": "Abigail - Moonlight Jellies - 7-8 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/summer28",
+          "When": {
+          "Hearts:Abigail": "7, 8",
+          },
+          "Entries": {
+          "Abigail": "I'm glad you made it, I was hoping you would come and stand with us. Even as beautiful as this is, its more beautiful with people you care about",}
+          },
+
+          {
+          "LogName": "Abigail - Moonlight Jellies - 9-10 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/summer28",
+          "When": {
+          "Hearts:Abigail": "9, 10",
+          },
+          "Entries": {
+          "Abigail": "I'm so happy you're here, I can't wait to share this with you. The most beautiful night with the most beautiful person$h",}
+          },
+
+          {
+          "LogName": "Abigail - Moonlight Jellies - Married Abigail",
+          "Action": "EditData",
+          "Target": "Data/Festivals/summer28",
+          "When": {
+          "Spouse": "Abigail",
+          },
+          "Entries": {
+          "Abigail": "You came, I was worried you would be too busy...#$b#I'm so happy that you still make time to do things that are important to me...#$b#Come get me when its time? I want to say hello to a few people, but I want to watch the jellies with you...$h",}
+          },
+
+
+//AbigailStardewValleyFairDialogue
+
+          {
+          "LogName": "Abigail - Stardew Valley Fair - 1-2 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/fall16",
+          "When": {
+          "Hearts:Abigail": "1, 2",
+          },
+          "Entries": {
+          "Abigail": "Are you entering a Grange display this year? Word of warning, my Dad takes it almost as seriously as I take the egg hunt. Good luck!",}
+          },
+
+          {
+          "LogName": "Abigail - Stardew Valley Fair - 3-4 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/fall16",
+          "When": {
+          "Hearts:Abigail": "3, 4",
+          },
+          "Entries": {
+          "Abigail": "For someone that doesn't do much fishing I really do pretty good at the fishing booth. I think it surprises people!$h",}
+          },
+
+          {
+          "LogName": "Abigail - Stardew Valley Fair - 5-6 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/fall16",
+          "When": {
+          "Hearts:Abigail": "5, 6",
+          },
+          "Entries": {
+          "Abigail": "I found out I'm not very good at the stone smashing booth$4#$b#I wish they had a game that involved a sword instead of a hammer, I'd do better at that",}
+          },
+
+          {
+          "LogName": "Abigail - Stardew Valley Fair - 7-8 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/fall16",
+          "When": {
+          "Hearts:Abigail": "7, 8",
+          },
+          "Entries": {
+          "Abigail": "I think I'm better at the slingshot than almost anyone else, I won SO many tokens off that game this year$h",}
+          },
+
+          {
+          "LogName": "Abigail - Stardew Valley Fair - 9-10 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/fall16",
+          "When": {
+          "Hearts:Abigail": "9, 10",
+          },
+          "Entries": {
+          "Abigail": "Hey honey! I'm going to go play some games...unless you want me to help setting up your grange display?",}
+          },
+
+          {
+          "LogName": "Abigail - Stardew Valley Fair - Married Abigail",
+          "Action": "EditData",
+          "Target": "Data/Festivals/fall16",
+          "When": {
+          "Spouse": "Abigail",
+          },
+          "Entries": {
+          "Abigail": "Its kind of heartwarming that even now that we're married you and Dad still compete at the grange display *kisses your cheek*#$b#Take it easy on him this year for me, yeah?$h",}
+          },
+
+
+//AbigailSpiritsEveDialogue
+
+          {
+          "LogName": "Abigail - Spirit's Eve - 1-2 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/fall27",
+          "When": {
+          "Hearts:Abigail": "1, 2",
+          },
+          "Entries": {
+          "Abigail": "This is my absolute favorite holiday, I love the pumpkins and spoopy decorations! Except these spiders, these spiders are...problematic",}
+          },
+
+          {
+          "LogName": "Abigail - Spirit's Eve - 3-4 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/fall27",
+          "When": {
+          "Hearts:Abigail": "3, 4",
+          },
+          "Entries": {
+          "Abigail": "Every year! Every single year with the spiders! UGH! Just once I'd like to finish this maze!!!$s",}
+          },
+
+          {
+          "LogName": "Abigail - Spirit's Eve - 5-6 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/fall27",
+          "When": {
+          "Hearts:Abigail": "5, 6",
+          },
+          "Entries": {
+          "Abigail": "The maze is awesome this year, its SO SPOOPY!#$b#I just wish they'd use something other than the spiders",}
+          },
+
+          {
+          "LogName": "Abigail - Spirit's Eve - 7-8 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/fall27",
+          "When": {
+          "Hearts:Abigail": "7, 8",
+          },
+          "Entries": {
+          "Abigail": "Did you grow the pumpkins this year? They look really good, so I'm just assuming it was you$4",}
+          },
+
+          {
+          "LogName": "Abigail - Spirit's Eve - 9-10 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/fall27",
+          "When": {
+          "Hearts:Abigail": "9, 10",
+          },
+          "Entries": {
+          "Abigail": "Hey @? You feel like protecting your girlfriend from the the spiders in the maze this year?$4",}
+          },
+
+          {
+          "LogName": "Abigail - Spirit's Eve - Married Abigail",
+          "Action": "EditData",
+          "Target": "Data/Festivals/fall27",
+          "When": {
+          "Spouse": "Abigail",
+          },
+          "Entries": {
+          "Abigail": "Hey, you want to come with me to the maze darling? Its your job to hold my hand through the maze now that we're married *giggles*$h",}
+          },
+
+
+//AbigailFestivalOfIceDialogue
+
+          {
+          "LogName": "Abigail - Festival of Ice - 1-2 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/winter8",
+          "When": {
+          "Hearts:Abigail": "1, 2",
+          },
+          "Entries": {
+          "Abigail": "I love building snowmen this time of year, so this holiday is actually pretty fun as far as I'm concerned. Even if I get really cold in the forest",}
+          },
+
+          {
+          "LogName": "Abigail - Festival of Ice - 3-4 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/winter8",
+          "When": {
+          "Hearts:Abigail": "3, 4",
+          },
+          "Entries": {
+          "Abigail": "Did you see the snowmen? Isn't it cool what people can do with frozen rain and some imagination? Leah always has the best creations!",}
+          },
+
+          {
+          "LogName": "Abigail - Festival of Ice - 5-6 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/winter8",
+          "When": {
+          "Hearts:Abigail": "5, 6",
+          },
+          "Entries": {
+          "Abigail": "Are you going to enter the snow fishing competition? I tried once and didn't even catch a single fish! Good luck if you do though",}
+          },
+
+          {
+          "LogName": "Abigail - Festival of Ice - 7-8 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/winter8",
+          "When": {
+          "Hearts:Abigail": "7, 8",
+          },
+          "Entries": {
+          "Abigail": "Its so cold this year! I really wish someone would open a hot coffee and cocoa booth! I asked Dad to do it, but he doesn't think it would be popular enough",}
+          },
+
+          {
+          "LogName": "Abigail - Festival of Ice - 9-10 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/winter8",
+          "When": {
+          "Hearts:Abigail": "9, 10",
+          },
+          "Entries": {
+          "Abigail": "Hey! *hugs* I'm glad you came, I was hoping to be able to latch on to you and steal some body heat. Its really frosty out here! *giggles*",}
+          },
+
+          {
+          "LogName": "Abigail - Festival of Ice - Married Abigail",
+          "Action": "EditData",
+          "Target": "Data/Festivals/winter8",
+          "When": {
+          "Spouse": "Abigail",
+          },
+          "Entries": {
+          "Abigail": "Hey, you want to come with me to the maze darling? Its your job to hold my hand through the maze now that we're married *giggles*$h",}
+          },
+
+
+//AbigailNightMarketDialogue
+
+          {
+          "LogName": "Abigail - Night Market - 1-2 Hearts",
+          "Action": "EditData",
+          "Target": "Strings/schedules/Abigail",
+          "When": {
+          "Hearts:Abigail": "1, 2",
+          },
+          "Entries": {
+          "winter_15.000": "Isn't this awesome?! I wish this happened more than once a year!",}
+          },
+
+          {
+          "LogName": "Abigail - Night Market - 3-4 Hearts",
+          "Action": "EditData",
+          "Target": "Strings/schedules/Abigail",
+          "When": {
+          "Hearts:Abigail": "3, 4",
+          },
+          "Entries": {
+          "winter_15.000": "Did you see the submarine? I kind of really want to go for a ride on that thing, I bet its really pretty underwater",}
+          },
+
+          {
+          "LogName": "Abigail - Night Market - 5-6 Hearts",
+          "Action": "EditData",
+          "Target": "Strings/schedules/Abigail",
+          "When": {
+          "Hearts:Abigail": "5, 6",
+          },
+          "Entries": {
+          "winter_15.000": "This whole thing is like a video game isn't it? The mysterious night market you have to shop at to get the item you need? I wonder if they sell a special sword here...",}
+          },
+
+          {
+          "LogName": "Abigail - Night Market - 7-8 Hearts",
+          "Action": "EditData",
+          "Target": "Strings/schedules/Abigail",
+          "When": {
+          "Hearts:Abigail": "7, 8",
+          },
+          "Entries": {
+          "winter_15.000": "Did you see the mermaid show? Do you think they're real? They look real, but I didn't think mermaids were real",}
+          },
+
+          {
+          "LogName": "Abigail - Night Market - 9-10 Hearts",
+          "Action": "EditData",
+          "Target": "Strings/schedules/Abigail",
+          "When": {
+          "Hearts:Abigail": "9, 10",
+          },
+          "Entries": {
+          "winter_15.000": "Did you see that suit of armor that is for sale?! Oh MY GOD! Is that not the coolest thing EVER?! *giggles happily*",}
+          },
+
+          {
+          "LogName": "Abigail - Night Market - Married Abigail",
+          "Action": "EditData",
+          "Target": "Data/Festivals/winter8",
+          "When": {
+          "Spouse": "Abigail",
+          },
+          "Entries": {
+          "Abigail": "When we got married, I knew things would be magical...#$b#I didn't think they'd be this special though, there is no where else I'd rather be than right here, in this enchanting night market with you$h",}
+          },
+
+
+//AbigailWinterStarDialogue
+
+          {
+          "LogName": "Abigail - Winter Star - 1-2 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/winter25",
+          "When": {
+          "Hearts:Abigail": "1, 2",
+          },
+          "Entries": {
+          "Abigail": "Happy Feast of the Winter Star @! I hope you're enjoying the food",}
+          },
+
+          {
+          "LogName": "Abigail - Winter Star - 3-4 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/winter25",
+          "When": {
+          "Hearts:Abigail": "3, 4",
+          },
+          "Entries": {
+          "Abigail": "I hope my secret friend enjoys the gift I got them, I always worry if I picked the right thing...",}
+          },
+
+          {
+          "LogName": "Abigail - Winter Star - 5-6 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/winter25",
+          "When": {
+          "Hearts:Abigail": "5, 6",
+          },
+          "Entries": {
+          "Abigail": "I can't wait for the feast. I know most people like the presents, but I'm a bigger fan of cranberry sauce and stuffing!",}
+          },
+
+          {
+          "LogName": "Abigail - Winter Star - 7-8 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/winter25",
+          "When": {
+          "Hearts:Abigail": "7, 8",
+          },
+          "Entries": {
+          "Abigail": "I asked Mom and Dad to get me some boots or a new sword this year, they kind of looked at me funny so I don't have much hope *laughs*",}
+          },
+
+          {
+          "LogName": "Abigail - Winter Star - 9-10 Hearts",
+          "Action": "EditData",
+          "Target": "Data/Festivals/winter25",
+          "When": {
+          "Hearts:Abigail": "9, 10",
+          },
+          "Entries": {
+          "Abigail": "Aww, did you come to spend the feast with your loving girlfriend? *giggles* Probably a good idea, I was going to be upset if I didn't see you today *winks*",}
+          },
+
+          {
+          "LogName": "Abigail - Winter Star - Married Abigail",
+          "Action": "EditData",
+          "Target": "Data/Festivals/winter25",
+          "When": {
+          "Spouse": "Abigail",
+          },
+          "Entries": {
+          "Abigail": "Every year is a special present now that we're married, and I just wanted to say I love you *blushes*$4",}
+          },
+
+//AbigailMarriageDialogue
+
+          {
+          "LogName": "Abigail Dialogue (Married)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/MarriageDialogueAbigail",
+          "Entries": {
+
+          "Rainy_Day_0": "I love the sound of the rain on the house roof, its so soothing",
+          "Rainy_Day_1": "Do you remember that day at the lake when we played a duet? You shocked me with that harp, I think that was the day I started falling for you",
+          "Rainy_Day_2": "I woke up early and took a walk around the farm before the rain started, you've done such a wonderful job with this place",
+          "Rainy_Day_3": "With the weather today it might be a perfect day to explore the caves, if you do take some food and a life elixir. Oh and be careful!",
+          "Rainy_Day_4": "This is a perfect day to switch on the console and play some Journey of the Prarie King, want to join me honey?",
+          "Rainy_Day_Abigail": "The fields are always so pretty when it rains, the way the water cascades across them...",
+          "Rainy_Night_0": "Dad used to tell me stories about golems wandering the woods out here, the rain makes me jumpy! I could swear I saw one eariler in the woods$6",
+          "Rainy_Night_1": "Its spooky out tonight, if you were ever going to see a ghost it would almost certainly be on a night like tonight",
+          "Rainy_Night_2": "Do you feel that? This rain is different, its so...I don't know, still? It just feels odd",
+          "Rainy_Night_3": "When it rains like this and you're out late, sometimes I like to turn off all the lights and just listen to the raindrops hitting the roof$8",
+          "Rainy_Night_4": "I decided that with the rain, this was a perfect night to make some soup[199 218 219 727 730]$h",
+          "Rainy_Night_5": "You're soaked! You work too hard darling, is there anything I can do to help you relax?",
+          "Rainy_Night_Abigail": "We should snuggle up tonight and get some sleep, I love cuddling with you when its raining",
+          "Indoor_Day_0": "I used to hang out here before you moved in, I've always loved this place...and now I live here, my master plan to seduce you worked! *evil smiles*$h",
+          "Indoor_Day_1": "If you're going in to the forest today be careful! I've got a strange feeling today",
+          "Indoor_Day_2": "I spent all day cleaning up the house, you should be proud of your wife! I never cleaned much before, but I want the house to be nice for you$h",
+          "Indoor_Day_3": "I haven't decided what to do today yet, I should probably give %pet a bath, but I kind of want to go foraging for some mushrooms for dinner too",
+          "Indoor_Day_4": "Do you mind if I do a little decorating? I know its 'our' house, but I still don't want to change anything if you don't want me to",
+          "Indoor_Day_Abigail": "I used to think being a farmer would be kind of boring, but there is always something going on! I never get bored here",
+          "Indoor_Night_0": "I went out earlier today and gave the shipping bin a nice scrubbing, how long has it been since someone cleaned that thing? It was gross! *snickers*",
+          "Indoor_Night_1": "How was your day? You look tired, need a shoulder rub?$h",
+          "Indoor_Night_2": "I was a real night owl before I moved in here. Since I've come to live on the farm with you I've become a real morning person though, its so weird",
+          "Indoor_Night_3": "*yawns* I'm so tired, lets go to bed soon. I need snuggles from my honey$h",
+          "Indoor_Night_4": "I love the sounds of night out here, its almost like we could be the only people on the planet out here",
+          "Indoor_Night_Abigail": "I switched on the electric blanket a bit ago, the bed should be nice and warm for us soon$l",
+          "Outdoor_0": "The smell of the soil is amazing, its so earthy and rich. Is that fertilizer, or does it always smell like that?",
+          "Outdoor_1": "Do you think we've got enough room to do some slime ranching? I'd love to have some slimes to practice on before a trip to the mines",
+          "Outdoor_2": "I went out and pulled some weeds around your Grandfather's shrine, I've been trying to keep it clean#$b#There is something special about it, I can tell",
+          "Outdoor_3": "I love that we have our own cave, when I was a kid I always wanted a cave of my very own$h",
+          "Outdoor_4": "I always forget to pack some snacks when I leave the house, you'd think I'd remember...$h",
+          "Outdoor_Abigail": "I'm just checking out the fields#$e#I was never very outdoorsy, so I'm learning as fast as I can *chuckle*$h",
+          "Good_0": "I love this old house, its so warm and cozy. It just feels like home",
+          "Good_1": "Did you ever hear weird noises when you were here alone? Sometimes I swear this house is haunted *laughs*$h",
+          "Good_2": "I've been watching the survival channel on TV, trying to learn ways to help around the farm",
+          "Good_3": "Can you remind me to grab some hair dye next time I go to town? I want to stay the same purple haired girl you fell in love with *giggles*$h",
+          "Good_4": "I'm so glad Dad got me a pair of heavy boots for our wedding, I can't imagine living out here with nothing but sneakers$h",
+          "Good_5": "I thought I lost my the Mermaid's Pendant you gave me, but I had hung it up while I was showering. Thank goodness, I never want to lose it",
+          "Good_6": "The world can be a scary place sometimes, promise me you'll be careful today? I've got a strange feeling again",
+          "Good_7": "@? I just want to say that I appreciate all the hard work you do for us. I'm really proud of you.$l",
+          "Good_8": "You off today? Try not to work too hard, I feel bad when you come home so exhausted",
+          "Good_9": "Did you have any requests for dinner? I was thinking of making pizza, been a while since we've had it",
+          "Neutral_0": "I hope you'll still like me when I'm old and shriveled. It's going to happen some day!",
+          "Neutral_1": "Do you think your Grandpa would be proud of us?",
+          "Neutral_2": "I wonder how the old shop is doing? I should visit my parents again soon.",
+          "Neutral_3": "Do you want some help today? I've got nothing left to clean and the house is all caught up",
+          "Neutral_4": "No matter how much we clean, the house keeps getting dirty again#$e#I guess farms are kind of dirty",
+          "Neutral_5": "I wonder if we'll live here our entire lives?",
+          "Neutral_6": "I can't believe how much work goes in to running a farm, how did you ever do this all by yourself?",
+          "Neutral_7": "I'm going in to town today, do you need me to pick anything up for you?",
+          "Neutral_8": "If you have time today, maybe we could have a picnic? I know you're busy so its ok if you can't though *smiles*",
+          "Neutral_9": "I never realized how much dirt gets tracked in to a farm house, in retrospect it should have been kind of obvious huh?",
+          "Bad_0": "Sometimes I wonder why we got married, its like you don't even really want me around anymore...$s",
+          "Bad_1": "I used to be special to you. Now you only seem to put up with me when I make a hot dinner.$s",
+          "Bad_2": "You've been so cold to me lately. What's wrong, you're acting like a bog spirit...$s",
+          "Bad_3": "I wonder if I could've done better, Sebastian always thought we'd get married one day. Maybe we should have...$s",
+          "Bad_4": "I wasn't sure I was going to like life on the farm, maybe I was right to have doubts...$s",
+          "Bad_5": "Life isn't what expected out here, I thought we'd be...closer I guess$s",
+          "Bad_6": "I know you do a lot around here, but I need some attention to. There is more to life than farming you know$s",
+          "Bad_7": "Sometimes I remember the fights I had with my parents, and I actually sort of miss those days$s",
+          "Bad_8": "Maybe I should go stay in my old room for a few days? We may need some time apart to think...$s",
+          "Bad_9": "Did you know it was going to be like this when you asked me to marry you? Or did you think it would better?$s",
+          "OneKid_0": "I can't believe I'm a \"mom\"...life is really weird sometimes huh?$h",
+          "OneKid_1": "Do you think %kid1 would enjoy a trip to the park in town today?$h",
+          "OneKid_2": "Just you, me and %kid1. Look at our little family *smiles*$h",
+          "OneKid_3": "I still can't get my head around the fact I'm responsible for another human life right now, its awesome but strange$h",
+          "OneKid_4": "Hey babe! %kid1 drew you a picture today, its all three of us at the beach. I put it on the fridge if you want to see it$h",
+          "TwoKids_0": "I already gave %kid1 and %kid2 their chocolate cereal. They are spoiled! I can tell they are mine *snickers*",
+          "TwoKids_1": "I had a dream that %kid2 will grow up to be a famous adventurer. I've already been thinking about getting a little armor set",
+          "TwoKids_2": "I'm glad that %kid1 and %kid2 get along so well, I was worried they were going to fight all the time",
+          "TwoKids_3": "This place, our kids, and you...my new life, thank you for all of this. I've never been happier in my life$h",
+          "TwoKids_4": "A cool old house, a couple kids, and an amazing farm. I never thought I'd come this far. I've hit max level and I'm fully epic'd out baby! *snickers*$h",
+          "patio_Abigail": "%Abigail is lost in her music, playing the song you both played that day by the lake",
+          "spouseRoom_Abigail": "I was just about to fire up the console and play for a bit before I got busy today, want to join me? *smiles*",
+          "funLeave_Abigail": "I'm going in to town today, just so you know. You want me to grab anything while I'm there?",
+          "funReturn_Abigail": "Hey! Did you have a good day? I went to town, its nice to visit my parents now that we don't fight$h",
+          "spring_1": "So, what kind of plans do you have for the new year? Are we going to get any new animals? *smiles*",
+          "spring_2": "My New Years Resolution is to lose about 10 pounds, maybe somewhere around the mid section$h",
+          "spring_8": "Now that winter is gone, I know restarting the fields is a big job. If I can help let me know babe?",
+          "spring_12": "The Egg Festival is tomorrow! I won't go easy on you because we're married!$h#$e#I plan on winning that egg hunt. Come at me bro! *giggles*",
+          "spring_23": "Flower Dance tomorrow, I've been practicing my moves. I don't want to brag but these hips don't lie! *finger guns*",
+          "summer_1": "I get sunburn so easy in the summer, I'm really glad you like me pale, it gives me an excuse to hide inside$h",
+          "summer_4": "Its so hot today, please drink plenty of water! I don't want you getting heat stroke out there",
+          "summer_8": "I'm going to see if Dad has any lighter blankets in stock, I was sweating all night because of the heat",
+          "summer_15": "These flies in the house are my new nemesis, I will end them with extreme prejudice! *makes a karate noise*$h",
+          "fall_1": "You smell that? Pumpkin, mushrooms, and... *sniffs*#$b#Fallen leaves...its fall alright!$h",
+          "fall_2": "Do you think we could grow some giant pumpkins this year? I'd love to carve one of those in to a Jack-O-Lantern$h",
+          "fall_6": "The colors of fall are so pretty, and the weather is so nice...this really is my favorite season",
+          "fall_8": "With winter just around the corner we should probably get Robin out to check the insulation in the buildings. I'll talk to her about it",
+          "fall_15": "Dad's grange display this year is pretty good, he swore me to secrecy though. Its cute you two still compete so seriously over that *laughs*$h",
+          "fall_20": "Honey, you're worth more to me than a chest full of money...#$e#Now, a chest full of amethyst? Hmm, I'd have to think about that one.$h",
+          "fall_26": "Spirit's Eve tomorrow honey, you going to come and hold my hand through the maze this year?",
+          "winter_1": "Time to unpack the thicker shirts, winter is definitely here now...",
+          "winter_3": "Since things are slow slow during winter, do you want to come snuggle with me by the fire?$h",
+          "winter_7": "You going to try to win the ice fishing contest this year honey? I believe you can!",
+          "winter_15": "I love walking through the valley in the winter, the snow makes it look like a completely different place...",
+          "winter_28": "Today is the last day of the year, but the bright side is now we have a whole new year to spend together!$l",
+          "spring_Abigail": "I like the colder seasons a lot, but its nice to see spring come back. Its like everything in the valley gets reborn every year",
+          "summer_Abigail": "I really could use some ice cream right now, its so hot...",
+          "fall_Abigail": "Is that...pumpkin I smell? The best smell of the fall$h",
+          "winter_Abigail": "Do you ever miss the days of us playing 'Prarie King' in my room? We were so different back then, its like a whole other life now$h",}
+          },
+
+
+//AbigailMiscScheduleDialogue
+
+          {
+          "LogName": "Abigail - Misc Schedule Dialogue",
+          "Action": "EditData",
+          "Target": "Strings/schedules/Abigail",
+          "When": {
+          "Hearts:Abigail": "1, 2",
+          },
+          "Entries": {
+          "marriage_Mon.000": "The shop seems to being doing alright without me around, Dad says he misses me though",
+          "marriage_Mon.001": "Hey, @. Just having a bit of a relaxing day, its really peaceful here",
+          "marriage_Mon.002": "Hahaha! I think the arcade version is even harder than the console one! I hate this game! *laughs*$h",
+          "marriage_Fri.000": "Hey babe! Just saying hello to the maternal unit! I was just telling her how proud I am of the great job you're doing out on the farm$h",
+          "marriage_Fri.001": "I used to think I'd miss hanging out at the saloon when we got married, but honestly I prefer being home with you now$h",
+          "spring_4.000": "I have my check-up later today, I really hate going to the Doctor...$s",
+          "spring_4.002": "Hey Doc? How much longer do you think this'll take? I'm not rushing you, just curious is all$s",}
+          },
+
+
+//AbigailVanillaEvents
+
+
+	   {
+          "LogName": "Abigail (2 Hearts)",
+          "Action": "EditData",
+          "Target": "Data/Events/SeedShop",
+          "Entries": {
+
+
+	   "1/f Abigail 500/p Abigail/d Sat": "none/-9999 -4/farmer 13 6 3 Abigail 3 6 2/skippable/showFrame Abigail 20/specificTemporarySprite abbyvideoscreen/viewport 9 4 true/pause 1000/playSound Cowboy_gunshot/pause 150/emote Abigail 52/pause 800/playSound Cowboy_gunshot/pause 150/playSound Cowboy_gunshot/pause 150/playSound Cowboy_gunshot/temporarySprite 2 4 27 8 50/shake Abigail 500/pause 150/playSound Cowboy_gunshot/pause 150/temporarySprite 4 4 27 8 50 true/playSound Cowboy_gunshot/pause 450/playSound Cowboy_monsterDie/pause 550/playSound Cowboy_gunshot/pause 150/playSound cowboy_dead/pause 850/emote Abigail 28/playMusic distantBanjo/showFrame Abigail 21/pause 80/showFrame Abigail 22/pause 80/move farmer -1 0 3/move farmer -3 0 3/faceDirection Abigail 1/pause 200/emote Abigail 16/pause 600/speak Abigail \"@?\"/move farmer -3 0 3/speak Abigail \"You can't just sneak in to a girl's room like that!$3#$b#What if I'd been changing Mister! *giggles*$1^What if I'd been changing Ma'am? *giggles*$1\"/faceDirection Abigail 0/speak Abigail \"So I've been playing 'Journey of the Prairie King' for hours and I can't even beat the first level...$s#$b#This game is stupidly hard, like Nintendo hard!$4#$b#Well that or I just suck...#$b#...You know what I meant!$4\"/faceDirection Abigail 1/pause 1000/emote Abigail 16/pause 300/speak Abigail \"D-Do you want to play with me? *grins*$4\"/faceDirection farmer 3/farmerAnimation 97/pause 1000/faceDirection Abigail 0/move farmer 0 1 3/move farmer -4 0 0/move farmer 0 -1 0/faceDirection farmer 0/pause 500/globalFade/cutscene AbigailGame/pause 500/faceDirection Abigail 3/stopMusic/faceDirection farmer 1/fork beatGame/pause 600/emote Abigail 28/pause 400/speak Abigail \"Wow, lets just agree our controllers were both broken...$s#$b#Maybe we both need more practice handling the ol' joystick? *winks*$4\"/faceDirection farmer 2/showFrame 96/emote farmer 40/pause 1000/end",
+        "beatGame": "playMusic jaunty/speak Abigail \"Hey, we did it!$h#$b#Thanks, @. If you hadn't snuck in I'd have probably wasted the whole day in here playing by myself... *winks*$h\"/pause 500/emote Abigail 32/pause 1000/end",},
+	   },
+
+	   {
+          "LogName": "Abigail (4 Hearts)",
+          "Action": "EditData",
+          "Target": "Data/Events/Mountain",
+          "Entries": {
+
+	   "2/f Abigail 1000/w rainy/t 1200 1900/e 1/z winter": "AbigailFlute/-1000 -1000/farmer 34 32 1 Abigail 47 31 2/skippable/ambientLight 160 140 10/specificTemporarySprite abbyAtLake/animate Abigail false true 612 16 17 18 19/viewport 46 31 true/pause 17900/move farmer 13 0 0/stopMusic/playMusic rain/pause 500/stopAnimation Abigail/faceDirection Abigail 2/emote Abigail 16/speak Abigail \"$q 32 null#@! What are you doing out here?$7#$r 32 50 Event_Rain_1#Just enjoying a walk in the rain#$r 32 10 Event_Rain_2#Looking for some trees for lumber#$r 32 10 Event_Rain_3#Watching you play that flute...\"/faceDirection Abigail 1/pause 1250/speak Abigail \"I'm just taking a break from my parents. I needed some privacy...$8\"/pause 1000/faceDirection farmer 1/pause 1600/faceDirection Abigail 2/speak Abigail \"I like you invading my privacy though... *blushes*$4\"/pause 500/emote Abigail 40/speak Abigail \"You're getting drenched, come stand next to me...\"/move farmer -1 0 0/move farmer 0 -1 2/pause 500/message \"Abigail reaches down and places her hand in yours for a moment, then points at the lake\"/pause 500/faceDirection Abigail 1/pause 3000/speak Abigail \"I'm glad you came out here today...#$b#Maybe I didn't need to be alone, I just needed to be around the right person...$8\"/pause 650/faceDirection farmer 1/pause 500/faceDirection farmer 2/pause 600/playSound dwop/showFrame 98/pause 500/faceDirection Abigail 3/emote Abigail 16/pause 800/speak Abigail \"Hey! You've got a mini-harp!$h#$b#Want to play a duet? Just the two of us making beautiful music in the rain?$4\"/faceDirection farmer 1/pause 900/emote farmer 56/faceDirection Abigail 3/pause 700/faceDirection Abigail 2/faceDirection farmer 2/pause 500/showFrame Abigail 16/pause 500/showFrame 98/pause 2000/playMusic AbigailFluteDuet/pause 1250/animate Abigail false true 612 16 17 18 19/animate farmer false true 308 99 98 98 99 100 100/pause 10000/viewport move 1 0 18000/pause 20000/globalFade/viewport -1000 -1000/pause 2000/end",},
+	   },
+
+	   {
+          "LogName": "Abigail (6 Hearts)",
+          "Action": "EditData",
+          "Target": "Data/Events/Town",
+          "Entries": {
+
+	   "4/f Abigail 1500/t 2100 2400/e 2/w sunny": "nightTime/-4442 39/farmer 47 95 0 Abigail 47 87 0 Pierre 52 91 3/skippable/addLantern 735 46 86 1/specificTemporarySprite abbyGraveyard/faceDirection Abigail 2/animate Abigail false true 500 24 27/viewport 47 87 true/pause 4000/move farmer 0 -4 0/pause 500/animate Abigail false false 150 24 25 24 26 0/pause 700/stopAnimation Abigail 0/pause 1500/emote farmer 8/pause 600/animate Abigail false true 100 28 29/pause 1200/stopAnimation Abigail/pause 500/playMusic echos/speak Abigail \"@...? Hey, I guess...you're wondering why I'm out here in the graveyard, alone at night...\"/pause 500/move farmer 0 -1 0/pause 400/speak Abigail \"This is just the best place to find some privacy in town...\"/pause 500/emote Abigail 40/pause 250/faceDirection Abigail 1/pause 400/speak Abigail \"...And I'm all sweaty because I've been practicing my sword...$l\"/emote farmer 16/pause 400/faceDirection Abigail 2/pause 300/speak Abigail \"Were you hoping I was sweaty because of something else? *giggles*$4\"/pause 300/faceDirection Abigail 3/pause 500/faceDirection Abigail 2/speak Abigail \"While everyone else is at the saloon partying, I'm studying the blade...#$b#I'm just kidding, I like memes...\"/pause 1000/move farmer 0 -2 0/speak Abigail \"$q 847951 null#So, I guess you think I'm pretty weird don't you??#$r 847951 10 Event_Grave1#Who wants to be normal when you can be weird?#$r 847951 10 Event_Grave2#Sorry, can you repeat that. I couldn't hear you over the sound of how awesome you are...#$r 847951 -100 Event_Grave3#Yeah, a bit too weird for me. Your crazy to hot ratio is way off#$r 847951 50 Event_Grave4#You play video games, know how to play the flute, and like swords, I think I'm in love...\"/faceDirection Abigail 0/pause 2000/playMusic nightTime/speak Pierre \"Abigail?!$4\"/pause 100/faceDirection Abigail 2 true/faceDirection farmer 2 true/emote Abigail 16/speak Abigail \"Dad?$7\"/move Pierre -3 0 0/move Pierre 0 -4 3/faceDirection Abigail 1/faceDirection farmer 1/speak Pierre \"I've been looking everywhere for you, your mother wants you to come home and help with dinner$u\"/pause 300/faceDirection Pierre 2/pause 700/faceDirection Pierre 1/pause 700/faceDirection Pierre 3/pause 500/speak Pierre \"What are you doing in the graveyard at night with @, anyway? Do you know what people will think?$u\"/faceDirection Abigail 3/emote Abigail 12/pause 400/faceDirection Abigail 1/speak Abigail \"I don't really care what they think Dad!$a\"/speak Abigail \"I'm so tired of trying to be what you and Mom expect me to be...$a#$b#Why can't you just let me be who I really am?$s\"/showFrame Pierre 16/textAboveHead Pierre \"...\"/faceDirection Abigail 2/speak Abigail \"Lets get out of here @...\"/showFrame Pierre 0/move Abigail -1 0 2 true/faceDirection farmer 3/move Abigail 0 2 2/faceDirection farmer 2 true/move Abigail 0 3 2 true/faceDirection Pierre 2 true/pause 1000/pause 500/faceDirection Abigail 0/speak Abigail \"Well, are you coming or not @?$u\"/pause 600/faceDirection farmer 1/pause 1000/move farmer 0 8 2 true/move Abigail 0 4 1 false/move farmer 8 0 2 true/move Abigail 8 0 2 true/textAboveHead Pierre \"Where are you going?\"/globalFade/viewport -4000 0/pause 400/playSound grassyStep/pause 500/playSound grassyStep/pause 300/playSound leafrustle/pause 700/playSound leafrustle/pause 700/message \"You and Abigail crawl through the bushes until you find a small hollow spot\"/speak Abigail \"*sigh* Sorry you had to see that...$8#$b#I know they just worry, and want what is best for me...$u\"/pause 1000/speak Abigail \"I just wish they were more accepting of me...#$b#You never try to change me, thats part of why I like you so much...$h#$b#You just accept my strangeness...$4\"/pause 1000/speak Abigail \"So, can you help me? I think my hair is tangled in this bush...$4\"/playSound grassyStep/pause 300/playSound leafrustle/pause 500/playSound grassyStep/pause 200/playSound grassyStep/pause 400/playSound leafrustle/pause 300/playSound leafrustle/pause 600/end",},
+	   },
+
+	   {
+          "LogName": "Abigail (8 Hearts Part - 1)",
+          "Action": "EditData",
+          "Target": "Data/Events/SeedShop",
+          "Entries": {
+
+	   "3/f Abigail 2000/p Abigail/t 2000 2200/e 4/n abbySpiritBoard": "echos/-1000 -1000/farmer 13 6 3 Abigail 6 8 1/skippable/specificTemporarySprite abbyOuijaCandles/viewport 7 5/speak Abigail \"Hey! I was hoping you'd show up...#$b#Come here, I want to show you something\"/move farmer -5 0 0/move farmer 0 2 3/faceDirection Abigail 2/speak Abigail \"See this? It's called a spirit board. Have you ever used one?\"/emote farmer 8/move Abigail 0 2 1/move farmer 0 2 3/pause 500/speak Abigail \"Put your hands right here, and I'll put mine here...$l\"/showFrame Abigail 30/pause 200/animate farmer true true 9999 89/pause 600/speak Abigail \"Now we wait until the spirits start to speak to...$h\"/showFrame Abigail 31/pause 500/speak Abigail \"Are you moving it? I'm not moving it!$7\"/emote farmer 16/speak Abigail \"The first letter is... 'I' ...\"/pause 600/speak Abigail \"Next is... '<' ...\"/pause 800/speak Abigail \"Its spelling something... '%firstnameletter'...#$b#I < %firstnameletter...?\"/emote Abigail 16/showFrame Abigail 12/faceDirection Abigail 3/stopMusic/pause 200/stopAnimation farmer/faceDirection Abigail 1/pause 400/specificTemporarySprite abbyOuija/playSound swordswipe/pause 900/playSound seeds/pause 500/speak Abigail \"Whoops!#$b#Look at that, I accidentally knocked over the board...$h#$b#Thats so me! Clumsy Abigail! Thats what they call me! *nervous chuckle*#$b#I still think you were moving it...$9\"/faceDirection Abigail 3/emote Abigail 60/faceDirection Abigail 1/speak Abigail \"So while you're here, would you mind taking a look at my new gaming setup on my computer??#$b#I need someone else to tell me how awesome it is!$9\"/faceDirection Abigail 2/emote farmer 28/move Abigail 0 -3 1/pause 500/move farmer 0 -3 3/pause 800/faceDirection farmer 3/pause 1000/message \"There is a long silence as you look at each other, then Abigail gestures towards her computer\"/pause 500/speak Abigail \"Its over here...\"/globalFade/viewport -1000 -1000/end invisibleWarpOut Abigail",},
+	   },
+
+	   {
+          "LogName": "Abigail (8 Hearts Part - 2)",
+          "Action": "EditData",
+          "Target": "Data/Events/Farm",
+          "Entries": {
+
+	   "5/e 3/v Abigail": "continue/64 15/farmer 64 16 2 Abigail 64 18 0/pause 1500/speak Abigail \"Hey! So I'm sorry if I got weird last night...#$b#I'm just not used to...$l#$b#You know, anyone being interested in me like that...#$b#*sighs* I don't do words well sometimes...$s#$b#Anyway...#$b#I should go before I make a bigger fool of myself, later @$4\"/pause 500/end",},
+	   },
+
+	   {
+          "LogName": "Abigail (10 Hearts)",
+          "Action": "EditData",
+          "Target": "Data/Events/Mine",
+          "Entries": {
+
+	   "901756/f Abigail 2500/t 1700 2400/e 3/o Abigail": "Upper_Ambient/18 7/farmer -1000 -1000 0 Abigail 18 11 0/skippable/move Abigail 0 -3 1/move Abigail 5 0 2/pause 500/animate Abigail false false 150 26 24 25 25 25 25/pause 450/playSound sandyStep/stopAnimation Abigail/showFrame Abigail 25/pause 2000/playSound batFlap/pause 500/playSound batFlap/pause 500/playSound batFlap/pause 500/emote Abigail 8/pause 1000/specificTemporarySprite abbyOneBat/playSound batScreech/showFrame Abigail 32/shake Abigail 2000/pause 2000/showFrame Abigail 0/pause 600/animate Abigail false true 100 28 29/pause 1200/stopAnimation Abigail/pause 1000/specificTemporarySprite abbyManyBats/showFrame Abigail 32/shake Abigail 2000/pause 2000/speed Abigail 8/move Abigail 0 -4 0/speed Abigail 8/move Abigail 2 0 0/animate Abigail false false 100 21 20 20/pause 200/showFrame Abigail 20/shake Abigail 10000/pause 2000/warp farmer 18 13/move farmer 0 -5 0/pause 1000/faceDirection farmer 1/pause 300/emote farmer 16/speed farmer 8/move farmer 6 0 0/speed farmer 8/playMusic desolate/move farmer 0 -4 1/speak Abigail \"$q 776589 null#@? I'm so glad to see you...$s#$r 776589 20 Event_Cave2_1#Are you alright Abigail?#$r 776589 20 Event_Cave2_2#What happened? Are you okay?\"/pause 500/animate Abigail false false 100 21 0 0/pause 200/stopAnimation Abigail/faceDirection Abigail 3/pause 500/speak Abigail \"I've been practicing my sword fighting a lot...$9#$b#I thought I was ready to explore the mines finally...$8\"/pause 500/faceDirection Abigail 1/pause 1000/speak Abigail \"Now that I'm here, I'm afraid...#$b#So afraid I ended up huddled in the corner...$8\"/pause 500/faceDirection Abigail 3/speak Abigail \"$q 34 null#Maybe I should just stick to my video games...$8#$r 34 20 Event_Cave_1#I'm here now, I won't let anything happen to you...#$r 34 40 Event_Cave_2#Bravery isn't the absence of fear, its the presence of fear yet the will to continue#$r 34 -50 Event_Cave_3#Adventures and caves just aren't for everyone...\"/faceDirection Abigail 3/stopMusic/pause 1500/playMusic sadpiano/pause 1800/speak Abigail \"@, I-I really like you...#$b#And I don't mean as just a friend, you know that right?$l\"/pause 1000/speak Abigail \"I can't believe I'm actually saying this...#$b#But I can't keep it in anymore. I've felt this way for a long time$l\"/pause 1800/speak Abigail \"You don't have to say anything right now#$b#Just hold me for a while...\"/playMusic Upper_Ambient/pause 1000/showFrame Abigail 33/showFrame 101/pause 2500/globalFade/viewport -1000 -1000/end",},
+	   },
+
+
+//AbigailExtraEvents
+
+	   {
+          "LogName": "Abigail (Morris Event - 1 Heart - 25% Off)",
+          "Action": "EditData",
+          "Target": "Data/Events/SeedShop",
+          "Entries": {
+
+	   "3102768/f Abigail 250/t 0900 1700": "playful/6 21/farmer 6 29 0 Pierre 4 17 2 Gus 9 26 1 Marnie 3 23 0 Jodi 11 20 0 Demetrius 9 17 3 Morris -100 -100 0 Abigail -99 -99 0/broadcastEvent/skippable/move farmer 0 -5 0/move Gus 0 1 1 true/move Jodi -1 0 0 true/move farmer 0 -5 0 false/pause 500/move Pierre 1 0 2/speak Pierre \"Welcome To Pierre's! How can I help you?\"/pause 1000/playSound doorClose/warp Morris 6 29/pause 1000/emote Pierre 8/playSound dwop/faceDirection farmer 1 true/pause 50/faceDirection farmer 2/move Morris 0 -2 0/move Morris 0 -5 0/speak Morris \"Ahem...\"/pause 1000/faceDirection Marnie 1/faceDirection Gus 0/pause 1000/move Morris 1 0 1/speak Morris \"Come and get it folks... coupons for 25% off your purchase at JojaMart!\"/jump Pierre/textAboveHead Pierre \"25 Percent!?!?\"/showFrame Pierre 16/shake Pierre 3000/faceDirection Demetrius 2/faceDirection Jodi 3/pause 1000/animate Morris false true 80 16 17 16 18/pause 1000/showFrame Pierre 0/speak Morris \"Well? Any takers?\"/pause 500/advancedMove Marnie false 4 0/advancedMove Gus false -2 0 0 -3 -1 0 0 -2/advancedMove Jodi false -3 0 0 1/advancedMove Demetrius false 0 5 -1 0/pause 1500/globalFade/viewport -1000 1000/playMusic none/pause 500/warp Marnie -100 -100/warp Demetrius -100 -100/warp Jodi -100 -100/warp Gus -100 -100/playSound doorClose/pause 1000/playSound doorClose/pause 1000/playSound doorClose/pause 500/playSound doorClose/pause 1000/speak Pierre \"I can't match those prices! I'm barely making a profit now!$s\"/stopAnimation Morris/viewport 6 18 true/move Morris 0 -3 0/faceDirection farmer 1/pause 1000/speak Morris \"It must be so difficult for you... To lose your loyal customers like that.#$b#But can you blame them? Joja Corporation is clearly the superior choice.$h#$b#Soon the whole town will realize that.\"/faceDirection farmer 1/emote Pierre 28/playSound dwop/faceDirection Morris 3 true/pause 50/faceDirection Morris 3/warp Abigail 14 17 2/move Abigail -5 0 2/move Abigail 0 2 3/pause 400/speak Abigail \"Are you really in here giving out JojaMart coupons in our store?!$a\"/faceDirection Morris 1/pause 500/speak Morris \"Well yes I am, would you like one? Its for 25% off...\"/emote Abigail 12/shake Abigail 1000/pause 1000/speak Abigail \"You have 30 seconds to get out of this store or I'm going to take those coupons...$a#$b#Shine them up real nice...$a#$b#Turn them sumbitches sideways, and stick them straight up your candy ass!$a\"/jump Morris/speak Morris \"Oh my, so violent! I'm leaving anyway. All your customers already did...\"/pause 1000/move Morris 0 10 2 true/pause 1000/faceDirection farmer 2 true/speak Pierre \"Abigail, I've been trying to play nice with JojaMart! Why did you...$s\"/speak Abigail \"Did you see what he just did?! You want to play nice with these people?$a\"/pause 500/speak Pierre \"Maybe you're right...$s\"/globalFade/viewport -500 -500/end"},
+	   },
+
+	   {
+          "LogName": "Abigail (Morris Event - 3 Hearts - Farm)",
+          "Action": "EditData",
+          "Target": "Data/Events/Farm",
+          "Entries": {
+
+	   "500100/f Abigail 750/e 3102768": "none/64 15/farmer 64 16 2 Abigail 64 18 0/emote Abigail 28/pause 1000/speak Abigail \"Hey @, So look, I've got a favor to ask you...$4#$b#I'm just not sure how to word it...$4#$b#You saw what Morris did at my Dad's shop, right?$s#$b#*sighs* I'm really worried that JojaMart is going to drive my Dad to close the store...$s#$b#Anyway...#$b#If I asked for your help to keep JojaMart from running us out of business would you help me?$4\"/pause 250/speak Abigail \"I really hate to ask, but honestly you're the only single person in the valley with enough buying power to make a difference...#$b#$q 900000 jojamart_question_00#$r 900000 50 jojamart_question_01#Absolutely, whatever you need you can count on me#$r 900001 -50 jojamart_question_02#I can't make that promise Abigail, I've got to do what is best for business\"/pause 500/globalFade/viewport -1000 -1000/pause 500/end",},
+	   },
+
+	   {
+          "LogName": "Abigail (Morris Event - 5 Hearts - Outside JojaMart)",
+          "Action": "EditData",
+          "Target": "Data/Events/Town",
+          "Entries": {
+
+	   "500200/f Abigail 1250/t 0900 1700/e 500100/q 900000/w sunny": "Upper_Ambient/97 52/farmer 83 53 1 Abigail 97 52 2 Morris -999 -999 2 Lewis -998 -998 0/skippable/move farmer 14 0 0/pause 500/speak Abigail \"Oh hey @, I'm just here to pay JojaMart a little visit...$h\"/emote Abigail 12/pause 500/emote farmer 8/pause 500/speak Abigail \"What? Don't give me that look, I didn't start this war, but now its on!$a\"/faceDirection Abigail 1/pause 250/faceDirection Abigail 3/pause 250/faceDirection Abigail 0/pause 500/emote Abigail 12/faceDirection Abigail 2/pause 500/speak Abigail \"Alright, well lets get this show started, shall we? *snickers*$h\"/pause 500/playSound dwop/showFrame Abigail 19/speak Abigail \"And a one and a two...\"/pause 500/textAboveHead Abigail \"HEY MORRIS! I BET SOME MUSIC WILL BRING IN CUSTOMERS!!!\"/pause 250/animate Abigail false true 612 16 17 18 19/pause 1000/speak Abigail \"COME SAIL AWAY!! COME SAIL AWAY!! COME AND SAIL AWAY WITH ME!! YOU GUYS!!$7\"/pause 500/message \"Abigial seems to be trying to drive away customers by purposely playing horrible music...\"/move farmer -2 0 0/move farmer 0 -1 0/faceDirection farmer 2/playSound dwop/showFrame 98/pause 500/speak Abigail \"Thats the spirit! Lets help JojaMart get even more customers!$h\"/emote Abigail 32/emote farmer 32/pause 500/animate farmer false true 308 99 98 98 99 100 100/pause 500 Abigail/speak Abigail \"ITS A SMALL WORLD AFTER ALL!!!!$7\"/warp Lewis 83 53 1/faceDirection Lewis 1/move Lewis 13 0 0/pause 500/speak Lewis \"What are you two doing? I could hear this racket all the way from my house!$4\"/pause 500/stopAnimation Abigail/showFrame Abigail 0/stopAnimation farmer/speak Abigail \"Since Morris has been so 'helpful' to my Dad, I thought I'd come and play some music for his customers...$2\"/pause 1000/emote Lewis 8/speak Lewis \"Ah, I think I understand...$3#$b#I'm afraid I can't allow thi...\"/playSound doorOpen/warp Morris 96 51 2/emote Morris 12/move Morris 0 1 2/pause 500/speak Morris \"WHAT IS THE MEANING OF THIS?$3\"/pause 500/speak Morris \"Well? Is someone going to explain this?!$3\"/pause 500/playSound dwop/animate Abigail false true 612 16 17 18 19/textAboveHead Abigail \"NEVER GONNA GIVE YOU UP! NEVER GONNA LET YOU DOWN!\"/pause 1000/faceDirection Morris 1/shake Morris 500/playSound dwop/animate farmer false true 308 99 98 98 99 100 100/pause 500/faceDirection Morris 2/speak Morris \"Mayor, on behalf of the JojaMart Corporation I DEMAND you put an end to this noise!$3\"/pause 500/textAboveHead Abigail \"NEVER GONNA RUN AROUND AND DESERT YOU!!!!\"/pause 500/speak Lewis \"Well, technically they're not breaking any laws Morris, this is a public area...\"/shake Morris 500/pause 500/textAboveHead Abigail \"NEVER GONNA MAKE YOU CRY, NEVER GONNA SAY GOODBYE\"/pause 500/speak Morris \"Fine, but this will NOT go unanswered! You've made a very powerful enemy young lady...$3\"/textAboveHead Abigail \"NEVER GONNA TELL A LIE AND HURT YOU!!!\"/move Morris 0 -1 0/warp Morris -999 -999 0/playSound doorClose/pause 1500/stopAnimation farmer/stopAnimation Abigail/showFrame Abigail 0/pause 1000/speak Lewis \"It does make me happy to see him so flustered...$1#$b#...However, I really can't let you two keep this up$s\"/pause 500/speak Abigail \"Its fine Mayor, I think I've made my point...$h\"/emote Abigail 32/speak Abigail \"Thank you two for your help *smiles*\"/globalFade/viewport -500 -500/end",},
+	   },
+
+	   {
+          "LogName": "Abigail (Morris Event - 7 Hearts - 50% Off)",
+          "Action": "EditData",
+          "Target": "Data/Events/SeedShop",
+          "Entries": {
+
+	   "500300/f Abigail 1750/t 0900 1700/e 500200/w sunny/H": "playful/6 21/farmer 6 29 0 Pierre 4 17 2 Morris -100 -100 0 Abigail -99 -99 2/broadcastEvent/skippable/move farmer 0 -10 0/pause 500/move Pierre 2 0 2/speak Pierre \"Hey @! What can I get for you today?...$h\"/pause 1000/playSound doorClose/warp Morris 6 29/pause 1000/emote Pierre 8/playSound dwop/move Morris 0 -5 0/move Morris 1 0 0/move Morris 0 -5 0/faceDirection farmer 1/speak Morris \"Hello Pierre! How are you today?\"/pause 500/speak Pierre \"What do you want Morris? Haven't you caused enough problems for this shop?$3\"/pause 500/speak Morris \"Now Pierre, is that how you greet someone that comes to help you?$h\"/pause 500/emote Pierre 8/speak Pierre \"How do you think you're going to 'help' me?$s\"/pause 500/speak Morris \"Thanks to your daughter's little music concert outside my store...$3#$b#Next week JojaMart is going to be running a 50% off sale! I thought I'd come let you know so you and your family can stock up on anything you need...$h\"/jump Pierre/textAboveHead Pierre \"50 Percent!?!?\"/showFrame Pierre 16/shake Pierre 3000/speak Morris \"Whats the matter Pierre? You don't enjoy the savings?#$b#I figured as poorly as your shop is doing you'd leap at a chance to save some money! *laughs manically*\"/showFrame Pierre 0/pause 1000/playSound doorOpen/pause 50/warp Abigail 14 17 2/playSound doorOpen/pause 50/move Abigail -5 0 2/move Abigail 0 2 3/pause 400/speak Abigail \"What are you doing here Morris?$a\"/faceDirection Morris 1/speak Morris \"I just came for a friendly visit. I was just telling your father...\"/shake Abigail 1000/speak Abigail \"Get out of here you scouring taint! GET OUT OF OUR STORE!$a\"/pause 1000/emote Morris 12/speak Morris \"Listen here young woman, I don't know who you think you are but...$3\"/move Abigail -1 0 3 true/emote Abigail 12/globalFade/viewport -1000 -1000/pause 500/speak Abigail \"HADOUKEN!!!$a\"/playSound clubhit/screenFlash .5/pause 100/playSound clubhit/screenFlash .5/pause 100/playSound clubhit/screenFlash .5/pause 1000/speak Pierre \"ABIGAIL!$4\"/pause 500/speak Morris \"I think you broke my nose!$2\"/pause 500/speak Abigail \"I'm going to break more than that if you don't get out of here RIGHT NOW!$a\"/pause 500/speak Morris \"You'll be hearing from the JojaMart lawyers about this! You're all insane!$2\"/playSound woodyStep/pause 200/playSound woodyStep/pause 200/playSound woodyStep/pause 200/playSound doorOpen/pause 500/playSound doorClose/warp Morris -100 -100 2/pause 500/fade/viewport 6 21/pause 500/speak Pierre \"Well, that happened...$4\"/pause 500/speak Pierre \"Did you really need to hit him Abigail?$4\"/emote Abigail 28/pause 500/speak Abigail \"I guess not, but it felt really good and he has a REALLY punchable face...$4\"/pause 500/speak Pierre \"It was pretty satisfying to watch...$4#$b#Why don't you grab a couple bucks from the register and go get a pizza huh?#$b#Your 'punishment' is the walk over to the saloon *winks*$h\"/pause 500/speak Abigail \"That is so harsh! Lighten up on me, will ya? *snickers*$h\"/pause 1000/globalFade/viewport -1000 -1000/end",},
+	   },
+
+	   {
+          "LogName": "Abigail (Morris Event - 9 Hearts - 75% Off)",
+          "Action": "EditData",
+          "Target": "Data/Events/Town",
+          "Entries": {
+
+	   "500400/f Abigail 2250/t 0900 1700/e 500300/w sunny/H": "playful/41 58/farmer 38 57 1 Pierre -100 -100 2 Gus 44 59 0 Marnie 42 59 0 Jodi 40 59 0 Demetrius 38 59 0 Pam 43 60 0 Clint 39 60 0 Morris 41 57 2 Abigail -99 -99 3 Lewis -100 -100 2/broadcastEvent/skippable/playSound doorOpen/pause 100/warp Pierre 43 57 2/playSound doorClose/move Pierre 2 0 3/pause 500/speak Morris \"Ladies and Gentlemen! May I have your attention please?\"/pause 500/emote Morris 16/emote Pierre 12/pause 500/speak Morris \"In appreciation of the warm welcome that this town has given to JojaMart...#$b#All next week JojaMart members will receive a special discount...#$b#...SEVENTY-FIVE PERCENT OFF!!!$1\"/jump Pierre/textAboveHead Pierre \"75 Percent!?!?\"/showFrame Pierre 16/shake Pierre 1000/textAboveHead Demetrius \"Wow!\"/textAboveHead Clint \"Wow!\"/textAboveHead Jodi \"Wow!\"/textAboveHead Marnie \"Wow!\"/textAboveHead Gus \"Wow!\"/textAboveHead Pam \"Even Beer?\"/pause 1000/speak Pierre \"I'm going to be ruined!$s\"/pause 500/showFrame Pierre 12/playSound doorOpen/pause 100/warp Abigail 43 57 3/playSound doorClose/pause 100/faceDirection Abigail 3/pause 500/speak Abigail \"Morris? What the hell are you doing out here?$a\"/pause 500/speak Morris \"I was just giving all these fine people some very good news...$3\"/faceDirection Abigail 2/speak Abigail \"Are all of you stupid?$a#$b#You realize that as soon as Dad's shop goes out of business JojaMart is going to raise their prices by 500%, right?!$a\"/pause 500/emote Morris 28/speak Morris \"JojaMart would never do that! We want to be part of this community!$1#$b#We care about the people here in Pigeon Town...$1\"/pause 1000/emote Morris 28/pause 1000/speak Morris \"Or is it Seagull Town? Either way, we care! I promise!$1\"/pause 500/speak Lewis \"Abigail is right people...$s\"/warp Lewis 48 67 0/move Lewis 0 -8 3 true/faceDirection Pierre 1/faceDirection Pam 1/faceDirection Jodi 1/faceDirection Demetrius 1/faceDirection Gus 1/faceDirection Marnie 1/faceDirection Morris 1/faceDirection Clint 1/faceDirection Abigail 1/pause 500/speak Lewis \"I've spoken with the Mayor of Grampleton, he told me that JojaMart did exactly the same thing in his town...$s#$b#So what do you have to say for yourself and JojaMart? Is my fellow Mayor lying?$4\"/pause 500/speak Morris \"Uh, I'm sure you misunderstood him...$3\"/speak Lewis \"Morris, this town isn't just another place for JojaMart to make money, we're a real community...#$b#We care about each other, we take care of each other. We're a family...\"/pause 500/faceDirection Pierre 2/speak Pierre \"I can't offer you 75% off, but I promise that my shop will always be part of this community...\"/pause 250/faceDirection Jodi 0/faceDirection Marnie 0/speak Pierre \"This will never be a sterile, corporate store that just cares about your money, and not you\"/pause 250/faceDirection Demetrius 0/faceDirection Pam 0/speak Pierre \"I will never raise my prices just for the sake of making myself rich...\"/pause 250/faceDirection Gus 0/faceDirection Clint 0/pause 250/globalFade/viewport -1000 -1000/pause 1000/speak Gus \"I think I'm going to get the ingredients for tonights meal from Pierre's...\"/pause 500/speak Pam \"Yeah I could use a six pack myself\"/pause 500/speak Jodi \"The fish from Pierre's are generally more fresh anyway...\"/pause 1000/message \"After a moment, the gathered crowd makes their way inside Pierre's to do some shopping\"/playSound doorOpen/warp Pam -80 -80 0/warp Clint -81 -81 0/playSound doorClose/pause 500/warp Gus -82 -82 0/playSound doorOpen/warp Marnie -83 -83 0/warp Demetrius -84 -84 0/warp Jodi -85 -85 0/pause 1000/playSound doorClose/globalFade/viewport 41 58/move Abigail -1 0 3/move Pierre -2 0 3/pause 1000/speak Pierre \"Well, I should get inside. I've got a store full of customers to take care of!$h\"/playSound doorOpen/warp Pierre -86 -86 0/playSound doorClose/pause 500/speak Morris \"I've never met a group of people that hated saving money so much before...$3\"/move farmer 2 0 1/faceDirection Morris 3/pause 500/emote Morris 28/faceDirection Morris 1/pause 500/speak Morris \"Why are you two looking at me like that...$3\"/pause 500/emote Morris 28/pause 500/emote Morris 16/speak Morris \"Not again...$3#$b#MAYOR! You can't let them do this!$3\"/pause 500/speak Lewis \"I think I've left my oven on, I should go check that right away. Dangerous fire hazard...\"/textAboveHead Lewis \"*whistling*\"/move Lewis 0 10 0/pause 500/speak Morris \"Look, I'm sure we can deal with this like reasonable people...$3\"/emote Abigail 12/emote farmer 12/speak Abigail \"HOW MANY TIMES DO WE HAVE TO TEACH YOU THIS LESSON, OLD MAN!?!?$a\"/jump Morris/shake Abigail 500/pause 1000/globalFade/viewport -1000 -1000/pause 1000/speak Morris \"Lets not do anything we're going to regret...$3\"/speak Abigail \"FALCON PUNCH!!!$a\"/playSound clubhit/screenFlash .5/pause 100/playSound clubhit/screenFlash .5/pause 100/playSound clubhit/screenFlash .5/pause 500/speak Morris \"I think you broke my nose again!$2 \"/pause 500/speak Abigail \"Grab his legs @! He is getting away!$7\"/playSound fishingRodBend/pause 500/playSound fishingRodBend/pause 1000/playSound clubhit/screenFlash .5/pause 100/playSound clubhit/screenFlash .5/pause 100/playSound clubhit/screenFlash .5/pause 500/speak Abigail \"WE GOT A RUNNER!!!$a\"/pause 1000/playSound fishingRodBend/pause 500/playSound fishingRodBend/pause 1000/playSound clubhit/screenFlash .5/pause 100/playSound clubhit/screenFlash .5/pause 100/playSound clubhit/screenFlash .5/pause 1000/warp Abigail 43 59 1/faceDirection Abigail 1/warp farmer 43 57 1/warp Morris 46 58 3/faceDirection Morris 3/showFrame Morris 19/pause 500/globalFade/viewport 41 58/pause 500/speak Morris \"This entire town is insane!!!$2\"/pause 500/speak Abigail \"YOU WANT TO GO AGAIN?!$a\"/pause 500/textAboveHead Morris \"I'm going back to JojaMart where its safe!\"/pause 500/speed Morris 5/move Morris 3 0 0/speed Morris 5/move Morris 0 -4 1/speed Morris 5/move Morris 8 0 0/speak Abigail \"Thanks @...you've really been a good friend to me, and my family since you moved here#$b#Even though this wasn't your fight *laughs*$h\"/pause 1000/faceDirection Abigail 2/emote Abigail 8/pause 500/faceDirection Abigail 3/pause 500/faceDirection Abigail 0/faceDirection farmer 2/pause 500/speak Abigail \"We should probably, ya know leave...#$b#Since we just technically committed an assault, right? *snickers*$h\"/pause 1000/end",},
+	   },
+
+
+//BouquetOrPendantStrings
+
+        {
+        "LogName": "Custom Messages",
+        "Action": "EditData",
+        "Target": "Strings/StringsFromCSFiles",
+        "Entries": {
+        "NPC.cs.3962": "$q 10001 give_flowersA#Yes...?#$r 10001 0 give_flowersA# [Give Bouquet]",
+        "NPC.cs.3963": "$q 10001 give_flowersB#Yes...?#$r 10001 0 give_flowersB# [Give Bouquet]",
+        "NPC.cs.3980": "$q 10001 give_pendant#Yes...?#$r 10001 0 give_pendant# Will you marry me?",
+        "NPC.cs.4001": "$q 10001 stardrop_gift#Yes...?#$r 10001 0 stardrop_gift# Is this for me?",
+        "NPC.cs.3956": "$q 10001 rejectNPCA#Yes...?#$r 10001 0 rejectNPCA#[Give Bouquet]",
+        "NPC.cs.3957": "$q 10001 rejectNPCB#Yes...?#$r 10001 0 rejectNPCB#[Give Bouquet]",
+        "NPC.cs.3958": "$q 10001 reject_two_heartA#Yes...?#$r 10001 0 reject_two_heartA#[Give Bouquet]",
+        "NPC.cs.3959": "$q 10001 reject_two_heartB#Yes...?#$r 10001 0 reject_two_heartB#[Give Bouquet]",
+        "NPC.cs.3960": "$q 10001 reject_four_heartA#Yes...?#$r 10001 0 reject_four_heartA#[Give Bouquet]",
+        "NPC.cs.3961": "$q 10001 reject_four_heartB#Yes...?#$r 10001 0 reject_four_heartB#[Give Bouquet]",
+        "NPC.cs.3965": "$q 10001 engageA#Yes...?#$r 10001 0 engageA# Will you marry me?",
+        "NPC.cs.3966": "$q 10001 engageB#Yes...?#$r 10001 0 engageB# Will you marry me?",
+        "NPC.cs.3967": "$q 10001 marriedA#Yes...?#$r 10001 0 marriedA# Will you marry me?",
+        "NPC.cs.3968": "$q 10001 marriedB#Yes...?#$r 10001 0 marriedB# Will you marry me?",
+        "NPC.cs.3970": "$q 10001 refusal_no_heartsA#Yes...?#$r 10001 0 refusal_no_heartsA# Will you marry me?",
+        "NPC.cs.3971": "$q 10001 refusal_no_heartsB#Yes...?#$r 10001 0 refusal_no_heartsB# Will you marry me?",
+        "NPC.cs.3972": "$q 10001 refusal_knownA#Yes...?#$r 10001 0 refusal_knownA# Will you marry me?",
+        "NPC.cs.3973": "$q 10001 refusal_knownB#Yes...?#$r 10001 0 recusalB# Will you marry me?",
+        "NPC.cs.3974": "$q 10001 refusal_botherA#Yes...?#$r 10001 0 refusal_botherA# Will you marry me?",
+        "NPC.cs.3975": "$q 10001 refusal_botherB#Yes...?#$r 10001 0 refusal_botherB# Will you marry me?",},
+        },
+
+          {
+          "LogName": "Abigail Strings (Custom Bouquet and Pendant Dialogue)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Abigail",
+          "Entries": {
+
+          "give_flowersA": "Are you really giving a bouquet of flowers to a woman you know has hay fever?!$a#$b#Just kidding, I know what you're doing...and I accept, I'll happily be your girlfriend#$b#Scared you for a minute didn't I? *winks*$h",
+          "give_flowersB": "Are you really giving a bouquet of flowers to a woman you know has hay fever?!$a#$b#Just kidding, I know what you're doing...and I accept, I'll happily be your girlfriend#$b#Scared you for a minute didn't I? *winks*$h",
+          "give_pendant": "You're...sure? You want to marry the little weirdo purple-haired girl?...#$b#I-I...yes! Yes! I'll talk to the Mayor! It normally takes about three days!$h#$b#I can't wait, I love you @!$h",
+          "rejectNPCA": "I don't think this is a good idea right now...$s",
+          "rejectNPCB": "I'm not sure we should do this...$s",
+          "reject_two_heartA": "Its sweet of you, but we barely know each other...$s",
+          "reject_two_heartB": "Oh! Don't you, ya know...think this is a bit too soon? Like way too soon?$s",
+          "reject_four_heartA": "As nice as you seem to be, I just don't feel like that about you$s",
+          "reject_four_heartB": "This is super awkward, but I'm going to have to pass...$s",
+          "engageA": "Aren't you engaged? I mean I'm flattered but no...$s",
+          "engageB": "I really don't think this would work considering YOU'RE ALREADY ENGAGED you dummy!$a",
+          "marriedA": "Really? You're already married...$a",
+          "marriedB": "You can't get double married, so I don't see the point$s",
+          "refusal_knownA": "Listen, I'm not trying to be mean...but I'm just not interested$s",
+          "refusal_knownB": "I don't want to upset you, but I just can't right now...$s",
+          "refusal_botherA": "If I give you a couple dollars, can ya buy a clue? I'm NOT INTERESTED$a",
+          "refusal_botherB": "Are you trying to piss me off? I said no, I meant no$a",
+          "refusal_no_heartsA": "Is this a joke, or do you ask everyone you just met this?$s",
+          "refusal_no_heartsB": "This is so sudden, and its gonna be a no from me$s",
+          "stardrop_gift": "@...#$b#You've made me so happy, I got you this. I wanted to give you something special, something to show you exactly how glad I am that I married you. *kisses*",},
+          },
+
+          {
+          "LogName": "Alex Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Alex",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Elliott Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Elliott",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Harvey Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Harvey",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Sam Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Sam",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Sebastian Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Sebastian",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Shane Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Shane",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Emily Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Emily",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Haley Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Haley",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Leah Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Leah",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Maru Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Maru",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Penny Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Penny",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Caroline Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Caroline",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Clint Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Clint",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Demetrius Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Demetrius",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Dwarf Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Dwarf",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Evelyn Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Evelyn",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "George Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/George",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Gus Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Gus",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Jas Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Jas",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Jodi Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Jodi",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Kent Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Kent",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Krobus Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Krobus",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Lewis Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Lewis",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Linus Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Linus",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Marnie Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Marnie",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Pam Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Pam",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Pierre Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Pierre",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Robin Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Robin",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Sandy Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Sandy",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Vincent Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Vincent",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Willy Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Willy",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+          {
+          "LogName": "Wizard Strings (Unchanged from Vanilla)",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Wizard",
+          "Entries": {
+          "give_flowersA": "...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l/...!! I'll accept this. Thank you.$l#$e#I didn't know you felt the same.$l",
+          "give_flowersB": "...You want to get more serious? I feel the same way.$l#$e#I'm kind of nervous. Aren't you?$l",
+          "give_pendant": "...!!! $l#$b#I accept!! $h#$b#...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+          "stardrop_gift": "Honey... I wanted to give you that fruit as a symbol of my love.$l",
+          "rejectNPCA": "Umm... I don't think so.",
+          "rejectNPCB": "Is this a joke? I don't get it.",
+          "reject_two_heartA": "...I don't really know you well enough...$s",
+          "reject_two_heartB": "Uh... This is awkward. Look, I don't really know you that well...$s",
+          "reject_four_heartA": "Oh? ...Sorry... I'm not ready for that.$s",
+          "reject_four_heartB": "...I didn't know. Uh... Sorry. No.$s",
+          "engageA": "You just got engaged! What are you thinking?$s",
+          "engageB": "What? Didn't you just ask someone else to marry you? You're crazy!$s",
+          "marriedA": "Um, aren't you already married?",
+          "marriedB": "You're already married, you weirdo!$s",
+          "refusal_knownA": "Oh!! ... $l #$b#@... I'm sorry, but no. I won't marry you right now.$s",
+          "refusal_knownB": "!! Er... I'm sorry, I don't feel that way about you...$s",
+          "refusal_botherA": "Look. I already told you no! Leave me alone.$a",
+          "refusal_botherB": "You already asked me that. What part of 'NO' don't you understand?!$a",
+          "refusal_no_heartsA": "You're strange.$s",
+          "refusal_no_heartsB": "Heh. Funny joke.",},
+          },
+
+]
+}
