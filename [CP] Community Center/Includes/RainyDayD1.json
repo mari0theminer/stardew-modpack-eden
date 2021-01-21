@@ -15,8 +15,8 @@
             "Action": "EditData",
             "Target": "Characters/schedules/Sam",
             "Entries": {
-                "rain": "1000 SamHouse 15 13 0/1100 CommunityCenter 27 18 2 sam_guitar \"Strings\\schedules\\Sam:Guitar_{{Random:Gt1, Gt2, Gt3}}\"/1500 SamHouse 8 6 3 sam_gameboy/1700 SamHouse 17 13 0/1830 SamHouse 22 16 1/2000 SamHouse 22 13 1 sam_sleep",
-                "rain2": "1000 SamHouse 15 13 0/1100 CommunityCenter 27 18 2 sam_guitar \"Strings\\schedules\\Sam:Guitar_{{Random:Gt1, Gt2, Gt3}}\"/1500 Saloon 38 18 0/1940 SamHouse 22 13 1 sam_sleep"
+                "rain": "1000 SamHouse 15 13 0/1100 CommunityCenter 27 18 2 sam_guitar \"Strings\\schedules\\Sam:Guitar_{{Random:Gt1,Gt2,Gt3}}\"/1500 SamHouse 8 6 3 sam_gameboy/1700 SamHouse 17 13 0/1830 SamHouse 22 16 1/2000 SamHouse 22 13 1 sam_sleep",
+                "rain2": "1000 SamHouse 15 13 0/1100 CommunityCenter 27 18 2 sam_guitar \"Strings\\schedules\\Sam:Guitar_{{Random:Gt1,Gt2,Gt3}}\"/1500 Saloon 38 18 0/1940 SamHouse 22 13 1 sam_sleep"
             }
         },
         {
@@ -27,8 +27,8 @@
                 "DayOfWeek": "Thursday"
             },
             "Entries": {
-                "rain": "900 Trailer 1 8 0/1030 CommunityCenter 23 17 2 penny_read  \"Strings\\schedules\\Penny:Guitar_{{Random:Gt1, Gt2, Gt3}}\"/1500 CommunityCenter 46 13 0/1800 Trailer 12 6 0 penny_dishes/2100 Trailer 4 9 1 penny_sleep",
-                "rain2": "900 Trailer 1 8 0/1030 CommunityCenter 23 17 2 penny_read  \"Strings\\schedules\\Penny:Guitar_{{Random:Gt1, Gt2, Gt3}}\"/1500 CommunityCenter 46 13 0/1800 Trailer 12 6 0 penny_dishes/2100 Trailer 4 9 1 penny_sleep"
+                "rain": "900 Trailer 1 8 0/1030 CommunityCenter 23 17 2 penny_read  \"Strings\\schedules\\Penny:Guitar_{{Random:Gt1,Gt2,Gt3}}\"/1500 CommunityCenter 46 13 0/1800 Trailer 12 6 0 penny_dishes/2100 Trailer 4 9 1 penny_sleep",
+                "rain2": "900 Trailer 1 8 0/1030 CommunityCenter 23 17 2 penny_read  \"Strings\\schedules\\Penny:Guitar_{{Random:Gt1,Gt2,Gt3}}\"/1500 CommunityCenter 46 13 0/1800 Trailer 12 6 0 penny_dishes/2100 Trailer 4 9 1 penny_sleep"
             }
         },
         /*{

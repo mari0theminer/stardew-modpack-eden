@@ -1,0 +1,16 @@
+{
+  "AllowAccessCarriedChest": true,
+  "AllowCarryingChests": true,
+  "AllowModdedCapacity": true,
+  "AllowRestrictedStorage": true,
+  "ExpandInventoryMenu": true,
+  "ShowOverlayArrows": true,
+  "ShowSearchBar": true,
+  "ShowTabs": true,
+  "Controls": {
+    "ScrollUp": "DPadUp",
+    "ScrollDown": "DPadDown",
+    "PreviousTab": "DPadLeft",
+    "NextTab": "DPadRight"
+  }
+}

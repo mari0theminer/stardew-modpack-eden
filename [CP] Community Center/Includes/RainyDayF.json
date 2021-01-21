@@ -15,27 +15,27 @@
     "Action": "EditData",  
     "Target": "Characters/schedules/Robin",
     "Entries": {	
-        "rain": "800 ScienceHouse 8 18 2/1400 CommunityCenter 8 21 1 \"Strings\\schedules\\Robin:Woodwork_{{Random:WW1, WW2, WW3 |key=WoodWork}}/2000 ScienceHouse 21 4 1 robin_sleep"  }
+        "rain": "800 ScienceHouse 8 18 2/1400 CommunityCenter 8 21 1 \"Strings\\schedules\\Robin:Woodwork_{{Random:WW1,WW2,WW3|key=WoodWork}}\"/2000 ScienceHouse 21 4 1 robin_sleep"  }
         },      
 {   "LogName": "Schedule",  
     "Action": "EditData",  
     "Target": "Characters/schedules/Jade",
     "When": {   "HasMod":"malic.cp.jadeNPC" 	},
     "Entries": {	
-        "rain": "900 CommunityCenter 23 9 jade_groundread/1630 CommunityCenter 9 23 0 \"Strings\\schedules\\Robin:Woodwork_Jade_{{Random:WW1, WW2, WW3}}\"/2000 {{JadeEnd}}"   }
+        "rain": "900 CommunityCenter 23 9 jade_groundread/1630 CommunityCenter 9 23 0 \"Strings\\schedules\\Robin:Woodwork_Jade_{{Random:WW1,WW2,WW3}}\"/2000 {{JadeEnd}}"   }
     },
 {   "LogName": "Schedule",  
     "Action": "EditData",  
     "Target": "Characters/schedules/Shane",
     "Entries": {	
-            "rain": "900 AnimalShop 24 17 1/1000 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1200 AnimalShop 5 14 2/1400 AnimalShop 26 16 2/1430 CommunityCenter 11 20 2 \"Strings\\schedules\\Shane:Woodwork_{{Random:WW1, WW2, WW3}}\"/2000 AnimalShop 27 4 1 shane_sleep"
+            "rain": "900 AnimalShop 24 17 1/1000 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1200 AnimalShop 5 14 2/1400 AnimalShop 26 16 2/1430 CommunityCenter 11 20 2 \"Strings\\schedules\\Shane:Woodwork_{{Random:WW1,WW2,WW3|key=WoodWork}}\"/2000 AnimalShop 27 4 1 shane_sleep"
         }
     },
 {   "LogName": "Schedule",  
     "Action": "EditData",  
     "Target": "Characters/schedules/Jas",
     "Entries": {	
-            "rain": "900 AnimalShop 7 5 0/1100 AnimalShop 16 16 2 square_3_3/1400 AnimalShop 25 17 1/1430 CommunityCenter 9 20 2 \"Strings\\schedules\\Jas:Woodwork_{{Random:WW1, WW2, WW3}}\"/2000 AnimalShop 1 7 3 jas_sleep"
+            "rain": "900 AnimalShop 7 5 0/1100 AnimalShop 16 16 2 square_3_3/1400 AnimalShop 25 17 1/1430 CommunityCenter 9 20 2 \"Strings\\schedules\\Jas:Woodwork_{{Random:WW1,WW2,WW3|key=WoodWork}}\"/2000 AnimalShop 1 7 3 jas_sleep"
             }
         },
     //If a school day, Jas stays after class. Shane will (hopefully) join her.
@@ -45,7 +45,7 @@
         "Entries": {
             "9":    "GOTO rain",
             "23":   "GOTO rain",
-            "rain": "900 CommunityCenter 19 20 3 jas_read/1620 CommunityCenter 9 20 2 \"Strings\\schedules\\Jas:Woodwork_{{Random:WW1, WW2, WW3}}\"/2000 AnimalShop 1 7 3 jas_sleep"
+            "rain": "900 CommunityCenter 19 20 3 jas_read/1620 CommunityCenter 9 20 2 \"Strings\\schedules\\Jas:Woodwork_{{Random:WW1,WW2,WW3|key=WoodWork}}\"/2000 AnimalShop 1 7 3 jas_sleep"
             }
         },
 
@@ -54,7 +54,7 @@
     "Target": "Characters/schedules/MisterGinger",
     "When": {   "HasMod":"LemurKat.Mr.Ginger.NPC"   },
     "Entries": {	
-            "rain": "800 AnimalShop 5 5 2 MrG_Grooming/1110 AnimalShop 7 16 2 MrG_Grooming/1400 AnimalShop 22 14 2/1430 CommunityCenter 13 19 2 MrG_Grooming \"Strings\\schedules\\MisterGinger:Woodwork_{{Random:WW1, WW2, WW3}}\"/2000 AnimalShop 3 5 2 MrG_Sleep"
+            "rain": "800 AnimalShop 5 5 2 MrG_Grooming/1110 AnimalShop 7 16 2 MrG_Grooming/1400 AnimalShop 22 14 2/1430 CommunityCenter 13 19 2 MrG_Grooming \"Strings\\schedules\\MisterGinger:Woodwork_{{Random:WW1,WW2,WW3|key=WoodWork}}\"/2000 AnimalShop 3 5 2 MrG_Sleep"
         }
     },
             {   "LogName": "Schedule",  
@@ -62,7 +62,7 @@
                 "Target": "Characters/schedules/MisterGinger",
                 "When": {   "HasMod":"LemurKat.Tristan.CP", "HasSeenEvent":"5295002", "Spouse |contains=Shane":false   },
                 "Entries": {	
-                    "rain": "0800 ESHouse1 20 19 0/1100 ESHouse1 7 18 misterginger_knit/1200 CommunityCenter 13 18 2 misterginger_knit \"Strings\\schedules\\MisterGinger:Woodwork_{{Random:WW4, WW5, WW6}}/2000 ESHouse1 23 4 2 misterginger_sleep"
+                    "rain": "0800 ESHouse1 20 19 0/1100 ESHouse1 7 18 misterginger_knit/1200 CommunityCenter 13 18 2 misterginger_knit \"Strings\\schedules\\MisterGinger:Woodwork_{{Random:WW4,WW5,WW6}}/2000 ESHouse1 23 4 2 misterginger_sleep"
                         }
                 },
         {   "LogName": "Schedule",  
@@ -70,14 +70,14 @@
             "Target": "Characters/schedules/MisterGinger",
             "When": {   "HasMod":"LemurKat.Tristan.CP", "HasSeenEvent":"5295000", "Spouse |contains=Shane":true   },
             "Entries": {	
-                    "rain": "900 AnimalShop 24 17 1/1000 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1200 AnimalShop 5 14 2/1400 AnimalShop 26 16 2/1430 CommunityCenter 11 20 2 \"Strings\\schedules\\MisterGinger:Woodwork_{{Random:WW7, WW8, WW9}}/2000 ESHouse1 23 4 2 misterginger_sleep"
+                    "rain": "900 AnimalShop 24 17 1/1000 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1200 AnimalShop 5 14 2/1400 AnimalShop 26 16 2/1430 CommunityCenter 11 20 2 \"Strings\\schedules\\MisterGinger:Woodwork_{{Random:WW7,WW8,WW9}}/2000 ESHouse1 23 4 2 misterginger_sleep"
                     }
             },
 {   "LogName": "Schedule",  
     "Action": "EditData",  
     "Target": "Characters/schedules/Harvey",
     "Entries": {	
-    "rain": "800 HarveyRoom 19 7 0/840 Hospital 6 15 2/1200 HarveyRoom 4 5 1 harvey_radio/1600 CommunityCenter 11 23 0 \"Strings\\schedules\\Harvey:Woodwork_{{Random:WW1, WW2, WW3}}/2000 HarveyRoom 13 4 1 harvey_sleep"
+    "rain": "800 HarveyRoom 19 7 0/840 Hospital 6 15 2/1200 HarveyRoom 4 5 1 harvey_radio/1600 CommunityCenter 11 23 0 \"Strings\\schedules\\Harvey:Woodwork_{{Random:WW1,WW2,WW3|key=WoodWork}}/2000 HarveyRoom 13 4 1 harvey_sleep"
         }
     },
 

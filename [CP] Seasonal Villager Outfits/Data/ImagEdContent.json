@@ -115,6 +115,7 @@
                 "Weather": "rain, storm",
                 "HasFile:{{FromFile}}": true,
                 "HasMod": "Candidus42.ImagEd",
+                "LocationName": "farm",
                 "EnableImagEdContent": true
             },
             "PatchMode": "Overlay",
@@ -131,6 +132,7 @@
                 "Weather": "snow",
                 "HasFile:{{FromFile}}": true,
                 "HasMod": "Candidus42.ImagEd",
+                "LocationName": "farm",
                 "EnableImagEdContent": true
             },
             "PatchMode": "Overlay",

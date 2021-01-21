@@ -371,49 +371,49 @@
         {
             "AllowValues": "true, false",
             "Default": "true",
-            "Description": "Enables the villagers wearing swimsuits when at the beach or during beach-location festivals."
+            "Description": "Enables the villagers wearing swimsuits when at the beach or during beach-location festivals. Default is true."
         },
         "EnableMermaidPendants":
         {
             "AllowValues": "true, false",
             "Default": "true",
-            "Description": "Enables mermaid pendant overlays for engaged/married NPCs. Portraits only."
+            "Description": "Enables mermaid pendant overlays for engaged/married NPCs. Portraits only. Default is true."
         },
         "EnableImagEdContent":
         {
             "AllowValues": "true, false",
             "Default": "true",
-            "Description": "Requires ImagEd. If you have ImagEd installed masks and greyscales will be automatically be used. Use this to toggle them off."
+            "Description": "Requires ImagEd. If you have ImagEd installed masks and greyscales will be automatically be used. Use this to toggle them off. Default is true."
         },
         "WeddingStyle":
         {
             "AllowValues": "VCSO, DesertDove, SCS, Vanilla",
             "Default": "DesertDove",
-            "Description": "The style of wedding outfit. See the wiki/list of options for previews."
+            "Description": "The style of wedding outfit. See the wiki/list of options for previews. Default is DesertDove."
         },
         "EnableFlowerQueen":
         {
             "AllowValues": "true, false",
             "Default": "true",
-            "Description": "Allows other NPCs to be crowned flower queen besides Haley."
+            "Description": "Allows other NPCs to be crowned flower queen besides Haley. Default is true."
         },
         "AllowBachelorsToBeFlowerKing":
         {
             "AllowValues": "true, false",
             "Default": "true",
-            "Description": "Allows the bachelors to be crowned flower king."
+            "Description": "Allows the bachelors to be crowned flower king. Default is true."
         },
         "EnableDialogueChanges":
         {
             "AllowValues": "true, false",
             "Default": "true",
-            "Description": "Enables minor dialogue changes to reflect what characters are wearing."
+            "Description": "Enables minor dialogue changes to reflect what characters are wearing. Default is true."
         },
         "EnableSleepwear":
         {
             "AllowValues": "true, false",
             "Default": "true",
-            "Description": "If enabled, spouses will sometimes wear their sleepwear until 11:30AM around the farmhouse."
+            "Description": "If enabled, spouses will sometimes wear their sleepwear until 11:30AM around the farmhouse. Default is true."
         },
 
         // Seasonal Villager Outfits 
@@ -424,7 +424,7 @@
         {
             "AllowValues": "true, false",
             "Default": "false",
-            "Description": "Enables tattoo overlays for Emily."
+            "Description": "Enables tattoo overlays for Emily. Default is false."
         },
 
         // Haley
@@ -433,7 +433,7 @@
         {
             "AllowValues": "Seasonal, Vanilla",
             "Default": "Seasonal",
-            "Description": "Changes Haley's 8-heart event photos to be seasonal or vanilla."
+            "Description": "Changes Haley's 8-heart event photos to be seasonal or vanilla. Default is seasonal."
         },
 
         // Harvey
@@ -442,13 +442,13 @@
         {
             "AllowValues": "Mustache, Shaved",
             "Default": "Mustache",
-            "Description": "Keeps Harvey's mustache or shaves it off."
+            "Description": "Keeps Harvey's mustache or shaves it off. Default is mustache."
         },
         "HarveyEyeColor":
         {
             "AllowValues": "Green, Brown",
             "Default": "Green",
-            "Description": "Changes the color of Harvey's eyes."
+            "Description": "Changes the color of Harvey's eyes. Default is green."
         },
 
         // Krobus
@@ -457,7 +457,7 @@
         {
             "AllowValues": "true, false",
             "Default": "true",
-            "Description": "Enables outfits for Krobus."
+            "Description": "Enables outfits for Krobus. Default is true."
         },
 
         // Maru - Effects the Character sprite only.
@@ -466,7 +466,7 @@
         {
             "AllowValues": "true, false",
             "Default": "false",
-            "Description": "Enables glasses overlays for Maru. Character only."
+            "Description": "Enables glasses overlays for Maru. Character only. Default is false."
         },
 
         // Morris
@@ -475,7 +475,7 @@
         {
             "AllowValues": "true, false",
             "Default": "false",
-            "Description": "Enable SVO for Morris."
+            "Description": "Enable SVO for Morris. Default is false."
         },
 
         // Sandy
@@ -484,7 +484,7 @@
         {
             "AllowValues": "true, false",
             "Default": "false",
-            "Description": "Enable SVO for Sandy."
+            "Description": "Enable SVO for Sandy. Default is false."
         },
 
         // Sebastian
@@ -493,13 +493,13 @@
         {
             "AllowValues": "true, false",
             "Default": "false",
-            "Description": "Enables glasses overlay for Sebastian. Can toggle both glasses & piercings."
+            "Description": "Enables glasses overlay for Sebastian. Can toggle both glasses & piercings. Default is false."
         },
         "SebastianPiercings":
         {
             "AllowValues": "true, false",
             "Default": "false",
-            "Description": "Enables piecings over for Sebastian. Can toggle both glasses & piercings."
+            "Description": "Enables piecings over for Sebastian. Can toggle both glasses & piercings. Default is false."
         },
 
         // Wizard
@@ -508,7 +508,7 @@
         {
             "AllowValues": "true, false",
             "Default": "false",
-            "Description": "Enable SVO for the Wizard."
+            "Description": "Enable SVO for the Wizard. Default is false."
         },
 
         // Swimsuit Config
@@ -519,8 +519,17 @@
         {
             "AllowValues": "Censored, GrassSkirt",
             "Default": "Censored",
-            "Description": "Changes Linus's swim outfit to either be censored with a black bar or give him a grass skirt. Character only."
+            "Description": "Changes Linus's swim outfit to either be censored with a black bar or give him a grass skirt. Character only. Default is censored."
         },
+
+        // Willy Swimsuit
+
+        "WillySwimsuitEnabled":
+        {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Enables Willy's swimsuit. SFW but can look odd when fishing. Default is true."
+        }
     },
 
     "Changes": [
@@ -609,7 +618,7 @@
         {
             "LogName": "Alex Bathhouse",
             "Action": "EditImage",
-            "Target": "Characters/Alex, Portraits/Alex",
+            "Target": "Portraits/Alex",
             "FromFile": "{{Target}}/Alex_Bathhouse.png",
             "When":
             {
@@ -630,48 +639,6 @@
                 "HasFile:{{FromFile}}": true,
                 "HasMod |contains=Candidus42.ImagEd": false
             },
-        },
-
-        // Birdie ImagEd
-
-        {
-            "LogName": "Birdie - ImagEd Shirt",
-            "Action": "EditImage",
-            "Target": "Characters/Birdie, Portraits/Birdie",
-            "FromFile": "{{Candidus42.ImagEd/Recolor: Tanpoponoko.SeasonalOutfits, {{Target}}, {{Target}}/{{TargetWithoutPath}}_ShirtGreyscale.png, {{Target}}/{{TargetWithoutPath}}_ShirtMask.png, {{Random:#80ED99, #8661C1, #DA344D, #EAD94C, #F4743B, #34E4EA |key=BirdieImagEd}}, DesaturateLuma }}",
-            "When":
-            {
-                "HasFile:{{FromFile}}": true,
-                "HasMod": "Candidus42.ImagEd",
-                "EnableImagEdContent": true
-            },
-            "PatchMode": "Overlay"
-        },
-        {
-            "LogName": "Birdie - ImagEd Bowtie",
-            "Action": "EditImage",
-            "Target": "Characters/Birdie, Portraits/Birdie",
-            "FromFile": "{{Candidus42.ImagEd/Recolor: Tanpoponoko.SeasonalOutfits, {{Target}}, {{Target}}/{{TargetWithoutPath}}_BowtieGreyscale.png, {{Target}}/{{TargetWithoutPath}}_BowtieMask.png, {{Random:#80ED99, #8661C1, #DA344D, #EAD94C, #F4743B, #34E4EA |key=BirdieImagEd}}, DesaturateLuma }}",
-            "When":
-            {
-                "HasFile:{{FromFile}}": true,
-                "HasMod": "Candidus42.ImagEd",
-                "EnableImagEdContent": true
-            },
-            "PatchMode": "Overlay"
-        },
-        {
-            "LogName": "Birdie - ImagEd Starfish",
-            "Action": "EditImage",
-            "Target": "Portraits/Birdie",
-            "FromFile": "{{Candidus42.ImagEd/Recolor: Tanpoponoko.SeasonalOutfits, {{Target}}, {{Target}}/{{TargetWithoutPath}}_StarfishGreyscale.png, {{Target}}/{{TargetWithoutPath}}_StarfishMask.png, {{Random:#80ED99, #8661C1, #DA344D, #EAD94C, #F4743B, #34E4EA |key=BirdieImagEd}}, DesaturateLuma }}",
-            "When":
-            {
-                "HasFile:{{FromFile}}": true,
-                "HasMod": "Candidus42.ImagEd",
-                "EnableImagEdContent": true
-            },
-            "PatchMode": "Overlay"
         },
 
         // Caroline
@@ -902,65 +869,6 @@
             },
         },
 
-        // Gunther - ImagEd
-
-        {
-            "LogName": "Gunther - ImagEd",
-            "Action": "EditImage",
-            "Target": "Characters/Gunther, Portraits/Gunther",
-            "FromFile": "{{Candidus42.ImagEd/Recolor: Tanpoponoko.SeasonalOutfits, {{Target}}, {{Target}}/{{TargetWithoutPath}}_Greyscale.png, {{Target}}/{{TargetWithoutPath}}_Mask.png, {{Random:#80ED99, #8661C1, #DA344D, #EAD94C, #F4743B, #34E4EA |key=GuntherImagEd}}, DesaturateLuma }}",
-            "When":
-            {
-                "HasFile:{{FromFile}}": true,
-                "HasMod": "Candidus42.ImagEd",
-                "EnableImagEdContent": true
-            },
-            "PatchMode": "Overlay"
-        },
-        {
-            "LogName": "Gunther Hat - ImagEd",
-            "Action": "EditImage",
-            "Target": "Characters/Gunther, Portraits/Gunther",
-            "FromFile": "{{Target}}/Gunther_Hat.png",
-            "When":
-            {
-                "HasMod": "Candidus42.ImagEd",
-                "EnableImagEdContent": true
-            },
-            "PatchMode": "Overlay"
-        },
-
-        // Gunther Cursors
-
-        {
-            "LogName": "Movie Theater Gunther - ImageEd",
-            "Action": "EditImage",
-            "Target": "Maps/MovieTheater_TileSheet, Maps/MovieTheaterJoja_Tilesheet, Maps/MovieTheaterJoja_Tilesheet_international",
-            "FromFile": "{{Candidus42.ImagEd/Recolor: Tanpoponoko.SeasonalOutfits, Characters/Gunther, Characters/Gunther/Gunther_Greyscale.png, Characters/Gunther/Gunther_Mask.png, {{Random:#80ED99, #8661C1, #DA344D, #EAD94C, #F4743B, #34E4EA |key=GuntherImagEd}}, DesaturateLuma }}",
-            "When":
-            {
-                "HasFile:{{FromFile}}": true,
-                "HasMod": "Candidus42.ImagEd",
-                "EnableImagEdContent": true
-            },
-            "ToArea":
-            {
-                "X": 208,
-                "Y": 192,
-                "Width": 16,
-                "Height": 32
-            },
-            "FromArea":
-            {
-                "X": 0,
-                "Y": 0,
-                "Width": 16,
-                "Height": 32
-            },
-            "PatchMode": "Overlay",
-            "Update": "OnLocationChange"
-        },
-
         // Gus
 
         {
@@ -1130,7 +1038,8 @@
                 "Weather": "sun, wind",
                 "Season": "spring, summer, fall",
                 "LocationName": "farm",
-                "HasFile:{{FromFile}}": true
+                "HasFile:{{FromFile}}": true,
+                "HasMod |contains=Candidus42.ImagEd": false
             },
             "Update": "OnLocationChange"
         },
@@ -1157,6 +1066,7 @@
                 "Season": "spring, summer, fall",
                 "Weather": "rain, storm",
                 "HasFile:{{FromFile}}": true,
+                "LocationName": "farm",
                 "HasMod |contains=Candidus42.ImagEd": false
             },
             "Update": "OnLocationChange"
@@ -1171,47 +1081,11 @@
                 "Season": "winter",
                 "Weather": "snow",
                 "HasFile:{{FromFile}}": true,
+                "LocationName": "farm",
                 "HasMod |contains=Candidus42.ImagEd": false
             },
             "Update": "OnLocationChange"
         },
-
-        /*// Krobus ImagEd
-
-        // Krobus
-
-        {
-            "LogName": "Krobus Main - ImagEd",
-            "Action": "EditImage",
-            "Target": "Characters/Krobus, Portraits/Krobus",
-            "FromFile": "{{Candidus42.ImagEd/Recolor: Tanpoponoko.SeasonalOutfits, {{Target}}, {{Target}}/{{KrobusStyle}}/Krobus_UmbrellaGreyscale.png, {{Target}}/{{KrobusStyle}}/Krobus_UmbrellaMask.png, {{Random:#80ED99, #8661C1, #DA344D, #EAD94C, #F4743B, #34E4EA |key=KrobusImagEd}}, DesaturateLuma }}",
-            "When":
-            {
-                "Season": "spring, summer, fall",
-                "Weather": "rain, storm",
-                "HasFile:{{FromFile}}": true,
-                "HasMod": "Candidus42.ImagEd",
-                "EnableImagEdContent": true
-            },
-            "PatchMode": "Overlay",
-            "Update": "OnLocationChange"
-        },
-        {
-            "LogName": "Krobus Winter - ImagEd",
-            "Action": "EditImage",
-            "Target": "Characters/Krobus, Portraits/Krobus",
-            "FromFile": "{{Candidus42.ImagEd/Recolor: Tanpoponoko.SeasonalOutfits, {{Target}}, {{Target}}/{{KrobusStyle}}/Krobus_ScarfGreyscale.png, {{Target}}/{{KrobusStyle}}/Krobus_ScarfMask.png, {{Random:#80ED99, #8661C1, #DA344D, #EAD94C, #F4743B, #34E4EA |key=KrobusImagEd}}, DesaturateLuma }}",
-            "When":
-            {
-                "Season": "winter",
-                "Weather": "snow",
-                "HasFile:{{FromFile}}": true,
-                "HasMod": "Candidus42.ImagEd",
-                "EnableImagEdContent": true
-            },
-            "PatchMode": "Overlay",
-            "Update": "OnLocationChange"
-        },*/
 
         // Leah Main
 
@@ -1540,22 +1414,6 @@
                 "HasFile:{{FromFile}}": true,
                 "HasMod |contains=Candidus42.ImagEd": false
             },
-        },
-
-        // Safari Guy ImagEd
-
-        {
-            "LogName": "Safari Guy - ImagEd",
-            "Action": "EditImage",
-            "Target": "Characters/SafariGuy, Portraits/SafariGuy",
-            "FromFile": "{{Candidus42.ImagEd/Recolor: Tanpoponoko.SeasonalOutfits, {{Target}}, {{Target}}/{{TargetWithoutPath}}_Greyscale.png, {{Target}}/{{TargetWithoutPath}}_Mask.png, {{Random:#80ED99, #8661C1, #DA344D, #EAD94C, #F4743B, #34E4EA |key=SafariGuyImagEd}}, DesaturateLuma }}",
-            "When":
-            {
-                "HasFile:{{FromFile}}": true,
-                "HasMod": "Candidus42.ImagEd",
-                "EnableImagEdContent": true
-            },
-            "PatchMode": "Overlay"
         },
 
         // Sam Main
@@ -1961,7 +1819,7 @@
         {
             "LogName": "Swimsuits Sprites",
             "Action": "EditImage",
-            "Target": "Characters/Abigail, Portraits/Abigail, Characters/Alex, Portraits/Alex, Characters/Caroline, Portraits/Caroline, Characters/Clint, Portraits/Clint, Characters/Demetrius, Portraits/Demetrius, Characters/Emily, Portraits/Emily, Characters/Elliott, Portraits/Elliott, Characters/Evelyn, Portraits/Evelyn, Characters/Gus, Portraits/Gus, Characters/Harvey, Portraits/Harvey, Characters/Jas, Portraits/Jas, Characters/Jodi, Portraits/Jodi, Characters/Kent, Portraits/Kent, Characters/Leah, Portraits/Leah, Characters/Lewis, Portraits/Lewis, Portraits/Linus, Characters/Maru, Portraits/Maru, Characters/Marnie, Portraits/Marnie, Characters/Pam, Portraits/Pam, Characters/Pierre, Portraits/Pierre, Characters/Robin, Portraits/Robin, Characters/Sam, Portraits/Sam, Characters/Sebastian, Portraits/Sebastian, Characters/Shane, Portraits/Shane, Characters/Willy, Portraits/Willy, Characters/Vincent, Portraits/Vincent,",
+            "Target": "Characters/Abigail, Portraits/Abigail, Characters/Alex, Portraits/Alex, Characters/Caroline, Portraits/Caroline, Characters/Clint, Portraits/Clint, Characters/Demetrius, Portraits/Demetrius, Characters/Emily, Portraits/Emily, Characters/Elliott, Portraits/Elliott, Characters/Evelyn, Portraits/Evelyn, Characters/Gus, Portraits/Gus, Characters/Harvey, Portraits/Harvey, Characters/Jas, Portraits/Jas, Characters/Jodi, Portraits/Jodi, Characters/Kent, Portraits/Kent, Characters/Leah, Portraits/Leah, Characters/Lewis, Portraits/Lewis, Portraits/Linus, Characters/Maru, Portraits/Maru, Characters/Marnie, Portraits/Marnie, Characters/Pam, Portraits/Pam, Characters/Pierre, Portraits/Pierre, Characters/Robin, Portraits/Robin, Characters/Sam, Portraits/Sam, Characters/Sebastian, Portraits/Sebastian, Characters/Shane, Portraits/Shane, Characters/Vincent, Portraits/Vincent,",
             "FromFile": "{{TargetPathOnly}}/{{Swimsuits}}/{{TargetWithoutPath}}Swim.png",
             "When":
             {
@@ -2006,6 +1864,17 @@
             "FromFile": "{{TargetPathOnly}}/{{Swimsuits}}/PennySwim_{{Random:Yellow, Blue |key=PennySwimVariant}}.png",
             "Update": "OnLocationChange"
         },
+        {
+            "LogName": "Willy Swimsuits Sprites",
+            "Action": "EditImage",
+            "Target": "Characters/Willy, Portraits/Willy",
+            "FromFile": "{{TargetPathOnly}}/{{Swimsuits}}/{{TargetWithoutPath}}Swim.png",
+            "When":
+            {
+                "WillySwimsuitEnabled": "true",
+            },
+            "Update": "OnLocationChange"
+        },
 
         // 1.5 Swimsuit Edits
 
@@ -2015,7 +1884,7 @@
             "FromFile": "Data/Beach.json",
         },
 
-        //  E N D  S W I M S U I T S        
+        // E N D  S W I M S U I T S        
 
         // B E G I N  W E D D I N G  C H A R A C T E R S
 
@@ -2133,12 +2002,31 @@
 
         // B E G I N  I N C L U D E  C O N T E N T
 
+        /*{
+            "LogName": "Include Patches",
+            "Action": "Include",
+            "FromFile": "Data/Sleepwear.json, Data/CharacterAddon.json, Data/DialogueChanges.json, Data/ImagEdContent.json",
+        },*/
         {
             "LogName": "Include Patches",
             "Action": "Include",
-            "FromFile": "Data/Sleepwear.json, Data/CharacterAddon.json, Data/DialogueChanges.json",
+            "FromFile": "Data/Sleepwear.json",
         },
-
+        {
+            "LogName": "Include Patches",
+            "Action": "Include",
+            "FromFile": "Data/CharacterAddon.json",
+        },
+        {
+            "LogName": "Include Patches",
+            "Action": "Include",
+            "FromFile": "Data/DialogueChanges.json",
+        },
+        {
+            "LogName": "Include Patches",
+            "Action": "Include",
+            "FromFile": "Data/ImagEdContent.json",
+        },
         // E N D  I N C L U D E  C O N T E N T
 
     ]

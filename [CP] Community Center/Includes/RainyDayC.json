@@ -7,7 +7,7 @@
                 "Music": "shimmeringbastion"
             },
             "When": {
-                "Weather": "rain"
+                "Weather": "rain,storm"
             }
         },
         {
@@ -26,7 +26,7 @@
             "Action": "EditData",
             "Target": "Characters/schedules/Emily",
             "Entries": {
-                "rain": "830 CommunityCenter 39 12 2 emily_dance \"Strings\\schedules\\Emily:Dance_{{random:DC1,DC2,DC3}}\"/1200 CommunityCenter 26 17 2 emily_meditate  \"Strings\\schedules\\Emily:Dance_{{random:DC4,DC5,DC6}}\"/1530 Saloon 15 17 0 square_5_1_0/2430 HaleyHouse 21 4 1 emily_sleep"
+                "rain": "830 CommunityCenter 39 12 2 emily_dance \"Strings\\schedules\\Emily:Dance_{{random:DC1,DC2,DC3}}\"/1200 CommunityCenter 26 17 2 emily_meditate \"Strings\\schedules\\Emily:Dance_{{random:DC4,DC5,DC6}}\"/1530 Saloon 15 17 0 square_5_1_0/2430 HaleyHouse 21 4 1 emily_sleep"
             }
         },
         {
@@ -43,14 +43,14 @@
                 "DayOfWeek": "Monday, Wednesday, Friday"
             },
             "Entries": {
-                "rain": "800 CommunityCenter 38 16 0 maru_dance \"Strings\\schedules\\Maru:Dance_{{random:DC1,DC2,DC3}}/1230 ScienceHouse 19 18 0/1630 ScienceHouse 5 6 1 maru_tinker/1800 ScienceHouse 2 6 3/2000 ScienceHouse 9 6 1/2300 ScienceHouse 2 4 3 maru_sleep"
+                "rain": "800 CommunityCenter 38 16 0 maru_dance \"Strings\\schedules\\Maru:Dance_{{random:DC1,DC2,DC3}}\"/1230 ScienceHouse 19 18 0/1630 ScienceHouse 5 6 1 maru_tinker/1800 ScienceHouse 2 6 3/2000 ScienceHouse 9 6 1/2300 ScienceHouse 2 4 3 maru_sleep"
             }
         },
         {
             "Action": "EditData",
             "Target": "Characters/schedules/Leah",
             "Entries": {
-                "rain": "830 CommunityCenter 42 15 3 leah_dance \"Strings\\schedules\\Leah:Dance_{{random:DC1,DC2,DC3}}\"/1200 CommunityCenter 23 9 2 leah_draw \"Strings\\schedules\\Leah:Dance_{{random:DC4,DC5,DC6}}/1600 Saloon 2 20 1/2340 LeahHouse 2 4 3 leah_sleep",
+                "rain": "830 CommunityCenter 42 15 3 leah_dance \"Strings\\schedules\\Leah:Dance_{{random:DC1,DC2,DC3}}\"/1200 CommunityCenter 23 9 2 leah_draw \"Strings\\schedules\\Leah:Dance_{{random:DC4,DC5,DC6}}\"/1600 Saloon 2 20 1/2340 LeahHouse 2 4 3 leah_sleep",
 		"winter":"GOTO Fri"
             }
         },

@@ -1,0 +1,14 @@
+{
+   "Format": "1.19.0",
+   "Changes": [
+    {
+        "Action": "EditData",
+        "Target": "Data/FarmAnimals",
+        "Fields": {
+          "Dinosaur": {
+            "4": "croak",
+          }
+        }
+	},
+   ]
+}

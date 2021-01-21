@@ -83,6 +83,7 @@
             "Action": "EditData",
             "Target": "Characters/schedules/Eloise",
             "Entries": {
+                "winter_17": "610 VetHouse 27 14 1/630 Town 100 95 1 \"Strings\\schedules\\Eloise:schoolday.000\"/900 CommunityCenter 18 22 0 Eloise_kneel \"Strings\\schedules\\Eloise:{{DayOfWeek}}_{{Random:Sch1, Sch2, Sch3 |key=school}}/1400 Town 88 103 2/1620 Beach 44 23 2 \"Strings\\schedules\\Eloise:winter_17.000\"/1830 Beach 42 36 1 \"Strings\\schedules\\Eloise:winter_17.100\"/2030 VetHouse 33 23 2",
                 "Tue": "610 VetHouse 27 14 1/630 Town 100 95 1 \"Strings\\schedules\\Eloise:schoolday.000\"/900 CommunityCenter 18 22 0 Eloise_kneel \"Strings\\schedules\\Eloise:{{DayOfWeek}}_{{Random:Sch1, Sch2, Sch3 |key=school}}/1400 Town 88 103 2/1620 Town 17 91 0/1750 AnimalShop 6 5 0 Eloise_read",
                 "Wed": "610 VetHouse 27 14 1/630 Town 100 95 1 \"Strings\\schedules\\Eloise:schoolday.001\"/900 CommunityCenter 18 22 0 Eloise_kneel \"Strings\\schedules\\Eloise:{{DayOfWeek}}_{{Random:Sch1, Sch2, Sch3 |key=school}}/1400 Town 88 103 2/1640 VetHouse 24 15 0/2100 VetHouse 33 23 2"
             }
@@ -96,7 +97,7 @@
             "Entries": {
                 "9": "GOTO rain",
                 "23": "GOTO rain",
-                "rain": "630 Town 100 95 1 \"Strings\\schedules\\Eloise:schoolday.001\"/900 CommunityCenter 17 22 0 Eloise_kneel \"Strings\\schedules\\Eloise:{{DayOfWeek}}_{{Random:Sch1, Sch2, Sch3 |key=school}}/1640 VetHouse 24 15 0/2100 VetHouse 33 23 2"
+                "rain": "630 Town 100 95 1 \"Strings\\schedules\\Eloise:schoolday.001\"/900 CommunityCenter 18 22 0 Eloise_kneel \"Strings\\schedules\\Eloise:{{DayOfWeek}}_{{Random:Sch1, Sch2, Sch3 |key=school}}/1640 VetHouse 24 15 0/2100 VetHouse 33 23 2"
             }
         },
         //Jacob schedules
@@ -121,7 +122,11 @@
             "Entries": {
                 "Wed": "MAIL Jasper_Penny/GOTO Wed_noTute/610 Museum2 18 13 0/900 CommunityCenter 15 19 3/1110 CommunityCenter 15 19 2 \"Strings\\schedules\\Jasper:Wednesday_{{Random:Sch1, Sch2, Sch3 |key=school}}\"/1400 Town 32 78 1/1630 Museum2 18 13 0/1830 Museum2 12 13 2 Jasper_Read",
                 "marriage_Wed": "MAIL Jasper_Penny/GOTO marriage_Wed_NoTute/800 CommunityCenter 15 19 3/1110 CommunityCenter 15 19 2 \"Strings\\schedules\\Jasper:Wednesday_{{Random:Sch1, Sch2, Sch3}}\"/1400 Forest 75 50 2 \"Strings\\schedules\\Jasper:marriage_{{Random:For1, For2, For3}}\"/1930 BusStop -1 23 3"
-            }
+            },
+            "When": {
+                "HasMod": "Lemurkat.NPCJasper",
+                "HasSeenEvent": "50709921"
+            },
         },
         {
             "Action": "EditData",
@@ -298,7 +303,34 @@ Eloise      ArchaeologyHouse 18 12 0    to      CommunityCenter 17 22 0
                 "Wednesday_Sch1": "{{i18n:Jasper.sch4}}",
                 "Wednesday_Sch2": "{{i18n:Jasper.sch5}}",
                 "Wednesday_Sch3": "{{i18n:Jasper.sch6}}"
-              
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/CommunityCenter",
+            "Entries": {
+                "69660010/k 57870008/d Mon Thu Sat Sun/p Eloise/p Leo": "libraryTheme/-100 -100/Leo 18 22 0 Eloise 12 18 2 Penny 16 19 2 Jas 19 20 3 Vincent 15 20 1/skippable/showFrame Jas 22/showFrame Vincent 24/showFrame Penny 18/showFrame Leo 24/viewport 18 23/move Eloise 0 4 0/move Eloise 2 0 1/pause 500/emote Eloise 16/jump Eloise 5/speed Eloise 5/move Eloise 2 0 1/textAboveHead Eloise \"{{i18n:69660010.00}}\"/pause 500/showFrame Leo 8/faceDirection Leo 3/pause 500/speak Eloise \"{{i18n:69660010.01}}\"/pause 500/speak Leo \"{{i18n:69660010.02}}\"/emote Eloise 40/pause 2000/speak Eloise \"{{i18n:69660010.03}}\"/faceDirection Vincent 2/faceDirection Eloise 0/emote Eloise 32/pause 500/move Eloise 1 0 1/speak Eloise \"{{i18n:69660010.04}}\"/pause 500/speak Leo \"{{i18n:69660010.05}}\"/jump Eloise 3/speak Eloise \"{{i18n:69660010.06}}\"/emote Leo 60/pause 1000/speak Leo \"{{i18n:69660010.07}}\"/pause 500/faceDirection Leo 0/emote Leo 40/pause 1000/showFrame Penny 0/speak Penny \"{{i18n:69660010.08}}\"/speak Jas \"{{i18n:69660010.09}}\"/textAboveHead Eloise \"{{i18n:69660010.17}}\"/pause 500/speak Eloise \"{{i18n:69660010.10}}\"/faceDirection Leo 3/emote Leo 32/speak Leo \"{{i18n:69660010.11}}\"/speak Eloise \"{{i18n:69660010.12}}\"/faceDirection Eloise 0/pause 1000/speak Eloise \"{{i18n:69660010.13}}\"/pause 500/speak Leo \"{{i18n:69660010.14}}\"/faceDirection Eloise 1 true/faceDirection Leo 3 true/emote Eloise 32 true/emote Leo 32 true/pause 1000/speak Penny \"{{i18n:69660010.15}}\"/faceDirection Eloise 0 true/faceDirection Leo 0 true/faceDirection Vincent 1 true/pause 1000/showFrame Leo 24/showFrame Eloise 16/showFrame Vincent 24/pause 1000/speak Penny \"{{i18n:69660010.16}}\"/viewport move -2 0 1000 true/pause 2000/end"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Eloise",
+            "Entries": {
+                "Tue": "610 VetHouse 27 14 1/630 Town 100 95 1 \"Strings\\schedules\\Eloise:schoolday.000\"/900 CommunityCenter 16 22 0 Eloise_kneel \"Strings\\schedules\\Eloise:{{DayOfWeek}}_{{Random:Sch1, Sch2, Sch3 |key=school}}/1400 Town 88 103 2/1620 Town 17 91 0/1750 AnimalShop 6 5 0 Eloise_read",
+                "Wed": "610 VetHouse 27 14 1/630 Town 100 95 1 \"Strings\\schedules\\Eloise:schoolday.001\"/900 CommunityCenter 16 22 0 Eloise_kneel \"Strings\\schedules\\Eloise:{{DayOfWeek}}_{{Random:Sch1, Sch2, Sch3 |key=school}}/1400 Town 88 103 2/1640 VetHouse 24 15 0/2100 VetHouse 33 23 2"
+            },
+            "When": {
+                "HasSeenEvent": "6497428"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/LeoMainland",
+            "Entries": {
+                "Tue": "0 LeoTreeHouse 2 2 0/930 CommunityCenter 18 22 0 leo_sit_up \"Strings\\schedules\\Leo:school\"/1400 Town 91 104 2/1620 Mountain 30 9 3 \"Strings\\schedules\\Leo:dinner\"/2000 LeoTreeHouse 2 5 3/2200 LeoTreeHouse 5 4 1 leo_sleep"
+            },
+            "When": {
+                "HasSeenEvent": "6497428"
             }
         }
     ]

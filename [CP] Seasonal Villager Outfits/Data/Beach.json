@@ -4,7 +4,7 @@
         {
             "LogName": "Swimsuit Island Sprites",
             "Action": "EditImage",
-            "Target": "Characters/Evelyn, Portraits/Evelyn, Characters/Gus, Portraits/Gus, Characters/Jas, Portraits/Jas, Characters/Kent, Portraits/Kent, Characters/Lewis, Portraits/Lewis, Portraits/Linus, Characters/Vincent, Portraits/Vincent,",
+            "Target": "Characters/Evelyn, Portraits/Evelyn, Characters/Gus, Portraits/Gus, Characters/Jas, Portraits/Jas, Characters/Kent, Portraits/Kent, Portraits/Linus, Characters/Vincent, Portraits/Vincent,",
             "FromFile": "{{TargetPathOnly}}/Swimsuits/{{TargetWithoutPath}}Swim.png",
             "When":
             {
@@ -66,7 +66,7 @@
             "When":
             {
                 "HasFile:{{FromFile}}": true,
-                "LocationName": "IslandSouth"
+                "LocationName": "IslandSouth",
             },
             "Update": "OnLocationChange"
         },
@@ -133,6 +133,19 @@
             "When":
             {
                 "HasFile:{{FromFile}}": true,
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Lewis Swimsuit Island Sprites",
+            "Action": "EditImage",
+            "Target": "Characters/Lewis_Beach, Portraits/Lewis",
+            "FromFile": "{{TargetPathOnly}}/Swimsuits/{{Random:Beach, null |key=LewisVanillaModdedBeach}}/LewisSwim.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "LocationName": "IslandSouth",
+                "Time": "{{Range: 1130, 1820}}"
             },
             "Update": "OnLocationChange"
         },
@@ -236,7 +249,7 @@
             "Update": "OnLocationChange"
         },
         {
-            "LogName": "Shane Swimsuit Island Tattoo",
+            "LogName": "Shane Swimsuit Island Sunglasses",
             "Action": "EditImage",
             "Target": "Characters/Shane_Beach, Portraits/Shane_Beach",
             "FromFile": "{{TargetPathOnly}}/Swimsuits/{{Random:Beach, null |key=ShaneVanillaModdedBeach}}/Shane_{{Random:Sunglasses, null |key=ShaneBeachSunglasses}}Overlay.png",
@@ -244,7 +257,8 @@
             {
                 "HasFile:{{FromFile}}": true,
             },
-            "Update": "OnLocationChange"
+            "Update": "OnLocationChange",
+            "PatchMode": "Overlay"
         },
     ]
 }

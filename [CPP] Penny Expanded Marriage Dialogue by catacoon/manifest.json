@@ -1,0 +1,13 @@
+{
+   "Name": "Penny Expanded Marriage Dialogue",
+   "Author": "catacoon",
+   "Version": "1.0.3",
+   "Description": "Adds marriage dialogue for Penny.",
+   "UniqueID": "catacoon.PennyExpandedMarriage",
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": [ "Nexus:1275" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher", // the ID of required mod
+      "MinimumVersion": "1.0.0" // optional
+   }
+}

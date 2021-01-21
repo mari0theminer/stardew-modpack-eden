@@ -6,21 +6,21 @@
     "Action": "EditData",  
     "Target": "Characters/schedules/Evelyn",
     "Entries": {
-        "rain": "800 JoshHouse 3 17 0 square_3_1_0/1040 JoshHouse 17 22 3/1130 CommunityCenter 26 9 3 evelyn_sit_left \"Strings\\schedules\\Evelyn:BookClub_{{Random:Bo1, Bo2, Bo3 |key=BookClub }}\"/1700 JoshHouse 4 17 0 square_3_1_0/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1"
+        "rain": "800 JoshHouse 3 17 0 square_3_1_0/1040 JoshHouse 17 22 3/1130 CommunityCenter 26 9 3 evelyn_sit_left \"Strings\\schedules\\Evelyn:BookClub_{{Random:Bo1,Bo2,Bo3|key=BookClub }}\"/1700 JoshHouse 4 17 0 square_3_1_0/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1"
             }
         },
 {   "LogName": "Schedule",  
     "Action": "EditData",  
     "Target": "Characters/schedules/Jodi",
     "Entries": {
-        "rain": "800 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 SamHouse 7 5 0/1020 SamHouse 4 5 0/1040 SamHouse 6 5 0 jodi_dishes/1130 CommunityCenter 24 8 2 jodi_sit_down \"Strings\\schedules\\Jodi:BookClub_{{Random:Bo1, Bo2, Bo3 |key=BookClub}}\"/1700 CommunityCenter 30 15 2/1730 SamHouse 6 5 0 jodi_dishes/1930 SamHouse 8 13 1/2100 SamHouse 10 22 3/2200 SamHouse 22 5 1 jodi_sleep"
+        "rain": "800 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 SamHouse 7 5 0/1020 SamHouse 4 5 0/1040 SamHouse 6 5 0 jodi_dishes/1130 CommunityCenter 24 8 2 jodi_sit_down \"Strings\\schedules\\Jodi:BookClub_{{Random:Bo1,Bo2,Bo3|key=BookClub}}\"/1700 CommunityCenter 30 15 2/1730 SamHouse 6 5 0 jodi_dishes/1930 SamHouse 8 13 1/2100 SamHouse 10 22 3/2200 SamHouse 22 5 1 jodi_sleep"
             }
         },  
 {   "LogName": "Schedule",  
     "Action": "EditData",  
     "Target": "Characters/schedules/Caroline",
     "Entries": {
-        "rain": "800 SeedShop 37 6 3/1130 CommunityCenter 23 9 2 caroline_read \"Strings\\schedules\\Caroline:BookClub_{{Random:Bo1, Bo2, Bo3 |key=BookClub}}\"/1700 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep"
+        "rain": "800 SeedShop 37 6 3/1130 CommunityCenter 23 9 2 caroline_read \"Strings\\schedules\\Caroline:BookClub_{{Random:Bo1,Bo2,Bo3|key=BookClub}}\"/1700 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep"
             }
         },  
 {   "LogName": "Schedule",  
@@ -28,7 +28,7 @@
     "Target": "Characters/schedules/Marnie",
     "When": {   "DayOfWeek": "Monday"  	},
     "Entries": {	
-        "rain": "810 SeedShop 11 20 0/1100 CommunityCenter 22 10 1 \"Strings\\schedules\\Marnie:BookClub_{{Random:Bo1, Bo2, Bo3 |key=BookClub}}\"/1700 CommunityCenter 32 12 1/1730 AnimalShop 24 15 0/2100 AnimalShop 12 5 3 marnie_sleep"
+        "rain": "810 SeedShop 11 20 0/1100 CommunityCenter 22 10 1 \"Strings\\schedules\\Marnie:BookClub_{{Random:Bo1,Bo2,Bo3|key=BookClub}}\"/1700 CommunityCenter 32 12 1/1730 AnimalShop 24 15 0/2100 AnimalShop 12 5 3 marnie_sleep"
             }
         },
 
@@ -38,7 +38,7 @@
     "Target": "Characters/schedules/Jas",
     "When": {   "DayOfWeek": "Monday"	},
     "Entries": {	
-        "rain": "900 AnimalShop 7 5 0/1000 CommunityCenter 40 10 square_5_1_0 \"Strings\\schedules\\Jas:CommunityCenter_{{Random:Fi1, Fi2, Fi3}}\"/1500 CommunityCenter 43 10 3 jas_read \"Strings\\schedules\\Jas:CommunityCenter_{{Random:Bk1, Bk2, Bk3}}\"/1700 CommunityCenter 33 12 3/1730 AnimalShop 4 7 2/2100 AnimalShop 1 7 3 jas_sleep"
+        "rain": "900 AnimalShop 7 5 0/1000 CommunityCenter 40 10 square_5_1_0 \"Strings\\schedules\\Jas:CommunityCenter_{{Random:Fi1,Fi2,Fi3}}\"/1500 CommunityCenter 43 10 3 jas_read \"Strings\\schedules\\Jas:CommunityCenter_{{Random:Bk1,Bk2,Bk3}}\"/1700 CommunityCenter 33 12 3/1730 AnimalShop 4 7 2/2100 AnimalShop 1 7 3 jas_sleep"
     }
         },
 {   "LogName": "Schedule",  
@@ -46,7 +46,7 @@
     "Target": "Characters/schedules/Vincent",
     "When": {   "DayOfWeek": "Monday" 	},
     "Entries": {	
-        "rain": "900 SamHouse 4 8 0/1130 CommunityCenter 37 9 2 vincent_play \"Strings\\schedules\\Vincent:CommunityCenter_{{Random:Pl1, Pl2, Pl3}}\"/1400 CommunityCenter 40 10 2 square_5_1_0 \"Strings\\schedules\\Vincent:CommunityCenter_{{Random:Fi1, Fi2, Fi3}}\"/1700 CommunityCenter 31 16 3/1730 SamHouse 5 7 3/1900 SamHouse 11 22 2 vincent_play/2000 SamHouse 8 22 3 vincent_sleep"
+        "rain": "900 SamHouse 4 8 0/1130 CommunityCenter 37 9 2 vincent_play \"Strings\\schedules\\Vincent:CommunityCenter_{{Random:Pl1,Pl2,Pl3}}\"/1400 CommunityCenter 40 10 2 square_5_1_0 \"Strings\\schedules\\Vincent:CommunityCenter_{{Random:Fi1,Fi2,Fi3}}\"/1700 CommunityCenter 31 16 3/1730 SamHouse 5 7 3/1900 SamHouse 11 22 2 vincent_play/2000 SamHouse 8 22 3 vincent_sleep"
     }
         },
 
@@ -130,7 +130,7 @@
 {   "Action": "EditData", 
     "Target": "Data/Events/CommunityCenter",
     "Entries":{ 
-        "69660008/q 958700/p Caroline/p Marnie/p Jodi/p Evelyn":"Near The Planet Core/26 10/Evelyn 26 9 3 Jodi 24 8 2 Caroline 23 10 1 Marnie 25 11 0 farmer 29 14 0/skippable/pause 1000/move farmer 0 -4 3 true/speak Caroline \"Oh, I never thought our Elliott had it in him...#$b#It was more the sort of book I'd expect Abigail to read.$2\"/speak Marnie \"It kept me up late into the night. Every rattle of the wind and I was imaginging those ... those things... scratching at the shivering walls of my bio-tent.$2\"/speak Evelyn \"George kept grumbling that I was keeping him awake. But I had to know if Yutkin was going to make it!\"/pause 1000/emote farmer 8/move farmer -2 0 3/move Jodi 0 1 1/faceDirection Marnie 1/faceDirection Evelyn 2/emote Evelyn 32/speak Jodi \"Oh, hello @! Welcome to our book club. We were just discussing 'The Rise And Fall Of Planet Yazzo'.#$b#Have you read it?\"/quickQuestion #I've been meaning to.#Oh yes, it was wonderful. I couldn't put it down!.#I tried, it wasn't for me.#Who has time to read?(break)speak Jodi \"I understand. It took me a few goes to get into it myself.\"(break)speak Jodi \"Really? You didn't find it a bit too creepy and dark?$2\"(break)speak Jodi \"Oh, me neither. It was a little too weird for my tastes.#$b#Sam seemed to enjoy it though.\"(break)speak Jodi \"Of course, life must be very busy on the farm. \"/pause 500/speak Evelyn \"That confrontation in the ruins of the Grand Spire... when Captain Yutkin's friend disappeared...$2#$b#Oh, I couldn't sleep a wink! And when they only found his... Oh! *shudders*\"/speak Marnie \"It was a bit on the gruesome side.$2#$b#The writing style though... It really gave me chills!\"/speak Jodi \"He said you were his inspiration, @. Did you put those frightening ideas in his head?\"/quickQuestion #Of course! Macabre is my middle name.#No! That's all him. Nothing to do with me.#I'm pretty sure he's inspired by the sea.(break)speak Marnie \"Oh!$4#$b#Sorry, @, now I'm a little scared of you.$2\"(break)speak Evelyn \"I never knew such a poetic soul could harbor such a macabre imagination.\"(break)speak Caroline \"Oh yes, the exoskeletons... the giant claws... I see it now!\"/pause 1500/speak Caroline \"Anyway, @, would you like to join us?\"/pause 500/emote farmer 56/pause 1000/end"
+        "69660008/q 958701/p Caroline/p Marnie/p Jodi/p Evelyn":"Near The Planet Core/26 10/Evelyn 26 9 3 Jodi 24 8 2 Caroline 23 10 1 Marnie 25 11 0 farmer 29 14 0/skippable/pause 1000/move farmer 0 -4 3 true/speak Caroline \"Oh, I never thought our Elliott had it in him...#$b#It was more the sort of book I'd expect Abigail to read.$2\"/speak Marnie \"It kept me up late into the night. Every rattle of the wind and I was imaginging those ... those things... scratching at the shivering walls of my bio-tent.$2\"/speak Evelyn \"George kept grumbling that I was keeping him awake. But I had to know if Yutkin was going to make it!\"/pause 1000/emote farmer 8/move farmer -2 0 3/move Jodi 0 1 1/faceDirection Marnie 1/faceDirection Evelyn 2/emote Evelyn 32/speak Jodi \"Oh, hello @! Welcome to our book club. We were just discussing 'The Rise And Fall Of Planet Yazzo'.#$b#Have you read it?\"/quickQuestion #I've been meaning to.#Oh yes, it was wonderful. I couldn't put it down!.#I tried, it wasn't for me.#Who has time to read?(break)speak Jodi \"I understand. It took me a few goes to get into it myself.\"(break)speak Jodi \"Really? You didn't find it a bit too creepy and dark?$2\"(break)speak Jodi \"Oh, me neither. It was a little too weird for my tastes.#$b#Sam seemed to enjoy it though.\"(break)speak Jodi \"Of course, life must be very busy on the farm. \"/pause 500/speak Evelyn \"That confrontation in the ruins of the Grand Spire... when Captain Yutkin's friend disappeared...$2#$b#Oh, I couldn't sleep a wink! And when they only found his... Oh! *shudders*\"/speak Marnie \"It was a bit on the gruesome side.$2#$b#The writing style though... It really gave me chills!\"/speak Jodi \"He said you were his inspiration, @. Did you put those frightening ideas in his head?\"/quickQuestion #Of course! Macabre is my middle name.#No! That's all him. Nothing to do with me.#I'm pretty sure he's inspired by the sea.(break)speak Marnie \"Oh!$4#$b#Sorry, @, now I'm a little scared of you.$2\"(break)speak Evelyn \"I never knew such a poetic soul could harbor such a macabre imagination.\"(break)speak Caroline \"Oh yes, the exoskeletons... the giant claws... I see it now!\"/pause 1500/speak Caroline \"Anyway, @, would you like to join us?\"/pause 500/emote farmer 56/pause 1000/end"
         }
     },
 

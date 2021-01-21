@@ -14,7 +14,7 @@
 {   "Action": "EditData", 
     "Target": "Data/Events/Farm",
     "Entries":{ 
-        "69660005/e 191393/z summer/z winter/z fall/U 6/t 600 900": "continue/64 15/farmer 64 16 2 Emily 64 18 0/pause 1500/speak Emily \"{{i18n:69660005.1}}\"/pause 500/emote farmer 16/pause 1500/speak Emily \"{{i18n:69660005.2}}\"/pause 500/faceDirection Emily 2/pause 1500/end"
+        "69660005/e 191393/z summer/z winter/z fall/u 6/t 600 900": "continue/64 15/farmer 64 16 2 Emily 64 18 0/pause 1500/speak Emily \"{{i18n:69660005.1}}\"/pause 500/emote farmer 16/pause 1500/speak Emily \"{{i18n:69660005.2}}\"/pause 500/faceDirection Emily 2/pause 1500/end"
             }
  },
 //Adjusts their schedules for the day

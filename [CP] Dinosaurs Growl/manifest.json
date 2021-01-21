@@ -1,0 +1,12 @@
+{
+    "Name": "Dinosaurs Growl",
+    "Author": "Airyn",
+    "Version": "1.0.0",
+    "Description": "Makes dinosaurs growl instead of being quiet",
+    "UniqueID": "Airyn.DinosaursGrowl",
+    "MinimumApiVersion": "2.5",
+    "UpdateKeys": ["Nexus:7674"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

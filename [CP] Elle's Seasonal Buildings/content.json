@@ -1,5 +1,5 @@
 {
-  "Format": "1.8",
+  "Format": "1.19.0",
   
   "ConfigSchema": {
     "Color Palette": {"AllowValues": "Elle, Vanilla, Starblue, Eemie, Earthy, Foliage, Wittily",
@@ -65,6 +65,9 @@
 	"Junimo Hut": {"AllowValues": "Natural, Built, False",
 	"Default": "Natural"},
 	
+	"Themed Junimo Hut": {"AllowValues": "True, False",
+	"Default": "True"},
+	
 	"Desert Obelisk": {"AllowValues": "New, Old, Original, False",
 	"Default": "Original"},
 	
@@ -128,6 +131,15 @@
 	"Fish Pond Seasons": {"AllowValues": "True, False",
 	"Default": "True"},
 	
+	"Island Farmhouse": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Farm Obelisk": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	
+	"Island Mailbox": {"AllowValues": "True, False",
+	"Default": "True"},
 	},
 	
 "Changes": [
@@ -529,7 +541,27 @@
           "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Junimo Hut/{{Junimo Hut}}.png",
 		  "Enabled": "True",
 		  "When": {
-		  "Junimo Hut": "Natural, Built",
+		  "Junimo Hut": "Built",
+		  }
+       },
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Junimo Hut",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Junimo Hut/{{Junimo Hut}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Junimo Hut": "Natural",
+		  "Themed Junimo Hut": "True",
+		  }
+       },
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Junimo Hut",
+          "FromFile": "assets/{{Color Palette}}/Color/Junimo Hut/{{Junimo Hut}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Junimo Hut": "Natural",
+		  "Themed Junimo Hut": "False",
 		  }
        },
 	   
@@ -973,7 +1005,97 @@
 		  "Stable": "Stone, Wood",
 		  }
        },
-
+		
+		
+		
+	   // Island Farm
+	   {
+          "LogName": "Island Mailbox",
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Maps/island_tilesheet_1",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Island Mailbox.png",
+          "ToArea": { "X": 48, "Y": 368, "Width": 16, "Height": 32 },
+		  "Enabled": "True",
+		  "When": {
+		  "Island Mailbox": "True",
+		  }
+		},
+	   {
+          "LogName": "Island Farmhouse Broken 1",
+          "Action": "EditImage",
+		  "Patchmode": "Replace",
+          "Target": "Maps/island_tilesheet_1",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Farmhouse/Island Farmhouse.png",
+          "FromArea": { "X": 0, "Y": 16, "Width": 112, "Height": 112 },
+          "ToArea": { "X": 0, "Y": 512, "Width": 112, "Height": 112 },
+		  "Enabled": "True",
+		  "When": {
+		  "Island Farmhouse": "True",
+		  }
+		},
+	   {
+          "LogName": "Island Farmhouse Broken 2",
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Maps/island_tilesheet_1",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Farmhouse/Island Farmhouse.png",
+          "FromArea": { "X": 0, "Y": 128, "Width": 112, "Height": 16 },
+          "ToArea": { "X": 0, "Y": 624, "Width": 112, "Height": 16 },
+		  "Enabled": "True",
+		  "When": {
+		  "Island Farmhouse": "True",
+		  }
+		},
+	   {
+          "LogName": "Island Farmhouse Fixed 1",
+          "Action": "EditImage",
+		  "Patchmode": "Replace",
+          "Target": "Maps/island_tilesheet_1",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Farmhouse/Island Farmhouse.png",
+          "FromArea": { "X": 112, "Y": 0, "Width": 112, "Height": 128 },
+          "ToArea": { "X": 112, "Y": 496, "Width": 112, "Height": 128 },
+		  "Enabled": "True",
+		  "When": {
+		  "Island Farmhouse": "True",
+		  }
+		},
+	   {
+          "LogName": "Island Farmhouse Fixed 2",
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Maps/island_tilesheet_1",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Farmhouse/Island Farmhouse.png",
+          "FromArea": { "X": 112, "Y": 128, "Width": 112, "Height": 16 },
+          "ToArea": { "X": 112, "Y": 624, "Width": 112, "Height": 16 },
+		  "Enabled": "True",
+		  "When": {
+		  "Island Farmhouse": "True",
+		  }
+		},
+	   {
+          "LogName": "Island Shipping Bin",
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Maps/island_tilesheet_1",
+          "FromArea": { "X": 192, "Y": 224, "Width": 32, "Height": 32 },
+          "ToArea": { "X": 192, "Y": 720, "Width": 32, "Height": 32 },
+          "FromFile": "assets/{{Color Palette}}/Overlays/spring_outdoorsTileSheet.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Shipping Bin Recolor": "True",
+		  }
+		},
+	   {
+          "LogName": "Farm Obelisk",
+          "Action": "EditImage",
+          "Target": "Maps/Farm Obelisk",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Obelisk/New/Farm Obelisk.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Farm Obelisk": "True",
+		  }
+       },
 
 
 		
