@@ -1,0 +1,67 @@
+{
+    "Changes": [    
+        {
+            "LogName": "Year 3 Festival Egg Hunt - spring13.xnb",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13.xnb",
+            "Entries": {
+                "Abigail": "I didn't tell you, but I've been practicing for this year's egg hunt. I'm gonna fry the competition!$h",
+            },
+        },
+        {
+            "LogName": "Year 3 Festival Flower Dance - spring24.xnb",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24.xnb",
+            "Entries": {
+                "Abigail": "I guess we're doing this again, huh?#$e#Kindly ignore the stain on my dress. It's blackberry cobbler.",
+            },
+        },
+        {
+            "LogName": "Year 3 Festival Luau - summer11.xnb",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11.xnb",
+            "Entries": {
+                "Abigail": "I've got sand in my shoes and it's way too hot today for this. I think I need to put on more sunblock...",
+            },
+        },
+        {
+            "LogName": "Year 3 Festival Moonlight Jellies - summer28.xnb",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28.xnb",
+            "Entries": {
+                "Abigail": "It's the perfect night to watch the Moonlight Jellies. I kinda wish I could be one of them.",
+            },
+        },
+        {
+            "LogName": "Year 3 Festival SDV Fair - fall16.xnb",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16.xnb",
+            "Entries": {
+                "Abigail": "Next year I think they should set up some arcade games that spit out star tokens when you win.#$b#I'm gonna talk to Mayor Lewis about it.",
+            },
+        },
+        {
+            "LogName": "Year 3 Festival Spirits Eve - fall27.xnb",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27.xnb",
+            "Entries": {
+                "Abigail": "I already saw the spiders and I'm heading back. Those things are freaky!$s",
+            },
+        },
+        {
+            "LogName": "Year 3 Festival Ice Festival - winter8.xnb",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8.xnb",
+            "Entries": {
+                "Abigail": "I think this is my finest work yet, don't you agree?$h#$b#Much better than Leah's sculpture that looks like... well, you know what it looks like.#$e#Maybe I can donate this snowgoon to the museum. Where's Gunther?$h",
+            },
+        },
+        {
+            "LogName": "Year 3 Festival Winter Star - winter25.xnb",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25.xnb",
+            "Entries": {
+                "Abigail": "While my Dad's mulling over how much he spent on food for the festival, my Mom's mulling wine. How did I get in this family?",
+            },
+        }]
+}

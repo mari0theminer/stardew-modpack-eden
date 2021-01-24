@@ -1,0 +1,13 @@
+{
+   "Name": "Yandere Sam Dialogue Expansion",
+   "Author": "Amaryn",
+   "Version": "1.1.0",
+   "Description": "Sam turns yandere! Maybe it's his true nature? Who knows.",
+   "UniqueID": "Amaryn.YandereSam",
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": ["Nexus:6018"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.0.0"
+   }
+}

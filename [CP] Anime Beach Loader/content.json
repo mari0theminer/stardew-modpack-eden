@@ -1,0 +1,123 @@
+{
+	"Format": "1.19.0",
+	"Changes": [
+      
+       // Portraits
+      
+       {
+          "Action": "Load",
+          "Target": "Portraits/Abigail_Beach",
+          "FromFile": "assets/Portraits/Abigail_Beach.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "Portraits/Alex_Beach",
+          "FromFile": "assets/Portraits/Alex_Beach.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "Portraits/Caroline_Beach",
+          "FromFile": "assets/Portraits/Caroline_Beach.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "Portraits/Clint_Beach",
+          "FromFile": "assets/Portraits/Clint_Beach.png"
+       },
+      
+       {
+          "Action": "Load",
+          "Target": "Portraits/Elliott_Beach",
+          "FromFile": "assets/Portraits/Elliott_Beach.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "Portraits/Emily_Beach",
+          "FromFile": "assets/Portraits/Emily_Beach.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "Portraits/Haley_Beach",
+          "FromFile": "assets/Portraits/Haley_Beach.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "Portraits/Harvey_Beach",
+          "FromFile": "assets/Portraits/Harvey_Beach.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "Portraits/Jodi_Beach",
+          "FromFile": "assets/Portraits/Jodi_Beach.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "Portraits/Leah_Beach",
+          "FromFile": "assets/Portraits/Leah_Beach.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "Portraits/Marnie_Beach",
+          "FromFile": "assets/Portraits/Marnie_Beach.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "Portraits/Maru_Beach",
+          "FromFile": "assets/Portraits/Maru_Beach.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "Portraits/Pam_Beach",
+          "FromFile": "assets/Portraits/Pam_Beach.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "Portraits/Penny_Beach",
+          "FromFile": "assets/Portraits/Penny_Beach.png"
+       },
+      
+       {
+          "Action": "Load",
+          "Target": "Portraits/Pierre_Beach",
+          "FromFile": "assets/Portraits/Pierre_Beach.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "Portraits/Robin_Beach",
+          "FromFile": "assets/Portraits/Robin_Beach.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "Portraits/Sam_Beach",
+          "FromFile": "assets/Portraits/Sam_Beach.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "Portraits/Sebastian_Beach",
+          "FromFile": "assets/Portraits/Sebastian_Beach.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "Portraits/Shane_Beach",
+          "FromFile": "assets/Portraits/Shane_Beach.png"
+       },
+ 
+    
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "Name": "Ace's Hairstyles for Get Glam",
+  "Author": "Acerbicon",
+  "Version": "2.0.3",
+  "Description": "Get Glam pack that contains Ace's hairstyles.",
+  "UniqueID": "Acerbicon.GG.Hairstyles",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:956"],
+  "ContentPackFor": {
+    "UniqueID": "MartyrPher.GetGlam", // the ID of required mod
+  }
+}

@@ -1,0 +1,11 @@
+{
+	"Name": "Dickshrooms",
+    "Author": "Norsewinds",
+    "Version": "0.1.0",
+    "Description": "Adds some erotic mushrooms to your game...",
+    "UniqueID": "Norsewinds.Dickshrooms",
+	"UpdateKeys": ["Nexus:5040"],
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+}

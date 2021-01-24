@@ -1,0 +1,443 @@
+{
+  "WeatherForYesterday": "Sunny",
+  "LNOSCounter": {
+    "RSV RidgeForest Treasures Q2": 1,
+    "RSV RidgeForest Treasures Q3": 1,
+    "RSV RidgeForest Treasures Q4": 1,
+    "Ridge Log": 1
+  },
+  "ExistingObjectLocations": {
+    "Ridge Log": []
+  },
+  "SavedObjects": [
+    {
+      "MapName": "RidgeForestQ4",
+      "Name": "Stone",
+      "Tile": "13, 36",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ4",
+      "Name": "Stone",
+      "Tile": "76, 56",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ4",
+      "Name": "Stone",
+      "Tile": "82, 34",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ4",
+      "Name": "Stone",
+      "Tile": "4, 36",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ4",
+      "Name": "Stone",
+      "Tile": "18, 20",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ4",
+      "Name": "Stone",
+      "Tile": "65, 69",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ4",
+      "Name": "Stone",
+      "Tile": "10, 36",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ3",
+      "Name": "Stone",
+      "Tile": "14, 56",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ3",
+      "Name": "Stone",
+      "Tile": "2, 3",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ3",
+      "Name": "Geode",
+      "Tile": "7, 71",
+      "Type": "Ore",
+      "ID": 75,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ3",
+      "Name": "Copper",
+      "Tile": "45, 15",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ3",
+      "Name": "Stone",
+      "Tile": "27, 19",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ3",
+      "Name": "Stone",
+      "Tile": "51, 32",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ3",
+      "Name": "Copper",
+      "Tile": "54, 47",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ3",
+      "Name": "Stone",
+      "Tile": "33, 13",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ3",
+      "Name": "Stone",
+      "Tile": "10, 58",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ2",
+      "Name": "Geode",
+      "Tile": "35, 26",
+      "Type": "Ore",
+      "ID": 75,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ2",
+      "Name": "Stone",
+      "Tile": "56, 46",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ2",
+      "Name": "Copper",
+      "Tile": "34, 22",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ2",
+      "Name": "Stone",
+      "Tile": "1, 4",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ2",
+      "Name": "Stone",
+      "Tile": "25, 43",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ2",
+      "Name": "Stone",
+      "Tile": "37, 37",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ2",
+      "Name": "Stone",
+      "Tile": "41, 22",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ1",
+      "Name": "Stone",
+      "Tile": "65, 9",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ1",
+      "Name": "Copper",
+      "Tile": "27, 32",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ1",
+      "Name": "Copper",
+      "Tile": "51, 34",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ1",
+      "Name": "Geode",
+      "Tile": "67, 25",
+      "Type": "Ore",
+      "ID": 75,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ1",
+      "Name": "Stone",
+      "Tile": "26, 27",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ1",
+      "Name": "Stone",
+      "Tile": "67, 43",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ1",
+      "Name": "Stone",
+      "Tile": "50, 11",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ1",
+      "Name": "Copper",
+      "Tile": "55, 54",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ1",
+      "Name": "Geode",
+      "Tile": "62, 47",
+      "Type": "Ore",
+      "ID": 75,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ1",
+      "Name": "Stone",
+      "Tile": "20, 26",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Ridge",
+      "Name": null,
+      "Tile": "26, 16",
+      "Type": "LargeObject",
+      "ID": 602,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ4",
+      "Name": null,
+      "Tile": "89, 14",
+      "Type": "Forage",
+      "ID": 373,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ4",
+      "Name": null,
+      "Tile": "38, 46",
+      "Type": "Forage",
+      "ID": 373,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ3",
+      "Name": null,
+      "Tile": "8, 10",
+      "Type": "Forage",
+      "ID": 499,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ3",
+      "Name": null,
+      "Tile": "36, 73",
+      "Type": "Forage",
+      "ID": 74,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "RidgeForestQ2",
+      "Name": null,
+      "Tile": "24, 48",
+      "Type": "Forage",
+      "ID": 373,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

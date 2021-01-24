@@ -1,0 +1,26 @@
+{
+	"Name": "Dickshroom",
+	"Description": "An erotic looking mushroom, the musky scent makes you lightheaded...",
+	"Category": "ArtisanGoods",
+	"Edibility": 25,
+	"EdibleBuffs": {
+		"Farming": 0,
+		"Fishing": 0,
+		"Mining": 0,
+		"Luck": 20,
+		"Foraging": 0,
+		"MaxStamina": 20,
+		"MagnetRadius": 0,
+		"Speed": 0,
+		"Defense": 0,
+		"Attack": 0,
+		"Duration": 600,
+  },
+	"Price": 35,
+	"IsColored": false,
+	"Recipe": null,
+	"CanPurchase": true,
+	"PurchaseFrom": "Pierre",
+	"PurchasePrice": 220,
+	"PurchaseRequirements": null
+}

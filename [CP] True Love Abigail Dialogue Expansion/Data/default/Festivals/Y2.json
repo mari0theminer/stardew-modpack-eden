@@ -1,0 +1,67 @@
+{
+    "Changes": [    
+        {
+            "LogName": "Year 2 Festival Egg Festival - spring13.xnb",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13.xnb",
+            "Entries": {
+                "Abigail": "I know Sebastian and Sam don't stand a chance against me. But @, you're a bit of a wildcard.",
+            },
+        },
+        {
+            "LogName": "Year 2 Festival Flower Dance - spring24.xnb",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24.xnb",
+            "Entries": {
+                "Abigail": "I've gotta admit, everybody looks pretty good dressed up for the dance. We clean up nice around here!",
+            },
+        },
+        {
+            "LogName": "Year 2 Festival Luau - summer11.xnb",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11.xnb",
+            "Entries": {
+                "Abigail": "I brought a pumpkin to put in the soup, but they said I couldn't do that. It's out of season!#$e#Who in the heck are these people? Sheesh!$h",
+            },
+        },
+        {
+            "LogName": "Year 2 Festival Moonlight Jellies - summer28.xnb",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28.xnb",
+            "Entries": {
+                "Abigail": "I love getting to see the Moonlight Jellies. They really help me get out of my own head.",
+            },
+        },
+        {
+            "LogName": "Year 2 Festival SDV Fair - fall16.xnb",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16.xnb",
+            "Entries": {
+                "Abigail": "Before you came around, my Dad didn't have much competition in the Grange Display contest. Go easy on him, will ya? He could use a win.",
+            },
+        },
+        {
+            "LogName": "Year 2 Festival Spirits Eve - fall27.xnb",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27.xnb",
+            "Entries": {
+                "Abigail": "Will you go ahead of me, @, and check to see if there are spiders around that corner? Let me know if the coast is clear!",
+            },
+        },
+        {
+            "LogName": "Year 2 Festival Ice Festival - winter8.xnb",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8.xnb",
+            "Entries": {
+                "Abigail": "Check out my snowgoon, @! What do you think?#$b#He does not look like me, you blobfish! Say that again and you're getting snow down your shirt!$h",
+            },
+        },
+        {
+            "LogName": "Year 2 Festival Winter Star - winter25.xnb",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25.xnb",
+            "Entries": {
+                "Abigail": "Check out my Mom, @. I think she traded tea for egg nog today. She's funny when she's tipsy.$h",
+            },
+        }]
+}

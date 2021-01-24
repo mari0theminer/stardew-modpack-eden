@@ -1,0 +1,14 @@
+{
+   "Name": "Sexy Haley Replacer",
+   "Author": "LastofKind",
+   "Description": "Sexy Haley Replacer",
+   "Version": "1.1",
+   "UniqueID": "LastofKind.Sexy_Haley_Replacer",
+   "LogName": "Sexy Haley Replacer",
+   "Language": "en",
+   "MinimumApiVersion": "2.5",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "UpdateKeys": [ "Nexus:4361" ],
+}

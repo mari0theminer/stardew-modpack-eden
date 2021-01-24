@@ -1,0 +1,11 @@
+{
+   "Name": "[CP] Goddess statue Obelisk",
+   "Author": "kyuk",
+   "Version": "1.1.0",
+   "Description": "Turn the obelisk into a goddess image.",
+   "UniqueID": "Kyuk.Obelisk",
+   "MinimumApiVersion": "3.0.0",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

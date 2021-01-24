@@ -1,0 +1,10 @@
+{
+  "Auto": "True",
+  "FirstChildParent": "default",
+  "FirstChildApron": "False",
+  "SecondChildParent": "default",
+  "SecondChildApron": "True",
+  "SeasonalSet": "True",
+  "MaleCoatColor": "black",
+  "FemaleCoatColor": "white"
+}

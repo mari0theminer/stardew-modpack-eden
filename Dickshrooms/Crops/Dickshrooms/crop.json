@@ -1,0 +1,24 @@
+{
+    "Name": "Dickshrooms",
+    "Product": "Dickshroom",
+    "SeedName": "Musky Spores",
+    "SeedDescription": "Some musky smelling spores, what will grow from these?",
+    "Type": "ArtisanGoods",
+    "Price": "10",
+
+    "Seasons": ["spring", "summer", "fall"],
+    "Phases": [ 1, 1, 1, 1, 1], 
+    "RegrowthPhase": 3, 
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1, 
+        "MaximumPerHarvest": 3,
+        "MaxIncreasePerFarmLevel": 12,
+        "ExtraChance": 0.18, 
+    },
+  "SeedPurchaseFrom": "Pierre",
+  "SeedPurchasePrice": 10,
+  "SeedPurchaseRequirements": ["z winter"],
+}

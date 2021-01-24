@@ -1,0 +1,22 @@
+{
+   "Name": "HornyBachelors",
+   "Author": "Girafarig",
+   "Version": "1.5.1",
+   "Description": "Gives options for the bachelors and other men to be naked and jerk off",
+   "UniqueID": "Girafarig.HB",
+   "LogName": "HornyBachelors",
+   "Language": "en",
+   "MinimumApiVersion": "3.0.1",
+   "UpdateKeys": ["Nexus: 2564"],
+   "ContentPackFor": {
+    	"UniqueID": "Pathoschild.ContentPatcher", 
+    	"MinimumVersion": "1.10.1"
+  }
+  
+  
+  //INSTALLATION INSTRUCTIONS
+				//PLEASE PLACE THE Wizard.xnb FILE IN Content/Characters/Schedules
+				//THIS IS DUE TO THE WIZARD CURRENTLY HAVING NO VANILLA SCHEDULE TO EDIT BUT IT WILL NOT CONFLICT WITH OTHER NON-XNB MODS
+				//IF YOU HAVE A MOD THAT GIVES YOU A Wizard.xnb IN THAT LOCATION YOU CAN SKIP THIS
+  
+}

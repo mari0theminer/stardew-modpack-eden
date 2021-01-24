@@ -1,0 +1,13 @@
+{
+   "Name": "Anime Beach Portraits",
+   "Author": "Absynnian",
+   "Version": "2.0.0",
+   "Description": "Replace the character portraits with anime styled ones",
+   "UniqueID": "Absynnian.SDVPortraits1",
+   "UpdateKeys": [ "Nexus:7387" ],
+   "MinimumApiVersion": "2.11.0",
+   "MinimumGameVersion": "1.5",
+   "ContentPackFor":{
+   "UniqueID": "Pathoschild.ContentPatcher"
+	},
+}

@@ -1,0 +1,12 @@
+{
+   "Name": "Slime Girls", 
+   "Author": "onjulraz",
+   "Version": "0.1",
+   "Description": "Replaces slimes with slime girls!",
+   "UniqueID": "onjulraz.slimegirl",
+   "MinimumApiVersion": "2.0", 
+   "UpdateKeys": ["Nexus:"], 
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher", 
+   }
+}

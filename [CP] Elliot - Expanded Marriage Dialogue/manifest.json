@@ -1,0 +1,11 @@
+{
+   "Name": "Elliott - Expanded Marriage Dialogue",
+   "Author": "sabreene",
+   "Description": "Adds about 20 lines, plus numerous 'expanded' conversations, so the more you click, the more you hear.",
+   "Version": "1.0.0",
+   "UniqueID": "sabreene.dialogue.marriage.expansion",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "UpdateKeys": [],
+}

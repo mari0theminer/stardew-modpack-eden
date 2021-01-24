@@ -1,0 +1,76 @@
+{
+	"Format": "1.3",
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Animals/Blue Chicken",
+			"FromFile": "assets/Blue Chicken.png",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Animals/Brown Chicken",
+			"FromFile": "assets/Brown Chicken.png",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Animals/Void Chicken",
+			"FromFile": "assets/Void Chicken.png",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Animals/White Chicken",
+			"FromFile": "assets/White Chicken.png",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Animals/Duck",
+			"FromFile": "assets/Duck.png",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Animals/Rabbit",
+			"FromFile": "assets/Rabbit.png",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Animals/Dinosaur",
+			"FromFile": "assets/Dinosaur.png",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Animals/Brown Cow",
+			"FromFile": "assets/Brown Cow.png",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Animals/White Cow",
+			"FromFile": "assets/White Cow.png",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Animals/Goat",
+			"FromFile": "assets/Goat.png",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Animals/Pig",
+			"FromFile": "assets/Pig.png",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Animals/Sheep",
+			"FromFile": "assets/Sheep.png",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Animals/ShearedSheep",
+			"FromFile": "assets/ShearedSheep.png",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/crops",
+			"FromFile": "assets/crops.png",
+			"ToArea": { "X": 80, "Y": 384, "Width": 48, "Height": 32 },
+		},
+	]
+}

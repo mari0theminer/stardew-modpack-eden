@@ -1,0 +1,12 @@
+{
+  "Name": "Get Dressed Pack",
+  "Author": "MartyrPher",
+  "Version": "1.0.1",
+  "Description": "Get Dressed Pack that contains the accessories and shoes that came with the Get Dressed mod.",
+  "UniqueID": "MartyrPher.GetDressedPack",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "MartyrPher.GetGlam" // the ID of required mod
+  }
+}

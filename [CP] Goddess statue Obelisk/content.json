@@ -1,0 +1,44 @@
+{
+   "Format": "1.19.0",
+
+   "ConfigSchema":{ "Desert Obelisk": { "AllowValues": "true, false", "Default": "true" },
+		    "Earth Obelisk": { "AllowValues": "true, false", "Default": "true" },
+		    "Water Obelisk": { "AllowValues": "true, false", "Default": "true" },
+		    "Island Obelisk": { "AllowValues": "true, false", "Default": "true" },
+		    "Farm Obelisk": { "AllowValues": "true, false", "Default": "true" }
+		  },
+
+   "Changes": [
+	{
+    	"Action": "EditImage",
+    	"Target": "Buildings/Desert Obelisk",
+    	"FromFile": "assets/Desert Obelisk.png",
+	"When": { "Desert Obelisk": "true" }
+	},
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Earth Obelisk",
+	"FromFile": "assets/Earth Obelisk.png",
+	"When": { "Earth Obelisk": "true" }
+	},
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Water Obelisk",
+	"FromFile": "assets/Water Obelisk.png",
+	"When": { "Water Obelisk": "true" }
+	},
+	{
+	"Action": "EditImage",
+	"Target": "Buildings/Island Obelisk",
+	"FromFile": "assets/Island Obelisk.png",
+	"When": { "Island Obelisk": "true" }
+	},
+	{
+	"Action": "EditImage",
+	"Target": "Maps/Farm Obelisk",
+	"FromFile": "assets/Farm Obelisk.png",
+	"When": { "Farm Obelisk": "true" }
+	}
+
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "Format": "1.18.0",
+    "Changes": [
+        {
+            "LogName": "Abigail",
+            "Action": "Include",
+            "FromFile": "Data/default/NPCs/Abigail.json",
+        },
+        {
+            "LogName": "Festival Y2",
+            "Action": "Include",
+            "FromFile": "Data/default/Festivals/Y2.json",
+            "When":
+            {
+                "Year": "2"
+            }
+        },
+        {
+            "LogName": "Festival Y3",
+            "Action": "Include",
+            "FromFile": "Data/default/Festivals/Y3.json",
+            "When":
+            {
+                "Year": "3"
+            }
+        },
+        {
+            "LogName": "Festival Randomized (After Y3)",
+            "Action": "Include",
+            "FromFile": "Data/default/Festivals/Y{{Random:null, 2, 3}}.json",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Year |contains= 1, 2, 3": false
+            }
+        },
+        {
+            "LogName": "Misc Dialogue",
+            "Action": "Include",
+            "FromFile": "Data/default/Misc/MiscDialogue.json",
+        },
+    ]
+}

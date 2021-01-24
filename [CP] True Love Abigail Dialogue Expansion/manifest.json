@@ -1,0 +1,13 @@
+{
+   "Name": "True Love Abigail Dialogue Expansion",
+   "Author": "wafflekoan",
+   "Description": "An Abigail dialogue expansion pack with more romance and affection.",
+   "Version": "1.2.1",
+   "UniqueID": "wafflekoan.trueloveabigail",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "UpdateKeys": [
+      "Nexus:6674"
+   ],
+}

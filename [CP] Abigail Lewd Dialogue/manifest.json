@@ -1,0 +1,13 @@
+{
+    "Name": "Abigail Lewd Dialogue",
+    "Author": "supervortex2004",
+    "Version": "1.0",
+    "Description": "Turn Abigail into the hot, uninhibited, punk girl we all want.",
+    "UniqueID": "supervortex2004.LewdAbby",
+    "MinimumApiVersion": "2.11",
+    "UpdateKeys": [ "Nexus:5065" ],
+	"ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher", 
+        "MinimumVersion": "1.8.0"
+    }
+}

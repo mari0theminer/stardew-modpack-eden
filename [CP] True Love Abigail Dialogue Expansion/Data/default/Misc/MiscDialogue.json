@@ -1,0 +1,26 @@
+{
+    "Changes": [
+    {
+        "LogName": "Rainy",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/rainy",
+        "Entries":
+        {
+            "Abigail": "#$c .5#I love the way the valley looks in the rain. It makes everything feel so romantic...#I don't mind getting a little wet on days like today. Sometimes it's fun getting caught in the rain.",
+        }
+    },
+    {
+        "Action": "EditData",
+        "Target": "Data/ExtraDialogue",
+        "Entries": {
+            "SeedShop_Abigail_Drawers": "So you think it's perfectly acceptable to rummage through someone's underpants? Come on @, close the drawer already... it's getting weird.$u",
+        },
+    },
+    {
+        "Action": "EditData",
+        "Target": "Strings/Locations",
+        "Entries": {
+            "SeedShop_Abigail_Drawers": "Abigail's underpants drawer. There's a purple mineral tucked among her things.",
+        },
+    }]
+}

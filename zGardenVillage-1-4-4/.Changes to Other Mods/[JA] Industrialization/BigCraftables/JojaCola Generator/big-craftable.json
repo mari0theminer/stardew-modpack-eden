@@ -1,0 +1,39 @@
+{
+    "Name": "JojaCola Generator",
+    "Description": "Pierre is smart, so smart infact, he invented a machine which uses Joja Cola as a fuel source, by adding 10 cans, you too can make 1 battery, I bet Morris feels envious.",
+    "Price": 0,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 9,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+		{
+            "Object": 167,
+            "Count": 50,
+        },
+        {
+            "Object": 335,
+            "Count": 10,
+        },
+        {
+            "Object": 767,
+            "Count": 1,
+        }, ],
+		"CanPurchase": true,
+		"PurchaseFrom": "Pierre",
+		"PurchasePrice": 150000,
+    },
+	"CanPurchase": true,
+    "PurchaseFrom": "Pierre",
+	"PurchasePrice": 1000000,
+    "NameLocalization":
+		{
+		"zh": "燃煤发电机",
+		"de": "Kohle-Stromerzeuger"
+		},
+    "DescriptionLocalization": {
+		"zh": "燃烧煤炭将其能量转化为电池组，每次消耗5块煤炭。",
+		"de": "Ein Generator, der Batterien produziert, benötigt zum Betrieb 5 Kohle."
+		}
+}

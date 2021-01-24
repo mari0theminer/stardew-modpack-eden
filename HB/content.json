@@ -1,0 +1,2962 @@
+{
+	"Format": "1.17",
+	
+	
+	"ConfigSchema": 
+	{
+		"The bachelors should jerk off":
+		{
+			"AllowValues": "True, False",
+			"Default": "True"
+		},
+		"Some of the other men should jerk off too":
+		{
+			"AllowValues": "True, False",
+			"Default": "True"
+		},
+		"Lewis should pass a law so the men of the town can be naked":
+		{
+			"AllowValues": "False, True",
+			"Default": "False"
+		},
+		"The villagers should have new dialogue.":
+		{
+			"AllowValues": "True, False",
+			"Default": "True"
+		},
+		"If the farmer is male, is he naked? Leave as no if playing as a girl":
+		{
+			"AllowValues": "no, yes",
+			"Default": "no"
+		},
+		"If the farmer is male, is he circumcised?":
+		{
+			"AllowValues": "yes, no",
+			"Default": "yes"
+		},
+		"Alex should wear a shirt": 
+		{
+			"AllowValues": "False, True",
+			"Default": "False"
+		},		
+		"Elliott should cut his hair": 
+		{
+			"AllowValues": "False, True",
+			"Default": "False"
+		},
+		"Sebastian should quit smoking": 
+		{
+			"AllowValues": "False, True",
+			"Default": "False"
+		},
+		"Shane should shave": 
+		{
+			"AllowValues": "False, True",
+			"Default": "False"
+		},
+		"(Toasty) Pubes for Demetrius, Elliott, Kent":
+		{
+			"AllowValues": "False, True",
+			"Default": "True"
+		},
+		"Naked Beach Outfits":
+		{
+			"AllowValues": "False, True",
+			"Default": "False"
+		},
+		"Naked Pirates Clan":
+		{ 
+			"AllowValues": "False, True",
+			"Default": "False"
+		},
+	
+	},
+
+	"Changes": [
+	
+	//Golden Lewis
+	{
+		"Action": "EditImage",
+		"Target": "tilesheets/Craftables",
+		"FromFile": "assets/goldenlewis.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+		"ToArea": { "X": 64, "Y": 640, "Width": 16, "Height": 32}
+	},
+	
+	//SpringObjects
+	{
+		"Action": "Load",
+		"Target": "Maps/springobjects",
+		"FromFile": "assets/Maps/SO.png",
+		"When":
+		{
+			"The bachelors should jerk off": "True"
+		}
+	},
+	
+	//Characters/Portraits (Alphabetical Order)
+	
+	//Alex
+	{
+		"Action": "Load",
+		"Target": "Characters/Alex",
+		"FromFile": "assets/Characters/Alex.png",
+		"When":
+		{
+			"Alex should wear a shirt": "False",
+			"Lewis should pass a law so the men of the town can be naked": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Alex",
+		"FromFile": "assets/Characters/AlexShirt.png",
+		"When":
+		{
+			"Alex should wear a shirt": "True",
+			"Lewis should pass a law so the men of the town can be naked": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Alex",
+		"FromFile": "assets/Characters/n/Alex.png",
+		"When":
+		{
+			"Alex should wear a shirt": "False",
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Alex",
+		"FromFile": "assets/Characters/n/Alex.png",
+		"When":
+		{
+			"Alex should wear a shirt": "True",
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Alex",
+		"FromFile": "assets/Portraits/Alex.png",
+		"When":
+		{
+			"Alex should wear a shirt": "False",
+			"Lewis should pass a law so the men of the town can be naked": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Alex",
+		"FromFile": "assets/Portraits/AlexShirt.png",
+		"When":
+		{
+			"Alex should wear a shirt": "True",
+			"Lewis should pass a law so the men of the town can be naked": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Alex",
+		"FromFile": "assets/Portraits/n/Alex.png",
+		"When":
+		{
+			"Alex should wear a shirt": "False",
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Alex",
+		"FromFile": "assets/Portraits/n/Alex.png",
+		"When":
+		{
+			"Alex should wear a shirt": "True",
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	
+	{
+		"Action": "Load",
+		"Target": "Characters/Alex_Beach",
+		"FromFile": "assets/Characters/n/Alex_Beach.png",
+		"When":
+		{
+			"Naked Beach Outfits": "True"
+		}
+	},
+	
+	//Bouncer
+	{	
+		"Action": "Load",
+		"Target": "Characters/Bouncer",
+		"FromFile": "assets/Characters/n/Bouncer.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Bouncer",
+		"FromFile": "assets/Portraits/n/Bouncer.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	
+	//Clint
+	{
+		"Action": "Load",
+		"Target": "Characters/Clint",
+		"FromFile": "assets/Characters/n/Clint.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Clint",
+		"FromFile": "assets/Portraits/n/Clint.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Clint_Beach",
+		"FromFile": "assets/Characters/n/Clint_Beach.png",
+		"When":
+		{
+			"Naked Beach Outfits": "True"
+		}
+	},
+		{
+		"Action": "Load",
+		"Target": "Portraits/Clint_Beach",
+		"FromFile": "assets/Portraits/n/Clint_Beach.png",
+		"When":
+		{
+			"Naked Beach Outfits": "True"
+		}
+	},
+	
+	//Demetrius
+	{
+		"Action": "Load",
+		"Target": "Characters/Demetrius",
+		"FromFile": "assets/Characters/Demetrius.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "False",
+			"(Toasty) Pubes for Demetrius, Elliott, Kent": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Demetrius",
+		"FromFile": "assets/Characters/n/Demetrius.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True",
+			"(Toasty) Pubes for Demetrius, Elliott, Kent": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Demetrius",
+		"FromFile": "assets/Characters/Demetriush.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "False",
+			"(Toasty) Pubes for Demetrius, Elliott, Kent": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Demetrius",
+		"FromFile": "assets/Characters/n/Demetriush.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True",
+			"(Toasty) Pubes for Demetrius, Elliott, Kent": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Demetrius",
+		"FromFile": "assets/Portraits/Demetrius.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Demetrius",
+		"FromFile": "assets/Portraits/n/Demetrius.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	
+		{
+		"Action": "Load",
+		"Target": "Characters/Demetrius_Beach",
+		"FromFile": "assets/Characters/n/Demetrius_Beach.png",
+		"When":
+		{
+			"Naked Beach Outfits": "True"
+		}
+	},
+	
+	//Elliott
+	{
+	"Action": "Load",
+		"Target": "Characters/Elliott",
+		"FromFile": "assets/Characters/Elliott.png",
+		"When":
+		{
+			"Elliott should cut his hair": "False",
+			"Lewis should pass a law so the men of the town can be naked": "False",
+			"(Toasty) Pubes for Demetrius, Elliott, Kent": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Elliott",
+		"FromFile": "assets/Characters/ElliottShortHair.png",
+		"When":
+		{
+			"Elliott should cut his hair": "True",
+			"Lewis should pass a law so the men of the town can be naked": "False",
+			"(Toasty) Pubes for Demetrius, Elliott, Kent": "False"
+		}
+	},
+	{
+	"Action": "Load",
+		"Target": "Characters/Elliott",
+		"FromFile": "assets/Characters/n/Elliott.png",
+		"When":
+		{
+			"Elliott should cut his hair": "False",
+			"Lewis should pass a law so the men of the town can be naked": "True",
+			"(Toasty) Pubes for Demetrius, Elliott, Kent": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Elliott",
+		"FromFile": "assets/Characters/n/ElliottShortHair.png",
+		"When":
+		{
+			"Elliott should cut his hair": "True",
+			"Lewis should pass a law so the men of the town can be naked": "True",
+			"(Toasty) Pubes for Demetrius, Elliott, Kent": "False"
+		}
+	},
+	
+	{
+		"Action": "Load",
+		"Target": "Characters/Elliott_Beach",
+		"FromFile": "assets/Characters/n/Elliott_Beach.png",
+		"When":
+		{
+			"Elliott should cut his hair": "False",
+			"Naked Beach Outfits": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Elliott_Beach",
+		"FromFile": "assets/Portraits/n/Elliott_Beach.png",
+		"When":
+		{
+			"Elliott should cut his hair": "False",
+			"Naked Beach Outfits": "True"
+		}
+	},
+	
+	{
+		"Action": "Load",
+		"Target": "Characters/Elliott_Beach",
+		"FromFile": "assets/Characters/n/Elliott_BeachShortHair.png",
+		"When":
+		{
+			"Elliott should cut his hair": "True",
+			"Naked Beach Outfits": "True"
+		}
+		
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Elliott_Beach",
+		"FromFile": "assets/Portraits/n/Elliott_BeachShortHair.png",
+		"When":
+		{
+			"Elliott should cut his hair": "True",
+			"Naked Beach Outfits": "True"
+		}
+	},
+	
+	//Elliott Pubes
+	{
+	"Action": "Load",
+		"Target": "Characters/Elliott",
+		"FromFile": "assets/Characters/Elliotth.png",
+		"When":
+		{
+			"Elliott should cut his hair": "False",
+			"Lewis should pass a law so the men of the town can be naked": "False",
+			"(Toasty) Pubes for Demetrius, Elliott, Kent": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Elliott",
+		"FromFile": "assets/Characters/ElliottShortHairh.png",
+		"When":
+		{
+			"Elliott should cut his hair": "True",
+			"Lewis should pass a law so the men of the town can be naked": "False",
+			"(Toasty) Pubes for Demetrius, Elliott, Kent": "True"
+		}
+	},
+	{
+	"Action": "Load",
+		"Target": "Characters/Elliott",
+		"FromFile": "assets/Characters/n/Elliotth.png",
+		"When":
+		{
+			"Elliott should cut his hair": "False",
+			"Lewis should pass a law so the men of the town can be naked": "True",
+			"(Toasty) Pubes for Demetrius, Elliott, Kent": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Elliott",
+		"FromFile": "assets/Characters/n/ElliottShortHairh.png",
+		"When":
+		{
+			"Elliott should cut his hair": "True",
+			"Lewis should pass a law so the men of the town can be naked": "True",
+			"(Toasty) Pubes for Demetrius, Elliott, Kent": "True"
+		}
+	},
+	{
+	"Action": "Load",
+		"Target": "Portraits/Elliott",
+		"FromFile": "assets/Portraits/Elliott.png",
+		"When":
+		{
+			"Elliott should cut his hair": "False",
+			"Lewis should pass a law so the men of the town can be naked": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Elliott",
+		"FromFile": "assets/Portraits/ElliottShortHair.png",
+		"When":
+		{
+			"Elliott should cut his hair": "True",
+			"Lewis should pass a law so the men of the town can be naked": "False"
+		}
+	},
+	{
+	"Action": "Load",
+		"Target": "Portraits/Elliott",
+		"FromFile": "assets/Portraits/n/Elliott.png",
+		"When":
+		{
+			"Elliott should cut his hair": "False",
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Elliott",
+		"FromFile": "assets/Portraits/n/ElliottShortHair.png",
+		"When":
+		{
+			"Elliott should cut his hair": "True",
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	
+	//George
+	{
+		"Action": "Load",
+		"Target": "Characters/George",
+		"FromFile": "assets/Characters/n/George.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/George",
+		"FromFile": "assets/Portraits/n/George.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	
+	//Gil
+	{
+		"Action": "Load",
+		"Target": "Portraits/Gil",
+		"FromFile": "assets/Portraits/n/Gil.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},	
+	
+	//Governor
+	{
+		"Action": "Load",
+		"Target": "Characters/Governor",
+		"FromFile": "assets/Characters/n/Governor.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Governor",
+		"FromFile": "assets/Portraits/n/Governor.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	
+	//Gunther
+	{
+		"Action": "Load",
+		"Target": "Characters/Gunther",
+		"FromFile": "assets/Characters/n/Gunther.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Gunther",
+		"FromFile": "assets/Portraits/n/Gunther.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	
+	//Gus
+	{
+		"Action": "Load",
+		"Target": "Characters/Gus",
+		"FromFile": "assets/Characters/n/Gus.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Gus",
+		"FromFile": "assets/Portraits/n/Gus.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	
+	//Harvey
+	{
+		"Action": "Load",
+		"Target": "Characters/Harvey",
+		"FromFile": "assets/Characters/Harvey.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Harvey",
+		"FromFile": "assets/Characters/n/Harvey.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Harvey",
+		"FromFile": "assets/Portraits/Harvey.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Harvey",
+		"FromFile": "assets/Portraits/n/Harvey.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	
+	{
+		"Action": "Load",
+		"Target": "Portraits/Harvey_Beach",
+		"FromFile": "assets/Portraits/n/Harvey.png",
+		"When":
+		{
+			"Naked Beach Outfits": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Harvey_Beach",
+		"FromFile": "assets/Characters/n/Harvey_Beach.png",
+		"When":
+		{
+			"Naked Beach Outfits": "True"
+		}
+	},
+	
+	//Kent
+	{
+		"Action": "Load",
+		"Target": "Characters/Kent",
+		"FromFile": "assets/Characters/Kent.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "False",
+			"(Toasty) Pubes for Demetrius, Elliott, Kent": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Kent",
+		"FromFile": "assets/Characters/n/Kent.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True",
+			"(Toasty) Pubes for Demetrius, Elliott, Kent": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Kent",
+		"FromFile": "assets/Characters/Kenth.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "False",
+			"(Toasty) Pubes for Demetrius, Elliott, Kent": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Kent",
+		"FromFile": "assets/Characters/n/Kenth.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True",
+			"(Toasty) Pubes for Demetrius, Elliott, Kent": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Kent",
+		"FromFile": "assets/Portraits/Kent.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Kent",
+		"FromFile": "assets/Portraits/n/Kent.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	
+	//Lewis
+	{
+		"Action": "Load",
+		"Target": "Characters/Lewis",
+		"FromFile": "assets/Characters/n/Lewis.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Lewis",
+		"FromFile": "assets/Portraits/n/Lewis.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+		{
+		"Action": "Load",
+		"Target": "Characters/Lewis_Beach",
+		"FromFile": "assets/Characters/n/Lewis_Beach.png",
+		"When":
+		{
+			"Naked Beach Outfits": "True"
+		}
+	},
+	
+	//Linus
+	{
+		"Action": "Load",
+		"Target": "Characters/Linus",
+		"FromFile": "assets/Characters/n/Linus.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Linus",
+		"FromFile": "assets/Portraits/n/Linus.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	
+	//Mariner
+	{
+		"Action": "Load",
+		"Target": "Characters/Mariner",
+		"FromFile": "assets/Characters/n/Mariner.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	
+	//Marlon
+	{
+		"Action": "Load",
+		"Target": "Characters/Marlon",
+		"FromFile": "assets/Characters/n/Marlon.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	
+	{
+		"Action": "Load",
+		"Target": "Portraits/Marlon",
+		"FromFile": "assets/Portraits/n/Marlon.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	
+	//MrQi
+	{
+		"Action": "Load",
+		"Target": "Characters/MrQi",
+		"FromFile": "assets/Characters/n/MrQi.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/MrQi",
+		"FromFile": "assets/Portraits/n/MrQi.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	
+	//Pierre
+	{
+		"Action": "Load",
+		"Target": "Characters/Pierre",
+		"FromFile": "assets/Characters/n/Pierre.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Pierre",
+		"FromFile": "assets/Portraits/n/Pierre.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Pierre_Beach",
+		"FromFile": "assets/Characters/n/Pierre_Beach.png",
+		"When":
+		{
+			"Naked Beach Outfits": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Pierre_Beach",
+		"FromFile": "assets/Portraits/n/Pierre_Beach.png",
+		"When":
+		{
+			"Naked Beach Outfits": "True"
+		}
+	},
+	
+	//Sam
+	{
+		"Action": "Load",
+		"Target": "Characters/Sam",
+		"FromFile": "assets/Characters/Sam.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Sam",
+		"FromFile": "assets/Characters/n/Sam.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Sam",
+		"FromFile": "assets/Portraits/Sam.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Sam",
+		"FromFile": "assets/Portraits/n/Sam.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+		{
+		"Action": "Load",
+		"Target": "Characters/Sam_Beach",
+		"FromFile": "assets/Characters/n/Sam_Beach.png",
+		"When":
+		{
+			"Naked Beach Outfits": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Sam_Beach",
+		"FromFile": "assets/Portraits/n/Sam_Beach.png",
+		"When":
+		{
+			"Naked Beach Outfits": "True"
+		}
+	},
+	
+	//Sebastian
+	{
+		"Action": "Load",
+		"Target": "Characters/Sebastian",
+		"FromFile": "assets/Characters/Sebastian.png",
+		"When":
+		{
+			"Sebastian should quit smoking": "False",
+			"Lewis should pass a law so the men of the town can be naked": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Sebastian",
+		"FromFile": "assets/Characters/SebastianNoSmoke.png",
+		"When":
+		{
+			"Sebastian should quit smoking": "True",
+			"Lewis should pass a law so the men of the town can be naked": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Sebastian",
+		"FromFile": "assets/Characters/n/Sebastian.png",
+		"When":
+		{
+			"Sebastian should quit smoking": "False",
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Sebastian",
+		"FromFile": "assets/Characters/n/SebastianNoSmoke.png",
+		"When":
+		{
+			"Sebastian should quit smoking": "True",
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Sebastian",
+		"FromFile": "assets/Portraits/Sebastian.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Sebastian",
+		"FromFile": "assets/Portraits/n/Sebastian.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	
+		{
+		"Action": "Load",
+		"Target": "Characters/Sebastian_Beach",
+		"FromFile": "assets/Characters/n/Sebastian_Beach.png",
+		"When":
+		{
+			"Naked Beach Outfits": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Sebastian_Beach",
+		"FromFile": "assets/Portraits/n/Sebastian_Beach.png",
+		"When":
+		{
+			"Naked Beach Outfits": "True"
+		}
+	},
+	//Shane
+	{
+		"Action": "Load",
+		"Target": "Characters/Shane",
+		"FromFile": "assets/Characters/Shane.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Shane",
+		"FromFile": "assets/Characters/n/Shane.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+		{
+		"Action": "Load",
+		"Target": "Characters/Shane_JojaMart",
+		"FromFile": "assets/Characters/Shane_JojaMart.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Shane_JojaMart",
+		"FromFile": "assets/Characters/n/Shane_JojaMart.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Shane",
+		"FromFile": "assets/Portraits/Shane.png",
+		"When":
+		{
+			"Shane should shave": "False",
+			"Lewis should pass a law so the men of the town can be naked": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Shane",
+		"FromFile": "assets/Portraits/ShaneShaved.png",
+		"When":
+		{
+			"Shane should shave": "True",
+			"Lewis should pass a law so the men of the town can be naked": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Shane",
+		"FromFile": "assets/Portraits/n/Shane.png",
+		"When":
+		{
+			"Shane should shave": "False",
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Shane",
+		"FromFile": "assets/Portraits/n/ShaneShaved.png",
+		"When":
+		{
+			"Shane should shave": "True",
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	
+	{
+		"Action": "Load",
+		"Target": "Characters/Shane_Beach",
+		"FromFile": "assets/Characters/n/Shane_Beach.png",
+		"When":
+		{
+			"Naked Beach Outfits": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Shane_Beach",
+		"FromFile": "assets/Portraits/n/Shane_Beach.png",
+		"When":
+		{
+			"Naked Beach Outfits": "True",
+			"Shane should shave": "False"
+		}
+	},
+		{
+		"Action": "Load",
+		"Target": "Portraits/Shane_Beach",
+		"FromFile": "assets/Portraits/n/Shane_BeachShaved.png",
+		"When":
+		{
+			"Naked Beach Outfits": "True",
+			"Shane should shave": "True"
+		}
+	},
+	
+	//Willy
+	{
+		"Action": "Load",
+		"Target": "Characters/Willy",
+		"FromFile": "assets/Characters/n/Willy.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Willy",
+		"FromFile": "assets/Portraits/n/Willy.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	
+	//Wizard
+	{
+		"Action": "Load",
+		"Target": "Characters/Wizard",
+		"FromFile": "assets/Characters/n/Wizard.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Wizard",
+		"FromFile": "assets/Characters/Wizard.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "False"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Wizard",
+		"FromFile": "assets/Portraits/n/Wizard.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Wizard",
+		"FromFile": "assets/Portraits/Wizard.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "False"
+		}
+	},
+	
+	
+	
+	
+	//Other Nakey People
+	
+	//ContentPage
+	{
+		"Action": "Load",
+		"Target": "DesertTiles",
+		"FromFile": "assets/DesertTiles.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Festivals",
+		"FromFile": "assets/Festivals.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "samshowtiles",
+		"FromFile": "assets/samshowtiles.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "stadium_tiles",
+		"FromFile": "assets/stadium_tiles.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "MovieTheater_TileSheet",
+		"FromFile": "assets/MovieTheater_TileSheet.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	//MapsFolder
+	{
+		"Action": "Load",
+		"Target": "Maps/DesertTiles",
+		"FromFile": "assets/Maps/DesertTiles.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Maps/Festivals",
+		"FromFile": "assets/Maps/Festivals.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Maps/night_market_tilesheet_objects",
+		"FromFile": "assets/Maps/night_market_tilesheet_objects.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Maps/samshowtiles",
+		"FromFile": "assets/Maps/samshowtiles.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Maps/stadium_tiles",
+		"FromFile": "assets/Maps/stadium_tiles.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Maps/submarine_tilesheet",
+		"FromFile": "assets/Maps/submarine_tilesheet.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Maps/townInterior",
+		"FromFile": "assets/Maps/TownInterior.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Maps/MovieTheater_TileSheet",
+		"FromFile": "assets/Maps/MovieTheater_TileSheet.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Maps/MovieTheaterJoja_TileSheet",
+		"FromFile": "assets/Maps/MovieTheaterJoja_TileSheet.png",
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	
+	{
+		"Action": "Load",
+		"Target": "Maps/pirates_tilesheet",
+		"FromFile": "assets/Maps/pirates_tilesheet.png",
+		"When":
+		{
+			"Naked Pirates Clan": "True"
+		}
+	},
+	
+	//Map replacements
+	{
+		"Action": "EditMap",
+		"Target": "Maps/Hospital",
+		"FromFile": "assets/Maps/Hospital.tbin",
+		"FromArea": { "X": 1, "Y": 3, "Width": 1, "Height": 1},
+		"ToArea": { "X": 1, "Y": 3, "Width": 1, "Height": 1},
+	},
+	
+	{
+		"Action": "EditMap",
+		"Target": "Maps/Saloon",
+		"FromFile": "assets/maps/saloon.tbin",
+		"FromArea": { "X": 28, "Y": 5, "Width": 3, "Height": 2 },
+		"ToArea": { "X": 28, "Y": 5, "Width": 3, "Height": 2 },
+	},
+	
+	//cursors
+	{
+		"Action": "EditImage",
+		"Target": "LooseSprites/Cursors",
+		"FromFile": "assets/LooseSprites/Cursors.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 140, "Height": 39},
+		"ToArea": { "X": 415, "Y": 1853, "Width": 140, "Height": 39},
+		"When":
+		{
+			"Lewis should pass a law so the men of the town can be naked": "True"
+		}
+	},
+	
+	
+	
+	//DIALOGUE (Alphabetical Order)
+	
+	//Alex
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Alex",
+		"entries": 
+		{
+			"Mon": "Did you know I was an all-star quarterback in high school? It's true.$u#$e#I have a jacket in my room with a little star on it, that proves it.",
+			"Tue": "The beach is a cool place to hang out and soak up some rays.#e#You gotta spend some time in the sun or else you'll get all pale.#$e#You have to do it naked, too, otherwise you get some fuckin' ugly tanlines.",
+			"Sat4": "My arms are really sore, but that's the sign of progress for a guy like me.#$e#I must've done a thousand push-ups yesterday.#$e#Well, and some other stuff, if you catch my drift, haha.$h",
+			"Fri8": "Hi @. You look sporty today.$h^Hey @. Did you do something different with your hair?#$b#Something keeps grabbing my attention.$h",
+			"summer_Tue": "If my hair wasn't so popular with everyone, I swear I'd shave it all off in a second.#$e#*sigh*... Life can be tough.",
+			"summer_Wed8": "You know, I actually wouldn't mind being a farmer... it seems a lot like playing sports, in a way.#$e#I like being outdoors and doing things with my hands...#$b#...if you catch my drift.$l#$e#Speaking of... some of the other guys have been bottling their cum so... here's a bottle. Enjoy! [931]",
+			"summer_Thu8": "Hey, you look like you're getting into some good shape this summer!#$b#All that farm work is paying off, huh?#$b#Oh, hey! I just remembered, I wanted to give you this. [931]#$e#Some of the other guys have been bottling their cum, so I thought I'd do the same!$h",
+			"fall_Mon8": "My Grandma told me I should spend more time studying.#$e#Maybe she's right...$s#$b#I spend most of my time lifting weights or jerking off.#$e#Speaking of, here's some of the fruits of my labor. My cum! It tastes great.[931]#$e#Don't ask me how I know that.$9",
+			"winter_Fri8": "You came all the way through the snow to see me?#$e#That's nice of you.$h#$e#In fact, here, an expression of my gratitude! [931]$h",
+			"winter_Thu8": "I wish I could control the weather.#$e#During the winter I mostly just stay inside and jerk off...$9#$e#I've came so much already... here, have some.[931]",
+			"Sun8": "Hey, @.#$e#How's your day going?#$e#Here's something to make it even better. [931]#$e#...It's my cum.",
+			"fall_Tue6": "One time in high school, the water boy walked in on me jerking off in the locker room after gridball practice.#$b#I fucked him in the ass after every practice from then on!$h#$e#He was cute. Great ass. Loved my cock.",
+			"Wed4": "How does it feel knowing I have the biggest cock in town? Pretty fucking amazing.#$e#I always catch people staring at my bulge.",
+			"fall_wed6": "10 inches, perfectly sculpted, and thicker than a motherfucker. That's my dick.$h#$e#I pride myself on my perfect cock. Not a thing I would change!$h",
+			"winter_tue4": "I used to think I liked girls in high school, but guys and their tight asses are where its at!$h#$e#I used to put up such a front back then, because of my homophobic dad.$s^....$9#$b#I'm a lot more confident, and a whole lot fucking happier!$h^Uh, no offense, I guess.$9"
+			
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "False"
+			}
+	},
+	
+	//Alex nakey
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Alex",
+		"entries": 
+		{
+			"Mon": "Did you know I was an all-star quarterback in high school? It's true.$u#$e#I have a jacket in my room with a little star on it, that proves it.",
+			"Tue": "The beach is a cool place to hang out and soak up some rays.#e#You gotta spend some time in the sun or else you'll get all pale.#$e#You have to do it naked, too, otherwise you get some fuckin' ugly tanlines.",
+			"Sat4": "My arms are really sore, but that's the sign of progress for a guy like me.#$e#I must've done a thousand push-ups yesterday.#$e#Well, and some other stuff, if you catch my drift, haha.$h",
+			"Fri8": "Hi @. You look sporty today.$h^Hey @. Did you do something different with your hair?#$b#Something keeps grabbing my attention.$h",
+			"summer_Wed8": "You know, I actually wouldn't mind being a farmer... it seems a lot like playing sports, in a way.#$e#I like being outdoors and doing things with my hands...#$b#...if you catch my drift.$l#$e#Speaking of... some of the other guys have been bottling their cum so... here's a bottle. Enjoy![931]",
+			"summer_Tue": "It's so cool Lewis allows us guys to go around naked! I don't have to wear any of those hot, stuffy clothes!$h#$e#And it's also a good excuse to show off the progress I'm making!",
+			"winter_Mon": "It's so cold, what with all the snow and stuff...$s#$e#Huh? Put on some clothes?$7#$b#And ruin the opportunity to show off my body? No way! Heh.$h",
+			"winter_Sat": "There's some weird people living in this town.#$e#...like that guy Sebastian. His dick is so tiny and weird.#$e#Is that insensitive? Sorry...",
+			"winter_Tue4": "I-I swear I'm usually.. *ahem*... \"bigger\" than this b-but... it's cold out!$s",
+			"summer_Thu8": "Hey, you look like you're getting into some good shape this summer!#$b#All that farm work is paying off, huh?#$b#Oh, hey! I just remembered, I wanted to give you this. [931]#$e#Some of the other guys have been bottling their cum, so I thought I'd do the same!$h",
+			"fall_Mon8": "My Grandma told me I should spend more time studying.#$e#Maybe she's right...$s#$b#I spend most of my time lifting weights or jerking off.#$e#Speaking of, here's some of the fruits of my labor. My cum! It tastes great.[931]#$e#Don't ask me how I know that.$9",
+			"winter_Fri8": "You came all the way through the snow to see me?#$e#That's nice of you.$h#$e#In fact, here, an expression of my gratitude! [931]$h",
+			"winter_Thu8": "I wish I could control the weather.#$e#During the winter I mostly just stay inside and jerk off...$9#$e#I've came so much already... here, have some.[931]",
+			"Sun8": "Hey, @.#$e#How's your day going?#$e#Here's something to make it even better. [931]#$e#...It's my cum.",
+			"fall_Tue6": "One time in high school, the water boy walked in on me jerking off in the locker room after gridball practice.#$b#I fucked him in the ass after every practice from then on!$h#$e#He was cute. Great ass. Loved my cock.",
+			"Wed4": "How does it feel knowing I have the biggest cock in town? Pretty fucking amazing.#$e#I always catch people staring at it.#$e#I'm a grower AND a shower.$h",
+			"fall_wed6": "10 inches, perfectly sculpted, and thicker than a motherfucker. That's my dick.$h#$e#I pride myself on my perfect cock. Not a thing I would change!$h",
+			"winter_sat6": "The fact that I'm bigger soft than some guys in town are hard is a huge fucking ego boost.#$e#Like that little bottom bitch Sebastian? My flaccid cock makes his erect one look fucking microscopic.$h",
+			"winter_tue4": "I used to think I liked girls in high school, but guys and their tight asses are where its at!$h#$e#I used to put up such a front back then, because of my homophobic dad.$s^....#$b#I'm a lot more confident, and a whole lot fucking happier!$h^Uh, no offense, I guess."
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "True"
+			}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/MarriageDialogueAlex",
+		"entries": 
+		{
+			"Indoor_Day_3": "I'm still getting used to cooking and doing laundry... It's not exactly my favorite, but I knew what I was getting into when I married you.$h#$e#I'm gonna pound that ass later tonight...",
+			"Outdoor_2": "I like to spend as much time outside as possible. It just feels better to be out here.#$e#Here, I just jerked off this morning, thought you might enjoy...[931]$l",
+			"summer_10": "Have you thought about what you're going to put in the luau soup?#$e#I have no idea what's good... you're the chef!$h#$e#Maybe this, haha.[931]#$e#Just kidding.",
+			"Indoor_Night_3": "Hey... I got some new shorts. I thought you might be interested to know...$l#$e#Oh, and I had some fun by myself today... saved something for you.[931]#$e#How about I pound that ass of yours tonight?$l#$e#I love you.$l"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+			}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Alex",
+		"entries": 
+		{
+			"Resort_Towel_2": "Phew, it feels great having sunlight on your abs and cock.#$e#God, I fucking love being naked. Why should I keep this rockin bod and huge cock hidden?"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Naked Beach Outfits": "True",
+			}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Alex",
+		"entries": 
+		{
+			"Resort_Towel_2": "Phew, it feels great having sunlight on your abs.#$e#That's why I try not to wear a shirt as often as possible. Why should I keep this rockin' bod hidden?"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Naked Beach Outfits": "False",
+			}
+	},
+	
+	//Caroline
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Caroline",
+		"fields": 
+		{
+			 "Sat4": {0: "#$1 Caroline12#When we first moved here, I took a while to settle down... I wasn't ready for the domestic life.#$e#Pierre's a bit traditional... but he's a good man. He's ambitious, but he always puts his family first.#$e#...And just between you and me... I really wish he didn't participate in that... \"No Clothes\" law that Lewis passed a while ago. It's embarassing...$s"},
+			 "fall_Tue": {0: "Pierre is always complaining that he's cold...$s#$e#I've tried to persuade him to start wearing clothes again, but he refuses...$s#$e#It just isn't professional!$3"}
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "True"
+			}
+	},
+	
+	//Clint
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Clint",
+		"entries": 
+		{
+			 "summer_Wed8": "Oh, hi @! Sorry If I look a little messy. I've been working at the furnace all morning.$h#$e#So, did you need anything, or do you just want to visit?#$e#Here's something to express my thanks, for you being my friend. Other guys were doing it, so...[940]",
+			 "Wed8": "Oh, hi @. Sorry If I look a little messy. I've been working at the furnace all morning.$h#$e#So, did you need anything, or do you just want to visit?#$e#Hey, here's something to express my thanks, for you being my friend. Other guys were doing it, so...[940]"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "False"
+			}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Clint",
+		"entries": 
+		{
+			 "summer_Wed6": "Oh, hi @! Sorry If I look a little messy. I've been working at the furnace all morning.$h#$e#I almost scorched my dick! I should probably put some clothes on.. but if Emily comes in, I want her to see that I've been working out!",
+			 "summer_Wed8": "Oh, hi @! Sorry If I look a little messy. I've been working at the furnace all morning.$h#$e#So, did you need anything, or do you just want to visit?#$e#Here's something to express my thanks, for you being my friend. Other guys were doing it, so...[940]",
+			 "Wed8": "Oh, hi @. Sorry If I look a little messy. I've been working at the furnace all morning.$h#$e#So, did you need anything, or do you just want to visit?#$e#Hey, here's something to express my thanks, for you being my friend. Other guys were doing it, so...[940]"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "True"
+			}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Clint",
+		"entries": 
+		{
+			"Resort_Entering": "I had bought some new red trunks... but why wear them if I can just go nude instead?"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Naked Beach Outfits": "True",
+			}
+	},
+	
+	//Demetrius
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Demetrius",
+		"entries":
+		{
+			"Thu5": "Sebastian's an odd kid...#$b#He's fairly quiet most of the time, but when it comes to masturbation he's louder than a jet engine!$h#$e#I wish I didn't know that...$s",
+			"winter_Wed6": "Sebastian's... moaning... can sometimes disrupt our lab work...$s#$e#But he's young, and all boys do it, so I'm not mad.",
+			"winter_Tue": "Talk to my wife if you want to increase the size of your house.#$e#Talk to me if you want to increase the size of your dick.^She knows her way around a piece of wood!#$e#Just kidding.^Sorry, did you not find that funny?$s",
+			"Wed8": "Hi @! How are you doing today?#$e#I wish I could make your farming job easier somehow.#$e#Actually... my semen has some interesting properties. Maybe it could be of some use.[938]#$e#Don't tell Robin I gave you that.$5",
+			"summer_Mon8": "I became a scientist because I wanted to contribute to the progression of our species.#$e#Of course, none of this would be possible without farmers such as yourself.$h#$e#On the subject of progression of our species... semen! It has some interesting properties. Give it a look.[938]#$e#Don't tell Robin I gave you that.$5",
+			"winter_Sun": "Feel free to harvest as much lumber and stone from this area as you please.#$e#You're also free to harvest the semen from this huge penis...[938]#$e#Don't tell Robin I gave you that.$5",
+			"winter_tue6": "Sebastian seems to be under the impression that living in the basement means his moans are dampened.$3#$e#...They aren't. I can hear every goddamn moan, squeal, and croak. It's torture.$5"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True"
+			}
+	},
+	
+	//Elliott
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Elliott",
+		"entries":
+		{
+			"Fri6": "Manscaping can be a pain sometimes, but I am far too vain to let my nether region become a jungle.$h",
+			"summer_Wed8": "Harvey likes to brag about how much cum he can produce, but it is nothing compared to what I can do!$h#$e#Once I start it's hard to stop! Its practically like a waterfall!$h#$e#I produce so much I've started bottling the stuff. Here, have one![932]",
+			"summer_Thu6": "Being naked is very liberating!$h#$e#Unfortunately I feel walking around in the nude would get me in trouble...",
+			"winter_Mon2":"@, you've trudged through the snow to visit me?#$e#I'm honored!$h",
+			"winter_Mon6": "Harvey likes to brag about how much cum he can produce, but it is nothing compared to what I can do!$h#$e#Once I start it's hard to stop! Its practically like a waterfall!$h",
+			"winter_Mon8": "Harvey likes to brag about how much cum he can produce, but it is nothing compared to what I can do!$h#$e#Once I start it's hard to stop! Its practically like a waterfall!$h#$e#I produce so much I've started bottling the stuff. Here, have one![932]",
+			"Sun8": "Oh, @! I was hoping you'd show up.#$e#It's always a pleasure to see you.$h#$e#Here, a gift to show my overwhelming gratitude.[932]$h",
+			"fall_Fri8": "My legs are stiff from sitting at my writing desk all night.$s#$e#I read somewhere that masturbation can help, so I gave it a shot... and it worked!$h#$e#Here's proof! Yoba, I was like a geyser.[932]",
+			"winter_sat6": "I've attempted to write a few erotic novels but they never seem to turn out...$s#$e#I always get incredibly turned on by my own writing and finish all over the unfinished manuscript.#$e#Sometimes being Yoba's gift to writing is a curse.$s"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "False"
+			}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Elliott",
+		"entries":
+		{
+			"Fri6": "Manscaping can be a pain sometimes, but I am far too vain to let my nether region become a jungle.$h",
+			"summer_Wed8": "Harvey likes to brag about how much cum he can produce, but it is nothing compared to what I can do!$h#$e#Once I start it's hard to stop! Its practically like a waterfall!$h#$e#I produce so much I've started bottling the stuff. Here, have one![932]",
+			"summer_Thu6": "Being naked is very liberating!$h#$e#Thank goodness for that law Lewis passed!",
+			"summer_Sat": "The sun is angry today... My skin is a bit too delicate, I'm afraid.#$e#I could put some clothes on, but... I am far too lazy.$h",
+			"fall_Tue8": "@, I was just thinking about you.$l#$e#Maybe you sensed it.$h#$e#Or maybe you just looked at my crotch! *chuckle*$h#$e#So! Tell me about your day.",
+			"fall_Thu": "I woke up this morning with a crab dangerously close to my penis...#$e#That's the trouble with living on the beach.",
+			"winter_Mon2":"@, you've trudged through the snow to visit me?#$e#I'm honored!$h",
+			"winter_Mon6": "Harvey likes to brag about how much cum he can produce, but it is nothing compared to what I can do!$h#$e#Once I start it's hard to stop! Its practically like a waterfall!$h",
+			"winter_Mon8": "Harvey likes to brag about how much cum he can produce, but it is nothing compared to what I can do!$h#$e#Once I start it's hard to stop! Its practically like a waterfall!$h#$e#I produce so much I've started bottling the stuff. Here, have one![932]",
+			"Sun8": "Oh, @! I was hoping you'd show up.#$e#It's always a pleasure to see you.$h#$e#Here, a gift to show my overwhelming gratitude.[932]$h",
+			"fall_Fri8": "My legs are stiff from sitting at my writing desk all night.$s#$e#I read somewhere that masturbation can help, so I gave it a shot... and it worked!$h#$e#Here's proof! Yoba, I was like a geyser, I produced two whole bottles![932][932]$h",
+			"winter_sat6": "I've attempted to write a few erotic novels but they never seem to turn out...$s#$e#I always get incredibly turned on by my own writing and finish all over the unfinished manuscript.#$e#Sometimes being Yoba's gift to writing is a curse.$s"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "True"
+			}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/MarriageDialogueElliott",
+		"entries":
+		{
+			"Rainy_Day_2": "I got up early and made coffee.[395]#$e#I find that a cup of this exquisite brew makes the early morning a lot more pleasant.#$e#Here, have some fresh cream for your coffee![932]",
+			"Rainy_Day_3": "I think I'll remain indoors today, my dear. The rain causes my hair to go limp.#$e#Maybe I'll do some writing and masturbate.$h",
+			"Rainy_Night_3": "What did I do today? I'll just say this... it takes a lot of work to maintain this rugged physique!#$e#*wink*[932]$h",
+			"Indoor_Day_1": "Good morning, @! I made us a pot of coffee.[395]#$e#I find myself craving this robust flavor nearly every morning.#$e#Remind me, do you take cream in your coffee?[932]"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+			}
+	},
+	
+	//Evelyn
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Evelyn",
+		"entries":
+		{
+			"Sat": "My grandson likes to masturbate a lot it seems...#$e#I wish he wasn't so loud...$s",
+			"summer_Sat": "My grandson likes to masturbate a lot it seems...#$e#I wish he wasn't so loud...$s",
+			"fall_Sat": "My grandson likes to masturbate a lot it seems...#$e#I wish he wasn't so loud...$s",
+			"fall_Sat4": "Alex had a boyfriend for a short while in High School.#$b#His father put an end to that quite quick.$s#$e#Just between you and me, I think that's why he overcompensates so much.",
+			"fall_sat_inlaw_Alex": "You and Alex look so happy together. It seems a weight has been taken off his shoulders. He's no longer hiding himself.^You and Alex... you seem happy. I just hope he is too.#$e#I love my gay grandson and his husband!$h^Hmm...$s"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True"
+			}
+	},
+	
+	//George
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/George",
+		"entries":
+		{
+			"winter_tue2": "My grandson sure likes to masturbate... loudly...$s#$e#Eh, I can't blame him, I did the same when I was his age...$h",
+			"Wed10_inlaw_Alex": "I'll admit, I thought it was... strange... for two men to be together. But you're such a nice young man, and I know you two are in love... I've changed my mind.^You're part of the family, now... and I couldn't be more proud.#$e#You're part of the family, now... and I couldn't be more proud.^You're such a lovely girl.$h",
+			"Wed4": "*Sigh* I think my grandson might be a homo...$s#$e#Huh? Speak up."
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "False"
+			}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/George",
+		"entries":
+		{
+			"winter_tue2": "My grandson sure likes to masturbate... loudly...$s#$e#Eh, I can't blame him, I did the same when I was his age...$h",
+			"Wed10_inlaw_Alex": "I'll admit, I thought it was... strange... for two men to be together. But you're such a nice young man, and I know you two are in love... I've changed my mind.^You're part of the family, now... and I couldn't be more proud.#$e#You're part of the family, now... and I couldn't be more proud.^You're such a lovely girl.$h",
+			"Sun": "Buh, life is annoying, but at least I don't have to get changed into clothes anymore.#$e#It's such a hassle when you're in a wheelchair...$s#$e#*sigh*$s",
+			"Wed4": "*Sigh* I think my grandson might be a homo...$s#$e#Huh? Speak up."
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "True"
+			}
+	},
+	
+	//Gus
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Gus",
+		"entries":
+		{
+			"Tue8": "I sell different dishes each week, so make sure and check in every now and then!#$e#You might taste something spectacular.$h#$e#I think I know you well enough that I can let you know the secret ingredient in my special sauce...#$b#It's my cum... it adds that perfect amount of salt and creaminess.[941]#$e#Okay, see you around. Don't tell anyone!$h",
+			"Sat8": "Are you much of a chef, @?#$e#I'll let you in on a secret... semen can sometimes add a much-needed kick to a dish. I do it fairly often for the dishes here.#$e#Here, give a taste of the raw batter.[941]$h"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True"
+			}
+	},
+	
+	//Harvey
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Harvey",
+		"entries":
+			{
+			"summer_Wed4": "Being naked can actually be very beneficial for your health!$h#$e#Always make some time to be naked.",
+			"summer_Sat4": "Being this town's only doctor, I've seen every dick in town!#$e#You want to know the lengths..? Well... okay.#$b#Don't tell them I told you...#$e#Sebastian is the smallest at... actually, why don't you just check the notes I have in my examination room? They're all there, along with whether they're circumcised or not.",
+			"winter_Mon6": "I don't mean to brag, but I was the cumming champion six years in a row at college!#$e#I can produce an entire bucket of the stuff!$h#$e#Here, have some![933]",
+			"summer_Fri4": "Being circumcised has many health benefits.$h#$e#Th-That's not to say that having foreskin is bad, of course!$7#$e#You shouldn't make fun of someone because of whether they're circumcised or not.",
+			"fall_Fri8": "Have I ever told you I was the cumming champion every year at medical school?#$e#All of us med students would meet up every semester, and see who produce the most of it.#$e#No one ever came close!$h#$e#I've been told it tastes great too. Here, have some.[933]",
+			"Wed8": "You have a really healthy glow. That's good.$h#$e#Here, a gift for one of my favorite people.[933]$h",
+			"fall_Thu4": "My signature 'stache is a tribute to my favorite vintage porn star - Ram Douglas!#$e#He's incredibly handsome, with a great chest full of hair and a huge cock. I've been told I'm his spitting image!$h#$e#Well, maybe not in the cock department...$s#$b#He had a fifteen inch cock - can you believe that?!$7",
+			"winter_Mon4": "Whoo! I'm exhausted. I stayed up all night watching my favorite vintage pornos - the Best of Ram Douglas volumes Four through Nine!#$e#There's nothing quite like vintage porn! I love it! I've got a huge collection.$h",
+			"spring_Sun6": "Has anyone ever told you you bear a striking resemblance to vintage porn star Jordan Young?#$e#They were fantastic in \"Cowpoke Rides Again\"!$h",
+			"spring_Sun8": "Has anyone ever told you you bear a striking resemblance to vintage porn star Jordan Young?#$e#They were fantastic in \"Cowpoke Rides Again\"!$h#$e#Maybe you could come over and we could watch it together...$l",
+			"fall_Fri6": "I've got the largest collection of vintage gay porno mags this side of the Gem Sea!$h#$e#Let me know if you'd like to come up and have a look at them.",
+			"winter_Sat4": "I really enjoy vintage gay porn, especially during the winter. They just don't make pornos like they used to.#$b#I've got quite the collection!$h#$b#But I refuse to collect the medical ones - way too much malpractice...$a",
+			"winter_Sat8": "There's nothing quite like good vintage gay porn! I've got a huge collection!$h#$e#I actually starred in a few during my college days for money!#$e#Well, maybe \"starred\" is an overstatement, I just did a few scenes.$s#$e#Got the chance to work with some big name stars, however!$h"
+			},
+			"When":
+			{
+				"The villagers should have new dialogue.": "True"
+			}
+	},
+	
+	//Harvey nakey
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Harvey",
+		"entries":
+			{
+			"summer_Wed4": "Being naked can actually be very beneficial for your health!$h#$e#Always make some time to be naked.",
+			"summer_Sat4": "Being this town's only doctor, I've seen every dick in town!#$e#You want to know the lengths..? Well... okay.#$b#Don't tell them I told you...#$e#Sebastian is the smallest at... actually, why don't you just check the notes I have in my examination room? They're all there, along with whether they're circumcised or not.",
+			"winter_Mon6": "I don't mean to brag, but I was the cumming champion six years in a row at college!#$e#I can produce an entire bucket of the stuff!$h#$e#Here, have some![933]",
+			"summer_Fri4": "Being circumcised has many health benefits.$h#$e#Th-That's not to say that having foreskin is bad, of course!$7#$e#You shouldn't make fun of someone because of whether they're circumcised or not.",
+			"Sun": "Hmm... I'm struggling to make ends meet. I don't have enough patients.#$e#I guess I should try to get patients from the neighboring towns...#$e#But then I'd likely have to start wearing my old doctor garb... you never realize how itchy clothing is until you've gone years without it...$s",
+			"Sun8": "Hmm... I'm struggling to make ends meet. I don't have enough patients.#$e#I guess I should try to get patients from the neighboring towns...#$e#But then I'd likely have to start wearing my old doctor garb... you never realize how itchy clothing is until you've gone years without it...$s",
+			"fall_Fri8": "Have I ever told you I was the cumming champion every year at medical school?#$e#All of us med students would meet up every semester, and see who produce the most of it.#$e#No one ever came close!$h#$e#I've been told it tastes great too. Here, have some.[933]",
+			"Wed8": "You have a really healthy glow. That's good.$h#$e#Here, a gift for one of my favorite people.[933]$h",
+			"fall_Thu4": "My signature 'stache is a tribute to my favorite vintage porn star - Ram Douglas!#$e#He's incredibly handsome, with a great chest full of hair and a huge cock. I've been told I'm his spitting image!$h#$e#Well, maybe not in the cock department...$s#$b#He had a fifteen inch cock - can you believe that?!$7",
+			"winter_Mon4": "Whoo! I'm exhausted. I stayed up all night watching my favorite vintage pornos - the Best of Ram Douglas volumes Four through Nine!#$e#There's nothing quite like vintage porn! I love it! I've got a huge collection!$h",
+			"spring_Sun6": "Has anyone ever told you you bear a striking resemblance to vintage porn star Jordan Young?#$e#They were fantastic in \"Cowboy Rides Again\"!$h#$e#Maybe you could come over and we could watch it together...$l",
+			"fall_Fri6": "I've got the largest collection of vintage gay porno mags this side of the Gem Sea!$h#$e#Let me know if you'd like to come up and have a look at them.",
+			"winter_Sat4": "I really enjoy vintage gay porn, especially during the winter. They just don't make pornos like they used to.#$b#I've got quite the collection!$h#$b#But I refuse to collect the medical ones - way too much malpractice...$a",
+			"winter_Sat8": "There's nothing quite like good vintage gay porn! I've got a huge collection!$h#$e#I actually starred in a few during my college days.#$e#Well, maybe \"starred\" is an overstatement, I just did a few scenes.$s#$e#Got the chance to work with some big name stars, however!$h"
+			},
+			"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "True"
+			}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/MarriageDialogueHarvey",
+		"entries":
+		{
+			"Rainy_Day_2": "I woke up early, but I made sure not to wake you. You looked so peaceful.#$e#I woke up with a throbbing erection, and came two bottles worth![933][933]$h#$e#I love you so much, @.$l",
+			"Rainy_Day_4": "I have a backlog of house chores I want to complete today. I've got plenty to keep me busy!#$e#In fact, I've already masturbated twice this morning! Something about the rain gets me horny.[933]",
+			"Indoor_Night_1": "I took it easy today... spent some time reading books, fiddled with my radio, and worked on a model airplane.#$e#It's important to take a day off now and then to relax... stress is unhealthy.#$e#Oh! I also produced this, just for you![933]$l",
+			"Indoor_Night_3": "Why don't we add a new porno to my collection tonight...?$l#$e#It'll be one for the ages... I love you so much.$l",
+			"fall_15": "Tomorrow's the fair. The food is very rich and salty, but I'm fine with splurging once in a while.$h#$e#You know what else is rich and salty..?[933]$l"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "True"
+			}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Harvey",
+		"entries": 
+		{
+			"Resort": "I was on the swim team back in college, but no one seems to believe me.$s#$b#Had to stay in shape somehow!$h#$e#If you know, you know."
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+			}
+	},
+	
+	//Harvey cut farmer
+		{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Harvey",
+		"entries":
+			{
+			"summer_Fri6": "Being circumcised has many health benefits.$h#$e#Th-That's not to say that having foreskin is bad, of course!$7#$e#You shouldn't make fun of someone because of whether they're circumcised or not.#$e#You have a beautiful penis, if you don't mind me saying.$h",
+			"summer_Thu4": "I would love to meet the doctor who circumcised you, your scar is absolutely beautiful!#$e#Is that weird?#$e#Apologies, I'm rather passionate about these things.",
+			"fall_sat4": "Have I told you how beautiful your circumcision scar is? Yoba, it's absolute perfection!$h#$e#Apologies if I have, I can't help myself."
+			},
+			"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"If the farmer is male, is he naked? Leave as no if playing as a girl": "yes",
+				"If the farmer is male, is he circumcised?": "yes"
+			}
+		},
+	//Harvey uncut farmer
+		{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Harvey",
+		"entries":
+			{
+			"summer_Fri6": "Being circumcised has many health benefits.$h#$e#Th-That's not to say that having foreskin is bad, of course!$7#$e#You shouldn't make fun of someone because of whether they're circumcised or not.#$e#It looks like you have some foreskin yourself!"
+			},
+			"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"If the farmer is male, is he naked? Leave as no if playing as a girl": "yes",
+				"If the farmer is male, is he circumcised?": "no"
+			}
+		},
+			
+	//Jas
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jas",
+		"entries":
+		{
+			"Wed6": "Sometimes I hear Shane moaning and screaming from his room.$s#$e#One time I tried to see what was wrong but his door was locked!$s"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True"
+			}
+	},
+	
+	//Jodi
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jodi",
+		"entries":
+		{
+			"summer_Tue": "I wish Sam would close his door whenever he... well, you know. The amount of times I've accidentally walked in...$s",
+			"winter_Tue": "I wish Sam would close his door whenever he... well, you know. The amount of times I've accidentally walked in...$s",
+			"Fri6": "I was cleaning Sam's room the other day, and under his bed, I found bottles of his... I can't even say it...$s#$e#It was so disgusting...",
+			"Fri8": "I was cleaning the house, and underneath my bed, I found my husband's stash of his... well...$s#$e#Why are both my husband and son bottling their...? *ahem* What reason could they possibly have?$s#$e#It's sick. Please, get it out of my house.[937]$s"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "False"
+			}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jodi",
+		"entries":
+		{
+			"summer_Tue": "I wish Sam would close his door whenever he... well, you know. The amount of times I've accidentally walked in...$s",
+			"winter_Tue": "I wish Sam would close his door whenever he... well, you know. The amount of times I've accidentally walked in...$s",
+			"Thu6": "Where does all the time go? *sigh*#$e#I remember when Sam was a little baby wearing diapers. He was such a cute little kid. Now he's not wearing anything... *ahem*$s#$e#Don't tell him I said that.$h#$e#You must really like talking to me, huh?",
+			"summer_Thu": "Housework is frustrating because you're never finished.#$e#The day after I sweep the floor, it's dirty again.#$e#At least I don't have much laundry to do anymore... hehe...$h#$b#hmm...$s",
+			"Fri6": "I was cleaning Sam's room the other day, and under his bed, I found bottles of his... I can't even say it...$s#$e#It was so disgusting...",
+			"Fri8": "I was cleaning the house, and underneath my bed, I found my husband's stash of his... well...$s#$e#Why are both my husband and son bottling their...? *ahem* What reason could they possibly have?$s#$e#It's sick. Please, get it out of my house.[937]$s"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "True"
+			}
+	},
+	
+	//Kent
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Kent",
+		"entries":
+		{
+			"Sun6": "I never quite realized how often Sam masturbates...#$e#Heh, I can't blame him. It's a good way to pass the time.$h#$e#My time in the army was basically seventy percent masturbation.",
+			"Sun_inlaw_Sam": "Does Sam masturbate as often as he used to?#$e#He shouldn't, now that he's married to a fine young man like you.^He shouldn't. He has a wonderful wife!$h",
+			"Sat6": "I have trouble sleeping, so please excuse me if I seem tired.#$e#I'm sure you can understand.",
+			"Sat8": "I have trouble sleeping, so please excuse me if I seem tired.#$e#I spent most of last night silently jerking off.[937]#$e#I'm sure you can understand.",
+			"Wed8": "Jodi found my stash of cum bottles under the bed and got mad.#$e#Guess I should've had a better hiding space...$s#$b#But hey, she should be happy I didn't just leave my cum on the floor.#$e#Anyway, she wants me to get rid of the bottles, so here.[937]#$e#Do with it what you will.",
+			"fall_Mon6": "If you think the men in this town are horny, you wouldn't believe the men in the army...$s#$e#The stories I could tell...#$e#I've been balls deep in more men than I can remember.",
+			"fall_Mon8": "If you think the men in this town are horny, you wouldn't believe the men in the army...$s#$e#The stories I could tell... I've been balls deep in more men than I can remember.#$e#Pussy is great, don't get me wrong, but there's nothing quite like a man's tight asshole clenching your thick cock.#$e#Jodi says it's too thick for her...$s",
+			"winter_Mon6": "I'm glad to be home. Indoor Heating. In the army, we'd have giant all-night orgies just to stay warm.#$b#...Maybe I'm not as glad to be home as I thought...$s#$e#Jodi says my cock is too thick for her to comfortably take. I need a size queen to let me go balls deep. In the army I had guys lined up to get stretched by my cock.#$b#I miss it. Yoba, I'm fucking horny.",
+			"summer_Fri6": "This one private, Private Thompson, could take my cock like no other. He was obsessed with it.#$b#Any time we weren't on the field or doing drills he was begging to take it.$h#$e#Having a thick fat cock really has perks.$h"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "False"
+			}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Kent",
+		"entries":
+		{
+			"Sun6": "I never quite realized how often Sam masturbates...#$e#Heh, I can't blame him. It's a good way to pass the time.$h#$e#My time in the army was basically seventy percent masturbation.",
+			"Sun_inlaw_Sam": "Does Sam masturbate as often as he used to?#$e#He shouldn't, now that he's married to a fine young man like you.^He shouldn't. He has a wonderful wife!$h",
+			"Tue": "Things haven't changed much since I've been gone.#$e#Well, except that you're here.#$e#And, of course, the \"No Clothes\" law by Lewis.",
+			"Tue2": "Things haven't changed much since I've been gone.#$e#Except that we have a new farmer in town.$h#$e#And, of course, this interesting new \"No Clothes\" law by Lewis.",
+			"Tue4": "Things haven't changed much since I've been gone.#$e#Except that we have a new farmer in town.$h#$e#And, of course, this interesting new \"No Clothes\" law by Lewis.#$e#I'm gonna be honest, it's nice not having to get dressed in the morning, but I've never really wanted to see my adult son naked.$s",
+			"Sat6": "I have trouble sleeping, so please excuse me if I seem tired.#$e#I'm sure you can understand.",
+			"Sat8": "I have trouble sleeping, so please excuse me if I seem tired.#$e#I spent most of last night silently jerking off.[937]#$e#I'm sure you can understand.",
+			"Wed8": "Jodi found my stash of cum bottles under the bed and got mad.#$e#Guess I should've had a better hiding space...$s#$b#But hey, she should be happy I didn't just leave my cum on the floor.#$e#Anyway, she wants me to get rid of the bottles, so here.[937]#$e#Do with it what you will.",
+			"fall_Mon6": "If you think the men in this town are horny, you wouldn't believe the men in the army...$s#$e#The stories I could tell...#$e#I've been balls deep in more men than I can remember.",
+			"fall_Mon8": "If you think the men in this town are horny, you wouldn't believe the men in the army...$s#$e#The stories I could tell... I've been balls deep in more men than I can remember.#$e#Pussy is great, don't get me wrong, but there's nothing quite like a man's tight asshole clenching your thick cock.#$e#Jodi says it's too thick for her...$s",
+			"winter_Mon6": "I'm glad to be home. Indoor Heating. In the army, we'd have giant all-night orgies just to stay warm.#$b#...Maybe I'm not as glad to be home as I thought...$s#$e#Jodi says my cock is too thick for her to comfortably take. I need a size queen to let me go balls deep. In the army I had guys lined up to get stretched by my cock.#$b#I miss it. Yoba, I'm fucking horny.",
+			"summer_Fri6": "This one private, Private Thompson, could take my cock like no other. He was obsessed with it.#$b#Any time we weren't on the field or doing drills he was begging to take it.$h#$e#Having a thick fat cock really has perks.$h"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "True"
+			}
+	},
+	
+	//Lewis
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Lewis",
+		"entries":
+		{
+			"summer_Tue4": "I've been thinking of passing a law to let the townsfolk go about naked... what do you think?#$e#Dr. Harvey was talking about how being naked can be good for self-image and health... Why should nakedness be taboo?#$e#We'll see... who knows what the future holds?",
+			"fall_Wed8": "As you get older... it gets harder to... *ahem* produce...$s#$e#A lot of the younger guys in town have been bottling their cum, and I'm not one to miss a trend, so I've been saving every bit I can.#$e#Your opinion is important to me, let me know what you think. Not bad for an older man![944]$h",
+			"winter_Sun10": "Now this is JUST between us, okay, @?$3#$e#Marnie told me she likes the taste of... me. You're a farmer and cook, right? Can you tell me what you think?[944]#$e#This stays between us, got it?$a"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "False"
+			}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Lewis",
+		"entries":
+		{
+			"summer_Tue4": "Why did I pass that naked bill? Well... its a long story.#$e#Long story short, I just wanted to! Plus, Dr. Harvey had talked about how being naked can be good for self-image and health! It was an easy decision. Why should nakedness be taboo?",
+			"fall_Wed8": "As you get older... *ahem* produce...$s#$e#A lot of the younger guys in town have been bottling their cum, and I'm not one to miss a trend, so I've been saving every bit I can.#$e#Your opinion is important to me, let me know what you think. Not bad for an older man![944]$h",
+			"winter_Sun10": "Now this is JUST between us, okay, @?$3#$e#Marnie told me she likes the taste of... me. You're a farmer and cook, right? Can you tell me what you think?[944]#$e#This stays between us, got it?$a"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "True"
+			}
+	},
+	
+	//Linus
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Linus",
+		"entries":
+		{
+			"Wed2": "I have to be wary of strangers. Most people are scared of the naked 'wild man'.",
+			"winter_Mon": "It can get really cold if you live in a tent.$s#$e#And if you... live naked...$s"
+			
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "True"
+			}
+	},
+	
+	//Marnie
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Marnie",
+		"entries":
+		{
+			"Sat4": "Shane masturbates all the time.$3#$e#In my opinion, it's a little sad...$s"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "False"
+			}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Marnie",
+		"entries":
+		{
+			"Sat4": "Shane masturbates all the time.$3#$e#In my opinion, it's a little sad...$s",
+			"Fri8": "Doesn't Lewis look so dashing today?$h#$e#Such a good idea of him to pass that law, don't you think?$h"
+			
+			},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "True"
+			}
+	},
+	
+	//Maru
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Maru",
+		"entries":
+		{
+			"summer_Tue": "Sebastian is my half-brother, if you didn't know already.#$e#We look totally different.#I mean... he's so pale and, well...$s#$b#He's not afraid to... *ahem*... flaunt it.",
+			"summer_Tue4": "Sebastian hardly ever talks to me. I wonder if he even likes me at all?#$e#It's sad, I want to have a brother but he doesn't act like one.",
+			"summer_Sun2": "I think it really says something that the only people who participate in Lewis' \"No Clothes\" law are the men...$8#$e#I-I mean I could participate, technically, but... some things are just meant to be private... you know?$s"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "True"
+			}
+	},
+	
+	//Pam
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Pam",
+		"entries":
+		{
+			"Fri6": "I'd participate in Lewis' little law, but nobody wants to see that, haw-haw!$h#$e#That doesn't stop some people, though...$s"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "True"
+			}
+	},
+		{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Pam",
+		"entries":
+		{
+			"winter_Mon": "You got any hogs on that farm?#$e#Looks like you've got a big hog down there, har-har!$h"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"If the farmer is male, is he naked? Leave as no if playing as a girl": "yes"
+			}
+	},
+	
+	//Pierre
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Pierre",
+		"entries":
+		{
+			"winter_Thu8": "Hi. In the mood for a litle shopping?#$e#What about drinking?[942]#$e#The first bottle is free! Any additional bottles you have to pay for!"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "False"
+			}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Pierre",
+		"entries":
+		{
+			"winter_Sat": "Is it just me or is there a cold draft in here?#$e#H-Hey! What are you looking at! It's cold in here, I swear!$3",
+			"fall_Sun": "If I didn't have this shop to run I would be outside right now...#$e#The leaves look great and the mushrooms are sprouting.#$e#There's nothing quite like letting it all out in nature, is there, @?$h",
+			"winter_Thu8": "Hi. In the mood for a litle shopping?#$e#What about drinking?[942]#$e#The first bottle is free! Any additional bottles you have to pay for!"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "True"
+			}
+	},
+	
+	//Robin
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Robin",
+		"entries":
+		{
+			"Fri4_inlaw_Sebastian": "Sebastian seems a lot happier now that he's with you!$h",
+			"fall_Fri6": "Yesterday, Sebby came out of his room with a big happy grin on his face.#$e#I wonder what that was all about..?",
+			"winter_Mon5": "I wish Sebastian knew that porn is unhealthy to watch in succession.$a#$e#But he's an adult now, and is old enough to make his own decisions...",
+			"Mon5": "I found what looks to be a comic book in Sebby's room labeled 'Hentai'.$s#$e#Do you know what that means..?$s",
+			"winter_Mon9": "Sebby is a lovely boy. Do you know him well?",
+			"winter_Mon_inlaw_Sebastian": "So how is my little Sebby doing?$h#$e#He doesn't make you do all the work, does he?"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "False"
+			}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Robin",
+		"entries":
+		{
+			"Fri4_inlaw_Sebastian": "Sebastian seems a lot happier now that he's with you!$h",
+			"fall_Fri6": "Yesterday, Sebby came out of his room with a big happy grin on his face.#$e#I wonder what that was all about..?",
+			"winter_Mon5": "I wish Sebastian knew that porn is unhealthy to watch in succession.$a#$e#But he's an adult now, and is old enough to make his own decisions...",
+			"Mon5": "I found what looks to be a comic book in Sebby's room labeled 'Hentai'.$s#$e#Do you know what that means..?$s",
+			"winter_Mon9": "Sebby is a lovely boy. Do you know him well?",
+			"winter_Mon_inlaw_Sebastian": "So how is my little Sebby doing?$h#$e#He doesn't make you do all the work, does he?",
+			"Fri": "You've met my son Sebastian, right? He lives downstairs.#$e#He's a little shy, but I'm sure he'll warm up to you if you're nice to him.#$e#I-If you do go down, maybe consider asking him to put some clothes on? I-I don't really want to see my son naked, to be honest.$s#$e#When he was three it was cute, but now? He-He's an adult now... and...$s#$b#I-I'm sorry, I'm rambling, aren't I?$5",
+			"Sun2": "#$1 RobinDem#My husband almost set the house on fire last night with his science experiment. One of his beakers exploded and sent a fireball into the rafters! Thank Yoba I used fire-resistant lacquer when I built the place.$u#$e#Sorry if it smells weird in here, @. It's my husband's bizarre science project...#$e#I'll be honest, I was quite worried about his... naughty parts. He should've at least been wearing a lab coat, don't you think?$s"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "True"
+			}
+	},
+	
+	//Sam
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sam",
+		"entries":
+			{
+				"Summer_Sun4": "Sebastian always acts like he doesn't care that my dick is bigger, but I know he wishes he was bigger.#$e#Don't tell him I said that.",
+				"Tue8": "Hi, @. Do you want to hang out or something?#$e#Oh! I wanted to give you this![934]#$e#Thanks for being such a great friend.",
+				"Sat8": "Oh! I just remembered I'm supposed to call my Grandma. Okay, I'm going to put this rubber band on my wrist so I don't forget.#$e#That reminds me, I wanted to give you this![934]$h#$e#Seb says it tastes great!$h",
+				"fall_Wed8": "Seb tells me my cum tastes great. Wanna give it a try?#$b#Here![934]$h#$e#Dr. Harvey inspired me to start bottling my cum.",
+				"fall_Sat4": "I'm cut and Seb isn't. Everyone has their little differences, you know?#$e#I wouldn't trade my dick for the world!$h",
+				"winter_Sat6": "Seb says my dick is perfect. I'm inclined to agree.#$e#Seven inches and cut? What's not to love?!$h",
+				"Mon6": "There's something about playing guitar shirtless that's just so... liberating!$h#$e#You should come stay for our practice sessions sometime!$h",
+				"winter_Fri6": "I love the snow. Great for snowboarding. And it muffles the sound so I can play louder.#$e#And I can make Seb moan loader when I ram his ass against the wall.$3#$e#He's such a whiny fucking bottom, haha! But he has a great ass!$h",
+				"Summer_Wed6": "My sex playlist is unmatched. I have all of the greatest hits!#$e#Plus, sometimes I like to fantasize that I'm fucking my favorite stars, and the music helps.$3",
+				"summer_Fri6": "I wish I could talk Lewis into letting us guys go out without any clothes...$s#$e#Especially with this summer heat! It's so hot! We as a society have progressed past the need for clothes.$a#$e#Maybe you could talk to him about it? I'm sure you could...$l",
+				"summer_9": "One summer I came in the luau potluck without anyone seeing.#$e#Everyone seemed to love it that year!$h",
+				"fall_mon6": "I read today that penis size is controlled more by your maternal genetics rather than you paternal ones.#$e#I guess it's just a coincidence that my dad and I are both packin', then.$h#$e#That was gross I shouldn't have said that...$s"
+			},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "False"
+			}
+		},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sam",
+		"entries":
+			{
+				"Thu6_2": "...I have mixed feelings about my father being back. He seems strange.$s#$b#But I guess I haven't seen him in 3 years... so that could explain it.#$e#Well... that and I can see his dick now. Not really something I wanted to see, to be honest...",
+				"Summer_Sun4": "Sebastian always acts like he doesn't care that my dick is bigger, but I know he wishes he was bigger.#$e#Don't tell him I said that.",
+				"winter_Mon6": "Hi... Cold, isn't it?#$e#My balls absolutely hate it! Look at em, they're all shrivelled up!$h",
+				"Tue8": "Hi, @. Do you want to hang out or something?#$e#Oh! I wanted to give you this![934]#$e#Thanks for being such a great friend.",
+				"Sat8": "Oh! I just remembered I'm supposed to call my Grandma. Okay, I'm going to put this rubber band on my wrist so I don't forget.#$e#That reminds me, I wanted to give you this![934]$h#$e#Seb says it tastes great!$h",
+				"fall_Wed8": "Seb tells me my cum tastes great. Wanna give it a try?#$b#Here![934]$h#$e#Dr. Harvey inspired me to start bottling my cum.",
+				"fall_Sat4": "I'm cut and Seb isn't. Everyone has their little differences, you know?#$e#I wouldn't trade my dick for the world!$h",
+				"winter_Sat6": "Seb says my dick is perfect. I'm inclined to agree.#$e#Seven inches and cut? What's not to love?!$h",
+				"Mon6": "There's something about playing guitar shirtless that's just so... liberating!$h#$e#You should come stay for our practice sessions sometime!$h",
+				"winter_Fri6": "I love the snow. Great for snowboarding. And it muffles the sound so I can play louder.#$e#And I can make Seb moan loader when I ram his ass against the wall.$3#$e#He's such a whiny fucking bottom, haha! But he has a great ass!$h",
+				"Summer_Wed6": "My sex playlist is unmatched. I have all of the greatest hits!#$e#Plus, sometimes I like to fantasize that I'm fucking my favorite stars, and the music helps.$3",
+				"summer_Fri6": "I'm so glad Lewis passed that law! I love being naked, why the hell are clothes still a thing?#$e#We as a society have progressed past the need for clothes.#$e#Now if only I could normalize being able to jerk off and fuck in public whenever I want...$3",
+				"summer_9": "One summer I came in the luau potluck without anyone seeing.#$e#Everyone seemed to love it that year!$h",
+				"fall_mon6": "I read today that penis size is controlled more by your maternal genetics rather than you paternal ones.#$e#I guess it's just a coincidence that my dad and I are both packin', then.$h#$e#That was gross I shouldn't have said that...$s"
+				
+			},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "True"
+			}
+		},
+		
+		{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/MarriageDialogueSam",
+		"entries":
+			{
+				"Rainy_Day_0": "Might be a good day to sit back and jam on the guitar...#$e#Hey, you can relax too if you want.#$e#Maybe later we can fuck, okay?$h#$e#I'll give you the fresh stuff later... but here's something to hold you over til then...[934]$l",
+				"Rainy_Day_2": "Hey, I found one of these rolling around in the back of a drawer. [90 88 86 535 934]#$e#I thought you might be able to use it.",
+				"Rainy_Night_1": "It was a pretty low-key day for me... colas, frozen pizza, jerking off, a few hours noodling around on the guitar. I feel relaxed.[934]",
+				"Indoor_Night_1": "My day? Oh... I can hardly remember. I didn't really do anything of note. Just relaxed and had a good time.#$e#I actually head a *really* good time, if you catch my drift.[934]$h",
+				"Good_1": "Do you ever think of that night we snuck into my room? I do, often...[934]$l",
+				"Indoor_Night_3": "Y'know, I'm real glad I'm circumcised. I really do have a nice looking dick, don't you think?$h#$e#How bout I fill you up with this perfect dick tonight, huh?$l"
+				
+			},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+			}
+		},
+		
+	//Sebastian
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sebastian",
+		"entries":
+			{
+				"Wed10": "Um... this is gonna sound super awkard but...$s#$b#I know my dick is fairly small but dammit if I can't show you a good time!$l",
+				"Fri8": "What's new?$h#$e#I'll be at the saloon tonight destroying Sam at pool again.$h#$e#And then he'll destroy my ass afterwards, haha.",
+				"fall_Mon4": "You're probably making a lot of money on your farm, huh?#$e#I guess I should get a real job soon...$s#$e#Those online cam sites are good for a quick buck but-uuhhh I mean...#$e#Forget I said anything...$s",
+				"Wed8": "You and Sam are probably my only friends in this town.$s#$e#Uh, Sam told me this was a good way to express thanks... I dunno.[935]",
+				"Sun8": "Oh, hey. I was just thinking about you. I wanted to give you this.[935]",
+				"summer_Wed8": "Why am I grinning? I guess I've been unusually happy lately...$l#$e#Uh, here, hehe.[935]$l",
+				"summer_Thu": "I definitely don't want to go skinny dipping, if that's what you're going to ask.$s#$e#Oh, you just stopped to say hi? Sorry.",
+				"summer_sun6": "Sam is more of a magazine guy, I'm more of a video guy. It's all about personal taste, y'know?$h#$e#Oh, I was... talking about porn, by the way.",
+				"winter_wed6": "Whenever I... finish watching porn I always get, like, second-hand embarassment.#$e#You're getting fucked in the ass and are letting anyone in the world see?!$s#$e#I could never...$s",
+				"fall_12_2": "Someone approached me to help code their visual novel sex game. It absolutely killed me that I had to turn it down.#$e#I just have so many current projects, and don't have the time for another...$s",
+				"winter_Tue8": "You know? One good thing about the basement is getting to be loud as hell when you're jerking off or getting fucked.#$e#Wanna try it out sometime?",
+				"spring_4": "Have you every gotten fucked on a motorcycle?#$e#I have.",
+				"winter_26": "For Feast of the Winter Star, Sam got me a bunch of huge dildos...#$e#They seem to be a bit too big for me though *gulp*$s#$e#The real thing is better anyway."
+				
+			},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "False"
+			}
+		},
+		
+		{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sebastian",
+		"entries":
+			{
+				"Wed10": "Um... this is gonna sound super awkard but...$s#$b#I know my dick is fairly small but damn it if I can't show you a good time!$l",
+				"Thu": "#$1 Sebastian1#I snuck into the caves last night and got a nasty cut on my dick from a rock crab. #$e#The foreskin's still there, though, hahaha.$h",
+				"Fri8": "What's new?$h#$e#I'll be at the saloon tonight destroying Sam at pool again.$h#$e#And then he'll destroy my ass afterwards, haha.",
+				"fall_Mon4": "You're probably making a lot of money on your farm, huh?#$e#I guess I should get a real job soon...$s#$e#Those online cam sites are good for a quick buck but-uuhhh I mean...#$e#Forget I said anything...$s",
+				"Wed8": "You and Sam are probably my only friends in this town.$s#$e#Uh, Sam told me this was a good way to express thanks... I dunno.[935]",
+				"Sun8": "Oh, hey. I was just thinking about you. I wanted to give you this.[935]",
+				"summer_Wed8": "Why am I grinning? I guess I've been unusually happy lately...$l#$e#Uh, here, hehe.[935]$l",
+				"summer_Thu4": "I'm not circumcised, but Sam and my step-dad, Demetrius, are.#$e#I wish I didn't know what my step-dad's dick looks like...$s#$#Feels like the set-up to something you'd see on a porn site...",
+				"summer_sun6": "Sam is more of a magazine guy, I'm more of a video guy. It's all about personal taste, y'know?$h#$e#Oh, I was... talking about porn, by the way.",
+				"winter_wed6": "Whenever I... finish watching porn I always get, like, second-hand embarassment.#$e#You're getting fucked in the ass and are letting anyone in the world see?!$s#$e#I could never...$s",
+				"fall_12_2": "Someone approached me to help code their visual novel sex game. It absolutely killed me that I had to turn it down.#$e#I just have so many current projects, and don't have the time for another...$s",
+				"winter_Tue8": "You know? One good thing about the basement is getting to be loud as hell when you're jerking off or getting fucked.#$e#Wanna try it out sometime?",
+				"spring_4": "Have you every gotten fucked on a motorcycle?#$e#I have.",
+				"winter_26": "For Feast of the Winter Star, Sam got me a bunch of huge dildos...#$e#They seem to be a bit too big for me though *gulp*$s#$e#The real thing is better anyway."
+				
+			},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "True"
+			}
+		},
+		
+		{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/MarriageDialogueSebastian",
+		"entries":
+			{
+				"Rainy_Night_2": "Sorry, I didn't make any dinner. We might have a frozen pizza in the fridge or something.#$e#I dunno, my mind was elsewhere. It's hard to remember to do chores...#$e#I did jerk off, though.[935]",
+				"Rainy_Day_2": "Hey. I couldn't sleep last night so I took a walk to the caves. I found this... want it?[575 769 767 84 66 78 935]#$e#I just have trouble sleeping sometimes, it has nothing to do with you. I love you.$7",
+				"Indoor_Day_3": "Hey. How'd you sleep last night? I heard you mumbling.#$e#You seemed scared, but I have to admit... it was kind of cute.$l#$e#I may or may not have rubbed one out...[935]",
+				"Good_4": "You don't ever have to worry about me. I like to spend a lot of time alone.[935]"
+			},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+			}
+		},
+		
+	//Shane
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Shane",
+		"entries":
+			{
+				"Mon8": "Hey. Sorry if I came off as rude when we first met.#$e#It takes me a while to warm up to strangers.#$e#One of Marnie's magazines says this would be a good way to apologize. Here. Sorry.[936]",
+				"Tue8": "Life isn't so bad... at least I have frozen pizza and eggs.$u#$e#And a cock that I can jerk off whenever I need some dopamine.#$e#Here, I came in an empty beer bottle last night.[936]",
+				"Thu8": "You like talking to me? I guess I believe you... maybe you're as weird as I am.$h#$e#Here, from a friend to a friend... a bottle full of my cum, hehe.[936]",
+				"fall_Fri6": "I heard Harvey loves vintage porn. Me? I can only stand the modern shit. Who the hell wants to watch 30 minutes of plot? I just want to see a fat cock in a twink's ass.#$e#Who even has the time to watch a two hour porno? Those ten minute videos online are all I need.",
+				"winter_Fri8": "I'd love to do porn if I didn't hate my body so much. Getting paid to fuck twinks all day? Dream job.#$e#...What if I had to bottom? ...Shut the hell up.$a",
+				"fall_Wed4": "I don't think Sam takes his job too seriously. The number of times I've stumbled on him jerking in one of the aisles is... insane.#$e#I mean, yeah, I jerk off at work too. But at least I do it in, like. The bathroom.",
+				"spring_Fri8": "You should do porn. I'd love to see some guy with a fat cock plow your ass on a cheap couch#$e#I volunteer.$l",
+				"winter_18": "Buh... I ripped my pocket pussy the other night...$s#$e#It always gets a lot more use in the winter. Not the first time it's happened.#$e#Guess my cock is just too fat for it.",
+				"winter_26": "Bought myself a new pocket pussy for Feast of the Winter Star.#$e#My little present to myself.",
+				"fall_Sat6": "Don't understand how Harvey has so many porno mags. Whenever I buy any they get crusty real quick."
+				
+			},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "False"
+			}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Shane",
+		"entries":
+			{
+				"Mon8": "Hey. Sorry if I came off as rude when we first met.#$e#It takes me a while to warm up to strangers.#$e#One of Marnie's magazines says this would be a good way to apologize. Here. Sorry.[936]",
+				"Thu6": "Why do you like talking to me? Is it my penis? I'm pretty sure Alex's is bigger if you're just horny...$u",
+				"Tue8": "Life isn't so bad... at least I have frozen pizza and eggs.$u#$e#And a cock that I can jerk off whenever I need some dopamine.#$e#Here, I came in an empty beer bottle last night.[936]",
+				"Thu8": "You like talking to me? I guess I believe you... maybe you're as weird as I am.$h#$e#Here, from a friend to a friend... a bottle full of my cum, hehe.[936]",
+				"fall_Fri6": "I heard Harvey loves vintage porn. Me? I can only stand the modern shit. Who the hell wants to watch 30 minutes of plot? I just want to see a fat cock in a twink's ass.#$e#Who even has the time to watch a two hour porno? Those ten minute videos online are all I need.",
+				"winter_Fri8": "I'd love to do porn if I didn't hate my body so much. Getting paid to fuck twinks all day? Dream job.#$e#...What if I had to bottom? ...Shut the hell up.$a",
+				"fall_Wed4": "I don't think Sam takes his job too seriously. The number of times I've stumbled on him jerking in one of the aisles is... insane.#$e#I mean, yeah, I jerk off at work too. But at least I do it in, like. The bathroom.",
+				"spring_Fri8": "You should do porn. I'd love to see some guy with a fat cock plow your ass on a cheap couch#$e#I volunteer.$l",
+				"winter_18": "Buh... I ripped my pocket pussy the other night...$s#$e#It always gets a lot more use in the winter. Not the first time it's happened.#$e#Guess my cock is just too fat for it.",
+				"winter_26": "Bought myself a new pocket pussy for Feast of the Winter Star.#$e#My little present to myself.",
+				"fall_Sat6": "Don't understand how Harvey has so many porno mags. Whenever I buy any they get crusty real quick."
+				
+			},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "True"
+			}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/MarriageDialogueShane",
+		"entries":
+			{
+				"Rainy_Day_2": "Here... take this.[346 174 303 305 215 936]#$e#I don't want it to go bad...",
+				"Indoor_Night_4": "I spent all day watching TV and jerking off and now my legs feel like soft dough. Guess I'll have to take it easy until tomorrow.#$e#Here.[936]",
+				"Outdoor_0": "I didn't sleep well last night so I'm hoping this fresh air will get the juices flowing.#$e#What juices, you ask? Heh... you're weird.$h#$e#These, of course. *wink*[936]$h",
+				"Good_9": "Huh... You're wondering why I have this goofy grin on my face? You really have a short memory span, don't you? *blush*$h#$e#Maybe this'll jog your memory...[936]$l"
+			},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+			}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Shane",
+		"entries":
+			{
+				"Resort_Chair": "Hoo... Feels good to rest these hams.#$b#If anyone needs me, I'll just be sitting here, marinating.#$b#I'd jerk off but apparently the parrots don't like it when you do that."
+			},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+			}
+	},
+		
+	//Vincent
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Vincent",
+		"entries":
+		{
+			"Thu2": "Sometimes, I hear moans coming from Sam's room.$4#$e#One time I ran in to see if he was hurt, or something.$s#$e#He was all naked and touching his... private parts. He seemed really suprised and told me to 'GET OUT!' Then later he came over to me and apologized, and told me not go in his room without knocking first.$s#$e#Grown-ups are weird...$s",
+			"Thu": "You're not as boring as most grown-ups!",
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "False"
+			}
+	},
+	
+	//Vincent cut
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Vincent",
+		"entries":
+		{
+			"Thu2": "Sometimes, I hear moans coming from Sam's room.$4#$e#One time I ran in to see if he was hurt, or something.$s#$e#He was all naked and touching his... private parts. He seemed really suprised and told me to 'GET OUT!' Then later he came over to me and apologized, and told me not go in his room without knocking first.$s#$e#Grown-ups are weird...$s",
+			"Thu": "You're not as boring as most grown-ups!",
+			"Mon6": "Sebastian's penis looks a lot different than mine an' Sam's! It has some weird extra skin or somethin'!#$e#Hey, yours looks like ours!! Cool!!$h"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "True",
+				"If the farmer is male, is he naked? Leave as no if playing as a girl": "yes",
+				"If the farmer is male, is he circumcised?": "no"
+			}
+	},
+	
+	//Vincent uncut
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Vincent",
+		"entries":
+		{
+			"Thu2": "Sometimes, I hear moans coming from Sam's room.$4#$e#One time I ran in to see if he was hurt, or something.$s#$e#He was all naked and touching his... private parts. He seemed really suprised and told me to 'GET OUT!' Then later he came over to me and apologized, and told me not go in his room without knocking first.$s#$e#Grown-ups are weird...$s",
+			"Thu": "You're not as boring as most grown-ups!",
+			"Mon6": "Sebastian's penis looks a lot different than mine an' Sam's! It has some weird extra skin or somethin'!#$e#Hey, yours looks funny too!"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+				"Lewis should pass a law so the men of the town can be naked": "True",
+				"If the farmer is male, is he naked? Leave as no if playing as a girl": "yes",
+				"If the farmer is male, is he circumcised?": "no"
+			}
+	},
+	
+	//Willy
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Willy",
+		"entries":
+		{
+			"Sun10": "Hey, it's my skipper, @!$h#$e#I'd give you a discount on bait if I could afford it.$s#$e#Here's something, at least.[943]",
+			"Wed8": "Some fish come and go with the seasons. Others only come out at night or in the rain.#$e#I usually cum at night, hoho.[943]$h"
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+			}
+	},
+	
+	//Wizard
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Wizard",
+		"entries":
+		{
+			"Tue8": "I trust you enough to allow you in my basement. Treat what you find there with respect.#$e#I also trust you enough to give you this... do with it what you wish. It may prove useful.[939]#$e#You may have noticed my ejaculate is different in color to the males of your species... I am unsure of why.",
+			"Sun6": "I sometimes observe the local villagers in secret.#$e#I have noticed the men in town often engage in self-satisfaction... masturbation, or \"jerking off,\" as you call it. I have begun to engage in the practice myself. It is quite pleasurable!#$e#I produce this at completion... and have been bottling it on the offchance it proves useful.[939]#$e#It is also quite tasty!",
+			"winter_sat6": "I've noticed some men in the town are \"circumcised\" and some are not. How fascinating!#$e#I consider myself neither \"cut\" or \"uncut.\" My species does not have what you humans refer to as \"foreskin.\"#$e#I've also noticed my penis is quite a bit thicker than most mortals, as well... Kent is perhaps the closest in that regard.",
+			"fall_sat6": "I've noticed some men in the town are \"circumcised\" and some are not. How curious!#$e#I consider myself neither \"cut\" or \"uncut,\" as my species does not have what you humans refer to as \"foreskin.\"#$e#One of the potions in my Potions Manual requires it as an ingredient.",
+		},
+		"When":
+			{
+				"The villagers should have new dialogue.": "True",
+			}
+	},
+	
+	//STRINGS
+	{
+		"Action": "EditData",
+		"Target": "Strings/StringsFromMaps",
+		"fields":
+		{
+			"AnimalShop.6": {0: "You rummage through Marnie's dresser. It's mostly long dresses, but there is a pair of brown suspenders covering a box of condoms."},
+			"BathHouse_MensLocker.4": {0: "Alex's Locker... There's a bunch of pictures of naked bodybuilders taped inside the door."},
+			"Blacksmith.2": {0: "You rifle through Clint's personal effects. There's a stack of blacksmith aprons, some porno magazines, an old sword, a nice picture of his mother, and four bottles of lube."},
+			"Blacksmith.2": {0: "You rifle through Clint's personal effects. There's a stack of blacksmith aprons, some porno magazines, an old sword, a nice picture of his mother, and four bottles of lube."},
+			"ElliottHouse.3": {0: "Looks like it's filled with drafts for erotica."},
+			"HarveyRoom.9": {0: "Issues 1 through 85 of Gay Porn Mags from Falcon Studios - quite the collection!"},
+			"HarveyRoom.14": {0: "It's a pretty standard TV set. It's set to the history station. There's a vintage porno tape in the VHS player."},
+			"Hospital.2": {0: "Harvey's notes! You skim through...^^There's the full section on all the villagers' penises! Let's see...#$b#Alex: 10 inches, C^Elliott: 7.5 inches, UC^Harvey: 8 inches, C^Sam: 7 inches, C^Sebastian: 5 inches, UC^Shane: 6 inches, C#$b#Clint: 6 inches, UC^Demetrius: 8.5 inches, C^George: 5.5 inches, C^Gus: 5 inches, UC^Kent: 8 inches, C^Lewis: 6 inches, C#$b#Linus: 6 inches, UC^Pierre, 6.5 inches, C^Willy: 6.5 inches, UC^Gunther: 6.5 inches, C^Marlon: 7.5 inches, C"},
+			"Hospital.3": {0: "It's probably not a good idea to stick your hands in there. It's full of used syringes, dirty swabs, and little nozzles that Harvey stuck into people's ears and anuses."},
+			"Hospital.4": {0: "Is life sometimes difficult? Do you ever have trouble staying focused? Talk to your doctor about Pravoloxinone.^(Pravoloxinone is not for everyone. Side effects may include insomnia, severe anger, uncontrollable swelling of the throat and penis, permanent discoloration of the lips, hair loss, and stroke. In extremely rare cases (1 in 500), test subjects experienced complete disintegration of one or more bones.) "},
+			"JojaMart.82": {0: "XL condoms"},
+			"JojaMart.85": {0: "Condoms"},
+			"JojaMart.93": {0: "Condoms"},
+			"JoshHouse.7": {0: "You peek into Alex's drawer. There's hair gel, lube, and a box of gridball trading cards."},
+			"JoshHouse.8": {0: "You peek into Alex's drawer. There's hair gel, lube, and a box of XL Condoms."},
+			"SamHouse.7": {0: "There's a bunch of skateboarding magazines intermingled with porn magazines."},
+			"SamHouse.11": {0: "It's Sam's computer. He's got an extensive library of computer games, and a folder called 'Homework' filled with porn of all kinds."},
+			"SebastianRoom.2": {0: "Hentai."},
+			"MovieTheater_ShortsMan": {0: "Corner Guy: I wish this place screened pornos!"},
+			"MovieTheater_RedCapGuy": {0: "Man: Why don't we sit in the back row, and you can suck me off?" }
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Strings/StringsFromMaps",
+		"fields":
+		{
+			"MovieTheater_ShortsMan": {0: "Corner Guy: Brr... it's kind of drafty over here... maybe I should've worn pants!" },
+			"MovieTheater_RedCapGuy": {0: "Man: I don't go anywhere without my Red Cap, but I can't help feel a bit overdressed in this town..." }
+		},
+		"When":
+			{
+				"Lewis should pass a law so the men of the town can be naked": "True"
+			}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Strings/StringsFromMaps",
+		"entries":
+		{
+			"Pirates3": "PALE PIRATE: *ahem*... Yar.#...#...Not convincing, huh?#*sigh*...#To tell you the truth, I don't really want to be a pirate. I'd rather grow palms.#Unfortunately, there's no money in the palm business...",
+			"Pirates4": "BLACKGULL: Yar, matey. Ye must have a keen eye to've spotted our secret cove. Yo ho!",
+			"Pirates5": "GRIM PIRATE: From yonder seas, a chilling tale, a nightmare sure to haunt your sleep...#'Twas midnight when I lost me hands... to a savage monster o' the deep...#Yar, 'tis true...#...#...#..............#..............................................#Alright, I'm just kidding. I actually lost them while trying to fish an eggshell out of the blender.#Alas... me famous cake batter days are over...",
+			"PirateBartender_PirateClothes": "BARTENDER: Oi! We're a clothes-free clan, but ye got a pirate look, so 'ave one on me! Har Har!",
+		},
+		"When":
+			{
+				"Naked Pirates Clan": "True"
+			}
+	},
+	
+	//Schedules (Alphabetical)
+	
+	//Alex
+	{
+		"Action": "EditData",
+		"Target": "Characters/Schedules/Alex",
+		"entries":
+		{
+			"rain": "800 JoshHouse 8 19 2 alex_football/1300 JoshHouse 14 5 2 alex_lift_weights/1600 JoshHouse 19 5 2 alex_jerk/1830 JoshHouse 8 19 2/2000 JoshHouse 17 5 0/2200 JoshHouse 21 4 1 alex_sleep",
+			"summer_16": "800 Town 64 64 2 alex_football/930 Hospital 15 15 3 alex_sit_left \"Strings\\schedules\\Alex:summer_16.000\"/1200 Hospital 4 6 1 \"Strings\\schedules\\Alex:summer_16.001\"/1230 Hospital 21 11 3/1300 Hospital 21 11 3 harvey_alex_fuck \"Strings\\schedules\\Alex:summer_16.002\"/1630 JoshHouse 15 4 2/2200 JoshHouse 21 4 1 alex_sleep",
+			"winter": "830 BathHouse_MensLocker 3 5 2 alex_lift_weights/1100 BathHouse_MensLocker 12 6 2 alex_jerk/1600 JoshHouse 14 5 2/1800 Town 50 68 1/1930 JoshHouse 8 19 2/2100 JoshHouse 17 5 0/2240 JoshHouse 21 4 1 alex_sleep",
+			"Wed": "NOT friendship Haley 6/800 Town 64 64 2 alex_football/1200 JoshHouse 19 5 2 alex_jerk/1630 Town 50 68 1/1840 JoshHouse 8 19 2/2000 JoshHouse 17 5 0/2200 JoshHouse 21 4 1 alex_sleep",
+			"Mon": "800 Town 64 64 2 alex_football/1300 JoshHouse 14 5 2 alex_lift_weights/1600 JoshHouse 19 5 2 alex_jerk/1900 JoshHouse 8 19 2/2000 JoshHouse 17 5 0/2200 JoshHouse 21 4 1 alex_sleep",
+	    	"winter_Sat": "900 BathHouse_MensLocker 3 5 2 alex_lift_weights/1500 BathHouse_MensLocker 12 6 2 alex_jerk/1800 Town 50 68 1/1930 JoshHouse 8 19 2/2100 JoshHouse 17 5 0/2240 JoshHouse 21 4 1 alex_sleep",
+			"marriage_Fri": "730 BathHouse_MensLocker 3 5 2 alex_lift_weights/1200 BathHouse_MensLocker 12 6 2 alex_mjerk/1630 Town 50 68 1/1900 BusStop -1 23 3"
+		},
+		"When":
+			{
+				"The bachelors should jerk off": "True"
+			}
+	},
+	//Alex's Schedule Dialogue
+	{
+		"Action": "EditData",
+		"Target": "Strings/schedules/Alex",
+		"entries":
+		{
+			"summer_16.002": "You like that, doc? Huh, you like that? Ohh fuck... *moan* oh yeah..."
+		},
+		"When":
+			{
+				"The bachelors should jerk off": "True"
+			}
+	},
+	
+	//Demetrius
+	{
+		"Action": "EditData",
+		"Target": "Characters/Schedules/Demetrius",
+		"entries":
+		{
+			"rain": "750 ScienceHouse 16 19 2 demetrius_read/1100 ScienceHouse 22 20 1 demetrius_notes/1500 ScienceHouse 7 18 1/1540 ScienceHouse 21 6 3 dem_jerk/1800 ScienceHouse 27 9 0/1920 ScienceHouse 28 9 0/2000 ScienceHouse 15 4 0/2200 ScienceHouse 19 4 11 demetrius_sleep",
+			"Fri": "750 ScienceHouse 22 20 1 demetrius_notes/1400 ScienceHouse 21 6 3 dem_jerk/1800 ScienceHouse 27 9 0/1920 ScienceHouse 28 9 0/2000 ScienceHouse 20 4 1 demetrius_sleep",
+			"Mon": "750 ScienceHouse 29 9 0/1000 ScienceHouse 22 20 1 demetrius_notes/1130 Mountain 14 7 1/1230 Mountain 30 36 2/1330 Railroad 42 52 1 demetrius_notes/1440 Railroad 44 40 3 dem_jerk_r/2100 ScienceHouse 15 4 0/2230 ScienceHouse 19 4 11 demetrius_sleep"
+		},
+		"When":
+			{
+				"Some of the other men should jerk off too": "True"
+			}
+		},
+		
+		
+	//Elliott
+	{
+		"Action": "EditData",
+		"Target": "Characters/Schedules/Elliott",
+		"entries":
+		{
+			"rain": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1300 ElliottHouse 11 5 3 elliott_jerk/1800 ElliottHouse 7 7 2/2000 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
+			"marriage_Mon": "830 Beach 46 11 2 \"Strings\\schedules\\Elliott:marriage_Mon.000\"/1300 ElliottHouse 11 5 3 elliott_mjerk/1700 BusStop -1 23 3",
+			"fall": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ArchaeologyHouse 21 11 2 elliott_read/1430 ElliottHouse 11 5 3 elliott_jerk/2100 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
+			"summer": "800 ElliottHouse 1 5 0/930 ElliottHouse 6 4 0/1000 ElliottHouse 1 5 0/1030 Forest 96 39 2/1430 ElliottHouse 11 5 3 elliott_jerk/1800 ElliottHouse 7 7 2/2200 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
+			"spring": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1200 Beach 49 19 2/1330 ElliottHouse 11 5 3 elliott_jerk/1630 Town 55 104 1/1830 ElliottHouse 7 7 2/2000 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep"
+		},
+		"When":
+			{
+				"The bachelors should jerk off": "True"
+			}
+	},
+	
+	//Harvey
+	{
+		"Action": "EditData",
+		"Target": "Characters/Schedules/Harvey",
+		"entries":
+		{
+			"summer_16": "730 Hospital 1 5 0/1000 Hospital 10 14 2/1200 Hospital 5 5 2/1230 Hospital 20 11 3/1300 Hospital 20 11 2 harvey_alex_fuck \"Strings\\schedules\\Harvey:summer_16.000\"/1630 Hospital 3 15 0/1800 HarveyRoom 9 5 0/2300 HarveyRoom 13 4 1 harvey_sleep",
+			"summer_4": "730 Hospital 1 5 0/1000 Hospital 10 14 2/1200 Hospital 5 5 2/1230 Hospital 21 11 3/1300 Hospital 21 11 2 harvey_sebfuck \"Strings\\schedules\\Harvey:summer_4.000\"/1630 Hospital 3 15 0/1800 HarveyRoom 9 5 0/2300 HarveyRoom 13 4 1 harvey_sleep",
+			"fall_11": "730 Hospital 1 5 0/1000 Hospital 10 14 2/1200 Hospital 5 5 2/1230 Hospital 20 11 3/1300 Hospital 20 11 2 harvey_alex_fuck \"Strings\\schedules\\Harvey:fall_11.000\"/1630 Hospital 3 15 0/1800 HarveyRoom 9 5 0/2300 HarveyRoom 13 4 1 harvey_sleep",
+			"marriageJob": "630 Hospital 1 5 0 \"Strings\\schedules\\Harvey:marriageJob.000\"/1250 Hospital 10 14 2/1330 Hospital 5 5 2/1410 Hospital 5 6 3 harvey_examine_left/1550 Hospital 5 5 2/1630 Hospital 20 12 3 harvey_mjerk/1830 BusStop -1 23 3",
+			"marriage_Mon": "800 SeedShop 2 26 2 \"Strings\\schedules\\Harvey:marriage_Mon.000\"/1100 Town 23 27 1 \"Strings\\schedules\\Harvey:marriage_Mon.001\"/1300 BathHouse_MensLocker 6 13 3 harvey_mjerk/1730 BusStop -1 23 3",
+			"Fri": "700 HarveyRoom 21 7 0/830 Hospital 6 15 2/1200 SeedShop 2 23 3 \"Strings\\schedules\\Harvey:Fri.000\"/1500 HarveyRoom 21 7 0 \"Strings\\schedules\\Harvey:Fri.001\"/1630 HarveyRoom 11 5 harvey_jerk/1900 HarveyRoom 8 5 0/2100 HarveyRoom 6 4 0/2200 HarveyRoom 13 4 1 harvey_sleep",
+			"Sat": "700 HarveyRoom 21 7 0/830 ArhcaeologyHouse 16 9 0/1500 HarveyRoom 21 7 0 \"Strings\\schedules\\Harvey:Sat.000\"/1630 HarveyRoom 11 5 0 harvey_jerk/1900 HarveyRoom 8 5 0/2100 HarveyRoom 6 4 0/2200 HarveyRoom 13 4 1 harvey_sleep",
+			"winter": "800 HarveyRoom 19 7 0/840 Hospital 6 15 2/1200 HarveyRoom 4 5 1 harvey_radio/1600 HarveyRoom 11 5 3 harvey_jerk/1730 Saloon 18 20 0/2200 HarveyRoom 13 4 1 harvey_sleep",
+			"summer": "700 HarveyRoom 21 7 0/830 Hospital 6 15 2/1200 Town 23 36 2 square_7_5/1730 Hospital 9 15 3/1840 HarveyRoom 11 5 3 harvey_jerk/2200 HarveyRoom 13 4 1 harvey_sleep",
+			"spring": "700 HarveyRoom 21 7 0/830 Hospital 6 15 2/1200 Town 10 64 2 square_5_5/1730 Hospital 9 15 3/1840 HarveyRoom 11 5 3 harvey_jerk/2200 HarveyRoom 13 4 1 harvey_sleep"
+		},
+		"When":
+			{
+				"The bachelors should jerk off": "True"
+			}
+	},
+	//Harvey's Schedule Dialogue
+	{
+		"Action": "EditData",
+		"Target": "Strings/schedules/Harvey",
+		"entries":
+		{
+			"summer_16.000": "A-ahhh... uunngh... mmmm... oh y-Yoba! H-harder, Alex! I-I can take it! Ohhh... fuck...$17",
+			"summer_4.000": "Have you been a good boy for the doctor, Sebastian? Huh? Huh? Mmmm... ohhh fuck... yeah you like that, don't you?$16",
+			"fall_11.000": "Y-yoba..! Dammit Sam... f-fuck... *moan* unnghh... mmmm... oh fuck...$17"
+		},
+		"When":
+			{
+				"The bachelors should jerk off": "True"
+			}
+	},
+	
+	//Kent
+	{
+		"Action": "EditData",
+		"Target": "Characters/Schedules/Kent",
+		"entries":
+		{
+			"rain": "830 SamHouse 8 12 2/1200 Town 6 72 1/1500 SamHouse 20 5 3 kent_jerk/1900 SamHouse 8 5 3/2100 Town 6 89 2/2300 SamHouse 21 5 3 kent_sleep",
+			"Fri": "700 Town 42 102 2/1030 SamHouse 8 12 2/1400 Town 6 72 1/1600 Saloon 3 23 3/1700 Saloon 36 8 3 kent_jerk_drunk/1830 Saloon 31 6 3/1850 Saloon 31 6 3 kent_drunkfuck/2350 SamHouse 21 5 3 kent_sleep"
+		},
+		"When":
+			{
+				"Some of the other men should jerk off too": "True"
+			}
+	},
+	
+	//Sam
+	{
+		"Action": "EditData",
+		"Target": "Characters/Schedules/Sam",
+		"entries":
+		{
+			"marriage_Mon": "800 SamHouse 8 5 3 \"Strings\\schedules\\Sam:marriage_Mon.000\"/1100 SamHouse 3 13 2 \"Strings\\schedules\\Sam:marriage_Mon.001\"/1230 BathHouse_MensLocker 14 6 2 sam_mjerk/1700 BusStop -1 23 3",
+			"fall_11": "830 SamHouse 15 13 0 \"Strings\\schedules\\Sam:fall_11.000\"/930 Hospital 14 15 3 sam_gameboy/1130 Hospital 4 6 1 \"Strings\\schedules\\Sam:fall_11.001\"/1230 Hospital 21 11 3/1300 Hospital 21 11 3 sam_fuckharvey \"Strings\\schedules\\Sam:fall_11.002\"/1630 Town 11 94 2 \"Strings\\schedules\\Sam:fall_11.003\"/2100 SamHouse 22 13 1 sam_sleep",
+			"Sat": "800 Town 25 98 2/1100 Town 18 94 3 sam_gameboy/1230 SamHouse 17 15 2 sam_guitar/1500 SamHouse 18 14 3/1530 SamHouse 18 14 3 sam_sebfuck/1830 Town 12 94 3/1940 SamHouse 22 13 1 sam_sleep",
+			"Mon": "1000 SamHouse 17 15 2/1100 JojaMart 16 5 2 sam_work/1500 SamHouse 19 13 2 sam_jerk/2130 SamHouse 22 13 1 sam_sleep",
+			"marriage_Sat": "800 SamHouse 8 5 3 \"Strings\\schedules\\Sam:married_Sat.000\"/1230 SamHouse 17 15 2 sam_guitar/1500 SamHouse 18 14 3/1530 SamHouse 18 14 3 sam_sebfuck/1830 BusStop -1 23 3",
+			"rain": "1000 SamHouse 15 13 0/1100 SamHouse 17 15 2 sam_guitar/1400 SamHouse 8 6 3 sam_gameboy/1600 SamHouse 19 13 2 sam_jerk/1830 SamHouse 22 16 1/2000 SamHouse 22 13 1 sam_sleep",
+			"winter": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar/1320 SamHouse 19 13 2 sam_jerk/1630 Saloon 20 19 3/1900 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+			"fall": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar/1320 Forest 66 50 2/1500 Forest 34 24 2 sam_jerk/1900 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+			"Wed": "1000 SamHouse 17 15 2/1100 JojaMart 16 5 2 sam_work/1330 JojaMart 4 7 1/1350 JojaMart 4 7 1 sam_shanebj/1600 SamHouse 17 13 0/2130 SamHouse 22 13 1 sam_sleep",
+			"marriage_Wed": "1100 JojaMart 4 7 1/1350 JojaMart 4 7 1 sam_shanebj/1600 BusStop -1 23 3"
+		},
+		"When":
+			{
+				"The bachelors should jerk off": "True",
+				"IsCommunityCenterComplete": "false"
+			}
+	},
+	//Sam CC Complete
+	{
+		"Action": "EditData",
+		"Target": "Characters/Schedules/Sam",
+		"entries":
+		{
+			"marriage_Mon": "800 SamHouse 8 5 3 \"Strings\\schedules\\Sam:marriage_Mon.000\"/1100 SamHouse 3 13 2 \"Strings\\schedules\\Sam:marriage_Mon.001\"/1230 BathHouse_MensLocker 14 6 2 sam_mjerk/1700 BusStop -1 23 3",
+			"fall_11": "830 SamHouse 15 13 0 \"Strings\\schedules\\Sam:fall_11.000\"/930 Hospital 14 15 3 sam_gameboy/1130 Hospital 4 6 1 \"Strings\\schedules\\Sam:fall_11.001\"/1230 Hospital 21 11 3/1300 Hospital 21 11 3 sam_fuckharvey \"Strings\\schedules\\Sam:fall_11.002\"/1630 Town 11 94 2 \"Strings\\schedules\\Sam:fall_11.003\"/2100 SamHouse 22 13 1 sam_sleep",
+			"Sat": "800 Town 25 98 2/1100 Town 18 94 3 sam_gameboy/1230 SamHouse 17 15 2 sam_guitar/1500 SamHouse 18 14 3/1530 SamHouse 18 14 3 sam_sebfuck/1830 Town 12 94 3/1940 SamHouse 22 13 1 sam_sleep",
+			"Mon": "1000 SamHouse 17 15 2/1100 ArchaeologyHouse 40 4 2 sam_work/1500 SamHouse 19 13 2 sam_jerk/2130 SamHouse 22 13 1 sam_sleep",
+			"marriage_Sat": "800 SamHouse 8 5 3 \"Strings\\schedules\\Sam:married_Sat.000\"/1230 SamHouse 17 15 2 sam_guitar/1500 SamHouse 18 14 3/1530 SamHouse 18 14 3 sam_sebfuck/1830 BusStop -1 23 3",
+			"rain": "1000 SamHouse 15 13 0/1100 SamHouse 17 15 2 sam_guitar/1400 SamHouse 8 6 3 sam_gameboy/1600 SamHouse 19 13 2 sam_jerk/1830 SamHouse 22 16 1/2000 SamHouse 22 13 1 sam_sleep",
+			"winter": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar/1320 SamHouse 19 13 2 sam_jerk/1630 Saloon 20 19 3/1900 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+			"fall": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar/1320 Forest 66 50 2/1500 Forest 34 24 2 sam_jerk/1900 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+			"Wed": "1000 SamHouse 17 15 2/1100 ArchaeologyHouse 40 4 2 sam_work/1330 ArchaeologyHouse 40 4 1/1350 ArchaeologyHouse 40 4 1 sam_shanebj/1600 SamHouse 17 13 0/2130 SamHouse 22 13 1 sam_sleep",
+			"marriage_Wed": "1100 ArchaeologyHouse 40 4 2/1330 ArchaeologyHouse 40 4 1/1350 ArchaeologyHouse 40 4 1 sam_shanebj/1600 BusStop -1 23 3"
+		},
+		"When":
+			{
+				"The bachelors should jerk off": "True",
+				"IsCommunityCenterComplete": "true"
+			}
+	},
+	//Sam's Schedules Dialogue
+	{
+		"Action": "EditData",
+		"Target": "Strings/schedules/Sam",
+		"entries":
+		{
+			"fall_11.002": "*moan* uuhhUhhh.. mmmnnnmm.... oh yeah... f-fuck... *moan* unngh... oh y-yoba I wanna cum...$14",
+			"fall_11.003": "I just got out of the doctor's office. Completely healthy and vigorous, just as I expected.$h#$e#Yoba, I was so horny...",
+			"married_Sat.000": "Vincent is really becoming his own person. I remember when he was just a baby."
+		},
+		"When":
+			{
+				"The bachelors should jerk off": "True"
+			}
+	},
+	
+	//Sebastian
+	{
+		"Action": "EditData",
+		"Target": "Characters/Schedules/Sebastian",
+		"entries":
+		{
+			"rain2": "930 SebastianRoom 9 4 3 sebastian_computer/1200 SebastianRoom 8 6 0 seb_jerk/1600 Saloon 43 20 3/2110 SebastianRoom 11 9 1 sebastian_sleep",
+			"marriage_Wed": "830 ScienceHouse 6 20 0 \"Strings\\schedules\\Sebastian:marriage_Wed.000\"/1300 SebastianRoom 8 6 0 seb_mjerk/1700 BusStop -1 23 3",
+			"marriage_Sat": "900 Town 18 95 0/1230 SamHouse 19 18 0 sebastian_keyboard_up/1500 SamHouse 17 14 3/1530 SamHouse 17 14 3 seb_samfuck/1830 BusStop -1 23 3",
+			"fall": "1030 SebastianRoom 9 4 3 sebastian_computer/1200 Mountain 57 33 1/1400 Mountain 64 14 2/1600 SebastianRoom 8 6 0 seb_jerk/1830 SebastianRoom 9 4 3 sebastian_computer/2130 SebastianRoom 11 9 1 sebastian_sleep",
+			"summer_4": "900 SebastianRoom 10 7 1 \"Strings\\schedules\\Sebastian:summer_4.000\"/1000 Hospital 15 16 3 sebastian_cardsLeft/1200 Hospital 4 6 1 \"Strings\\schedules\\Sebastian:summer_4.001\"/1230 Hospital 20 11 3/1300 20 11 3 seb_harveyfuck \"Strings\\schedules\\Sebastian:summer_4.002\"/1630 SebastianRoom 11 9 1 sebastian_sleep",
+			"Sat": "900 Town 18 95 0/1230 SamHouse 19 18 0 sebastian_keyboard_up/1500 SamHouse 17 14 3/1530 SamHouse 17 14 3 seb_samfuck/1830 Town 10 94 1 sebastian_smoking/1930 SebastianRoom 11 9 1 sebastian_sleep",
+			"Thu": "930 SebastianRoom 9 4 3 sebastian_computer/1200 SebastianRoom 8 6 0 seb_jerk/1800 Railroad 64 45 3/1930 Railroad 5 45 1/2130 SebastianRoom 11 9 1 sebastian_sleep"
+		},
+		"When":
+			{
+				"The bachelors should jerk off": "True"
+			}
+	},
+	//Sebastian's Schedules Dialogue
+	{
+		"Action": "EditData",
+		"Target": "Strings/schedules/Sebastian",
+		"entries":
+		{
+			"marriage_Wed.000": "It's always nice to visit home every once in a while.",
+			"summer_4.001": "Hey @. I'm trying to have a pivate doctor's appointment here...",
+			"summer_4.002": "I-I've been a good boy, d-doc! I-I promise! Unngh! H-harder Dr. Harvey! Harder! F-fuck!$14"
+		},
+		"When":
+			{
+				"The bachelors should jerk off": "True"
+			}
+	},
+	
+	//ShaneYearOne
+	{
+		"Action": "EditData",
+		"Target": "Characters/Schedules/Shane",
+		"entries":
+		{
+			"spring": "700 JojaMart 9 17 2 shane_work/1230 JojaMart 5 13 2 shane_work/1330 JojaMart 21 16 2 shane_work/1430 JojaMart 25 12 2 shane_work/1530 JojaMart 17 12 2 shane_work/1630 JojaMart 7 25 1/1700 Saloon 21 17 2 shane_drink/1930 Saloon 33 6 3 shane_jerk/2300 AnimalShop 27 4 1 shane_sleep",
+			"Sat": "700 AnimalShop 24 15 0/1200 SeedShop 16 29 3/1700 Saloon 21 17 2 shane_drink/1900 Saloon 33 6 3 shane_jerk/2300 AnimalShop 27 4 1 shane_sleep",
+			"Sun": "700 AnimalShop 24 15 0/1100 37 10 2/1450 AnimalShop 16 13 2/1800 Saloon 21 17 2 shane_drink/2000 Saloon 33 6 3 shane_jerk/2400 AnimalShop 27 4 1 shane_sleep",
+			"summer_Sun": "700 AnimalShop 24 15 0/1100 37 10 2/1250 AnimalShop 16 13 2/1400 AnimalShop 26 6 3 shane_jerk/1900 Saloon 21 17 2 shane_drink/2400 AnimalShop 27 4 1 shane_sleep",
+			"marriage_Mon": "830 AnimalShop 16 13 2 \"Strings\\schedules\\Shane:marriage_Mon.000\"/1130 AnimalShop 26 6 3 shane_mjerk/1400 Forest 37 10 2 \"Strings\\schedules\\Shane:marriage_Mon.001\"/1700 BusStop -1 23 3",
+			"marriage_Fri": "830 Town 33 101 2 \"Strings\\schedules\\Shane:marriage_Fri.000\"/1300 SeedShop 2 26 2 \"Strings\\schedules\\Shane:marriage_Fri.001\"/1700 Saloon 21 17 2 shane_drink\"Strings\\schedules\\Shane:marriage_Fri.002\"/1930 Saloon 34 7 3 shane_mjerk/2200 BusStop -1 23 3",
+			"default": "900 AnimalShop 24 17 1/1000 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1200 AnimalShop 5 14 2/1400 Saloon 11 20 0/1630 Saloon 21 17 2 shane_drink/1800 Saloon 33 6 3 shane_jerk/2300 AnimalShop 27 4 1 shane_sleep",
+			"Wed": "700 JojaMart 9 17 2 shane_work/1030 JojaMart 5 13 2 shane_work/1130 JojaMart 21 16 2 shane_work/1230 JojaMart 25 12 2 shane_work/1330 JojaMart 5 7 3/1350 JojaMart 5 7 3 shane_sambj/1600 JojaMart 17 12 2 shane_work/1630 JojaMart 7 25 1/1700 Saloon 21 17 2 shane_drink/1930 Saloon 33 6 3 shane_jerk/2300 AnimalShop 27 4 1 shane_sleep",
+			"marriage_Wed": "1100 JojaMart 5 7 3/1350 JojaMart 5 7 3 shane_sambj/1600 BusStop -1 23 3"
+		},
+		"When":
+			{
+				"The bachelors should jerk off": "True",
+				"IsCommunityCenterComplete": "false",
+				"Year": "1"
+			}
+	},
+	//ShaneCCYearOne
+		{
+		"Action": "EditData",
+		"Target": "Characters/Schedules/Shane",
+		"entries":
+		{
+			"spring": "700 JojaMart 9 17 2 shane_work/1230 JojaMart 5 13 2 shane_work/1330 JojaMart 21 16 2 shane_work/1430 JojaMart 25 12 2 shane_work/1530 JojaMart 17 12 2 shane_work/1630 JojaMart 7 25 1/1700 Saloon 21 17 2 shane_drink/1930 Saloon 33 6 3 shane_jerk/2300 AnimalShop 27 4 1 shane_sleep",
+			"Sat": "700 AnimalShop 24 15 0/1200 SeedShop 16 29 3/1700 Saloon 21 17 2 shane_drink/1900 Saloon 33 6 3 shane_jerk/2300 AnimalShop 27 4 1 shane_sleep",
+			"Sun": "700 AnimalShop 24 15 0/1100 37 10 2/1450 AnimalShop 16 13 2/1800 Saloon 21 17 2 shane_drink/2000 Saloon 33 6 3 shane_jerk/2400 AnimalShop 27 4 1 shane_sleep",
+			"summer_Sun": "700 AnimalShop 24 15 0/1100 37 10 2/1250 AnimalShop 16 13 2/1400 AnimalShop 26 6 3 shane_jerk/1900 Saloon 21 17 2 shane_drink/2400 AnimalShop 27 4 1 shane_sleep",
+			"marriage_Mon": "830 AnimalShop 16 13 2 \"Strings\\schedules\\Shane:marriage_Mon.000\"/1130 AnimalShop 26 6 3 shane_mjerk/1400 Forest 37 10 2 \"Strings\\schedules\\Shane:marriage_Mon.001\"/1700 BusStop -1 23 3",
+			"marriage_Fri": "830 Town 33 101 2 \"Strings\\schedules\\Shane:marriage_Fri.000\"/1300 SeedShop 2 26 2 \"Strings\\schedules\\Shane:marriage_Fri.001\"/1700 Saloon 21 17 2 shane_drink\"Strings\\schedules\\Shane:marriage_Fri.002\"/1930 Saloon 34 7 3 shane_mjerk/2200 BusStop -1 23 3",
+			"default": "900 AnimalShop 24 17 1/1000 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1200 AnimalShop 5 14 2/1400 Saloon 11 20 0/1630 Saloon 21 17 2 shane_drink/1800 Saloon 33 6 3 shane_jerk/2300 AnimalShop 27 4 1 shane_sleep",
+			"Wed": "900 AnimalShop 24 17 1/1000 AnimalShop 24 15 0/1200 ArchaeologyHouse 41 4 3/1350 ArchaeologyHouse 41 4 3 shane_sambja/1600 Saloon 21 17 2 shane_drink/1930 Saloon 33 6 3 shane_jerk/2300 AnimalShop 27 4 1 shane_sleep",
+			"marriage_Wed": "1100 ArchaeologyHouse 41 4 3/1350 ArchaeologyHouse 41 4 3 shane_sambja/1600 BusStop -1 23 3"
+		},
+		"When":
+			{
+				"The bachelors should jerk off": "True",
+				"IsCommunityCenterComplete": "true",
+				"Year": "1"
+			}
+	},
+	
+	//ShaneYearTwo
+	{
+		"Action": "EditData",
+		"Target": "Characters/Schedules/Shane",
+		"entries":
+		{
+			"spring": "700 JojaMart 9 17 2 shane_work/1230 JojaMart 5 13 2 shane_work/1330 JojaMart 21 16 2 shane_work/1430 JojaMart 25 12 2 shane_work/1530 JojaMart 17 12 2 shane_work/1630 JojaMart 7 25 1/1700 Saloon 21 17 2 shane_drink/1930 Saloon 33 6 3 shane_jerk/2300 AnimalShop 27 4 1 shane_sleep",
+			"Fri": "700 JojaMart 9 17 2 shane_work/1230 JojaMart 5 13 2 shane_work/1330 JojaMart 21 16 2 shane_work/1430 JojaMart 25 12 2 shane_work/1530 JojaMart 17 12 2 shane_work/1630 JojaMart 7 25 1/1650 Saloon 21 17 2 shane_drink/1800 Saloon 33 6 3 shane_jerk/1830 Saloon 30 6 3/1850 Saloon 30 6 3 shane_drunkfuck/2350 AnimalShop 27 4 1 shane_sleep",
+			"Sat": "700 AnimalShop 24 15 0/1200 SeedShop 16 29 3/1700 Saloon 21 17 2 shane_drink/1900 Saloon 33 6 3 shane_jerk/2300 AnimalShop 27 4 1 shane_sleep",
+			"Sun": "700 AnimalShop 24 15 0/1100 37 10 2/1450 AnimalShop 16 13 2/1800 Saloon 21 17 2 shane_drink/2000 Saloon 33 6 3 shane_jerk/2400 AnimalShop 27 4 1 shane_sleep",
+			"summer_Sun": "700 AnimalShop 24 15 0/1100 37 10 2/1250 AnimalShop 16 13 2/1400 AnimalShop 26 6 3 shane_jerk/1900 Saloon 21 17 2 shane_drink/2400 AnimalShop 27 4 1 shane_sleep",
+			"marriage_Mon": "830 AnimalShop 16 13 2 \"Strings\\schedules\\Shane:marriage_Mon.000\"/1130 AnimalShop 26 6 3 shane_mjerk/1400 Forest 37 10 2 \"Strings\\schedules\\Shane:marriage_Mon.001\"/1700 BusStop -1 23 3",
+			"marriage_Fri": "830 Town 33 101 2 \"Strings\\schedules\\Shane:marriage_Fri.000\"/1300 SeedShop 2 26 2 \"Strings\\schedules\\Shane:marriage_Fri.001\"/1600 Saloon 21 17 2 shane_drink\"Strings\\schedules\\Shane:marriage_Fri.002\"/1730 Saloon 33 6 3 shane_mjerk/1830 Saloon 30 6 3/1850 Saloon 30 6 3 shane_drunkfuck/2350 BusStop -1 23 3",
+			"default": "900 AnimalShop 24 17 1/1000 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1200 AnimalShop 5 14 2/1400 Saloon 11 20 0/1630 Saloon 21 17 2 shane_drink/1800 Saloon 33 6 3 shane_jerk/2300 AnimalShop 27 4 1 shane_sleep",
+			"Wed": "700 JojaMart 9 17 2 shane_work/1030 JojaMart 5 13 2 shane_work/1130 JojaMart 21 16 2 shane_work/1230 JojaMart 25 12 2 shane_work/1330 JojaMart 5 7 3/1350 JojaMart 5 7 3 shane_sambj/1600 JojaMart 17 12 2 shane_work/1630 JojaMart 7 25 1/1700 Saloon 21 17 2 shane_drink/1930 Saloon 33 6 3 shane_jerk/2300 AnimalShop 27 4 1 shane_sleep",
+			"marriage_Wed": "1100 JojaMart 5 7 3/1350 JojaMart 5 7 3 shane_sambj/1600 BusStop -1 23 3",
+		},
+		"When":
+			{
+				"The bachelors should jerk off": "True",
+				"IsCommunityCenterComplete": "false",
+				"Year |contains=1": "false"
+			}
+	},
+	//ShaneCCYearTwo
+		{
+		"Action": "EditData",
+		"Target": "Characters/Schedules/Shane",
+		"entries":
+		{
+			"spring": "700 JojaMart 9 17 2 shane_work/1230 JojaMart 5 13 2 shane_work/1330 JojaMart 21 16 2 shane_work/1430 JojaMart 25 12 2 shane_work/1530 JojaMart 17 12 2 shane_work/1630 JojaMart 7 25 1/1700 Saloon 21 17 2 shane_drink/1930 Saloon 33 6 3 shane_jerk/2300 AnimalShop 27 4 1 shane_sleep",
+			"Fri": "900 AnimalShop 24 17 1/1000 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1200 AnimalShop 5 14 2/1400 Saloon 11 20 0/1600 Saloon 21 17 2 shane_drink/1730 Saloon 33 6 3 shane_jerk/1830 Saloon 30 6 3/1850 Saloon 30 6 3 shane_drunkfuck/2350 AnimalShop 27 4 1 shane_sleep",
+			"Sat": "700 AnimalShop 24 15 0/1200 SeedShop 16 29 3/1700 Saloon 21 17 2 shane_drink/1900 Saloon 33 6 3 shane_jerk/2300 AnimalShop 27 4 1 shane_sleep",
+			"Sun": "700 AnimalShop 24 15 0/1100 37 10 2/1450 AnimalShop 16 13 2/1800 Saloon 21 17 2 shane_drink/2000 Saloon 33 6 3 shane_jerk/2400 AnimalShop 27 4 1 shane_sleep",
+			"summer_Sun": "700 AnimalShop 24 15 0/1100 37 10 2/1250 AnimalShop 16 13 2/1400 AnimalShop 26 6 3 shane_jerk/1900 Saloon 21 17 2 shane_drink/2400 AnimalShop 27 4 1 shane_sleep",
+			"marriage_Mon": "830 AnimalShop 16 13 2 \"Strings\\schedules\\Shane:marriage_Mon.000\"/1130 AnimalShop 26 6 3 shane_mjerk/1400 Forest 37 10 2 \"Strings\\schedules\\Shane:marriage_Mon.001\"/1700 BusStop -1 23 3",
+			"marriage_Fri": "830 Town 33 101 2 \"Strings\\schedules\\Shane:marriage_Fri.000\"/1300 SeedShop 2 26 2 \"Strings\\schedules\\Shane:marriage_Fri.001\"/1600 Saloon 21 17 2 shane_drink\"Strings\\schedules\\Shane:marriage_Fri.002\"/1730 Saloon 33 6 3 shane_mjerk/1830 Saloon 30 6 3/1850 Saloon 30 6 3 shane_drunkfuck/2350 BusStop -1 23 3",
+			"default": "900 AnimalShop 24 17 1/1000 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1200 AnimalShop 5 14 2/1400 Saloon 11 20 0/1630 Saloon 21 17 2 shane_drink/1800 Saloon 33 6 3 shane_jerk/2300 AnimalShop 27 4 1 shane_sleep",
+			"Wed": "900 AnimalShop 24 17 1/1000 AnimalShop 24 15 0/1200 ArchaeologyHouse 41 4 3/1350 ArchaeologyHouse 41 4 1 shane_sambja/1600 Saloon 21 17 2 shane_drink/1930 Saloon 33 6 3 shane_jerk/2300 AnimalShop 27 4 1 shane_sleep",
+			"marriage_Wed": "1100 ArchaeologyHouse 41 4 3/1350 ArchaeologyHouse 41 4 3 shane_sambja/1600 BusStop -1 23 3"
+		},
+		"When":
+			{
+				"The bachelors should jerk off": "True",
+				"IsCommunityCenterComplete": "true",
+				"Year |contains=1": "false"
+			}
+	},
+	
+	//Wizard
+	{
+		"Action": "EditData",
+		"Target": "Characters/Schedules/Wizard",
+		"entries":
+		{
+			"spring": "700 WizardHouse 5 17 2/1400 WizardHouse 12 14 wizard_jerk/1900 WizardHouse 5 17 2",
+			"default": "700 WizardHouse 5 17 2/1400 WizardHouse 12 14 wizard_jerk/1900 WizardHouse 5 17 2"
+		},
+		"When":
+			{
+				"Some of the other men should jerk off too": "True"
+			}
+	},
+	
+	//Animations
+	{
+		"Action": "EditData",
+		"Target": "Data/animationDescriptions",
+		"entries": 
+		{
+			"sam_jerk": "56 58 59 74/74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 75 75 55 75 75 55 75 75 55 75 75 55 75 75/74 59 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 56/Strings\\animationDescriptions:sam_jerk",
+			"sam_mjerk": "56 58 59 74/74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 73 74 75 75 55 75 75 55 75 75 55 75 75 55 75 75/74 59 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 56/Strings\\animationDescriptions:sam_mjerk",
+			"alex_jerk": "54/54 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 54 55 56 55 56 55 56 55 56 55 56 55 56 55 54 52 58 57 58 57 58 57 58 57 58 57 58 57 58 57 58 57/58 58 59 59 59 59 59 59 59 59 59 59 59/Strings\\animationDescriptions:alex_jerk",
+			"alex_mjerk": "54/54 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 54 55 56 55 56 55 56 55 56 55 56 55 56 55 54 52 58 57 58 57 58 57 58 57 58 57 58 57 58 57 58 57/58 58 59 59 59 59 59 59 59/Strings\\animationDescriptions:alex_mjerk",
+			"seb_jerk": "72 72 72 72 72 72 57 57 58 59/59 60 59 60 59 60 59 60 59 60 59 60 59 60 59 60 59 60 59 60 59 60 59 60 59 60 61 62 61 62 61 62 61 62 61 62 61 62 61 62 61 62/62 62 62 62 62 63 63 63 63 63 63 63 63 63 63 63 63/Strings\\animationDescriptions:seb_jerk",
+			"seb_mjerk": "72 72 72 72 72 72 57 57 58 59/59 60 59 60 59 60 59 60 59 60 59 60 59 60 59 60 59 60 59 60 59 60 59 60 59 60 61 62 61 62 61 62 61 62 61 62 61 62 61 62 61 62/62 62 62 62 62 63 63 63 63 63 63 63 63 63 63 63 63/Strings\\animationDescriptions:seb_mjerk",
+			"elliott_jerk": "53 53 53 53 53 53 53 53 53/52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 53 52 52 53 53 52 52 52 53 53 54 54 53 53 54 54 53 53 54 54 53 53 54 54 53 54 53 54 53 54 53 54 53 54 53 54 53 54 53 54 53 54 53/54 56 56 56 57 57 57 58 58 58 59 59 59 60 60 60 61 61 61 62 62 62 63 63 63 64 64 64 65 65 65 66 66 66 67 67 67 67 67 67 67 67 67 67 67 67 67 67/Strings\\animationDescriptions:elliott_jerk",
+			"elliott_mjerk": "53 53 53 53 53 53 53 53 53/52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 53 52 52 53 53 52 52 52 53 53 54 54 53 53 54 54 53 53 54 54 53 53 54 54 53 54 53 54 53 54 53 54 53 54 53 54 53 54 53 54 53 54 53/54 56 56 56 57 57 57 58 58 58 59 59 59 60 60 60 61 61 61 62 62 62 63 63 63 64 64 64 65 65 65 66 66 66 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67/Strings\\animationDescriptions:elliott_mjerk",
+			"harvey_jerk": "55 55 55 55 55 55 55 55 55 55/55 68 69 70 69 68 55 68 69 70 69 68 55 68 69 70 69 68 55 68 69 70 69 68 55 71 72 73 74 73 72 71 72 73 74 73 72 71 72 73 74 73 72 71 72 73 74 73 72 71/72 73 74 74 74 74 74 74 56 56 57 57 58 58 59 59 75 75 75 75 75 75 75 75 75 75 75 75 75/Strings\\animationDescriptions:harvey_jerk",
+			"harvey_mjerk": "55 55 55 55 55 55 55 55 55 55/55 68 69 70 69 68 55 68 69 70 69 68 55 68 69 70 69 68 55 68 69 70 69 68 55 71 72 73 74 73 72 71 72 73 74 73 72 71 72 73 74 73 72 71 72 73 74 73 72 71/72 73 74 74 74 74 74 74 56 56 57 57 58 58 59 59 75 75 75 75 75 75 75 75 75 75 75 75 75/Strings\\animationDescriptions:harvey_mjerk",
+			"shane_jerk": "53 53 53 53 53 53 53/53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 54 54 55 54 54 55 54 54 55 54 54 55 54 54/54 56 56 56 57 57 57 58 58 58 59 59 59 59 59 59 59 59 59 59 59 59/Strings\\animationDescriptions:shane_jerk",
+			"shane_mjerk": "53 53 53 53 53 53 53/53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 52 53 54 54 55 54 54 55 54 54 55 54 54 55 54 54/54 56 56 56 57 57 57 58 58 58 59 59 59 59 59 59 59 59 59 59 59 59/Strings\\animationDescriptions:shane_jerk",
+			"wizard_jerk": "4 4 4 4 4 4 24 24 24 24 24/24 25 24 25 24 25 24 25 24 25 24 25 24 25 24 25 24 25 24 25 24 25 24 25 24 25 24 25 24 25 24 25 24 25 24 25 26 26 27 26 26 27 26 26 27 26 26 27 26 26 27 26 26 27 26 26 27 26 26 27 26 26 27 26 26 27 26 26 27 26 26 27/26 26 26 26 26 26 26 28 28 28 29 29 29 29 30 30 30 30 31 31 31 31 31 31 31 31 31 31 31 31/Strings\\animationDescriptions:wizard_jerk",
+			"seb_samfuck": "64/64 64 65 65 66 66 67 67/64 64 64 64 64 64 64 64/Strings\\animationDescriptions:seb_samfuck",
+			"sam_sebfuck": "60/60 60 61 61 62 62 63 63/60 60 60 60 60 60 60 60/Strings\\animationDescriptions:sam_sebfuck",
+			"harvey_alex_fuck": "60/60 60 61 61 62 62 63 63/60 60 61 61 61 61 61 61 61 61 61",
+			"sam_fuckharvey": "64/64 64 65 65 66 66 67 67/64 64 65 65 65 65 65 65 65 65 65",
+			"seb_harveyfuck": "68/68 68 69 69 70 70 71 71/69 69 69 69 68 68 68 68 68 68 68 68",
+			"harvey_sebfuck": "64/64 64 65 65 66 66 67 67/65 65 65 65 64 64 64 64 64 64 64 64",
+			"dem_jerk": "20 20 20 20/20 36 22 23 22 36/23 23 23 23 23 23 23 32 32 33 33 33 34 34 35 35 35 35 35 35/Strings\\animationDescriptions:dem_jerk",
+			"dem_jerk_r": "20 20 20 20/20 36 22 23 22 36/23 23 23 23 23 23 23 32 32 33 33 33 34 34 35 35 35 35 35 35/Strings\\animationDescriptions:dem_jerk_r",
+			"kent_jerk": "19 19 19 19/19 25 24 25 19 25 24 25 19 25 24 25 19 25 24 25 19 25 24 25 19 25 24 25 19 25 24 25 19/19 19 19 19 19 20 20 21 21 22 22 23/Strings\\animationDescriptions:kent_jerk",
+			"kent_jerk_drunk": "19 19 19 19/19 25 24 25 19 25 24 25 19 25 24 25 19 25 24 25 19 25 24 25 19 25 24 25 19 25 24 25 19/19 19 19 19 19 20 20 21 21 22 22 23/Strings\\animationDescriptions:kent_jerk_drunk",
+			"sam_shanebj": "68/68 69 70 71 72 71 70 69/68 69 70 71 72 72 72 72 72 72 72 72 72 72/Strings\\animationDescriptions:sam_shanebj",
+			"shane_sambj": "28/28 29 30 31 32 31 30 29/28 29 30 31 32 32 32 32 32 32 32 32 32 32/Strings\\animationDescriptions:shane_sambj",
+			"shane_sambja": "66/66 67 68 69 70 69 68 67/66 67 68 69 70 70 70 70 70 70 70 70 70 70/Strings\\animationDescriptions:shane_sambja",
+			"shane_drunkfuck": "60/60 61 62 62 63 64 65/60 60 60 60 60 60 60/Strings\\animationDescriptions:shane_drunkfuck",
+			"kent_drunkfuck": "26/26 27 28 28 29 30 31/26 26 26 26 26 26 26/Strings\\animationDescriptions:kent_drunkfuck"
+		}
+	},
+	//Animation Descriptions, adds dialogue for all the new animations
+	{
+		"Action": "EditData",
+		"Target": "Strings/animationDescriptions",
+		"entries":
+		{
+			"sam_jerk": "Fuuuuck... mmmm... fuuuuuckk... I'm gonna cum... I'm gonna cum... mmm...$14#$b#Gah! @! I didn't see you there... How long have you been watching me?$15#$b#Uh... you're welcome to stay and watch, I guess...$11",
+			"sam_mjerk": "*moan* mmmmm.... oh @... mmmm... *groan*$14#$b#Gah! Honey! I didn't see you there... How long have you been watching me?$15#$b#I'm sorry, I was thinking of you and my sexual urges just took over. Why don't we do the real thing tonight?$13",
+			"alex_jerk": "Oh yeah... mmmm... oh fuck.... mmmmm... ughhh I wanna cum...#$b#Oh! @! Are you... watching me jerk off?$7#$b#You like what you see? I don't mean to brag, but I'm 9 inches.$l#$e",
+			"alex_mjerk": "Oh yeah... mmmm... oh fuck.... mmmmm... oh @... I'm gonna cum all over your face... *moan*#$b#Ah! Honey! What are you doing here?!$7#$b#I was thinking of you, and my urges just took over! I'd be happier to do the real thing, however *chuckle*$h#$b#My ten inch dick and I are here for your pleasure.$l",
+			"seb_jerk": "*groan* a-a-a-ah fuuck... *moan* f-fuck... I'm gonna cum everywhere... *moan*$10#$b#Oh! Uh... @... what are you doing here?$11#$b#Masturbation is usually a private affair...$11#$b#But you can stay, I guess. Just, uh, watch from a distance, okay?$12" ,
+			"seb_mjerk": "*groan* o-o-oh fuuck... *moan* f-fuck... I'm gonna cum everywhere... *moan*$10#$b#Oh! Honey! What are you doing here?$11#$b#Don't look at the computer screen! It's, uh, it's not what it looks like.$11#$b#How about we do the real thing tonight? I'll be looking forward to it.$12",
+			"elliott_jerk": "Oh Yoba... *moan* ohh fuck... mmmmmm.... *groan* mmmmm... *moan* *moan* oh Yoba I'm gonna cum...$11#$b#GAH!! @! What are you-? How did-?$12#$b#For once, I'm at a loss for words...$11#$b#Well, @, you're welcome to stay, if you wish. I'd reccomend standing a little bit back, as I have a tendency to ejaculate a large amount.$10",
+			"elliott_mjerk": "Oh Yoba... *moan* ohh fuck... mmmmmm.... *groan* mmmmm... *moan* *moan* oh Yoba I'm gonna cum... I'm gonna cum everywhere...$11#$b#A-ah! @! Um... aha... erm... w-what are you doing here?$12#$b#Well, let me finish, and then how about we do the real thing later tonight?$13",
+			"harvey_jerk": "A-ahh.... mmmm... *moan* uungh... *moan* fuck... oh Yoba... *moan*$16#$b#*moan* uuunngh... *moan* I-I'm gonna cum... nnnngh... *MOAN* ahhh... mmmmm... *moan*$17#$b#GAHH!! @!! Why are you watching me masturbate?$14#$b#I'll have you know masturbation has many health benefits!$12#$b#For example, one study found that men who ejaculate more often are less likely to develop prostate cancer!$12#$b#*ahem* anyway... um, I'd love to, um... finish, if that's okay. You're welcome to stay though, I guess.$13",
+			"harvey_mjerk": "A-ahh.... mmmm... *moan* uungh... *moan* fuck... oh Yoba... *moan*$16#$b#*moan* uuunngh... *moan* I-I'm gonna cum... nnnngh... *MOAN* ahhh... mmmmm... *moan*$17#$b#Gah! Honey!$14#$b#How about we do the real thing later tonight. I've told you about all of the added health benefits, right?$15",
+			"shane_jerk": "uuughhh... oh fuckk.... *moan* *moan* uuunnngh.... oh.. FUCK... mmmm *moan* uunnnggh...$16#$b#H-Hey! What are you doing here!?$14#$b#Masturbation is one of the only things that make my life worth it...$12#$b#You can stay and watch I guess... just let me jerk off in peace.$12",
+			"shane_mjerk": "uuughhh... oh fuckk.... *moan* *moan* uuunnngh.... oh.. FUCK... mmmm *moan* uunnnggh... I'm gonna cum everywhere... *moan*$16#$b#H-Honey!$14#$b#Uhh... sorry. My urges just took over...$12#$b#How about we do some good harcore fucking later tonight, huh?$15",
+			"wizard_jerk": "*moan* o-oh my Yoba... aagh... *moan* *groan* mmmmm... ahh... f-fuck... *moan*$3#$b#Oh!$4#$b#Young @... you seem to have found me in my time of pleasure.$3#$b#I've noticed many of the males of your species spend a fair amount of time engaging in this activity, so I thought I would give it a try.$3#$b#Its quite pleasurable! Feel free to stay and engage in conversation, if you so wish.$3",
+			"seb_samfuck": "Ahhh... ahhh... *moan* h-harder Sam! *moan* f-fuck...$14",
+			"sam_sebfuck": "F-fuck... *moan* ... jeez Seb... you're so... *moan* tight... *moan* uuunngh.... mmmm... f-fuck... *moan*$14",
+			"dem_jerk": "Mmm... *moan*... ohh yeah... fuck... *moan*... mmMMmmm... oh Yoba, Yoba Yoba f-fuck... *moan*$7#$b#WOA-OH! @! What on earth are you doing here! Can't you see what I'm doing?$8#$b#Um... don't tell Robin, and uh... I'm gonna finish myself off now.$9#$b#...The door is over there... forget this ever happened...$9",
+			"dem_jerk_r": "*moan*... oh... mmmMMmm... ohh f-fuck. Oh Yoba oh Yoba *moan* ohh yeah... mmmm... *moan*$7#$b#I-I WAS DOING RESEARCH, I SWEAR!$8#$b#@! I-I was doing research but uh... I just felt the urge and I... Why don't you just let me finish, okay? This is usually a private affair...$9",
+			"kent_jerk": "Ohh fuck... oh fuck yeah... *moan* ooohhh Yoba... mmMMMmmm... fuck... uughhh... you've got a tight ass, private, mmMmmm... *moan*... oh yeah... oh Yoba...$9#$b#I'm gonna cum!!! Oh fuck that feels good! I'm gonna cum, I'm gonna cum!$8#$b#Oh.. uh... @...$11#$b#WHAT THE HELL ARE YOU DOING IN MY PRIVATE CHAMBERS DURING MY PRIVATE HOURS?!$10#$b#Er... sorry for losing my cool, @.$6#$b#Why don't you just let me finish, huh? You can stay and watch if you really want, I don't care, I just really need to rub this one out.$7",
+			"kent_jerk_drunk": "*hic* oohhh fuck that feels good... o-ohh yeah... *hic* *moan* mmmm... oh f-fuck... *hic*... *moan* you like that, private? *giggle* *hic* *moan*$9#$b#%firstnameletter%name... @... *hic*... p-pleease lemme finish... I'm so *hic* I'm so horny I jus' wanna jerk off in *hic* peace...$6",
+			"sam_shanebj": "%Looks like Sam's mouth is full.",
+			"shane_sambj": "Suck it, Sam. Yeah... *moan* Yoba... that's good. Fuck... Give me some well deserved relief... *moan* fuck... *moan*$16",
+			"shane_sambja": "Suck it, Sam. Yeah... *moan* Yoba... that's good. Fuck... Give me some well deserved relief... *moan* fuck... *moan*$16#$b#Don't think that just because Joja is closed I don't get to shove this thick cock down your throat... *moan* oh fuck, yeah. Suck it. *moan*$16",
+			"shane_drunkfuck": "Unnguunghh *hic* f-fuck me *hic* *moan* fuck my tight little hole *moan* *hic* hell yeah, Kent *hic* such a big frucking crock *giggle* *hic* *moan* cock... Uhngugunhngung... fuck... *hic* *moan*$16",
+			"kent_drunkfuck": "Ohhh.. fuck... fuck yeah *hic* *moan* mmmm... this tight ass feels so fucking good *hic* *moan* fuck... *moan* squeeze this huge cock in that ass *hic* *moan*$8#$b#MMM.... fuck yeah *hic* *moan*$4#$b#Ohhh... *moan* FUCK! Unnghh.. *hic* *moan*$8"
+		}
+	},
+	
+	//New dialogue for festivals
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall16",
+		"fields":
+		{
+			"Alex": {0: "I played the 'Strength' game too many times and now my arms feel like rubber.#$e#And hey... Yoba... have you seen the guy who's running that game? Jeez...$7#$b#Those are some big-ass balls...$7"},
+			"Jodi": {0: "He doesn't look very happy... I guess Mayor Lewis had to cut costs with a budget clown this year.#$e#And one that has his penis out, no less...$s"},
+			"Kent": {0: "I'm waiting for this clown to start doing something funny.#$e#Pretty disappointing.#$e#It'd be pretty funny if he started doing a striptease, huh?$h#$b#*ahem*..."},
+			"Shane": {0: "All these animals are friendly and love to get massaged.#$e#Who can blame them, I love getting massages too.$6"},
+			"Elliott": {0: "I'm trying to get Gus to tell me his sauce recipe, but he won't budge.#$e#I wonder if he uses his... hmmm...$7"}
+		},
+		"When":
+			{
+				"Lewis should pass a law so the men of the town can be naked": "True",
+				"The villagers should have new dialogue.": "True"
+			}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring24",
+		"fields":
+		{
+			"Alex": {0: "Ugh, I hate having to squeeze into those awful tight suits...$s#$e#You never appreciate your privilege to be naked until it's taken away from you...$s"}
+		},
+		"When":
+			{
+				"Lewis should pass a law so the men of the town can be naked": "True",
+				"The villagers should have new dialogue.": "True"
+			}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer11",
+		"fields":
+		{
+			"Governor": {0: "What a lovely occasion... It's always a joy to visit Stardew Valley.#$e#I must speak to the missus about purchasing a vacation home here.#$e#And how nice that I can bask in the sun without any clothes on! Hehe!$h"},
+			"Sam_spouse": {0: "A large part of me wants to cum into the soup...#$e#It'd give it a nice salty taste, *chuckle*."},
+			"Sebastian": {0: "One year Sam jerked off and came into the potluck soup.#$e#Ever wondered why Sam leads the town in community service hours?$h"}
+		},
+		"When":
+			{
+				"Lewis should pass a law so the men of the town can be naked": "True",
+				"The villagers should have new dialogue.": "True"
+			}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter8",
+		"fields":
+		{
+			"Sam_spouse": {0: "Aren't you cold? I'm freezing! Although I guess I'm not wearing any clothes, huh?"},
+			"Demetrius": {0: "You know what? I probably should've worn a jacket.#$e#... or some pants...$9"},
+			"Sebastian": {0: "Cold? Nah, I never get cold. And it's not like I'm gonna get any smaller, heh.#$b#...$s"},
+			"Harvey": {0: "Extreme temperatures can put your body under a lot of stress, so perhaps I should've put some clothes on!#$e#Oh, and enjoy the festival!$h"}
+		},
+		"When":
+			{
+				"Lewis should pass a law so the men of the town can be naked": "True",
+				"The villagers should have new dialogue.": "True"
+			}
+	},
+	
+	//Cum
+	{
+		"Action": "EditData",
+		"Target": "Data/ObjectInformation",
+		"entries":
+		{
+			"931": "Alex's Cum/800/38/Basic -6/Alex's Cum/It's still warm./drink/0 0 0 0 0 0 0 0 0 1 2 2/350",
+			"932": "Elliott's Cum/600/25/Basic -6/Elliott's Cum/It smells salty./drink/0 0 0 0 0 2 0 0 0 0 0/300",
+			"933": "Harvey's Cum/750/38/Basic -6/Harvey's Cum/It smells almost... caffeinated?/drink/0 0 0 0 0 0 0 0 0 3 0/350",
+			"934": "Sam's Cum/750/32/Basic -6/Sam's Cum/It smells incredibly sweet./drink/0 0 0 0 0 0 0 50 0 0 0/270",
+			"935": "Sebastian's Cum/700/28/Basic -6/Sebastian's Cum/It's very goopy./drink/0 0 0 0 1 0 0 0 0 0 0/400",
+			"936": "Shane's Cum/750/32/Basic -6/Shane's Cum/It's extremely watery... and smells like booze./drink/0 0 0 0 0 0 0 0 0 -1 1 2/120",
+			"937": "Kent's Cum/800/45/Basic -6/Kent's Cum/It looks creamy, and smells incredibly rich./drink/0 0 0 0 0 0 0 0 0 0 3 3/350",
+			"938": "Demetrius' Cum/800/33/Basic -6/Demetrius' Cum/It smells earthy./drink/0 0 0 0 0 0 0 0 35 0 0/300",
+			"939": "Wizard's Cum/1000/40/Basic -6/Wizard's Cum/It's unlike any cum you've ever seen before./drink/0 0 0 0 3 0 0 0 0 0 0/310",
+			"940": "Clint's Cum/700/30/Basic -6/Clint's Cum/It looks a little chalky.../drink/0 0 2 0 0 0 0 0 0 0 0/350",
+			"941": "Gus' Cum/750/40/Basic -6/Gus' Cum/It almost has the consistency of mayonnaise.../drink/0 0 0 0 0 0 0 40 0 0 0/320",
+			"942": "Pierre's Cum/750/30/Basic -6/Pierre's Cum/It smells fresh./drink/1 0 0 0 0 0 0 0 0 0 0/300",
+			"943": "Willy's Cum/700/32/Basic -6/Willy's Cum/It smells fishy./drink/0 2 0 0 0 0 0 0 0 0 0/400",
+			"944": "Lewis' Cum/900/36/Basic -6/Lewis' Cum/It smells potent... but there’s barely any./drink/0 0 0 0 0 0 0 0 0 0 10 0/30",
+		},
+	},
+		
+	//Cum Gifting
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"entries":
+		{
+			"Universal_Hate": "0 -20 -21 92 110 111 112 142 152 153 157 178 105 168 170 171 172 374 376 378 380 397 420 684 721 766 767 772 203 308 265 909 910 931 932 933 934 935 936 937 938 939 940 941 942 943 944",
+			"Robin": "This is for me? Wow, I absolutely love it!!/224 426 636/Thanks! This is really nice!/-6 -79 424 709 938/Um... why?/16 330/What the...? This is terrible!/2/Thank you. This might come in handy./944/ ",
+			"Sebastian": "I really love this. How did you know?/84 227 236 575 305 934/Thanks, I like this./267 614 276/...?/-81 30 -80/...I hate this./-5 2 459 195 201 240 330 -26 873/...thanks./-4/ ",
+			"Caroline": "You're giving this... to me? I'm speechless./213 614 593 907 939/Oh, goodness! Are you sure?/-7 18 815 402 418/No, no, no.../-81 330 300 306 307/This is absolute junk. I'm offended./80 296/Oh, that's sweet. Thank you./942/ ",
+			"Alex": "Hey, awesome! I love this stuff!/201 212 662 664 931/This is cool! Thanks./-5/Um... Okay. Thanks./16 330/Are you serious? This is garbage./80/Thanks!/933 934/ ",
+			"Pam": "Hey, hey! Now this is really something! Thanks a million, kid./24 90 199 208 303 346 459 873 941/You did good with this one, kid. Thanks!/-6 -75 -79 18 227 228 231 232 233 234 235 236 238 402 418 936/This just ain't my thing./-5 16 80 330/Now this is just absolutely despicable.$u#$e#(Is this some kind of mean joke?)/149 151/Thanks, kid./-4/ ",
+			"Jodi": "Oh, you're such a sweetheart! I really love this!/72 200 211 214 220 222 225 231/Thank you! This makes my day really special./-5 -6 -79 18 402 418 937/Hmm, well I guess I could always put this in the compost.../-81 80 248 330/*Blech*... I hate this.../18 22 396/That's so nice of you! Thanks.// ",
+			"Sam": "Aw, yea! This is my absolute favorite!/90 206 655 658 562 731/Thanks! I really like this./167 210 213 220 223 224 228 232 233 239 -5 935/Hmm.. this is... interesting./-81 80 152 330 -75 934/You really don't get it, huh?/306 307 342 -15 2/You got that for me? Thanks!/931/ ",
+			"Marnie": "This is an incredible gift! Thanks!!/72 221 240 608 944/Thank you!/-5 -6 402 418/Oh. I guess I'll take it./16 152/This is worthless. I don't understand you./330/Thank you! This looks nice.// ",
+			"Wizard": "Ahh, this is imbued with potent arcane energies. It's very useful for my studies. Thank you!/155 422 769 768 944/Many thanks. This item has some very interesting properties./-12 72 82 84/This?... I suppose I'll cast it into the flames and see what happens./-5 -6 -81 2 16 330 766/Ughh... These are utterly mundane. Please refrain from bothering me with this in the future.//Thank you. This will prove useful, I think.// "
+			
+		},
+		
+	},
+		
+	//Cum Properties
+	{
+		"Action": "EditData",
+		"Target": "Data/ObjectContextTags",
+		"entries":
+		{
+			"Alex's Cum": "color_white, drink_item, milk_item,",
+			"Elliott's Cum": "color_white, drink_item, milk_item,",
+			"Harvey's Cum": "color_white, drink_item, milk_item,",
+			"Sam's Cum": "color_white, drink_item, milk_item,",
+			"Sebastian's Cum": "color_white, drink_item, milk_item,",
+			"Shane's Cum": "color_white, drink_item, milk_item,",
+			"Kent's Cum": "color_white, drink_item, milk_item,",
+			"Demetrius' Cum": "color_white, drink_item, milk_item,",
+			"Wizard's Cum": "color_purple, drink_item, milk_item,",
+			"Clint's Cum": "color_white, drink_item, milk_item,",
+			"Gus' Cum": "color_white, drink_item, milk_item,",
+			"Pierre's Cum": "color_white, drink_item, milk_item,",
+			"Willy's Cum": "color_white, drink_item, milk_item,",
+			"Lewis' Cum": "color_white, drink_item, milk_item,",
+		},
+	},
+	
+	//Mail Cum
+	{
+		"Action": "EditData",
+		"Target": "Data/Mail",
+		"entries":
+		{
+			"Gus": "@!^I made you a little treat this morning in the saloon. Dig in!   ^   -Your friend, Gus%item object 224 1 213 1 211 1 207 1 200 1 195 1 198 1 941 1 %%[#]A Gift From Gus",
+			"Wizard": "Greetings, young adept.^I have enclosed in this package an item of arcane significance. Use it wisely.   ^   -M. Rasmodius, Wizard%item object 422 1 82 1 84 1 70 1 939 1 %%[#]A Gift From the Wizard",
+			"Kent": "Hello, @.^I found this in the toolshed. I figured you might be able to use it.  ^   -Kent%item object 286 1 287 1 288 1 787 1 937 1 %%[#]A Gift From Kent"
+		},
+	},
+	
+	]
+}

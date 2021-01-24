@@ -1,0 +1,13 @@
+{
+    "Name": "Natural Hairstyles for Content Patcher",
+    "Author": "mystic",
+    "Version": "1.0.0",
+    "UniqueID": "mxstix.NaturalHairstyles.CP",
+    "MinimumApiVersion": "3.0.0",
+    "Description": "Replaces the first 56 vanilla hairstyles with 56 natural hairstyles.",
+    "UpdateKeys": ["Nexus:7668"],
+    "ContentPackFor": {
+         "UniqueID": "Pathoschild.ContentPatcher",
+         "MinimumVersion": "1.0.0"
+    }
+}
