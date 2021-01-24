@@ -32,7 +32,7 @@
   "ShowParentNames": false,
   "DisableCustomSpousesRooms": false,
   "BuildAllSpousesRooms": true,
-  "SpouseRoomOrder": "",
+  "SpouseRoomOrder": ",Abigail",
   "ExistingSpouseRoomOffsetX": 0,
   "ExistingSpouseRoomOffsetY": 0,
   "CustomBed": false,
