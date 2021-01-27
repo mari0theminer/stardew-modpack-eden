@@ -105,7 +105,7 @@
       //Load tilesheets  
     {
       "Action": "Load",
-      "Target": "Maps/Mine_Inverted, Maps/Farm_Shadow, Maps/z_petbowl",
+      "Target": "Maps/Mine_Inverted, Maps/Farm_Shadow, Maps/z_IF2R_Mist, Maps/z_petbowl",
       "FromFile": "assets/Tilesheets/{{TargetWithoutPath}}.png",
 	  "When": { "HasMod |contains=flashshifter.GrandpasFarm": false }
     },
@@ -127,6 +127,14 @@
       "FromFile": "Assets/MapPatches/BusStopShedPathFalse.tbin",
 	  "When": { "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false },
       "ToArea": { "X": 0, "Y": 24, "Width": 10, "Height": 6 }
+    },
+	
+	  //Removes mist effects unless it's raining
+    {
+     "Action": "EditImage",
+	 "Target": "Maps/z_IF2R_mist",
+	 "FromFile": "Assets/Tilesheets/z_IF2R_Mist_blank.png",
+	 "When": { "Weather |contains=rain": false }
     },
 	
     //Load Greenhouse and FarmCave interior maps
@@ -195,13 +203,13 @@
       "ToArea": { "X": 2, "Y": 324,"Width": 18, "Height": 20 },
     },
 	
-	//Changes standard farm string
+	//Changes standard farm strings
 	{
 	  "Action": "EditData",
 	  "Target": "Strings/UI",
 	  "When": { "HasMod |contains=flashshifter.GrandpasFarm": false },
 	  "Entries": {
-	  "Character_FarmStandard": "Immersive Farm 2 Remastered_A huge plot of land suited for multiplayer. Features tillable grass and secrets to discover.",
+	  "Character_FarmStandard": "Immersive Farm 2 Remastered_A huge plot of land with gated progression. Features tillable grass and secrets to discover.",
 	  }
 	},
 	
