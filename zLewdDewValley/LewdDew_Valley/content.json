@@ -1,0 +1,24 @@
+{
+   "Format":"1.19.0",
+   "Changes":
+   [
+      {
+         "Action": "Include",
+         "When": 
+         {
+            "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false"
+         },
+         "FromFile":"data/Vanilla/VanillaContent.json"
+      },
+      {
+         "Action": "Include",
+         "When": 
+         {
+            "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true"
+         },
+         "FromFile":"data/SVE/SVEContent.json"
+      }
+
+   ]
+}
+

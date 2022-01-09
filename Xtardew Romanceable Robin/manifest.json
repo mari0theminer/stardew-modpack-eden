@@ -1,0 +1,11 @@
+{
+    "Name": "Romanceable Robin",
+    "Author": "Pseudodiego",
+    "Version": "1.0",
+    "Description": "Xtardew Marrigeable Robin.",
+    "UniqueID": "Pseudodiego.XtardewValleyRobin",
+    "UpdateKeys": [""],
+    "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+ }

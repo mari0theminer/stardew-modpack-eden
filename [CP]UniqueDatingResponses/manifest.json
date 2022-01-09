@@ -2,7 +2,7 @@
   "Name": "MissCoriel's NPC Unique Courtship Response",
    "Author": "MissCoriel",
    "Description": "Adds unique dialogue to static dialogue.",
-   "Version": "3.0.0",
+   "Version": "4.1.0",
    "UniqueID": "misscoriel.courtship",
    "ContentPackFor": {
        "UniqueID": "Pathoschild.ContentPatcher"

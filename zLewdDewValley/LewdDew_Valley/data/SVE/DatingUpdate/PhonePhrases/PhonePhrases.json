@@ -1,0 +1,28 @@
+{
+    "Changes":
+    [
+       {
+        "Action": "EditData",
+        "Target": "Strings/Characters",
+        "Entries":
+            {
+                "DateAlreadyPlanned":"Date already planned for today.",
+                "DontBeTooIntrusive":"Don't be too intrusive with her.",
+                "WhoToCall":"Who do you want to call?",
+                "WhereToGo":"Where should you go?",
+                "GoToBeach":"Let's go to beach.",
+                "GoToSaloon":"Let's go to saloon.",
+                "GoToCampAtForest":"Let's go to forest.",
+                "GoForAWalkAtMountains":"Let's go for a walk at mountains.",
+                "GoToCampAtSecretForest":"Let's go to secret forest.",
+                "AskForADinner":"Do you want to have a dinner with me?",
+                "LetsCallSomebodyForADate":"Let's call somebody to hang out.",
+                "FinalResponse":"Sure, that's sound great! See ya!",
+                "AfterPartnerChose":"Hello,@, I'm glad to hear you! You want to hang out? So where should we go?"
+            }
+
+        }
+       
+    ]
+
+}

@@ -1,0 +1,381 @@
+{
+    "Format": "1.5",
+    "Changes": [
+	//schedules
+	{       //ELLIOTT SCHEDULE EDITS
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Elliott",
+	 "Entries": {
+	 "10": null,
+	 "24": null,
+	 "rain": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1330 ElliottHouse 1 5 0/1800 ElliottHouse 7 7 2/2000 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
+     "marriage_Mon": "830 Beach 46 11 2 \"Strings\\schedules\\Elliott:marriage_Mon.000\"/1700 BusStop -1 23 3",
+     "winter_17": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1130 ArchaeologyHouse 21 11 2 elliott_read/1650 Beach 38 36 2 \"Strings\\schedules\\Elliott:winter_17.000\"/2500 ElliottHouse 13 4 1 elliott_sleep",
+     "summer_9": "900 ElliottHouse 1 5 0/1030 Hospital 12 14 0 \"Strings\\schedules\\Elliott:summer_9.000\"/1330 Hospital 4 6 1 \"Strings\\schedules\\Elliott:summer_9.001\"/1600 ElliottHouse 7 7 2/2100 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
+     "winter": "GOTO fall",
+     "fall": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1130 ArchaeologyHouse 21 11 2 elliott_read/1730 ElliottHouse 7 7 2/2100 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
+     "Thu": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1130 SeedShop 10 20 0/1730 ElliottHouse 7 7 2/2100 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
+     "Sun": "GOTO Fri",
+     "Fri": "NOT friendship Leah 6/800 ElliottHouse 1 5 0/1100 Beach 24 32 3 square_1_5_3/1700 Saloon 17 20 2 elliott_drink/2340 ElliottHouse 13 4 1 elliott_sleep",
+     "Fri6": "GOTO Thu",
+     "summer": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1130 Forest 96 39 2/1800 ElliottHouse 7 7 2/2200 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
+     "spring": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1200 Beach 49 19 2/1330 ElliottHouse 1 5 0/1500 Town 55 104 1/1800 ElliottHouse 7 7 2/2000 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep"
+	  },
+},
+		
+
+
+{       //LEAH SCHEDULE EDITS
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Leah",
+	 "Entries": {
+	 "10": null,
+	 "24": null,
+	 "rain": "GOTO Fri",
+     "marriage_Mon": "830 Forest 63 50 2 \"Strings\\schedules\\Leah:marriage_Mon.000\"/1500 Forest 106 34 2/1730 BusStop -1 23 3",
+     "winter_15": "900 LeahHouse 3 7 3 leah_sculpt/1200 LeahHouse 6 5 0/1400 LeahHouse 9 5 0/1600 Beach 41 35 0 \"Strings\\schedules\\Leah:winter_15.000\"/2340 LeahHouse 2 4 3 leah_sleep",
+     "spring_16": "900 LeahHouse 3 7 3 leah_sculpt/1030 Hospital 12 14 0 \"Strings\\schedules\\Leah:spring_16.000\"/1330 Hospital 4 6 1 \"Strings\\schedules\\Leah:spring_16.001\"/1600 Saloon 2 20 1/2340 LeahHouse 2 4 3 leah_sleep",
+     "winter": "GOTO rain",
+     "fall": "900 LeahHouse 3 7 3 leah_sculpt/1200 Town 86 66 3 square_1_5_3/1900 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep",
+	 "Thu": "900 LeahHouse 3 7 3 leah_sculpt/1100 SeedShop 11 23 0/1630 SeedShop 2 6 0 leah_videogames \"Strings\\schedules\\Leah:Leah_Games\"/1930 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep",
+	 "spring_4": "900 LeahHouse 3 7 3 leah_sculpt/1100 SeedShop 11 22 0/1730 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep",
+     "Fri": "900 LeahHouse 3 7 3 leah_sculpt/1200 LeahHouse 6 5 0/1400 LeahHouse 9 5 0/1600 Saloon 2 20 1/2340 LeahHouse 2 4 3 leah_sleep",
+     "Sat": "GOTO Fri",
+	 "Sun": "900 LeahHouse 3 7 3 leah_sculpt/1500 Forest 42 59 2/2000 LeahHouse 2 4 3 leah_sleep",
+     "summer": "MAIL beachBridgeFixed/GOTO summer_noBridge/900 LeahHouse 3 7 3 leah_sculpt/1100 Beach 72 18 2 leah_draw/1900 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep",
+     "summer_noBridge": "900 LeahHouse 3 7 3 leah_sculpt/1100 Beach 12 39 2 leah_draw/1900 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep",
+     "spring": "900 LeahHouse 3 7 3 leah_sculpt/1200 Forest 68 50 2/1500 Forest 33 25 2 leah_draw/1830 Forest 21 29 1/1930 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep"
+	  },
+},
+
+{       //ABIGAIL SCHEDULE EDITS
+	 "Action": "EditData",
+	 "Target": "characters/schedules/Abigail",
+	 "Entries": {
+	 "20": null,
+     "6": "900 SeedShop 39 5 0/1030 SeedShop 2 20 3/1500 Mountain 46 23 2 abigail_flute/2000 SeedShop 1 9 3 abigail_sleep",
+     "11": null,
+	 "Wed": null,
+     "16": "GOTO 6",
+     "25": null,
+     "rain": "900 SeedShop 9 5 0/1100 SeedShop 13 20 0/1200 Mountain 49 31 1/1900 SeedShop 6 4 0/2200 SeedShop 1 9 3 abigail_sleep",
+     "rain2": "900 SeedShop 34 5 0/1100 SeedShop 9 17 3/1540 Saloon 3 19 2 abigail_sit_down/2000 SeedShop 1 9 3 abigail_sleep", 
+     "winter_15": "900 SeedShop 39 5 0/1430 Beach 30 34 2 \"Strings\\schedules\\Abigail:winter_15.000\"/2400 SeedShop 1 9 3 abigail_sleep",
+     "marriage_Mon": "830 SeedShop 6 19 0 \"Strings\\schedules\\Abigail:marriage_Mon.000\"/1300 Town 47 87 0 \"Strings\\schedules\\Abigail:marriage_Mon.001\"/1700 Saloon 3 19 0 \"Strings\\schedules\\Abigail:marriage_Mon.002\"/2030 BusStop -1 23 3",
+     "marriage_Fri": "800 SeedShop 36 9 0 \"Strings\\schedules\\Abigail:marriage_Fri.000\"/1100 Mountain 49 31 2 abigail_flute/1500 Saloon 3 19 2 abigail_sit_down \"Strings\\schedules\\Abigail:marriage_Fri.001\"/2030 BusStop -1 23 3",
+     "fall_Tue": "1000 ArchaeologyHouse 11 9 0/1800 Town 47 87 0/2200 SeedShop 1 9 3 abigail_sleep",
+     "spring_4": "900 SeedShop 11 5 0 \"Strings\\schedules\\Abigail:spring_4.000\"/1230 Hospital 13 14 0 \"Strings\\schedules\\Abigail:spring_4.001\"/1330 Hospital 4 6 1 \"Strings\\schedules\\Abigail:spring_4.002\"/1600 SeedShop 10 5 0/2000 SeedShop 1 9 3 abigail_sleep",
+     "Sun": "900 SeedShop 4 5 0/1030 SeedShop 20 5 1 \"Strings\\schedules\\Abigail:Sun.000\"/1200 LeahHouse 3 6 3/1500 Forest 43 59 2/2000 SeedShop 1 9 3 abigail_sleep",
+     "11_6": "GOTO spring",
+     "25_6": "GOTO spring",
+     "Tue": "1000 ArchaeologyHouse 11 9 0/1800 Town 47 87 0/2200 SeedShop 1 9 3 abigail_sleep",
+     "Fri": "900 SeedShop 34 5 0/1100 SeedShop 9 17 3/1500 Saloon 3 19 2 abigail_sit_down/2100 SeedShop 1 9 3 abigail_sleep",
+     "fall": "900 SeedShop 39 5 0/1030 SeedShop 2 20 3/1300 BusStop 22 5 2/1700 SeedShop 3 6 0 abigail_videogames/1930 SeedShop 1 9 3 abigail_sleep",
+	 "Sat": "1000 LeahHouse 3 6 3/2100 BusStop -1 23 3",
+     "winter": "900 SeedShop 39 5 0/1430 SeedShop 3 6 0 abigail_videogames/1930 SeedShop 1 9 3 abigail_sleep",
+	 "summer": "MAIL beachBridgeFixed/GOTO summer_noBridge/900 SeedShop 39 5 0/1100 Beach 73 18 2/1740 SeedShop 3 6 0 abigail_videogames/1930 SeedShop 1 9 3 abigail_sleep",
+     "summer_noBridge": "900 SeedShop 39 5 0/1100 Beach 11 39 2/1740 SeedShop 3 6 0 abigail_videogames/1930 SeedShop 1 9 3 abigail_sleep",
+	 "spring": "900 SeedShop 39 5 0/1030 SeedShop 2 20 3/1300 Town 73 54 2/1630 SeedShop 3 6 0 abigail_videogames/1930 SeedShop 1 9 3 abigail_sleep",
+	 "Thu": "900 SeedShop 39 5 0/1030 SeedShop 2 20 3/1200 SeedShop 10 23 1/1630 SeedShop 3 6 0 abi_videogames \"Strings\\schedules\\Abigail:Abigail_Games\"/1930 SeedShop 1 9 3 abigail_sleep",
+     },
+},
+
+ {
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+        "leah_videogames": "59/59 59 59/59",
+		"abi_videogames": "22 21 20/20/20 21 22"
+		}
+        },
+		
+	 {
+      "Action": "EditData",
+      "Target": "strings/schedules/Leah",
+      "Entries": {
+        "Leah_Games": "The art in some of those games is quite beautiful, don't you think?#$e#I enjoy seeing Abby play, but I'm not very good at it myself."
+		}
+        },	
+		
+			 {
+      "Action": "EditData",
+      "Target": "strings/schedules/Abigail",
+      "Entries": {
+        "Abigail_Games": "Come on Leah! This time we'll defeat him!$5"
+		}
+        },	
+
+
+
+
+//dialogue
+ {
+	"Action":"EditData",
+	"Target":"Characters/Dialogue/Elliott",
+	"Entries":{
+		"Fri2":"It seems that Olivia have a nice book collections.#$e#I wonder if she would show me.",
+		"Sun4":"For me beauty only exists in the mind. Words, thoughts, and music are enough for me.$h#$e#What about you @?",
+		"summer_Fri2":"Life around the valley is so peaceful, I really enjoy it.",	
+		"spring_15":"I hope you are faring well this spring @.",		
+
+	},
+},
+ {
+	"Action":"EditData",
+	"Target":"Characters/Dialogue/Abigail",
+	"Entries":{
+			"Introduction": "Oh, that's right... I heard someone new was moving onto that old farm.#$e#It's kind of a shame, really. I always enjoyed exploring those overgrown fields with Leah.$9",
+			"Mon4":"I'm getting an urge to visit the lake...#$b#...but it's only at its best when it's raining.",
+			"Wed4":"My favorite class? media arts is fun...#$b#Don't know what I'd do with that for a career, though.#$b#Maybe Leah can give me some pointers.",
+			"Thu2":"Sebastian, Sam and I used to be good friends. But we kind of grew apart when we grew up.$6",
+			"Fri2":"I'll be going to the saloon with Leah this evening. It's kind of like a Friday tradition, I guess.",
+			"Fri4":"It's saloon night. Wanna join us this evening?#$e#I think would like for you to be there too.",		
+			"summer_Mon8":"I used to think Pelican Town was kinda drab, but with Leah and you, I'm starting to love being here.$h",	
+			"summer_Fri2":"Leah's a few years older than I am, but I feel like I can truly be me around her.#$e#I wonder if that's what having a sister feels like.",	
+			"summer_Sat10":"This might be the best summer of my life.$l#$e#But getting to spend time with you and Leah in the fall sounds even better.$l",		
+			"fall_Wed8":"I wonder if they'll let me design some of the features in the Spirit's Eve maze someday.#$e#I've got some ideas, I'll ask Leah to sketch them for me.",
+			"fall_Thu4":"Leah's one of the few people who actually gets me.#$e#Well, you sort of do, too.$h",
+			"fall_Thu10":"I had an interesting dream last night, with Leah and you in it.#$e#It was a good dream.$h",	
+			"fall_Fri10":"I used to feel lonely this time of year, but not anymore.$l#$e#@, what are your plans for the future?",
+			"winter_Sat6":"My favorite class? media arts is fun...#$b#Don't know what I'd do with that for a career, though.#$b#Maybe Leah can give me some pointers.",
+			"winter_Sat10":"Thanks for not getting weirded out after the bit with the spirit board.$l#$e#I was seriously worried that you'd never talk to me again.$l",
+			"fall_Tue2":"Leah's basically my best friend.#$e#We have been so close since she moved to the valley.",	
+			"Thu6":"I picked up how to play the drums pretty easily as a kid. My own set is in storage, though.",
+		}
+        },
+		
+		{
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/MarriageDialogueAbigail",
+			"Entries":{		
+				"Rainy_Day_0":"#$c .5#I think I'll bust out my good ol' sketchbook today and paint something with Leah. I've got some ideas for mythical beasts that could be fun.#The dark... the rain... it gets me excited.$l",
+				"Rainy_Day_1":"Hey, remember when we played that duet by the lake? This weather reminds me of that day.#$e#$c .5#Do you still carry around that mini harp? That one kind of surprised me. Where'd you learn to play, anyway?#You really surprised me with that mini-harp... I never expected that. I guess that's why I like you so much.$l",
+			}
+		},
+ {
+	"Action":"EditData",
+	"Target":"Characters/Dialogue/Caroline",
+	"Entries":{		
+		"Fri4":"Abby goes to the saloon with Leah on Friday nights. Maybe you could join them?",
+		"Tue4":"Jodi and I have been close friends for a number of years now.#$b#I'm glad Abby have someone like that too. Leah is like an older sister for her.",		
+	}
+    },		
+ {
+	"Action":"EditData",
+	"Target":"Characters/Dialogue/Leah",
+	"Entries":{
+		"Tue2":"I was wondering for a while whether someone would move into that farm. Abigail and I went there from time to time.#$b#But it's nice that you moved in!",
+		"Tue6":"I made a little painting for Abby to hang in her bedroom. #$b#She likes unusual things, but I like that about her too.",
+		"Wed2":"You got along with Abigail, right?#$b#Maybe we could all hang out at the next festival.",
+		"summer_Sun4":"Life around the valley blooms in summer, is nice to see it.#$e#Of course, it's always nice to see you, too.",
+		"fall_Sat4":"Heyyy! So what do you think of my fall decorations?$h#$e#You should have some Spirit's Eve decorations for your farm. Abby and I can help you with it!",
+		"winter_Thu4":"I hope Abby is doing ok. Yesterday, she had a pretty serious discussion with her parents...$2",
+		}
+        },
+		
+		{
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/MarriageDialogueLeah",
+			"Entries":{	
+				"spring_25":"Some people say that beauty is experienced in the mind. They think that words most resemble our thoughts and are best for creating beauty.#$e#But... don't we also think in images? And aren't image-based thoughts usually more potent?#$b#...I dunno. What do you think?$u",
+				"summer_12":"Yesterday festival was so nice. I love the sense of community in the valley.",
+				"winter_4":"Hmm... I wonder how Linus is doing with all this cold in that little tent? Do you think maybe he'd appreciate a hot meal from us?",
+			
+					}
+        },
+		
+//Festival Dialogues
+
+		{
+
+			"Action":"EditData",
+			"Target":"Data/Festivals/spring13.xnb",
+			"When":{"Year": "2"},
+			"Entries":{
+				"Abigail":"Leah should try competing, it's fun!",
+						},
+		},
+				{
+			"Action":"EditData",
+			"Target":"Data/Festivals/spring24.xnb",
+			"When":{"Year": "2"},
+			"Entries":{
+				"Leah":"Hey @. Don't mind us. We were just preparing for the dance.",		
+								},
+		},
+				{
+			"Action":"EditData",
+			"Target":"Data/Festivals/summer11.xnb",
+			"When":{"Year": "2"},
+			"Entries":{
+				"Elliott":"I didn't forget about the luau this year!$h#$e#Well, Willy reminded me, anyway. That helped."
+										},
+		},
+		
+	    {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8.xnb",
+		"When":{"Year": "3"},
+        "Entries":
+        {
+			"Sebastian": "This is boring.",
+												},
+		},
+		
+//Festivals
+
+{
+ "Action": "EditData",
+ "Target": "Data/Festivals/spring13",
+ "Entries": {
+        "set-up": "fallFest/27 60/farmer 12 54 1/changeToTemporaryMap Town-EggFestival/loadActors Set-Up/warp Leah 31 60 true/warp Abigail 31 61 true/warp Willy 26 68 true/warp Pam 31 58 true/faceDirection Pam 3 true/faceDirection Willy 3 true/faceDirection Leah 3 true/faceDirection Abigail 3 true/positionOffset Leah 0 -10 true/positionOffset Abigail 0 -15 true/advancedMove Vincent true -2 0 0 -2 2 0 0 2/advancedMove Jas true 2 0 0 2 -2 0 0 -2/advancedMove Leo true 0 -2 2 0 0 2 -2 0/advancedMove Clint true 1 7000 0 1 3 7000 0 -1/advancedMove Demetrius true 2 15000 -3 0 0 8 3 20000 0 -8 3 0/advancedMove Shane true 4 40000 2 0 0 2 1 35000 0 -2 -2 0/advancedMove Harvey true 0 6 -6 0 0 9 -3 0 3 15000 3 0 0 3 20 0 0 -8 1 0 0 -11 -15 0 0 1 2 30000/playerControl eggFestival",
+		"Leah_spouse": "Abby always get so motivated for this festival.#$b#It's nice seeing her so excited. I hope she never loses that childish side of her.",
+},
+},
+{
+	 "Action": "EditData",
+     "Target": "Data/Festivals/spring13",
+	 "When": { "HasSeenEvent":"77442423" },
+     "Entries": {
+     "set-up": "fallFest/27 60/farmer 12 54 1/changeToTemporaryMap Town-EggFestival/loadActors Set-Up/warp Leah 31 60 true/warp Abigail 31 61 true/warp Willy 26 68 true/warp Pam 31 58 true/faceDirection Pam 3 true/faceDirection Willy 3 true/faceDirection Leah 3 true/faceDirection Abigail 3 true/positionOffset Leah 0 -10 true/positionOffset Abigail 0 -15 true/warp Demetrius -400 -400 true/advancedMove Andy true 1 9000 -6 0 0 -8 4 7000 0 8 6 0 1 8000/advancedMove Vincent true -2 0 0 -2 2 0 0 2/advancedMove Jas true 2 0 0 2 -2 0 0 -2/advancedMove Leo true 0 -2 2 0 0 2 -2 0/advancedMove Pam true 0 -1 3 5000 0 2 3 5000 0 -1 3 4000/advancedMove Clint true 1 7000 0 1 3 7000 0 -1/advancedMove Demetrius true 2 15000 -3 0 0 8 3 20000 0 -8 3 0/advancedMove Willy true 2 25000 -4 0 0 -12 4 0 0 -1 4 30000 0 1 -4 0 0 12 4 0/advancedMove Shane true 4 40000 2 0 0 2 1 35000 0 -2 -2 0/advancedMove Harvey true 0 6 -6 0 0 9 -3 0 3 15000 3 0 0 3 18 0 0 -8 1 0 0 -11 -13 0 0 1 2 30000/playerControl eggFestival",
+},
+},
+{
+ "Action": "EditData",
+ "Target": "Data/Festivals/spring24",
+ "Entries": {
+        "set-up": "event1/22 22/farmer 76 17 1/changeToTemporaryMap Forest-FlowerFestival/loadActors Set-Up/warp Elliott 4 35 true/faceDirection Elliott 1 true/warp Abigail 18 41 true/faceDirection Abigail 2 true/advancedMove Vincent true -6 0 0 -1 6 0 0 1/advancedMove Jas true 1 0 0 1 -6 0 0 -1 5 0/advancedMove Pam true 2 25000 0 -3 4 0 4 25000 -4 0 0 3/advancedMove Haley true 0 1 2 3000 2 0 0 -1 -2 0 3 500 4 500 1 500 2 500 2 0 1 500 2 500 3 500 4 500 0 2 0 -2 -2 0/advancedMove Caroline true 7 0 0 1 1 18000 0 -1 -7 0 3 18000/advancedMove Willy true 2 25000 -4 0 0 -12 4 0 0 -1 4 30000 0 1 -4 0 0 12 4 0/playerControl flowerFestival",
+},
+},
+{  
+	 "Action": "EditData",
+     "Target": "Data/Festivals/spring24",
+	 "When": { "HasSeenEvent":"77442423" },
+     "Entries": {
+     "set-up": "event1/22 22/farmer 76 17 1/changeToTemporaryMap Forest-FlowerFestival/loadActors Set-Up/warp Elliott 4 35 true/faceDirection Elliott 1 true/warp Abigail 18 41 true/faceDirection Abigail 2 true/warp Demetrius -400 -400 true/advancedMove Sophia true 4 8000 -2 0 4 5000 2 0/advancedMove Vincent true -6 0 0 -1 6 0 0 1/advancedMove Jas true 1 0 0 1 -6 0 0 -1 5 0/advancedMove Pam true 2 25000 0 -3 2 0 4 25000 -2 0 0 3/advancedMove Haley true 0 1 2 3000 2 0 0 -1 -2 0 3 500 4 500 1 500 2 500 2 0 1 500 2 500 3 500 4 500 0 2 0 -2 -2 0/advancedMove Caroline true 7 0 0 1 1 18000 0 -1 -7 0 3 18000/advancedMove Willy true 2 7000 4 0 2 8000 -4 0/playerControl flowerFestival",
+},
+},
+{
+ "Action": "EditData",
+ "Target": "Data/Festivals/summer11",
+ "Entries": {
+        "set-up": "event2/-1000 -1000/farmer 38 3 2/changeToTemporaryMap Beach-Luau/loadActors Set-Up/warp Leah 32 19 true/faceDirection Leah 0 true/addTemporaryActor Governor 16 32 32 4 2/advancedMove Vincent true 3 0 3 3000 -3 0 3 3000/advancedMove Jas true 3 0 1 3000 -3 0 1 3000/advancedMove Pam true 4 25000 -5 0 4 20000 5 0/advancedMove Gus True 0 -1 3 4000 0 1 3 4000/advancedMove Shane true 1 10000 0 1 1 10000 0 -1/advancedMove Clint true 4 15000 -3 0 4 15000 6 0 4 10000 -3 0/animate Emily false true 250 16 17 16 17 20 21 20 21 18 19 18 19 22 23 22 23/animate Robin false true 500 20 21 20 22/animate Demetrius false true 500 24 25 24 26/animate Marnie false true 200 17 18 17 19/positionOffset Marnie 0 16/viewport 38 2 clamp true/pause 1000/playerControl luau",
+        "Leah": "The wood statues? Yeah, I made them.#$b#Do you like them @?",		
+},
+},
+
+{ 
+	 "Action": "EditData",
+     "Target": "Data/Festivals/summer11",
+	 "When": { "HasSeenEvent":"77442423" },
+     "Entries": {
+     "set-up": "event2/-1000 -1000/farmer 38 3 2/changeToTemporaryMap Beach-Luau/loadActors Set-Up/warp Leah 32 19 true/faceDirection Leah 0 true/warp Demetrius -400 -400 true/addTemporaryActor Governor 16 32 32 4 2/advancedMove Vincent true 3 0 3 3000 -3 0 3 3000/advancedMove Jas true 3 0 1 3000 -3 0 1 3000/advancedMove Pam true 4 25000 -5 0 4 20000 5 0/advancedMove Gus True 0 -1 3 4000 0 1 3 4000/advancedMove Shane true 1 10000 0 1 1 10000 0 -1/advancedMove Clint true 4 15000 -3 0 4 15000 6 0 4 10000 -3 0/animate Emily false true 250 16 17 16 17 20 21 20 21 18 19 18 19 22 23 22 23/warp Robin 16 14/faceDirection Robin 0/animate Demetrius false true 500 24 25 24 26/animate Marnie false true 200 17 18 17 19/positionOffset Marnie 0 16/animate Claire false true 200 20 20 20 20 20 20 20 20 20 20 21 21 21 21 21 21 22 22 22 22 22 22 22 22 22 22 22 22 23 24 25 22 23 24 25 22 23 24 25 22 23 24 25 22 23 24 25 22 23 24 25 22 22 22 22 22 21 21 21 21 21 21 21 21 20/viewport 38 2 clamp true/pause 1000/playerControl luau",
+},
+},
+{
+ "Action": "EditData",
+ "Target": "Data/Festivals/summer28",
+ "Entries": {
+        "set-up": "ocean/-1000 -1000/farmer 38 3 2/changeToTemporaryMap Beach-Jellies/loadActors Set-Up/warp Abigail 84 40 true/warp Sebastian 11 39 true/warp Sam 13 39 true/faceDirection Sam 2 true/faceDirection Sebastian 2 true/advancedMove Vincent true 0 12 3 3000 2 0 1 3000 0 -12 -2 0 3 3000/advancedMove Jas true 0 2 3 5000 0 -2 3 5000/advancedMove Clint false 2 50000 -2 0 3 500 2 1000 3 1000 1 0 2 1000/advancedMove Harvey True 0 -12 -10 0 0 6 2 25000 0 -6 10 0 0 12 2 25000/viewport 38 2 clamp true/pause 1000/playerControl jellies",
+        "Leah_spouse": "Hey. We're paying our respects to another bygone summer. We'll come meet up with you when we launch the candle-boat.",	
+        "Leah": "Hey. We're paying our respects to another bygone summer.",		
+},
+},
+
+{    
+	 "Action": "EditData",
+     "Target": "Data/Festivals/summer28",
+	 "When": { "HasSeenEvent":"77442423" },
+     "Entries": {
+	 "set-up": "ocean/-1000 -1000/farmer 38 3 2/changeToTemporaryMap Beach-Jellies/loadActors Set-Up/warp Abigail 84 40 true/warp Sebastian 11 39 true/warp Sam 13  39 true/faceDirection Sam 2 true/faceDirection Sebastian 2 true/warp Demetrius -400 -400 true/advancedMove Vincent true 0 12 3 3000 2 0 1 3000 0 -12 -2 0 3 3000/advancedMove Jas true 0 2 3 5000 0 -2 3 5000/advancedMove Harvey True 0 -12 -10 0 0 6 2 25000 0 -6 10 0 0 12 2 25000/positionOffset Olivia 17 0/positionOffset Victor 17 0/viewport 38 2 clamp true/pause 1000/playerControl jellies",
+},
+},
+
+{
+ "Action": "EditData",
+ "Target": "Data/Festivals/winter25",
+ "Entries": {
+        "set-up": "christmasTheme/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Christmas/loadActors Set-Up/warp Leah 25 65 true/faceDirection Leah 3 true/positionOffset Leah -3 -20 true/positionOffset Abigail 0 -10 true/playerControl christmas",
+		"Elliott": "Gus was just telling me about his artisan candy canes. *yawn*$u#$e#I think he had too much cinnamon nog.",
+		"Leah": "Hi @. It's chilly, isn't it?",
+		"Caroline": "Leah seems to be a good influence on Abby, I'm glad they're friends.",
+		},
+},
+	{
+	 "Action": "EditData",
+     "Target": "Data/Festivals/winter25",
+	 "When": { "HasSeenEvent":"77442423" },
+     "Entries": {
+		"set-up": "christmasTheme/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Christmas/loadActors Set-Up/warp Demetrius -400 -400 true/warp Leah 25 65 true/faceDirection Leah 3 true/positionOffset Leah -3 -20 true/positionOffset Abigail 0 -10 true/playerControl christmas",
+
+		 }
+},		
+//Sprites
+
+	  	 {
+          "Action": "EditImage",
+          "Target": "Characters/Abigail",
+          "FromFile": "Sprite/Abigail.png",
+      },
+
+	  	  	  	 			 {
+          "Action": "EditImage",
+          "Target": "Characters/Leah",
+          "FromFile": "Sprite/Leah.png",
+      },
+	  
+//Events 
+{
+	"Action": "EditData",
+	"Target": "Data/Events/Forest",
+    "Entries": {
+	"45382947/f Leah 250 Abigail 250/w sunny/t 1000 1700" : "none/-500 -500/farmer 38 14 3 Abigail 34 25 2 Leah 34 22 2/skippable/animate Abigail false true 500 53/animate Leah false true 250 32 33 34/pause 850/playMusic jaunty/pause 1000/viewport 34 14 true/move farmer -4 0 3/pause 50/faceDirection farmer 2/emote farmer 8/viewport move 0 3 3800/pause 1300/speak Abigail \"Can you draw some cool aquatic monster trying to catch me?\"/animate Leah false true 250 35/speak Leah \"Not exactly my style, but I can try.\"/speak Abigail \"Oh oh! and put some big sword at my side too.#$b#The monster thinks that I'm distracted... and then he attacks!#$b#Next moment! Bam! I cut him into a million pieces!\"/speak Leah \"But-$2\"/speak Abigail \"Wait wait! Make it five monsters! and add some flying ones too!$1\"/pause 50/emote Leah 28/end",
+				             } 
+        },	
+
+{
+	"Action": "EditData",
+	"Target": "Data/Events/LeahHouse",
+    "Entries": {
+		"50/f Leah 500/p Leah": "breezy/9 8/farmer -50 -50 0 Leah 3 7 3 Abigail 3 6 2/skippable/animate Leah false true 100 16 17 18 19 19 19 19 16/pause 100/playSound woodyStep/pause 800/playSound woodyStep/pause 800/textAbovehead Abigail \"Yeah, he's pretty nice.\"/playSound woodyStep/pause 800/playSound woodyStep/pause 800/warp farmer 7 9/playSound woodyStep/playSound doorClose/pause 300/stopAnimation Leah/pause 300/faceDirection Leah 1 true/faceDirection Abigail 1 true/emote Leah 16 true/emote Abigail 16/speak Abigail \"Oh, hey @.\"/speak Leah \"Hi @! Come in, come in.\"/move farmer 0 -2 3/faceDirection Leah 1/move farmer -2 0 3/pause 500/speak Leah \"I'm just working on this sculpture here.\"/speak Abigail \"And I'm distracting her, as usual.\"/faceDirection Leah 0/faceDirection Abigail 2/speak Leah \"Don't be silly Abby. You know that I enjoy having you here while I work.\"/pause 150/emote Abigail 32/pause 100/faceDirection Leah 1/faceDirection Abigail 1/pause 300/speak Leah \"Come here @. Watch this.\"/pause 300/faceDirection Abigail 3/move Abigail -1 0 2/move farmer -1 0 3/move farmer 0 -1 0 3/move farmer -1 0 2/faceDirection Leah 3/pause 500/animate Leah false true 100 16 17 18 19 19 19 19 16/pause 100/playSound woodyStep/pause 800/playSound woodyStep/pause 800/playSound woodyStep/pause 800/playSound woodyStep/pause 600/stopAnimation Leah/showFrame Leah 19/speak Leah \"See that? I'm revealing the essence of the wood.\"/pause 500/showFrame Leah 12/faceDirection Leah 0/speak Leah \"$q -1 null#Once you get past the outer layers, the true nature starts to show...#$r -1 0 event_sculpt1#It's the same with people.#$r -1 0 event_sculpt2#I actually prefer the look of raw, unadultered wood.\"/fork creepySexualPass/pause 1500/faceDirection Leah 3/speak Abigail \"Just curious Leah, why did you decided on this valley for your artistic dream?\"/speak Leah \"I first visited it as a little girl, while on vacation with my parents.#$b#I knew I had to come back some day... This place has great artistic potential!\"/speak Abigail \"Yeah, it really does.#$b#The feel of the rain while you're amidst nature. It's like being in a different world.\"/faceDirection Leah 3/pause 500/emote Leah 28/speak Leah \"I have to admit though... It's not easy to pay the bills as an artist.$s\"/pause 1000/emote farmer 16/faceDirection Leah 0/question fork1 \"#Why don't you have an art show in town?#Why don't you sell your art on the internet?\"/fork internet/faceDirection Leah 0/faceDirection Abigail 1/speak Abigail \"Hey, that's a great idea!\"/speak Leah \"Hmmm... I guess that could set the wheels in motion to making Pelican Town a true art destination...$7\"/faceDirection Leah 3/faceDirection Abigail 2/pause 700/speak Leah \"But what if no one likes my sculptures? I'd be crushed.$s\"/speak Abigail \"What? That's nonsense Leah! Your art is great, I'm sure everyone would love it.\"/pause 500/speak Leah \"I'm not so sure about that... but I'll think about it.$s\"/faceDirection Leah 0/pause 200/speak Abigail \"Well, I should be going. My father might need some help at the store.\"/question fork1 \" #Yeah, I should be going too.\"/speak Leah \"Ok. Thanks for stopping by you two, I really appreciate your support.\"/speak Abigail \"Anytime. See you later Leah.\"/textAbovehead Leah \"Bye!\"/pause 600/move farmer 4 0 2 true/pause 50/move Abigail 4 0 2 true/globalFade/viewport -1000 -1000/addMailReceived LeahArtShowSuggestion/end dialogueWarpOut Leah \"An art show for the whole village? That's a bold idea, @.\"",
+        "internet": "speak Leah \"Hmm... I guess that's an idea... But I'd need a computer first.$7\"/speak Abigail \"I could help you choosing one.\"/addMailReceived LeahInternet/faceDirection Leah 3/emote Leah 28/pause 500/speak Leah \"But again... that's expensive.$s\"/speak Abigail \"We can buy the parts separately. It's cheaper that way.\"/pause 500/speak Leah \"Ok. I'll think about it.$s\"/faceDirection Leah 0/pause 200/speak Abigail \"Well, I should be going. My father might need some help at the store.\"/question fork1 \" #Yeah, I should be going too.\"/speak Leah \"Ok. Thanks for stopping by you two, I really appreciate your support.\"/speak Abigail \"Anytime. See you later Leah.\"/textAbovehead Leah \"Bye!\"/pause 600/move farmer 4 0 2 true/pause 50/move Abigail 4 0 2 true/globalFade/viewport -1000 -1000/addMailReceived LeahArtShowSuggestion/end warpOut",
+				             } 
+        },
+		
+	{
+      "Action": "EditData",
+      "Target": "Data/Events/SeedShop",
+      "Entries": {		
+		"1/f Abigail 500/p Abigail/d Sat": "none/-9999 -4/farmer 13 6 3 Abigail 3 6 2/skippable/showFrame Abigail 20/specificTemporarySprite abbyvideoscreen/viewport 9 4 true/pause 1000/playSound Cowboy_gunshot/pause 150/emote Abigail 52/pause 800/playSound Cowboy_gunshot/pause 150/playSound Cowboy_gunshot/pause 150/playSound Cowboy_gunshot/temporarySprite 2 4 27 8 50/shake Abigail 500/pause 150/playSound Cowboy_gunshot/pause 150/temporarySprite 4 4 27 8 50 true/playSound Cowboy_gunshot/pause 450/playSound Cowboy_monsterDie/pause 550/playSound Cowboy_gunshot/pause 150/playSound cowboy_dead/pause 850/emote Abigail 28/playMusic distantBanjo/showFrame Abigail 21/pause 80/showFrame Abigail 22/pause 80/move farmer -1 0 3/move farmer -3 0 3/faceDirection Abigail 1/pause 200/emote Abigail 16/pause 600/speak Abigail \"@?\"/move farmer -3 0 3/speak Abigail \"You scared me, sneaking into my room like that!\"/faceDirection Abigail 0/speak Abigail \"*sigh*... so I've been playing 'Journey of the Prairie King' for hours and I can't even beat the first level...$s#$b#This game is ridiculously hard!$a#$b#Well, either that or I'm just terrible at it.$s\"/faceDirection Abigail 1/pause 1000/emote Abigail 16/pause 300/speak Abigail \"Hey, do you want to try this level together with me? I think I might do better with your help.#$b#I tried with Leah before, but she's not so good at it.$8\"/faceDirection farmer 3/farmerAnimation 97/pause 1000/faceDirection Abigail 0/move farmer 0 1 3/move farmer -4 0 0/move farmer 0 -1 0/faceDirection farmer 0/pause 500/globalFade/cutscene AbigailGame/pause 500/faceDirection Abigail 3/stopMusic/faceDirection farmer 1/fork beatGame/pause 600/emote Abigail 28/pause 400/speak Abigail \"Ugh, I give up... I'll never get past the first level.$s#$b#Oh well... thanks for trying.\"/faceDirection farmer 2/showFrame 96/emote farmer 40/pause 1000/end",
+        "beatGame": "playMusic jaunty/speak Abigail \"Hey, that was fun!$h#$b#Well thanks, @. You seem to really know your way around a joystick, huh? I guess that makes sense. $h^Thanks, @. I didn't think you'd know how to work a joystick so well! But it seems you're experienced.$h\"/pause 500/emote Abigail 32/pause 1000/end",
+				             } 
+        },		
+		
+	{
+           "Action": "EditData",
+           "Target": "Data/Events/LeahHouse",
+           "Entries": {
+				"51/f Leah 1000/p Leah": "sadpiano/-1000 -1000/farmer 7 9 0 Leah 13 8 0/skippable/showFrame Leah 20/changeMapTile Front 14 7 1453/viewport 12 8/move farmer 0 -1 1/speak Leah \"Kelly... How many times do I have to tell you? I don't want to come back to the city!$8#$b#Stop calling me... I don't want to hear from you anymore! *click*$8\"/playSound openBox/faceDirection Leah 1/changeMapTile Front 14 7 1454/emote Leah 12/pause 1000/move farmer 4 0 1/faceDirection Leah 3/speak Leah \"@...$6\"/pause 300/emote Leah 28/speak Leah \"So I guess you heard me yelling on the phone?$s\"/faceDirection Leah 2/move farmer 1 0 1/pause 1000/playMusic desolate/speak Leah \"That was my ex...$s\"/faceDirection Leah 3/emote farmer 16/pause 600/speak Leah \"I guess I'd better tell you a little about it...$u\"/pause 500/faceDirection Leah 2/pause 500/speak Leah \"We had an apartment together, back in the city.$u#$b#I did odd jobs during the day and spent all night working on art projects... we barely made enough to scrape by.$u#$b#She was always nagging me to go back to school and study business or medicine... something with a lot of money in it.^She was always nagging me to go back to school and study business or medicine... something with a lot of money in it.$a#$b#I guess the idea was to save up for a normal life. You know... a house in the suburbs, adopting a kid, PTA meetings... that sort of thing.$u\"/faceDirection Leah 3/speak Leah \"I wasn't ready for that kind of life, @... I had to leave. So I came here to pursue my dream of being an artist.\"/pause 900/faceDirection Leah 2/speak Leah \"$q 83 null#Was that selfish of me, @?$s#$r 83 0 event_parents1#No. Abandoning one's dreams doesn't lead to happiness.#$r 83 0 event_parents2#No, and your ex sounds like an idiot.#$r 83 -20 event_parents3#No, but you would've been better off staying in the city.#$r 83 -20 event_parents4#Yeah, a little.#$r 83 -20 event_parents5#Yeah, but it's natural to care about yourself first.\"/faceDirection Leah 3/fork angry/pause 200/fork LeahInternet internet2/fork LeahArtShowSuggestion artShowSuggest/speak Leah \"Well, thanks for listening to me. It's good to have a friend.\"/pause 1500/globalFade/viewport -1000 -1000/end dialogueWarpOut Leah \"Hey, thanks for listening to me so patiently earlier.\"",
+				"angry": "emote Leah 12/faceDirection Leah 1/speak Leah \"Sorry... I shouldn't get angry.$s\"/emote Leah 40/speak Leah \"Maybe you're right... my life would've been a lot easier if I had stayed.$u#$b#Maybe it's better to be practical and realistic... for all I know my art career will never pan out and I'll live my final years in squalor.$s\"/pause 500/faceDirection Leah 3/pause 500/speak Leah \"Well, thanks for listening to me. It's good to have a friend.\"/pause 1500/globalFade/viewport -1000 -1000/end warpOut",
+				"internet2": "pause 50/speak Leah \"So I've been saving up money to buy a computer... You know, so I can try and sell my art online like you suggested.\"/emote farmer 32/speak Leah \"It's good to have some friends looking out for you!\"/pause 1500/globalFade/viewport -1000 -1000/end warpOut",
+				"artShowSuggest": "pause 50/speak Leah \"Anyway... I've been thinking a little more about that art show idea you had.#$b#I'm working on some new sculptures to display at the show... I'm nervous, but the thought of getting my work out there is pretty exciting.#$b#I'm just glad you and Abby are on board with making Stardew Valley a premier art destination!$h\"/pause 500/end warpOut"
+            }
+        },		
+		
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Town",
+    "Entries": {
+	"342528293/f Leah 1000 Abigail 1000/w sunny/t 1000 1700" : "breezy/41 58/farmer 39 58 1 Abigail -300 -300 2 Leah -300 -300 2/skippable/move farmer 4 0 1/playSound doorOpen/warp Abigail 43 57/faceDirection farmer 0/emote farmer 16 true/emote Abigail 16/speak Abigail \"Oh, hey @!$1#$b#Perfect timing. I was going to visit Leah, want to come along?\"/emote farmer 32/pause 50/speak Abigail \"Great! Let's go.\"/globalFade/viewport -1000 -1000/stopMusic/faceDirection Abigail 2/faceDirection farmer 2/changeLocation Forest/warp Abigail 98 31/warp Leah 98 39/warp farmer 99 31/faceDirection Leah 2/move farmer 0 7 2 true/move Abigail 0 7 2 true/viewport 99 38 true/pause 300/textAbovehead Abigail \"Hey Leah!\"/pause 200/faceDirection Leah 0/pause 50/speak Leah \"Oh... Hi.$2\"/emote Abigail 8/speak Abigail \"Is something wrong? You seem down.$6\"/playMusic desolate/speak Leah \"Well, yeah...$2#$b#My parents called me today... Kelly, my ex, went to see them.$2\"/speak Abigail \"What for?$3\"/speak Leah \"...So they may convince me to return back to the city.$2\"/speak Abigail \"And they agreed to that?$3\"/speak Leah \"Yeah...$2\"/speak Abigail \".....$5\"/question fork1 \" #What are you going to do?\"/speak Leah \"Nothing... I'll remain at the valley. It's just that I didn't expected this from my parents...$2#$b#I was hoping for them to understand how important this is to me...$2\"/speak Abigail \"They are your parents, they should believe in you...$3#$b#But if they don't, we will, and we'll help you in any way we can! Right @?!$3\"/question fork1 \" #Of course. Anything you need Leah.\"/speak Leah \"*Smile*#$b#Thanks you two, just being there is enough for me.\"/emote Leah 20/pause 200/emote Abigail 32 true/emote farmer 32/end",
+				             } 
+        },	
+    ]
+}
+
+
+
+        
+		
+
+
+

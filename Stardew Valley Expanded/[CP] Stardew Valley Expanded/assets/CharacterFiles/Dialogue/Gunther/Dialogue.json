@@ -1,7 +1,9 @@
 ﻿
 { 
   //SPECIAL DIALOGUE
-  //Unused: "Introduction": "You must be Mr. @. Pleasure to meet you.$5^You must be Ms. @. Pleasure to meet you.$5",
+  //"Introduction": "You must be Mr. @. Pleasure to meet you.$5^You must be Ms. @. Pleasure to meet you.$5",
+  "pamHouseUpgrade": "I can't say I was surprised in the slightest when Robin told me you were the one responsible for funding Pam's new home.$1",
+  "pamHouseUpgradeAnonymous": "Robin outdid herself with that beautiful home design for Pam.$0#$e#Now I wonder... just who is this mysterious patron? Perhaps I've met them before!$1#$e#%Gunther smiles at me and tips his hat.",
   "Resort_Entering": "Willy takes pride in that boat of his. Overheard it was his father's.$0",
   "Resort_Leaving": "Perhaps I'll secure a private tour of the island sometime...$0",
   "Resort_Shore": "Have you met my colleague? He excavates here on the island.",
@@ -15,7 +17,7 @@
   "spring_23": "I wonder what Pierre is selling tomorrow at his stand...$5",
   
   "Mon": "Oh, hello Mr. @!$5^Oh, hello Ms. @!$5#$b#How fares the farm work?$1",
-  "Mon2": "*yawn* Hello, Mr. @!$5^*yawn Hello, Ms. @!$5#$b#Forgive my drowsiness. I was researching ancient artifacts all night.$5#$e#When one is exploring the unknown... it is easy to lose track of time!$1",
+  "Mon2": "*yawn* Hello, Mr. @!$5^*yawn* Hello, Ms. @!$5#$b#Forgive my drowsiness. I was researching ancient artifacts all night.$5#$e#When one is exploring the unknown... it is easy to lose track of time!$1",
   "Mon10": "We received a donation for the remarkable artifacts and minerals on display...$5#$b#Here's a portion of it, Mr. @ [336]^Here's a portion of it, Ms. @ [336]",
   "Tue": "Lost relics of the past are buried under the very earth we walk upon...$5#$e#Mayor Lewis told me he saw you digging up artifacts around town.$5",
   "Tue6": "I'm pondering over a research article's credibility...$5#$b#The fellow who wrote it is questionable.$5#$e#Farewell, Mr. @.$5^Farewell, Ms. @.$5",

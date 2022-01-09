@@ -1,4 +1,4 @@
-{
+﻿{
     /*********
     ** Main translations
     *********/
@@ -54,7 +54,8 @@
     "farm.auto-water": "Automatisches Gießen",
     "farm.durable-fences": "Widerstandsfähige Zäune",
     "farm.instant-build": "Sofortiger Bau",
-    "farm.always-auto-feed": "Immer automatisch füttern",
+    "farm.auto-feed-animals": "Immer automatisch füttern",
+    "farm.auto-pet-animals": "Tiere automatisch füttern",
     "farm.infinite-hay": "Unendlich Heu",
 
     // fishing
@@ -132,7 +133,7 @@
     ** Relationships tab
     *********/
     "relationships.title": "Beziehungen",
-    "relationships.give-gifts-anytime": "Geschenke jederzeit hergeben",
+    "relationships.give-gifts-anytime": "Geschenke jederzeit übergeben",
     "relationships.no-decay": "Kein Freundschaftsrückfall",
     "relationships.friends": "Freunde",
 
@@ -176,31 +177,38 @@
     "warp.tide-pools": "Gezeitentümpel",
     "warp.willy-shop": "Angelbedarf",
 
+    // island
+    "warp-section.island": "Ingwerinsel",
+    "warp.forge": "Vulkanschmiede",
+    "warp.island-farm": "Insel Farm",
+    "warp.dwarf-shop": "Zwergenladen",
+    "warp.field-office": "Insel-Außenstelle",
+    "warp.leo-house": "Leo's Haus",
+
     // desert
     "warp-section.desert": "Wüste",
     "warp.casino": "Casino",
     "warp.sandy-shop": "Oase",
     "warp.skull-cavern": "Schädelhöhle",
 
-    // island
-    // TODO
-    "warp-section.island": "Ginger Island",
-    "warp.forge": "Forge",
-    "warp.island-farm": "Island Farm",
-    "warp.dwarf-shop": "Volcano Dwarf Shop",
-    "warp.field-office": "Field Office",
-    "warp.leo-house": "Leo's House",
-
 
     /*********
     ** Time tab
     *********/
+    //time
     "time.title": "Zeit",
     "time.freeze-inside": "Zeit in Gebäuden stoppen",
     "time.freeze-caves": "Zeit in Höhlen stoppen",
     "time.freeze-everywhere": "Zeit überall stoppen",
     "time.time": "Zeit",
     "time.time-frozen-message": "Zeit gestoppt",
+
+    // date
+    "date.title": "Datum",
+    "date.warning": "Manche Dinge werden erst aktualisiert, wenn man geschlafen hat.",
+    "date.year": "Jahr",
+    "date.season": "Jahreszeit",
+    "date.day": "Tage",
 
 
     /*********

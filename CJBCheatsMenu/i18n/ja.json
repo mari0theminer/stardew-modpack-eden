@@ -1,4 +1,4 @@
-{
+﻿{
     /*********
     ** Main translations
     *********/
@@ -54,7 +54,8 @@
     "farm.auto-water": "Auto-Water Crops", // TODO
     "farm.durable-fences": "柵を強化",
     "farm.instant-build": "建設がすぐに終わる",
-    "farm.always-auto-feed": "エサやり自動化",
+    "farm.auto-feed-animals": "エサやり自動化",
+    "farm.auto-pet-animals": "Auto-Pet Animals", // TODO
     "farm.infinite-hay": "干し草が無くならない",
 
     // fishing
@@ -176,12 +177,6 @@
     "warp.tide-pools": "タイドプール",
     "warp.willy-shop": "釣具店",
 
-    // desert
-    "warp-section.desert": "Desert", // TODO
-    "warp.casino": "カジノ",
-    "warp.sandy-shop": "砂漠商店",
-    "warp.skull-cavern": "ドクロの洞窟",
-
     // island
     // TODO
     "warp-section.island": "Ginger Island",
@@ -191,16 +186,31 @@
     "warp.field-office": "Field Office",
     "warp.leo-house": "Leo's House",
 
+    // desert
+    "warp-section.desert": "Desert", // TODO
+    "warp.casino": "カジノ",
+    "warp.sandy-shop": "砂漠商店",
+    "warp.skull-cavern": "ドクロの洞窟",
+
 
     /*********
     ** Time tab
     *********/
+    // time
     "time.title": "時間停止",
     "time.freeze-inside": "屋内で時間が止まる",
     "time.freeze-caves": "洞窟の中で時間が止まる",
     "time.freeze-everywhere": "どこでも時間が止まる",
     "time.time": "時間",
     "time.time-frozen-message": "時間停止！",
+
+    // date
+    // TODO
+    "date.title": "Date",
+    "date.warning": "Some things won't update until a night has passed.",
+    "date.year": "Year",
+    "date.season": "Season",
+    "date.day": "Day",
 
 
     /*********

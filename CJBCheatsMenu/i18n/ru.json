@@ -1,4 +1,4 @@
-{
+﻿{
     /*********
     ** Main translations
     *********/
@@ -54,7 +54,8 @@
     "farm.auto-water": "Автополиваемые культуры",
     "farm.durable-fences": "Прочные ограждения",
     "farm.instant-build": "Мгновенное строительство",
-    "farm.always-auto-feed": "Автоматическая подкормка животных",
+    "farm.auto-feed-animals": "Автоматическая подкормка животных",
+    "farm.auto-pet-animals": "Автоматическое приласкивание животных",
     "farm.infinite-hay": "Бесконечное сено",
 
     // fishing
@@ -176,31 +177,38 @@
     "warp.tide-pools": "Приливные бассейны",
     "warp.willy-shop": "Странствующий торговец",
 
+    // island
+    "warp-section.island": "Имбирный остров",
+    "warp.forge": "Кузница",
+    "warp.island-farm": "Ферма на острове",
+    "warp.dwarf-shop": "Магазин в вулкане",
+    "warp.field-office": "Полевой офис",
+    "warp.leo-house": "Хижина Лео",
+
     // desert
     "warp-section.desert": "Пустыня",
     "warp.casino": "Казино",
     "warp.sandy-shop": "Оазис",
     "warp.skull-cavern": "Пещера Черепа",
 
-    // island
-    // TODO
-    "warp-section.island": "Ginger Island",
-    "warp.forge": "Forge",
-    "warp.island-farm": "Island Farm",
-    "warp.dwarf-shop": "Volcano Dwarf Shop",
-    "warp.field-office": "Field Office",
-    "warp.leo-house": "Leo's House",
-
 
     /*********
     ** Time tab
     *********/
+    // time
     "time.title": "Время",
     "time.freeze-inside": "Остановить время в помещениях",
     "time.freeze-caves": "Остановить время в пещерах",
     "time.freeze-everywhere": "Остановить время в любых местах",
     "time.time": "Текущее время",
     "time.time-frozen-message": "Время остановлено",
+
+    // date
+    "date.title": "Дата",
+    "date.warning": "Некоторые изменения не сработают пока не пройдет ночь.",
+    "date.year": "Год",
+    "date.season": "Время года",
+    "date.day": "День",
 
 
     /*********

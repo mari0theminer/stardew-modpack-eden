@@ -1,0 +1,12 @@
+{
+   "Name": "XtardewValleyPoly",
+   "Author": "Pseudodiego",
+   "Version": "0.0.2",
+   "Description": "Xtardew Poly Romances",
+   "UniqueID": "Pseudodiego.LAtardewValley",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

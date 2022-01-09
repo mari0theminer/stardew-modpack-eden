@@ -1,0 +1,14 @@
+{
+	"Format": "1.11",
+	"ConfigSchema": {
+		"color": {"AllowValues": "red, blank",
+                 "Default": "red"}
+	},
+	"Changes": [
+		 {
+				"Action": "Load",
+				"Target": "Animals/horse",
+				"FromFile": "assets/{{color}}.png"
+		 },
+	]
+}

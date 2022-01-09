@@ -1,0 +1,3 @@
+{
+    "showerAlone":"pause 500/message \"You asked Caroline to leave, and took a shower alone\"/end warpOut"
+}

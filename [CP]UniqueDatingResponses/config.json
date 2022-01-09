@@ -31,5 +31,6 @@
   "enableRobin": "enabled",
   "enableSandy": "enabled",
   "enableWilly": "enabled",
-  "enableWizard": "enabled"
+  "enableWizard": "enabled",
+  "enableLeo": "enabled"
 }

@@ -1,0 +1,12 @@
+{
+   "Name": "Cuter Haley",
+   "Author": "M99",
+   "Version": "1.1.0",
+   "Description": "A new project about Haley.It contains portraits and sprites.",
+   "UniqueID": "M99.CuterHaley",
+   "MinimumApiVersion": "3.0",
+   "UpdateKeys": [ "Nexus:10481" ],
+   "ContentPackFor": {
+     "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

@@ -1,19 +1,29 @@
-{
-	"minimap.label": "Minimap",
-	"minimap.option1": "Enabled",
-	"minimap.plusMinus1": "Minimap width",
-	"minimap.plusMinus2": "Minimap height",
-	"immersion.label": "Settings:",
-	"immersion.option1": "Always show villagers",
-	"immersion.option2": "Show villagers player has talked to",
-	"immersion.option3": "Hide villagers player has talked to",
-	"immersion.option4": "Only show villagers in player's location",
-	"immersion.option5": "Only show villagers within heart level",
-	"immersion.slider1": "Minimum heart level",
-	"immersion.slider2": "Maximum heart level",
-	"extra.label": "Extra Settings:",
-	"extra.option1": "Show quests or birthdays",
-	"extra.option2": "Show hidden villagers",
-	"extra.option3": "Show traveling merchant",
-	"villagers.label": "Include/Exclude villagers:"
+﻿{
+    /*********
+    ** Map options
+    *********/
+    // minimap section
+    "minimap.label": "Kistérkép",
+    "minimap.enabled": "Engedélyezve",
+    "minimap.width": "Kistérkép szélesség",
+    "minimap.height": "Kistérkép magasság",
+
+    // immersion section
+    "immersion.label": "Beállítások:",
+    "immersion.always-show-villagers": "Mindig mutassa a falusiakat",
+    "immersion.only-villagers-talked-to": "A játékos által beszélt falusiak megjelenítése",
+    "immersion.hide-villagers-talked-to": "A játékos által beszélt falusiak elrejtése",
+    "immersion.only-villagers-in-player-location": "Csak a játékos tartózkodási helyén lévő falusiak megjelenítése",
+    "immersion.only-villagers-within-heart-level": "Csak a szívszinten belüli falusiak megjelenítése",
+    "immersion.min-heart-level": "Minimális szívszint",
+    "immersion.max-heart-level": "Maximális szívszint",
+
+    // extra settings section
+    "extra.label": "További beállítások:",
+    "extra.show-quests-or-birthdays": "Küldetések vagy születésnapok megjelenítése",
+    "extra.show-hidden-villagers": "Rejtett falusiak megjelenítése",
+    "extra.show-traveling-merchant": "Utazó kereskedő megjelenítése",
+
+    // include/exclude villagers section
+    "villagers.label": "Falusiak Engedélyezése/Kizárása:"
 }

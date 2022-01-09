@@ -1,0 +1,11 @@
+{
+    "Name": "Romanceable Jodi",
+    "Author": "Pseudodiego",
+    "Version": "1.0",
+    "Description": "Xtardew Marrigeable Jodi.",
+    "UniqueID": "Pseudodiego.XtardewValleyJodi",
+    "UpdateKeys": [""],
+    "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+ }

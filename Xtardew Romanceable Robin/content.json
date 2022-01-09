@@ -1,0 +1,584 @@
+{
+    "Format": "1.19.0",
+	
+		  "DynamicTokens": [
+  {
+    "Name": "GrandpaShedComplete",
+    "Value": "{{HasSeenEvent: currentPlayer, hostPlayer |contains=2554906}}"
+  },	
+  
+],
+    "Changes": [
+			{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"When": { "Relationship:Robin": "Dating, Engaged, Married" },
+			"Entries": {
+				"4373891/f Robin 2500/w sunny/t 600 700": "continue/64 16/farmer 64 15 2 Robin 64 22 0/skippable/pause 1300/speak Robin \"Hey @, good morning.#$b#I had some free time and decided to come and check your buildings, just in case.#$b#Can you accompany me to your grandfather's cottage? I need to show you something.\"/emote farmer 32/speak Robin \"Great. I'll wait for you there.\"/end",
+	            }
+        },	
+							{
+			"Action": "EditData",
+			"Target": "Data/Events/ScienceHouse",
+			"Entries": {
+				"428912985/Robin 3000/p Robin/t 600 1900": "50s/6 19/Demetrius -300 -300 0 Sebastian -300 -300 0 farmer 6 24 0 Robin 7 18 2/skippable/playSound doorOpen/speed farmer 1/move farmer 0 -2 0/pause 300/jump Robin/textAboveHead Robin \"Oh. Hey honey!\"/pause 1050/faceDirection Robin 3 true/pause 250/faceDirection Robin 0 true/pause 300/speed Robin 4/move Robin 0 -1 3/speed Robin 4/move Robin -2 0 2/speed Robin 4/move Robin 0 3 1/speed Robin 4/move Robin 1 0 2/speed Robin 4/move Robin 0 1 2/pause 200/speak Robin \"What are you doing here? Do you need something from the store?\"/question fork1 \" #No. I just wanted to see you.\"/speak Robin \"*Smile* $7#$b#I'm glad you came, the store is pretty quiet today.$7#$b#Hey, let's go to my room. I want to be alone with you...$7\"/emote farmer 20/globalFade/viewport -1000 -1000/faceDirection farmer 2/stopMusic/message \".......\"/message \".....\"/message \"...\"/addTemporaryActor RobinEvent4 16 32 17 6 0 false character/warp Robin -300 -300/warp farmer 17 6/animate farmer false true 500 108/animate RobinEvent4 false true 200 0 1 2 3/positionOffset RobinEvent4 0 -13/viewport 6 20 true/pause 1300/playSound doorOpen/addTemporaryActor Demetrius. 16 32 6 24 0 true character/pause 100/move Demetrius. 0 -4 0/pause 50/faceDirection Demetrius. 3/pause 150/faceDirection Demetrius. 1/pause 150/emote Demetrius. 8/playSound doorOpen/pause 100/warp Sebastian 12 21/pause 20/move Sebastian 0 -1 3/pause 350/emote Sebastian 8/speak Sebastian \"Mmm? What are you doing here?$3\"/speak Demetrius. \"I'm looking for your mother.$5\"/speak Sebastian \"What for?$3\"/speak Demetrius. \".....$5#$b#....I want us to be a family again.$5\"/emote Sebastian 8/speak Sebastian \"...Didn't Maru told you?$3\"/speak Demetrius. \"Told me what?$5\"/speak Sebastian \".....#$b#.....$7#$b#Nothing. I think my mother is in her room.$7\"/speak Demetrius. \"Thanks.$5\"/animate RobinEvent4 false true 150 0 1 2 3/move Sebastian -4 0 2/move Sebastian 0 1 3/move Sebastian -2 0 2/faceDirection Demetrius. 2/move Sebastian 0 3 2/pause 50/playSound doorOpen/warp Sebastian -300 -300/pause 100/faceDirection Demetrius. 1/move Demetrius. 5 0 2 true/globalFade/viewport -1000 -1000/pause 500/warp Demetrius. 13 11/faceDirection Demetrius. 0/viewport 14 7 true/pause 1300/speak Demetrius. \"Ok... Here I go.$5\"/pause 250/textAboveHead RobinEvent4 \"Ahh!! Ahhh!!!\"/pause 1000/emote Demetrius. 16/speak Demetrius. \"That sounds like...$6#$b#.....$4\"/doAction 13 10/playSound doorOpen/pause 50/move Demetrius. 0 -3 1/pause 1000/playSound dwop/positionOffset Demetrius. 0 -4/pause 450/playSound dwop/positionOffset Demetrius. 0 -4/pause 450/playSound dwop/positionOffset Demetrius. 0 -4/pause 550/emote Demetrius. 16/animate RobinEvent4 false true 90 0 1 2 3/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/textAboveHead RobinEvent4 \"Ahhh!!! Honey!!!!\"/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/textAboveHead RobinEvent4 \"Yes!! I'm coming!!!\"/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/textAboveHead RobinEvent4 \"!!!!!!\"/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/pause 500/textAboveHead RobinEvent4 \"Aaahhh!!!!!!!\"/screenFlash 1/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/animate RobinEvent4 false true 90 0/pause 2000/emote RobinEvent4 20/emote Demetrius. 12/faceDirection Demetrius. 2/pause 25/move Demetrius. 0 5 2 true/globalFade/viewport -1000 -1000/pause 150/speak Robin \"*Kiss* That was incredible as always @.$7#$b#Well, time to get back to the store.\"/warp Robin 12 15/warp RobinEvent4 -300 -300/warp farmer 13 15/faceDirection Robin 2/faceDirection farmer 2/warp Demetrius. 6 20/faceDirection Demetrius. 1/viewport 10 20 true/move Robin 0 5 3 true/move farmer 0 5 3 true/pause 3100/emote Robin 16/speak Robin \"Demetrius? What are you doing here?$5\"/speak Demetrius. \"I came to give you a second chance... But it seems you have been very busy while I was gone.$4\"/speak Robin \".....$3#$b#.....$3#$b#No... Isn't worth it.$5#$b#I'm having a fantastic day and I'm not going to let you ruin it Demetrius, so I'm going to be pretty clear.$5#$b#I'm happier with @ than I have ever been with you.$5#$b#I'm not saying this to hurt you, it's just what it is.$5#$b#I don't want you in my life, not anymore.$5#$b#So please, leave and don't come back.$5\"/speak Demetrius. \".....$4\"/faceDirection Demetrius. 2/move Demetrius. 0 4 2/playSound doorOpen/warp Demetrius. -300 -300/pause 150/faceDirection Robin 1/speak Robin \"*Sigh*$2\"/question fork1 \" #Are you ok Robin?\"/speak Robin \"*Smile* Yeah.#$b#Thanks @, for always being there for me.\"/emote Robin 20/emote farmer 20/end",
+			            }
+        },	
+					{
+			"Action": "EditData",
+			"Target": "Data/Events/Custom_GrandpasShedRuins",
+			"When": { "Relationship:Robin": "Dating, Engaged, Married" },
+			"When": { "GrandpaShedComplete": false },
+			"Entries": {
+				"4373892/e 4373891/f Robin 2500/t 600 1900": "50s/15 10/farmer -200 -200 0 Robin -200 -200 2/addTemporaryActor RobinNude 17 33 15 10 2 false character/skippable/pause 1300/playSound doorOpen/warp farmer 15 16/pause 300/emote farmer 16/speak Robin \"You see @...$7#$b#After checking everywhere...$7#$b#I found this hole that really needs some filling...$7#$b#Do you think you can help me with that?$7\"/emote farmer 20/speed farmer 2/move farmer 0 -5 0 true/globalFade/viewport -1000 -1000/pause 1000/message \"You begin to kiss Robin avidly, grasping her ample bosom.\"/message \"Your hand descends to her already wet slit, and you slide two fingers into her.\"/speak Robin \"Ahhh... @...$7\"/message \"She begins to undress you while you finger her. Then, Robin pushes you onto the floor and climbs on top of you with a suggestive smile on her face.\"/message \"She spits on her hand, and begins to rub your cock, making it very wet before positioning it against her rear entrance.\"/message \"Robin lowers her body and her ass swallows your cock inch by inch.\"/message \"Biting her lower lip, she looks at you over her shoulder.\"/speak Robin \"Aahh... Stay still @. I need some time to adjust to your size.$7\"/message \"After a minute, Robin begins to move. Slowly at first, but soon picking up the pace. Before long, she is riding you at full speed.\"/warp RobinNude -200 -200/addTemporaryActor RobinEvent3 18 43 15 9 0 false character/warp farmer 15 9/positionOffset farmer 6 8/faceDirection farmer 2/animate farmer false true 500 108/animate RobinEvent3 false true 120 0 1 2 1/playSound slimeHit/pause 800/playSound slimeHit/pause 800/viewport 15 9 true/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/textAboveHead RobinEvent3 \"Aahh... Fuck...!!\"/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/textAboveHead RobinEvent3 \"Yes! Fuck my ass honey!!\"/animate RobinEvent3 false true 100 0 1 2 1/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/textAboveHead RobinEvent3 \"Yeah, just like that!!!\"/animate RobinEvent3 false true 80 0 1 2 1/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/textAboveHead RobinEvent3 \"Ahhh!!! I'm coming!!\"/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/textAboveHead RobinEvent3 \"!!!!!\"/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/textAboveHead RobinEvent3 \"Aaahhhh!!!!!\"/animate RobinEvent3 false true 400 0/screenFlash 1/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 2000/emote RobinEvent3 20/globalFade/viewport -1000 -1000/speak Robin \"*Pant* *Pant* Uff... I don't think I'll be able to sit for a while after this. But it was totally worth it.$7\"/speak Robin \"*Yawn* I always get so sleepy afterwards.#$b#It would be nice to lay with you for a while... But I promised Lewis that I'll begin working on the town's fences, so I better get going.\"/pause 1000/playSound dwop/speak Robin \"*Kiss* See you later @.\"/end dialogue Robin \"My ass still hurts... Next time we better use lube.$7\"",
+	            }
+        },	
+							{
+			"Action": "EditData",
+			"Target": "Data/Events/Custom_GrandpasShed",
+			"When": { "Relationship:Jodi": "Dating, Engaged, Married" },
+			"When": { "GrandpaShedComplete": true },
+			"Entries": {
+				"4373892/e 4373891/f Robin 2500/t 600 1900": "50s/15 10/farmer -200 -200 0 Robin -200 -200 2/addTemporaryActor RobinNude 17 33 15 10 2 false character/skippable/pause 1300/playSound doorOpen/warp farmer 15 16/pause 300/emote farmer 16/speak Robin \"You see @...$7#$b#After checking everywhere...$7#$b#I found this hole that really needs some filling...$7#$b#Do you think you can help me with that?$7\"/emote farmer 20/speed farmer 2/move farmer 0 -5 0 true/globalFade/viewport -1000 -1000/pause 1000/message \"You begin to kiss Robin avidly, grasping her ample bosom.\"/message \"Your hand descends to her already wet slit, and you slide two fingers into her.\"/speak Robin \"Ahhh... @...$7\"/message \"She begins to undress you while you finger her. Then, Robin pushes you onto the floor and climbs on top of you with a suggestive smile on her face.\"/message \"She spits on her hand, and begins to rub your cock, making it very wet before positioning it against her rear entrance.\"/message \"Robin lowers her body and her ass swallows your cock inch by inch.\"/message \"Biting her lower lip, she looks at you over her shoulder.\"/speak Robin \"Aahh... Stay still @. I need some time to adjust to your size.$7\"/message \"After a minute, Robin begins to move. Slowly at first, but soon picking up the pace. Before long, she is riding you at full speed.\"/warp RobinNude -200 -200/addTemporaryActor RobinEvent3 18 43 15 9 0 false character/warp farmer 15 9/positionOffset farmer 6 8/faceDirection farmer 2/animate farmer false true 500 108/animate RobinEvent3 false true 120 0 1 2 1/playSound slimeHit/pause 800/playSound slimeHit/pause 800/viewport 15 9 true/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/textAboveHead RobinEvent3 \"Aahh... Fuck...!!\"/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/textAboveHead RobinEvent3 \"Yes! Fuck my ass honey!!\"/animate RobinEvent3 false true 100 0 1 2 1/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/textAboveHead RobinEvent3 \"Yeah, just like that!!!\"/animate RobinEvent3 false true 80 0 1 2 1/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/textAboveHead RobinEvent3 \"Ahhh!!! I'm coming!!\"/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/textAboveHead RobinEvent3 \"!!!!!\"/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/textAboveHead RobinEvent3 \"Aaahhhh!!!!!\"/animate RobinEvent3 false true 400 0/screenFlash 1/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 2000/emote RobinEvent3 20/globalFade/viewport -1000 -1000/speak Robin \"*Pant* *Pant* Uff... I don't think I'll be able to sit for a while after this. But it was totally worth it.$7\"/speak Robin \"*Yawn* I always get so sleepy afterwards.#$b#It would be nice to lay with you for a while... But I promised Lewis that I'll begin working on the town's fences, so I better get going.\"/pause 1000/playSound dwop/speak Robin \"*Kiss* See you later @.\"/end dialogue Robin \"My ass still hurts... Next time we better use lube.$7\"",
+	            }
+        },
+
+	
+		
+		
+	
+	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueRobin",
+        "Entries": {
+		"spouseRoom_Robin": "Hey Honey. Good morning.#$e#Let me know if there's anything that needs to be fixed.",
+		"Rainy_Day_0": "It's raining. Not the most pleasant weather for a carpenter.$2#$e#Well, at least is good for the crops.",
+        "Rainy_Day_1": "I checked the buildings just in case. Doesn't seem to be any leaks.",
+        "Rainy_Day_2": "Good morning @! I woke up early from the sound of the rain and made you some breakfast. [194 195 210 211 216]  #$e#Stay warm and don't work too hard. I want you to stay healthy.",
+        "Rainy_Day_3": "I hope the road to my old house doesn't get too muddy.$2",
+		"Rainy_Day_4": "Any dinner requests for tonight?",
+		"Rainy_Night_0": "The rain makes it feel like we're all alone.$6#$e#I'm cold... aren't you ready to tuck into bed?$6",
+        "Rainy_Night_1": "Make sure you change into something warm. I don't want you to get sick.#$e#Can you hear the rain pattering on the roof, @?",
+        "Rainy_Night_2": "Ah...The soothing sound of rain overhead... I'm going to sleep well tonight.",
+        "Rainy_Night_3": "Working with wood can be so relaxing.$u#$e#I should try teaching you some time, maybe you'd like it.",
+        "Rainy_Night_4": "Hey @, glad you're home... I missed you.$7#$b#.",
+		"Indoor_Day_0": "Good morning @#$e#Ready for a hard day's work? I am.",
+		"Indoor_Day_1": "Make sure to eat plenty, you'll need energy for the day. I know how tiring manual work can be.",
+		"Indoor_Day_2": "Did you sleep well honey?.#$b#Me? Of course.",
+		"Indoor_Day_3": "Hey, someone must've gotten a good night of sleep... it's no surprise after last night.$7",
+		"Indoor_Day_4": "Good morning, honey. Another day of chores on the farm, huh?",
+		"Indoor_Night_0": "*Yawn* I'm so tired.$5",
+		"Indoor_Night_1": "Wow, you look tired today honey.#$b#I hope you still have some energy for later.$7",
+		"Indoor_Night_2": "You look like you've been working hard @. Let me help you de-stress.$7",
+		"Indoor_Night_3": "Are you done with your work for the day? I'm ready to have some fun.$7",
+		"Indoor_Night_4": "*phew*! I just finished my work for today. Now we can spend some time together.#$e#So, tell me about your day.",
+		"Introduction": "Have you met everyone in town yet? That sounds exhausting.",
+        "Resort": "Wow, look at these structures!$h#$b#I can tell they were made by a master builder. I'm really impressed!",
+        "Resort_Leaving": "That was fun!$h",
+        "Resort_Shore": "Hey, look! I can see another island from here.",
+        "Resort_Chair": "Hey @. You know, I was just thinking about how far the town has come since you first moved here.#$b#As your wife, I must say that I'm proud of you.",
+        "Resort_Bar": "This is so relaxing...",
+        "reject_865": "Veggie salt? Sounds good, but I don't need it.",
+        "reject_866": "Hmm... when I think of flowers, I think of Evelyn. Maybe show this to her?",
+        "pamHouseUpgrade": "Our little plan worked out well, don't you think? Pam and Penny seem really happy.",
+        "pamHouseUpgradeAnonymous": "Our little plan worked out well, don't you think? Pam and Penny seem really happy.",
+        "MovieInvitation": "Ooh... Two tickets for tonight's show, huh? Sounds good! I'll meet you there.$h",
+        "cc_Bridge": "Hey! I heard some weird noises last night, and woke up this morning to find the quarry bridge completely repaired!#$b#It's a miracle of woodworking!",
+        "cc_Complete": "I knew it from the moment you stepped off that bus, @... you were destined to be our town's hero!$h",
+        "cc_Begin": "Hey! I heard that Lewis showed you around the Community Center... It'd be great if you could fix that place up. It used to be a really nice building!",
+        "Mon": "Have I told you that I built my old house from the ground up?#$e#It's definitely been the highlight of my career so far.",
+        "Tue": "I wonder what I should do with the lab in my house. Maybe I can renovate it.",
+        "Wed": "Hey there, @.#$e#I was just daydreaming about some new projects.",
+        "Thu": "It can get pretty lonely up here in the mountains. Visit me as much as you want honey.",
+        "Fri": "You've met my son Sebastian, right? He lives downstairs.#$e#He's a little shy, but I'm sure he'll warm up to you if you're nice to him.",
+        "Fri_inlaw_Sebastian": "I miss my Sebby... he was always a little misunderstood, but I believe in him.",
+        "Fri4": "#$1 RobinSeb#I found an ashtray in Sebastian's room, and it smelled really weird. Should I be worried about this?#$e#Sometimes I worry about Sebastian... he doesn't have many friends and doesn't really seem to care about his future very much...#$e#I would talk to him about it but he never opens up to me.",
+        "Fri4_inlaw_Sebastian": "Sebastian told me he's trying to quit smoking! I'm really proud of him.",
+        "Sat": "Both our houses are in beautiful areas, we're so lucky.",
+        "Sun": "I'm not even sure what Maru's working on. I think it has something to do with black holes.",
+        "Sun2": "Hi honey! It's good to see you.",
+        "Sun6": "Hi honey! It's good to see you.",
+        "event_wood1": "Great, then this blueprint should be a piece of cake for you!$h",
+        "event_wood2": "Well, then I have the perfect blueprint to get you started!",
+        "summer_Mon": "Wood is a wonderful material... it's versatile, cheap, strong, and each piece has it's own unique character!",
+        "summer_Tue": "If you need any buildings on your farm upgraded, just ask me!#$e#You'll need to provide enough lumber and stone for the project. And it costs money, too.#$e#Yeah, I know you're my husband, but you're my best client too! I don't want to lose my income.$1",
+        "summer_Fri": "We're pretty isolated from the rest of the world here in Stardew Valley.#$e#It has its pros and cons.",
+        "fall_Mon": "#$1 RobinMaru#Maru likes gems. She uses them in her inventions.#$e#So how are you and Maru getting along?",
+        "fall_Thu": "It can get pretty lonely up here in the mountains. Visit me as much as you want honey.",
+        "fall_Fri": "Have you met the wild man that lives behind my house?$s#$e#I guess I don't really mind, as long as he doesn't bother us.",
+        "winter_Mon": "Hey, it's a perfect time of year to gather wood. Tell me if you need help.",
+        "winter_Fri": "My parents were bewildered when I told them I wanted to be a carpenter.#$e#They were pretty old-fashioned.",
+        "winter_Fri_inlaw_Sebastian": "I think the farm life is really healthy for Sebby.",
+        "winter_Sat": "Everything looks still after some fresh snow. It's so beautiful"
+		
+			},
+        },
+		
+				{
+        "Action": "Load",
+        "Target": "Characters/Dialogue/MarriageDialogueRobin",
+        "FromFile": "assets/MarriageDialogueRobin.json",
+        },	
+	//Dispositions
+		{
+		"Action": "EditData",
+		"Target": "Data/NPCDispositions",
+		"When": { "HasSeenEvent":"728153" },
+		"Fields": {
+			"Robin": {
+				5: "datable",
+				},
+			},
+		},
+
+		
+		        {
+        "Action": "EditData",
+        "Target": "Strings/Events",
+        "Entries": {
+			"HaveBabyQuestion": "Sooo... having a child together, does it sounds good to you too @?.$7",
+        	"HaveBabyQuestion_Adoption": "... What would you say to adopting a child with me?",
+			    },
+
+            "When": { "Relationship:Robin": "Married" },
+		},
+	
+		
+		
+	//Dialogue
+				{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Robin",
+		"When": { "HasSeenEvent":"728153" },
+        "Entries": {
+				"give_flowersA": "Truth be told...I wasn't expecting this.#$b#But I like you and you like me, so why not?.$7#$b#Yes @, let's see where this goes.$7",
+				"give_flowersB": "Truth be told...I wasn't expecting this.#$b#But I like you and you like me, so why not?.$7#$b#Yes @, let's see where this goes.$7",
+				"give_pendant": ".....$5#$b#They say third time's the charm, right?.#$b#I really hope that's true... because my answer is yes @, I want to marry you!$7#$b#Let me handle the preparations, I'll talk to mayor Lewis about it.",
+				"stardrop_gift": "Here @, this is for you.#$b#It's my way of saying thanks for being the perfect husband.$7",
+				"rejectNPCA": "What? No, sorry.$2",
+				"rejectNPCB": "I'm not interested in you in that way @$2",
+			}
+        },
+		
+		
+	//changing wedding text
+		{
+		"Action": "EditData",
+		"Target": "Strings/StringsFromCSFiles",
+				"When": {
+				"Hearts:Robin": "9, 10, 11",
+				},
+		"Entries": 
+		{
+			"Utility.cs.5371": "@... %spouse... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
+		         }
+	},
+
+	//ENGAGEMENT DIALOGUE	
+		{
+		"Action": "EditData",
+		"Target": "Data/EngagementDialogue",
+		"Entries": {
+			"Robin0": "Getting married again... it feels surreal. But I feel that this time it'll be different.",
+			"Robin1": "Don't get your hopes up @, even if we're getting married, I'll still charge you for the buildings.$1#$b#Sorry, you're my most loyal customer, and I don't want to lose my income.",
+			},
+		},		
+	
+//Demetrius leaves
+	{
+	 "Action": "EditData",
+     "Target": "Data/Festivals/winter25",
+	 "When": { "HasSeenEvent":"77442423" },
+     "Entries": {
+		"set-up": "christmasTheme/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Christmas/loadActors Set-Up/warp Demetrius -400 -400/playerControl christmas",
+        "secretSanta": "none/-1000 -1000/farmer 30 69 0/warp Emily 37 59/warp Haley 35 74/warp secretSanta 29 75/warp Demetrius -400 -400/faceDirection secretSanta 0/viewport 30 67 true/pause 2000/move secretSanta 0 -4 0/move secretSanta 1 0 0/pause 500/shake secretSanta 100/playSound stoneStep/specificTemporarySprite secretGift/pause 100/faceDirection farmer 2/pause 200/jump farmer/pause 700/emote farmer 16/pause 100/move secretSanta -1 0 0/move secretSanta 0 -2 0/pause 700/faceDirection farmer 3/pause 300/faceDirection farmer 0/pause 500/faceDirection secretSanta 1/pause 500/speak secretSanta \"dialogue1\"/pause 300/faceDirection farmer 2/pause 800/showFrame 4/pause 300/playSound cut/specificTemporarySprite secretGiftOpen/pause 400/stopAnimation farmer/faceDirection farmer 2/pause 1000/cutscene addSecretSantaItem/pause 3000/null/faceDirection farmer 3/speak secretSanta \"dialogue2\"/pause 600/eyes 1 -1500/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/warp Emily 29 72/warp Haley 30 72/warp secretSanta warpX warpY/faceDirection farmer 2/cutscene clearTempSprites/playMusic christmasTheme/viewport 30 67 true/playerControl christmas2",
+		 }
+},	
+	
+{
+	 "Action": "EditData",
+     "Target": "Data/Festivals/winter8",
+	 "When": { "HasSeenEvent":"77442423" },
+     "Entries": {
+     "set-up": "christmasTheme/-1000 -1000/farmer 68 0 1/changeToTemporaryMap Forest-IceFestival/loadActors Set-Up/warp Demetrius -400 -400/animate Robin false true 100 24 25 26 24 25 26 24 25 26 24 25 26 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27/advancedMove Linus false 3 38000 9 0 0 -3 10 0 0 -7 3 0 0 -12 2 0 0 -9 3 0 2 10000 3 1000 2 200000/advancedMove Andy true 2 28000 -2 0 0 1 -2 0 0 -4 -9 0 0 -2 -8 0 0 -5 4 12000 0 5 8 0 0 2 9 0 0 4 2 0 0 -1 2 0 2 4000/advancedMove Olivia true 4 13500 3 3000/advancedMove Susan true 4 10000 -2 0 0 2 -4 0 4 8000 -1 0 0 -5 3 0 4 7000 2 0 0 3 2 0 4 1000/advancedMove Pierre true -1 0 0 -1 1 5000 0 1 1 0 4 5000/advancedMove Wizard true 1 10000 2 5000/advancedMove Vincent true 0 3 3 0 2 5000 0 -5 2 0 1 5000 -5 0 0 2 3 5000/advancedMove Pam true -5 0 0 1 2 5000 0 -1 5 0 2 7000/playerControl iceFestival",
+     "mainEvent": "globalFade/viewport -1000 -1000/playMusic none/warp farmer1 71 35/warp farmer2 72 35/warp farmer3 70 35/warp farmer4 69 35/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/loadActors Main-Event/warp Demetrius -400 -400/faceDirection Pam 1/faceDirection Elliott 0/faceDirection Willy 0/viewport 71 35 true/pause 2000/speak Lewis \"Alright, everyone. Let's begin this year's ice fishing competition.\"/pause 200/faceDirection Lewis 3/pause 300/faceDirection Lewis 2/faceDirection Lewis 1/pause 300/faceDirection Lewis 2/pause 400/speak Lewis \"Contestants, your goal is to catch as many fish as you possibly can in two minutes using the provided fishing rods.#$b#You must catch your fish here, from these holes in the ice.\"/pause 600/speak Lewis \"Well, is everyone ready?\"/pause 500/waitForOtherPlayers startContest/jump Lewis/faceDirection Pam 2 true/faceDirection Elliott 1 true/faceDirection Willy 2 true/speak Lewis \"Begin!\"/advancedMove Lewis false 0 -4 2 1000/advancedMove Marnie true 4 6000 -2 0 4 5000 2 0/advancedMove Maru true 3 4000 0 2 3 7000 0 -2/advancedMove Jas true 2 0 0 -9 -4 0 2 20000 4 0 0 9 -2 0 3 15000/advancedMove Jodi true 1 6000 2 4000 1 8000 2 3500 1 1000/advancedMove Sophia true 1 10000 0 2 1 8000 0 -2/jump Willy/shake Pam 700/showFrame Pam 16/extendSourceRect Pam 0 32/showFrame Elliott 40/extendSourceRect Elliott 16 0/shake Elliott 400/pause 300/showFrame Willy 16/extendSourceRect Willy 0 32/playMusic fallFest/playerControl iceFishing",
+	 }
+},	
+	
+{    
+	 "Action": "EditData",
+     "Target": "Data/Festivals/summer28",
+	 "When": { "HasSeenEvent":"77442423" },
+     "Entries": {
+	 "set-up": "ocean/-1000 -1000/farmer 38 3 2/changeToTemporaryMap Beach-Jellies/loadActors Set-Up/warp Demetrius -400 -400/advancedMove Vincent true 0 12 3 3000 2 0 1 3000 0 -12 -2 0 3 3000/advancedMove Jas true 0 2 3 5000 0 -2 3 5000/advancedMove Harvey True 0 -12 -10 0 0 6 2 25000 0 -6 10 0 0 12 2 25000/positionOffset Olivia 17 0/positionOffset Victor 17 0/viewport 38 2 clamp true/pause 1000/playerControl jellies",
+	 "mainEvent": "pause 500/globalFade/viewport -1000 -1000/changeLocation Beach/warp farmer1 28 36/warp spouse 29 36/warp Demetrius -400 -400/positionOffset farmer 0 16/faceDirection spouse 2/warp farmer2 29 35/warp farmer3 34 36/warp farmer4 35 36/faceDirection farmer1 2/faceDirection farmer2 2/faceDirection farmer3 2/faceDirection farmer4 2/specificTemporarySprite candleBoat/viewport 26 36 true/pause 2000/move Lewis 0 1 2/move Lewis -2 0 3/pause 400/showFrame Lewis 16 true/animate Lewis false false 200 25 16 17 17/pause 800/playSound parry/specificTemporarySprite candleBoatMove/pause 500/showFrame Lewis 0 true/animate Lewis false false 200 25 12/pause 400/faceDirection Lewis 2/pause 6000/specificTemporarySprite moonlightJellies/pause 10000/playMusic moonlightJellies/pause 30000/viewport move -1 0 8000/pause 10000/viewport move 1 0 20000/pause 18000/globalFade/viewport -1000 -1000/pause 2000/pause 1000/message \"The glow of summer has faded, now... and the moonlight jellies carry on toward the great unknown.\"/playMusic none/pause 2000/waitForOtherPlayers festivalEnd/end",
+	 }
+},	
+	
+	
+{ 
+	 "Action": "EditData",
+     "Target": "Data/Festivals/summer11",
+	 "When": { "HasSeenEvent":"77442423" },
+     "Entries": {
+     "set-up": "event2/-1000 -1000/farmer 38 3 2/changeToTemporaryMap Beach-Luau/loadActors Set-Up/warp Demetrius -400 -400/addTemporaryActor Governor 16 32 32 4 2/advancedMove Vincent true 3 0 3 3000 -3 0 3 3000/advancedMove Jas true 3 0 1 3000 -3 0 1 3000/advancedMove Pam true 4 25000 -5 0 4 20000 5 0/advancedMove Gus True 0 -1 3 4000 0 1 3 4000/advancedMove Shane true 1 10000 0 1 1 10000 0 -1/advancedMove Clint true 4 15000 -3 0 4 15000 6 0 4 10000 -3 0/animate Emily false true 250 16 17 16 17 20 21 20 21 18 19 18 19 22 23 22 23/warp Robin 16 14/faceDirection Robin 0/animate Demetrius false true 500 24 25 24 26/animate Marnie false true 200 17 18 17 19/positionOffset Marnie 0 16/animate Claire false true 200 20 20 20 20 20 20 20 20 20 20 21 21 21 21 21 21 22 22 22 22 22 22 22 22 22 22 22 22 23 24 25 22 23 24 25 22 23 24 25 22 23 24 25 22 23 24 25 22 23 24 25 22 22 22 22 22 21 21 21 21 21 21 21 21 20/viewport 38 2 clamp true/pause 1000/playerControl luau",
+	 "mainEvent": "pause 500/playMusic ocean/globalFade/viewport -1000 -1000/loadActors MainEvent/warp Demetrius -400 -400/addTemporaryActor Governor 16 32 35 10 2/warp farmer1 33 19/warp farmer2 32 19/warp farmer3 40 19/warp farmer4 28 9/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 1/viewport 35 12 true/pause 2000/faceDirection Lewis 3/pause 100/faceDirection Lewis 2/pause 100/faceDirection Lewis 1/pause 100/faceDirection Lewis 2/speak Lewis \"Well folks, it's time once again for the potluck ceremony.#$b#I trust that you all put high-quality ingredients in the pot this year. We don't want the governor to regret his visit to the valley!\"/pause 1000/faceDirection Lewis 3/pause 500/speak Lewis \"Well... Governor? Would you do us the honor of tasting the soup?\"/pause 500/speak Governor \"Of course! I've been looking forward to this all year.\"/playMusic none/pause 500/move Governor 0 1 2/pause 1000/playSound dwop/showFrame Governor 8 true/pause 1000/animate Governor false false 200 8 8 9 10 11 11/pause 1100/playSound sipTea/pause 1000/playSound gulp/pause 500/showFrame Governor 8 true/animate Governor false false 200 11 10 9 8/pause 900/speak Governor \"...$h\"/pause 300/cutscene governorTaste/null",
+	 }
+},	
+	
+{
+	 "Action": "EditData",
+     "Target": "Data/Festivals/spring13",
+	 "When": { "HasSeenEvent":"77442423" },
+     "Entries": {
+     "set-up": "fallFest/27 60/farmer 12 54 1/changeToTemporaryMap Town-EggFestival/loadActors Set-Up/warp Demetrius -400 -400/advancedMove Andy true 1 9000 -6 0 0 -8 4 7000 0 8 6 0 1 8000/advancedMove Vincent true -2 0 0 -2 2 0 0 2/advancedMove Jas true 2 0 0 2 -2 0 0 -2/advancedMove Leo true 0 -2 2 0 0 2 -2 0/advancedMove Pam true 0 -1 3 5000 0 2 3 5000 0 -1 3 4000/advancedMove Clint true 1 7000 0 1 3 7000 0 -1/advancedMove Demetrius true 2 15000 -3 0 0 8 3 20000 0 -8 3 0/advancedMove Willy true 2 25000 -4 0 0 -12 4 0 0 -1 4 30000 0 1 -4 0 0 12 4 0/advancedMove Shane true 4 40000 2 0 0 2 1 35000 0 -2 -2 0/advancedMove Harvey true 0 6 -6 0 0 9 -3 0 3 15000 3 0 0 3 18 0 0 -8 1 0 0 -11 -13 0 0 1 2 30000/playerControl eggFestival",
+     "afterEggHunt": "pause 100/playSound whistle/waitForOtherPlayers endContest/pause 1000/globalFade/viewport -1000 -1000/playMusic event1/loadActors MainEvent/warp Demetrius -400 -400/warp farmer1 27 69 /warp farmer2 26 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true/pause 2000/speak Lewis \"Wow, look at all these eggs!$h#$b#Now if only I could get you kids to pick up litter this efficiently, we'd have the cleanest town this side of the Gem Sea! *chuckle*$h\"/pause 800/playMusic none/speak Lewis \"And now, the winner of this year's egg hunt...\"/playMusic none/pause 3000/cutscene eggHuntWinner/null/playMusic event1/pause 500/fork AbbyWin/move Lewis 0 1 2/speak Lewis \"Here's your prize! Enjoy.\"/awardFestivalPrize/null/move Lewis 0 -1 0/speak Lewis \"Well, that's it for this year's Egg Festival. Thanks for coming, everyone!\"/pause 600/viewport move 1 0 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
+     "AbbyWin": "pause 100/jump Abigail/faceDirection Vincent 3/pause 800/move Abigail 0 -1 0/faceDirection Vincent 0/speak Lewis \"Here's your prize, Abigail. Enjoy!\"/pause 500/move Abigail 0 -1 0/playSound coin/pause 400/move Abigail 0 2 0/faceDirection Lewis 0/speak Lewis \"Well, that's it for this year's Egg Festival. Thanks for coming, everyone!\"/pause 1000/viewport move 1 -1 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
+     "mainEvent": "pause 400/playMusic none/pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/warp Demetrius -400 -400/warp farmer1 27 69 /warp farmer2 27 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true unfreeze/pause 2000/speak Lewis \"It's time for the highlight of today's festivities... The Annual Spring Egg Hunt!$h\"/pause 100/jump Jas/pause 100/jump Vincent/pause 250/pause 1200/speak Lewis \"Calm down now, kiddos. You're going to need all your energy if you hope to find the most eggs and take home the exclusive prize.\"/pause 100/faceDirection Vincent 3 true/faceDirection Jas 1 true/pause 1000/faceDirection Vincent 0 true/faceDirection Jas 0 /pause 800/faceDirection Lewis 3/faceDirection Lewis 2/faceDirection Lewis 1/faceDirection Lewis 2/pause 800/speak Lewis \"Now... Is everyone ready?\"/pause 1000/waitForOtherPlayers startContest/jump Lewis/pause 1000/speak Lewis \"Let the egg hunt begin!$h\"/advancedMove Sophia false 0 -13 -12 0 0 20 16 0 0 16 -18 0 0 4 4 0 0 -12 8 0 4 5000/advancedMove Maru false -2 0 0 6 -9 0 0 -2 -9 0 0 -1 2 0 0 -12 6 0 0 -4 15 0 0 1 3 0 0 1 5 0 0 2 12 0 0 11/advancedMove Abigail false 0 21 -20 0 0 3 7 0 0 -2 26 0 0 5 25 0/advancedMove Jas false 0 12 8 0 0 10 3 0 0 4 14 0 0 -20 -7 0 0 6 -14 0/advancedMove Sam false 4 0 0 -4 2 0 0 -4 12 0 0 -6 19 0 0 20 0 -20 0 20/advancedMove Vincent false 0 3 24 0 0 22 15 0 0 -21 -25 0 4 7000/advancedMove Leo false -1 0 0 7 -5 0 0 3 13 0 0 2 20 0 0 -9 -3 0 0 -19 19 0 0 -1/playSound whistle/playMusic tickTock/playerControl eggHunt",
+     }
+},	
+	
+{
+	 "Action": "EditData",
+     "Target": "Data/Festivals/fall27",
+	 "When": { "HasSeenEvent":"77442423" },
+     "Entries": {
+     "set-up": "spirits_eve/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Halloween/loadActors Set-Up/warp Demetrius -400 -400/advancedMove Linus true 4 13000 1 0 4 6000 -1 0/advancedMove Sophia true 4 10000 1 3000 4 2000/advancedMove Maru true 1 5000 2 7000 3 3000 4 3500 1 2000 2 3000 3 1000 4 2000/advancedMove Alex true -3 0 4 4000 3 0 4 5000/advancedMove Jas true 1 1500 4 1000/advancedMove Abigail true 3 3500 2 3000 1 5000 3 5000 2 6000/advancedMove Harvey true 1 3500 4 5000 3 3000 2 5000 4 3000/advancedMove Pam true 0 1 3 7500 0 -1 3 5500/advancedMove Shane true -7 0 0 2 2 9000 0 -2 7 0 4 9000/advancedMove Demetrius true 3 18000 4 3000/addTemporaryActor Skeleton 16 32 30 59 2 false Monster/advancedMove Skeleton true 0 1 3 4000 2 0 0 -1 4 2000 -1 0 3 1000 2 2000 0 -1 4 4000 -1 0 0 1 2 5000/addTemporaryActor Skeleton 16 32 35 58 2 false Monster/addTemporaryActor Shadow_Brute 16 32 46 59 2 false Monster/addTemporaryActor Shadow_Brute 16 32 43 58 2 false Monster/advancedMove Shadow_Brute true -4 0 3 5000 4 0 2 5000 1 3000 2 1000/addTemporaryActor Skeleton_Mage 16 32 51 32 2 false Monster/advancedMove Skeleton_Mage true -2 0 0 2 1 6000 0 -2 2 0 2 5000/addTemporaryActor Wilderness_Golem 16 24 63 25 3 false Monster/advancedMove Wilderness_Golem true -9 0 0 2 2 1000 0 -2 9 0 2 1500/addTemporaryActor Stone_Golem 16 24 54 32 1 false Monster/advancedMove Stone_Golem true 9 0 4 1000 -9 0 4 400/addTemporaryActor Shadow_Shaman 16 24 68 23 2 false Monster/advancedMove Shadow_Shaman true 1 1500 2 2000 3 3000 2 5000 4 1000/addTemporaryActor Metal_Head 16 16 74 27 2 false Monster/advancedMove Metal_Head true -4 0 2 200 4 0 4 100/addTemporaryActor Mummy 16 32 74 24 2 false Monster/advancedMove Mummy true -2 0 3 200 2 0 2 6000/positionOffset Claire 5 -25/playerControl halloween",	
+     }
+},		
+	
+	
+{  
+	 "Action": "EditData",
+     "Target": "Data/Festivals/fall16",
+	 "When": { "HasSeenEvent":"77442423" },
+     "Entries": {
+     "set-up": "fallFest/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Fair/viewport -1000 -1000/loadActors Set-Up/warp Demetrius -400 -400/advancedMove Sophia true 2 12000 3 3000 2 10000 1 2000 2 1000/advancedMove Andy true 2 15000 3 250 4 3500 3 250 2 1000/advancedMove Susan true 2 14000 3 2000 2 1000/advancedMove Victor true 1 12750 2 3500/advancedMove Olivia true 1 13000 4 3750/advancedMove Vincent true -3 0 2 5000 3 0 2 5000/advancedMove Jas true 2 0 4 5000 -2 0 4 5000/advancedMove Marnie true -2 0 4 5000 2 0 2 5000/advancedMove Abigail true 4 6000 5 0 0 3 2 6000 0 -3 -5 0/advancedMove Robin true 0 1 1 5000 0 -2 3 5000 0 1 1 5000/animate Sebastian false true 200 16 16 16 16 16 16 16 16 16 16 16 16 17 18 19 20 21 21 21 21 20 22 22 23/addTemporaryActor BabyPig 32 32 65 68 2 false Animal/addTemporaryActor Pig 32 32 65 70 3 false Animal/addTemporaryActor White_Chicken 16 16 59 67 2 false Animal/addTemporaryActor Brown_Chicken 16 16 61 67 2 false Animal/addTemporaryActor White_Cow 32 32 59 72 0 false Animal/addTemporaryActor BabyWhite_Cow 32 32 61 72 1 false Animal/advancedMove BabyPig true 0 1 3 5000 0 -1 0 7000/advancedMove Pig true 3 5000 0 1 1 5000 0 -1 3 5000/advancedMove White_Chicken true 1 0 2 7000 -1 0 2 10000/animate Brown_Chicken false true 500 16 17/viewport 22 22 true unfreeze/globalFadeToClear/pause 2000/playerControl fair",
+	 }
+},	
+	
+	
+{  
+	 "Action": "EditData",
+     "Target": "Data/Festivals/spring24",
+	 "When": { "HasSeenEvent":"77442423" },
+     "Entries": {
+     "set-up": "event1/22 22/farmer 76 17 1/changeToTemporaryMap Forest-FlowerFestival/loadActors Set-Up/warp Demetrius -400 -400/advancedMove Sophia true 4 8000 -2 0 4 5000 2 0/advancedMove Vincent true -6 0 0 -1 6 0 0 1/advancedMove Jas true 1 0 0 1 -6 0 0 -1 5 0/advancedMove Pam true 2 25000 0 -3 2 0 4 25000 -2 0 0 3/advancedMove Haley true 0 1 2 3000 2 0 0 -1 -2 0 3 500 4 500 1 500 2 500 2 0 1 500 2 500 3 500 4 500 0 2 0 -2 -2 0/advancedMove Caroline true 7 0 0 1 1 18000 0 -1 -7 0 3 18000/advancedMove Willy true 2 7000 4 0 2 8000 -4 0/playerControl flowerFestival",
+	 "mainEvent": "pause 500/playMusic none/pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/warp Demetrius -400 -400/warp farmer1 14 31/warp farmer2 11 21/warp farmer3 23 21/warp farmer4 12 21/faceDirection farmer1 0/faceDirection farmer3 2/faceDirection farmer4 2/faceDirection farmer 0/warp Girl1 13 24/warp Girl2 15 24/warp Girl3 11 24/warp Girl4 9 24/warp Girl5 17 24/warp Girl6 19 24/warp Guy1 13 27/warp Guy2 15 27/warp Guy3 11 27/warp Guy4 9 27/warp Guy5 17 27/warp Guy6 19 27/showFrame Girl1 40/showFrame Girl3 40/showFrame Girl5 40/showFrame Girl4 40/showFrame Girl2 40/showFrame Girl6 40/showFrame Guy6 44/showFrame Guy5 44/showFrame Guy4 44/showFrame Guy3 44/showFrame Guy2 44/showFrame Guy1 44/viewport 14 25 clamp true/pause 2000/playMusic FlowerDance/pause 600/animate Girl1 false true 600 43 41 43 42/animate Girl6 false true 600 43 41 43 42/animate Girl3 false true 600 43 41 43 42/animate Girl5 false true 600 43 41 43 42/animate Girl4 false true 600 43 41 43 42/animate Girl2 false true 600 43 41 43 42/animate Guy5 false true 600 44 45/animate Guy6 false true 600 44 45/animate Guy3 false true 600 44 45/animate Guy2 false true 600 44 45/animate Guy4 false true 600 44 45/animate Guy1 false true 600 44 45/pause 9600/animate Girl1 false true 600 46 47/animate Girl6 false true 600 46 47/animate Girl3 false true 600 46 47/animate Girl5 false true 600 46 47/animate Girl4 false true 600 46 47/animate Girl2 false true 600 46 47/animate Guy5 false true 300 46 47/animate Guy6 false true 300 46 47/animate Guy3 false true 300 46 47/animate Guy2 false true 300 46 47/animate Guy4 false true 300 46 47/animate Guy1 false true 300 46 47/positionOffset Guy1 0 -2/positionOffset Guy6 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/animate Girl1 false true 600 43 41 43 42/animate Girl6 false true 600 43 41 43 42/animate Girl3 false true 600 43 41 43 42/animate Girl5 false true 600 43 41 43 42/animate Girl4 false true 600 43 41 43 42/animate Girl2 false true 600 43 41 43 42/animate Guy5 false true 600 44 45/animate Guy6 false true 600 44 45/animate Guy3 false true 600 44 45/animate Guy2 false true 600 44 45/animate Guy4 false true 600 44 45/animate Guy1 false true 600 44 45/pause 7600/stopAnimation Girl3/stopAnimation Girl6/stopAnimation Girl5/stopAnimation Girl2/stopAnimation Girl1/stopAnimation Girl4/stopAnimation Guy3/stopAnimation Guy2/stopAnimation Guy6/stopAnimation Guy1/stopAnimation Guy5/stopAnimation Guy4/pause 3000/globalFade/viewport -1000 -1000/message \"That was fun! Time to go home...\"/waitForOtherPlayers festivalEnd/end",
+	 }
+},
+				
+
+	
+				{
+      	"Action": "EditData",
+        "Target": "Characters/schedules/Demetrius",
+		"When": { "HasSeenEvent":"77442423" },
+		"Entries": {
+			    "rain": "",
+				"summer_25": "",
+				"Fri": "",
+				"winter_16": "",
+				"winter": "",
+				"fall": "",
+				"summer": "",
+				"spring": ""
+			
+			}
+		},
+		
+		{
+		"Action": "EditData",
+		"Target": "Data/NPCDispositions",
+		"When": { "HasSeenEvent":"77442423" },
+		"Entries":{
+			  "Demetrius": "adult/polite/neutral/positive/male/not-datable/Robin/Town/summer 19/Robin 'wife' Maru ''/ScienceHouse -400 -400/Demetrius",
+				},
+			},
+
+	
+	//EVENTOS
+	
+	
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"When": { 
+			"FarmhouseUpgrade": 3
+			},
+			"Entries": {
+				"728153/e 77442423/t 600 800": "none/64 16/farmer 64 15 2 Robin 64 22 0/skippable/pause 1300/speak Robin \"Hey @.$2#$b#So... Demetrius is leaving the valley.$2\"/emote farmer 16/pause 300/question fork1 \" #I'm sorry Robin...\"/speak Robin \"Don't be, he is the one who decided to leave and it isn't really your fault.$2#$b##$b#At least Maru decided to stay in the valley.$5#$b#*Sigh* I'll be going home ok? I'm exhausted.$2\"/question fork1 \" #Of course, if you need to talk just let me know./speak Robin \"*Smile* Thanks @, I'm sure I'll feel better tomorrow.\"/end dialogue Robin \"Hey @.$5#$b#Yeah, I'm feeling better already, thanks for asking.\"",
+	            }
+        },
+	
+	{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"When": { 
+			"FarmhouseUpgrade": 3
+			},
+			"Entries": {
+				"37451232/e 3826934/f Robin 2500/u 4/z fall/z spring/z summer/t 600 800": "continue/64 16/farmer 64 15 2 Robin 64 22 0/skippable/pause 1300/speak Robin \"Good morning @.#$b#Hey, you know what day tomorrow is, right?.$7\"/question fork1 \" #The fifth of winter.\"/speak Robin \"Exactly. So... Want to do it at your house this time?.$7\"/emote farmer 32/speak Robin \"Awesome, I'll come around nightfall. See you tomorrow @!.\"/end",
+	            }
+        },
+		
+			{
+			"Action": "EditData",
+			"Target": "Data/Events/farmhouse",
+			"When": { 
+			"FarmhouseUpgrade": 3
+			},
+			"Entries": {
+				"77442423/e 37451232/f Robin 2500/u 5/z fall/z spring/z summer/t 2100 2400": "nightTime/-500 -500/farmer -300 -300 0 Robin -300 -300 3 Demetrius -300 -300 2/skippable/pause 1000/message \"It's already dark outside. I better wait for Robin.\"/changeLocation BusStop/viewport 16 12 true/pause 1000/playSound doorClose/warp Robin 34 23/speed Robin 4/move Robin -40 0 2 true/warp Demetrius 12 10/pause 1500/textAboveHead Demetrius \"The road has to be blocked today... Just my luck.\"/pause 3000/emote Demetrius 8 true/viewport move 0 4 2000 true/globalFade/viewport -1000 -1000/changeLocation farmhouse/pause 2000/playSound woodyStep/pause 200/playSound woodyStep/pause 200/playSound woodyStep/pause 200/question fork1 \" #Come in.\"/move Demetrius 0 0 0/warp Demetrius -300 -300/warp Robin 11 17/move Robin 0 0 1/warp farmer 12 17/move farmer 0 0 3/positionOffset farmer -8 16/pause 1000/viewport 11 17 true/playMusic 50s/pause 1300/speak Robin \"Finally alone @.$7\"/pause 150/emote farmer 20/pause 150/speak Robin \"Come here. We only have one night, so let’s make the most of it.$7\"/pause 100/animate Robin false true 500 36/positionOffset Robin 3 0/animate farmer true true 500 101/pause 50/playSound dwop/specificTemporarySprite heart 12 16/pause 500/globalFade/viewport -1000 -1000/positionOffset farmer -6 -18/addTemporaryActor RobinEvent2 16 28 11 17 0 false character/warp Robin -500 -500/animate RobinEvent2 false true 300 0 1 2 1/animate farmer true true 500 101/stopAnimation Robin/pause 2000/playSound swordswipe/message \"*zip*\"/speak Robin \"So hard already... Good boy.$7#$b#Let's get a taste...$7\"/pause 1000/playSound gulp/pause 500/playSound gulp/pause 500/viewport 11 16 true/playSound gulp/pause 500/playSound gulp/pause 500/playSound gulp/pause 500/playSound gulp/pause 500/playSound gulp/pause 500/playSound gulp/pause 500/playSound gulp/pause 500/playSound gulp/pause 500/playSound gulp/pause 500/playSound gulp/pause 500/playSound gulp/pause 500/playSound gulp/pause 500/playSound gulp/pause 500/playSound gulp/pause 500/playSound gulp/pause 500/playSound gulp/pause 500/playSound gulp/pause 500/playSound gulp/pause 500/playSound gulp/pause 500/playSound gulp/pause 500/playSound gulp/pause 500/playSound doorOpen/warp Demetrius 12 20/playMusic none/pause 50/emote farmer 16 true/textAboveHead RobinEvent2 \"!\"/animate RobinEvent2 false true 300 3/stopAnimation farmer/faceDirection farmer 2/speak Demetrius \"Ah Ha! I knew it!$4#$b#!!!!!$6#$b#What the hell Robin!?. You were really blowing him!.$4\"/faceDirection Robin 2/warp RobinEvent2 -300 -300 true/warp Robin 11 17/faceDirection Robin 2/emote Robin 12/speak Robin \"What the hell indeed Demetrius. You know what day it is, and still you followed me?.$3\"/speak Demetrius \"Of course I did! You know my opinion of him... and there you are, on your knees sucking his cock! I can't fucking believe it!.$4\"/speak Robin \".....$3#$b#...I've been putting up with your eccentricities for a long time Demetrius. But this is the last straw.$3#$b#I had to tolerate you fucking whoever the fuck you want for how many years? And you can't do the same for me?!.$3#$b#You know what? Fuck you Demetrius. You are a fucking hypocrite!.$3\"/speak Demetrius \"This is different! I've never fucked someone you knew! But I don't want to discuss this in front of him. We'll continue this conversation at home.$4\"/move Demetrius 0 0 1/pause 50/move Demetrius 0 0 2/speak Robin \"Oh yeah, you can be sure of that!.$3\"/pause 500/playSound doorOpen/warp Demetrius -300 -300/pause 1000/globalFade/viewport -1000 -1000/pause 500/speak Robin \"I'm sorry @... We'll talk tomorrow okay?.$2\"/question fork1 \" #Of course Robin...\"/end",
+	            }
+        },
+	
+	
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Mountain",
+			"When": { "HasSeenEvent":"193593" },
+			"Entries": {
+				"3826934/f Robin 2500/u 5/z fall/z spring/z winter/t 2100 2400": "nightTime/-500 -500/farmer 12 28 0 Robin -300 -300 2/skippable/move farmer 0 -2 0 true/viewport 12 26 true/pause 1800/message \"The door is unlocked.\"/globalFade/viewport -1000 -1000/playSound doorOpen/changeLocation ScienceHouse/warp farmer 6 23/warp Robin 6 20/viewport 6 22 true/playMusic 50s/pause 1300/speak Robin \"Hey @... Glad you came. I was waiting for you.$7#$b#Let's go to my room...$7\"/globalFade/viewport -1000 -1000/pause 3000/playSound doorClose/pause 350/speak Robin \"Finally... You have no idea how much I wanted to do this @.$7\"/question fork1 \" #Me too...\"/speak Robin \"I know... Do you think that I didn't notice how you looked at me while I worked on your farm buildings?.$7#$b#Well I'm all yours tonight... and you're all mine. So come here, farmboy.$7\"/pause 150/message \"You waste no time, and begin to kiss Robin eagerly.\"/pause 250/message \"You undress each other as you kiss, and before long she stands completely naked before you.\"/message \"You admire her beautiful form, very much in shape thanks to her work.\"/message \"Judging by how excited she looks, she must like yours too...\"/message \"Robin kisses you again, but this time she starts rubbing her crotch against your thigh, making you notice how wet she is...\"/message \"After a couple of minutes, Robin turns around and gets down on all fours, looking over her shoulder suggestively.\"/speak Robin \"...Fuck me @, fuck me hard.$7\"/addTemporaryActor RobinEvent1 32 32 18 5 0 false character/skippable/warp farmer 17 5/move farmer 0 0 1/animate farmer false true 50 119/animate RobinEvent1 false true 150 0 1 2 3 4/positionOffset farmer -3 3/positionOffset RobinEvent1 -55 -13/pause 1500/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/viewport 18 6 true/playSound slimeHit/pause 800/textAboveHead RobinEvent1 \"Aahh!!\"/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/speak Robin \"Yes @... faster!!$7\"/animate RobinEvent1 false true 120 0 1 2 3 4/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/textAboveHead RobinEvent1 \"Aahh!... Aahhh!!\"/animate RobinEvent1 false true 105 0 1 2 3 4/playSound slimeHit/pause 650/playSound slimeHit/pause 650/playSound slimeHit/pause 650/playSound slimeHit/pause 650/playSound slimeHit/pause 650/playSound slimeHit/pause 650/playSound slimeHit/pause 650/playSound slimeHit/pause 650/playSound slimeHit/pause 650/playSound slimeHit/pause 650/playSound slimeHit/textAboveHead RobinEvent1 \"Holy fuck!! Keep going!!!\"/animate RobinEvent1 false true 90 0 1 2 3 4/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/textAboveHead RobinEvent1 \"Almost there!!!!!\"/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/textAboveHead RobinEvent1 \"!!!!!!!!\"/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/pause 500/textAboveHead RobinEvent1 \"Aaahhhh!!!!!!!\"/screenFlash 1/animate RobinEvent1 false true 90 3/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/globalFade/viewport -1000 -1000/pause 1500/speak Robin \"*pant* *pant* @... That was so good...$7\"/pause 500/playSound dwop/speak Robin \"*Kiss* Say, why don't you stay for the night? The first bus doesn't arrive until six in the morning ... It's fine as long as you leave before then.$7\"/question fork1 \" #Ok, I would love to.\"/speak Robin \"GGreat... I hope you don't have much work planned for tomorrow. because you won't be getting any sleep tonight...$7\"/end newDay",
+							             }
+        },
+	
+			{
+		"Action": "EditData",
+		"Target": "Data/Events/farmhouse",
+        "Entries": {
+		        "193593/n RobinNoContent": "none/-500 -500/farmer 5 5 3/viewport -500 -500 true/end",
+				             }
+        },
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"When": { 
+			"FarmhouseUpgrade": 3
+			},
+			"Entries": {
+				"3729128/f Robin 2500/w sunny/u 3/z fall/z spring/z winter/t 600 800": "continue/64 16/farmer 64 15 2 Robin 64 22 0/skippable/pause 1300/speak Robin \"Hi @. Good morning!.$4\"/pause 100/faceDirection Robin 3/pause 25/faceDirection Robin 2/speak Robin \"Beautiful day, isn't it?\"/pause 100/faceDirection Robin 1/pause 25/faceDirection Robin 0/emote farmer 56/pause 200/speak Robin \"Hey, I have a proposal for you. Can we talk inside?.$7\"/emote farmer 32/pause 300/faceDirection farmer 1/pause 50/faceDirection farmer 0/globalFade/viewport -1000 -1000/playSound doorOpen/changeLocation farmHouse/warp farmer 11 17/positionOffset farmer 0 10/warp Robin 12 17/positionOffset Robin 0 -12/move farmer 0 0 1/move Robin 0 0 3/viewport 12 16 true/pause 1300/speak Robin \"So, the day after tomorrow it'll be the fifth of summer.#$b#It's a 'special' day in my marriage, but before I explain why to you, let me tell you a little bit about me.#$b#You know I had a previous marriage before my current one with Demetrius, right?.#$b#I'd rather not talk about it, as that marriage ended pretty badly.$2#$b#After it ended, I felt that I would be done with men for good... But soon after it ended, I met Demetrius.#$b#Still, I didn't feel ready to enter into a new relationship so soon, and Demetrius wasn't interested at that time either.#$b#So we just began... seeing each other. Without any further attachments.#$b#This went on for a while, and I fell in love with him during that time... Which made me want more of our relationship.#$b#However, Demetrius was pretty... 'popular' with girls around that time, and he valued his freedom to do whatever he wanted...$2#$b#So I had to make some concessions for him to accept being in a relationship with me only.#$b#Twice a year, on the fifth of summer and the fifth of winter, we are free to do as we please.#$b#Demetrius always leaves on those days, but I have never used this 'privilege' before... Until now.#$b#You're an interesting guy @, and I really appreciate our friendship.#$b#...You know where this is going, right?.$7\"/pause 500/question fork0 \"So... are you interested?.#Of course I am!#No, sorry.\"/fork 3729128Robin/speak Robin \"Oh, I see... I understand @, and I hope that this doesn't affect our friendship.$2\"/emote farmer 32/speak Robin \"Great. Then I'll be going, see you around @.\"/pause 250/move Robin 0 0 2/pause 50/move farmer 0 0 2 true/move Robin 0 3 2/pause 50/globalFade/viewport -1000 -1000/playSound doorOpen/end",
+	            }
+        },	
+				{
+			"Action": "EditData",
+			"Target": "Data/Events/FarmHouse",
+			"Entries": {
+						"3729128Robin": "speak Robin \"Great... Demetrius usually takes the last bus into the city, so come to my house around nightfall. I'll leave the door open for you.$7\"/emote farmer 32/speak Robin \"Okay... then I'll see you in two days @.$7\"/pause 250/move Robin 0 0 2/pause 50/move farmer 0 0 2 true/move Robin 0 3 2/pause 50/move Robin 0 0 1/pause 50/move Robin 0 0 0/speak Robin \"One last thing @...$5#$b#Please, don't tell Demetrius about this. It's my right to do so, but I'm not sure if he would be comfortable with me choosing you for this...$2\"/move Robin 0 0 1/pause 50/move Robin 0 0 2/globalFade/viewport -1000 -1000/playSound doorOpen/addMailReceived RobinNoContent/end",
+				            }
+        },	
+	
+//SPRITES
+	   {
+	   "Action": "Load",
+       "Target": "Characters/RobinEvent1",
+       "FromFile": "Sprite/RobinEvent1.png",
+       },
+	   	   {
+	   "Action": "Load",
+       "Target": "Characters/RobinEvent2",
+       "FromFile": "Sprite/RobinEvent2.png",
+       },
+	   	   {
+	   "Action": "Load",
+       "Target": "Characters/RobinEvent3",
+       "FromFile": "Sprite/RobinEvent3.png",
+       },
+	   	   	   {
+	   "Action": "Load",
+       "Target": "Characters/RobinEvent4",
+       "FromFile": "Sprite/RobinEvent4.png",
+       },
+	   	   	   	   {
+	   "Action": "Load",
+       "Target": "Characters/Demetrius.",
+       "FromFile": "Sprite/Demetrius2.png",
+       },
+
+	   	   {
+	   "Action": "Load",
+       "Target": "Characters/RobinNude",
+       "FromFile": "Sprite/RobinNude.png",
+       },		   
+			   	   	 {
+          "Action": "Load",
+         "Target": "Portraits/Demetrius.",
+          "FromFile": "Portrait/Demetrius2.png",
+       },
+	
+		   	   	 {
+          "Action": "Load",
+         "Target": "Portraits/Robin",
+          "FromFile": "Portrait/Robin.png",
+       },
+	   
+	   	   	   {
+	   "Action": "Load",
+       "Target": "Characters/Demetrius",
+	   "When": { "HasSeenEvent":"77442423" },
+       "FromFile": "Sprite/Demetrius1.png",
+       },	
+	
+	
+{
+          "Action": "Load",
+         "Target": "Portraits/Demetrius",
+		 "When": { "HasSeenEvent":"77442423" },
+          "FromFile": "Portrait/Demetrius1.png",
+       },
+	
+	
+	
+	
+//DIALOGUES
+{
+"Action":"EditData",
+"Target":"Characters/Dialogue/Robin",
+"Entries":{
+		"Mon6":"Hey @, is there anything you need?.",	
+		"Tue6":"Why don't you join us in the aerobics class sometime @? I can teach you how to dance.$h",
+		"Wed8":"Sebastian's father? I rather not talk about him.$2",
+		"Thu4":"I hear strange electrical noises coming from Maru's room from time to time.#$e#I always wondered whether her interests would take after me or her father. Guess it was a little of both.",
+		"Thu6":"Working on an apprenticeship and raising Sebastian at the same time was hard.#$e#My head still spins when I wonder how I managed to find time for it all!",
+		"Sat6":"I wonder what I should do with the lab space...$2",
+		"winter_15":"Maru and I might head down as a family to that Night Market one of these nights.#$e#I don't know if I can get Sebastian to go, though...",
+		"summer_27":"I don't think I'll ever get tired of seeing the moonlight jellies.#$e#I hope you can make it, too.",
+		"winter_15_2":"Maru and I might head down as a family to that Night Market on one of these nights.#$e#I don't know if I can get Sebastian to go, though...",
+		"Sun": "Strange sounds come from Maru's basement from time to time .#$e#I'm not even sure what she's working on.",
+		"Sun2": "Hi @, if you need any repairs for your buildings, just let me know.",
+		
+      }
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Maru",
+"Entries": {
+	   	"Sat":"I miss having my dad around. I had a lot of fun helping him out in the laboratory.$2",	
+		"Sat2":"My dad got another job at the city. I hope he enjoys it as much as the one he had here in the valley.$2",
+		"summer_Fri4":"It's so hot today, maybe I'll go out for ice cream later.",	
+		"summer_Sun":"I bet you're growing some interesting crops right now.#$b#A lot of exotic plants grow in the valley this time of year.",	
+		"fall_Sat6":"You know the microbes in the lake actually stabilize the lake's pH levels?. But in order to do that, the microbes have to die in massive quantities.#$e#Well, you know, nature's both cruel and beautiful.",	
+		"Rainy_Night_2":"Dad used to track the weather patterns in the valley.#$e#$c .5#I really hope the climate doesn't change to the point where it negatively affects your farming.$s#It's a little too early to tell, but the results reveal some abnormal trends.",	
+		"funReturn_Maru":"#$c .5#Well, it was good to go home today, but now it's even better to come 'home-home.' My heart's really here, now.$l#Mom is doing just fine. Her routine is still the same, even with me gone. How was your day?",
+		"summer_27":"Just a couple more evenings until the moonlight jellies arrive. I'm really excited!#$e#Myabe Dad will come to the valley to see them again.",
+		"winter_Thu": "Hey! What's up?#$e#It's a good time to explore the caves.",		
+      }
+},
+//OTHER
+		
+						{
+      	"Action": "EditData",
+        "Target": "Characters/schedules/Maru",
+		"When": { "HasSeenEvent":"77442423" },
+		"Entries": {
+			    "Sun": "800 BusStop 12 8 0/2300 ScienceHouse 2 4 3 maru_sleep",
+				"Thu": "GOTO Sun",
+			
+			}
+		},
+		
+								{
+      	"Action": "EditData",
+        "Target": "Characters/schedules/Robin",
+		"When": { "HasSeenEvent":"77442423" },
+		"Entries": {
+			    "Fri": "800 ScienceHouse 8 18 2/1600 Saloon 22 22 1/1920 Saloon 11 20 0/2100 ScienceHouse 21 4 1 robin_sleep",
+			
+			}
+		},
+		{
+		"Action": "EditData",
+        "Target": "Characters/schedules/Robin",
+		"When": { "Relationship:Robin": "Married" },
+		"Entries": {
+				"rain": "700 ScienceHouse 8 18 2/1700 ScienceHouse 29 9 0/1930 ScienceHouse 16 5 0/2100 BusStop -1 23 3",
+				"marriage_Mon": "700 ScienceHouse 8 18 2/1700 CommunityCenter 9 19 3/1940 ScienceHouse 16 5 0/2200 BusStop -1 23 3",
+				"marriage_Tue": "930 SeedShop 27 18 0/1300 SeedShop 27 22 2 robin_exercise/1600 SeedShop 24 16 0 \"Strings\\schedules\\Robin:Tue.000\"/1800 ScienceHouse 16 5 0/2100 BusStop -1 23 3",
+				"marriage_Wed": "GOTO marriage_Tue",
+				"marriage_Thu": "GOTO marriage_Tue",
+				"summer_18": "700 ScienceHouse 8 18 2/800 Hospital 12 14 0 \"Strings\\schedules\\Robin:summer_18.000\"/1330 Hospital 4 6 1 \"Strings\\schedules\\Robin:summer_18.001\"/1600 ScienceHouse 16 5 0/2100 BusStop -1 23 3",
+			    "marriage_Fri": "700 ScienceHouse 8 18 2/1600 Saloon 22 22 1/1920 Saloon 11 20 0/2100 BusStop -1 23 3",
+				"winter_16": "700 ScienceHouse 8 18 2/1700 Beach 13 31 1 \"Strings\\schedules\\Robin:winter_16.000\"/2330 BusStop -1 23 3",
+				"spring": "700 ScienceHouse 8 18 2/1700 Mountain 29 36 2/1930 ScienceHouse 16 5 0/2100 BusStop -1 23 3",
+			
+			}
+		},
+		
+		
+				{
+		"Action": "EditData",
+		"Target": "Strings/Characters",
+		"When": { "Relationship:Robin": "Dating, Engaged, Married" },
+		"Entries": {
+			"MovieInvite_Spouse_Robin": "Sure, count me in.",
+			},
+		},
+		
+		
+		//CHANGE SPRITE
+
+                          {
+          "Action": "EditImage",
+          "Target": "Characters/Robin",
+          "FromFile": "Sprite/RobinMarriage.png",
+			"When": {
+				"DayEvent": "wedding",
+				"Time": "0600",
+				"LocationName": "Town",
+				"Hearts:Robin": "9, 10, 11",
+				},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		
+
+
+
+		
+		//Dialogue Festivals
+		
+		{
+			"Action":"EditData",
+			"Target":"Data/Festivals/spring24.xnb",	
+			"When": { "HasSeenEvent":"77442423" },
+			"Entries":{
+				"Maru":"*giggle* It's fun to be unapologetically girly every once in a while.$h",
+					}
+		},
+		
+	    {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11.xnb",
+		"When": { "HasSeenEvent":"77442423" },
+        "Entries":
+        {	
+		            "Robin": "Emily's fine. She does that all the time in aerobics class."
+		
+	         },
+    },  
+	
+
+		
+		//sprite
+		
+			    {
+       "Action": "Load",
+       "Target": "Characters/Robin",
+       "FromFile": "Sprite/Robin.png",
+       },
+	   
+	   			//Kiss sprite
+		
+										{
+      	"Action": "EditData",
+        "Target": "Data/animationDescriptions",
+		"Entries": {
+			 "robin_exercise": "40/40 40 41 42 42 43/40/Strings\\animationDescriptions:robin_exercise",
+			
+			}
+		},
+
+
+
+	],
+}

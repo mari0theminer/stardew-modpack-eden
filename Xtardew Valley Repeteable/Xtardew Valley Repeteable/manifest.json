@@ -1,0 +1,18 @@
+{
+   "Name": "Xtardew Valley repeteable events",
+   "Author": "Pseudodiego",
+   "Version": "1.0",
+   "Description": "Repeteabes sex scenes for Xtardew Valley",
+   "UniqueID": "Pseudodiego.XtardewValleyRepeteable",
+   "Dependencies": [
+   {
+      "UniqueID": "misscoriel.eventrepeater",
+      "IsRequired": true,
+   },
+],
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

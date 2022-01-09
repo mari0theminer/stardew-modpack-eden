@@ -1,6 +1,8 @@
 ﻿{
   //SPECIAL DIALOGUE
   "Introduction": "Hey there. You're that new owner of %farm Farm. My manager held a meeting about you!$0#$b#I work part-time at Joja Mart.$1#$e#Err. Forget what I said about that meeting. It could get me in trouble.$4",
+  "pamHouseUpgrade": "Do you think that lady will be nicer to me at work now?$4",
+  "pamHouseUpgradeAnonymous": "Do you think that lady will be nicer to me at work now?$4",
   "Town_92_44": "%'Employee Entrance'",
   "BusStop_12_8": "%Bus Driver: Either get on the bus or step off sir.^%Bus Driver: Either get on the bus or step off ma'am.",
   "Resort_Entering": "This island is so cool!$1",
@@ -11,6 +13,7 @@
   
   
   //SPRING AND GENERAL DIALOGUE
+  "Mon": "Hey, @! How's Claire doing?$0",
   "Tue": "Uhh. Hi.$0",
   "Tue2": "My mom packed me a big lunch today.$0#$e#She packed 'cheez curls', my favorite chips!$1",
   "Tue8": "Hi, @. Keeping yourself busy as always.$0#$e#Well, see you around.$6",
@@ -50,6 +53,17 @@
   "winter_Sat4": "My mom is knitting a scarf for me.$0#$e#I hope it isn't too big this time...$4",
   "winter_Sat8": "I don't often drop by your town's saloon. We should grab a bite to eat sometime!$0",
   "winter_Sun4": "What's it like owning a farm during winter? You must have a bunch of free time on your hands.$0",
-  "winter_Sun8": "Hey @. Don't overwork yourself!$0"
+  "winter_Sun8": "Hey @. Don't overwork yourself!$0",
+  
+  
+  //EVENT DIALOGUE
+  "martin_event1": "Th-that's.. Uh. I'm doing some research, it's...$4",
+  "martin_event2": "... Yeah. Not much to do, at home, and this place has...$0",
+  "martin_event3": "...Yeah, you're probably right.$6",
+  "martin_event4": "I mean, definitely a little weird. But I've got a good reason...$0",
+  "martin_event5": "Thanks, @. I'll go get her.$0",
+  "martin_event6": "... Okay, it's your choice. Gunther will probably let her rest at the museum, I guess.$3",
+  "martin_event7": "Yeah... I guess I really do.$6",
+  "martin_event8": "... That's not fair, @.$3"
 
 }

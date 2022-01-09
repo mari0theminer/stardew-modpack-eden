@@ -1,4 +1,4 @@
-{
+﻿{
     /*********
     ** Main translations
     *********/
@@ -54,7 +54,8 @@
     "farm.auto-water": "작물 자동 물주기",
     "farm.durable-fences": "울타리 유실 방지",
     "farm.instant-build": "농장 건물 건설 즉시 완성",
-    "farm.always-auto-feed": "사료 자동 급식",
+    "farm.auto-feed-animals": "사료 자동 급식",
+    "farm.auto-pet-animals": "팻 자동 물그릇 ",
     "farm.infinite-hay": "건초 무한대",
 
     // fishing
@@ -176,31 +177,38 @@
     "warp.tide-pools": "오른쪽 해변",
     "warp.willy-shop": "윌리의 낚시가게",
 
+    // island
+    "warp-section.island": "진저섬",
+    "warp.forge": "용암 광산 10층",
+    "warp.island-farm": "진저섬 농장",
+    "warp.dwarf-shop": "용암 광산 5층",
+    "warp.field-office": "진저섬 현장 사무소",
+    "warp.leo-house": "레오 집",
+
     // desert
     "warp-section.desert": "사막",
     "warp.casino": "카지노",
     "warp.sandy-shop": "샌디의 오아시스",
     "warp.skull-cavern": "해골 동굴",
 
-    // island
-    // TODO
-    "warp-section.island": "Ginger Island",
-    "warp.forge": "Forge",
-    "warp.island-farm": "Island Farm",
-    "warp.dwarf-shop": "Volcano Dwarf Shop",
-    "warp.field-office": "Field Office",
-    "warp.leo-house": "Leo's House",
-
 
     /*********
     ** Time tab
     *********/
+    // time
     "time.title": "시간",
     "time.freeze-inside": "실내에서 시간 정지",
     "time.freeze-caves": "광산/해골동굴 안에서 시간 정지",
     "time.freeze-everywhere": "모든 장소에서 시간 정지",
     "time.time": "시간",
     "time.time-frozen-message": "시간 멈춤",
+
+    // date
+    "date.title": "날짜",
+    "date.warning": "저장을 해야 변경되는 경우가 있습니다.",
+    "date.year": "년",
+    "date.season": "계절",
+    "date.day": "일",
 
 
     /*********

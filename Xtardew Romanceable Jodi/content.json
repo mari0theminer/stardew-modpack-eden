@@ -1,0 +1,461 @@
+{
+    "Format": "1.19.0",
+    "Changes": [
+
+	
+// D I S P O S I T I O N
+		{
+		"Action": "EditData",
+		"Target": "Data/NPCDispositions",
+		"When": { "HasSeenEvent":"297839" },
+		"Fields": {
+			"Jodi": {
+				5: "datable",
+				},
+			},
+		},
+		
+	{
+		"Action": "EditData",
+		"Target": "Strings/StringsFromCSFiles",
+				"When": {
+				"Hearts:Jodi": "9, 10, 11",
+				},
+		"Entries": 
+		{
+			"Utility.cs.5371": "@... %spouse... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
+		         }
+	},
+
+// D I A L O G U E
+	//GENERAL DIALOGUE SINGLE
+				{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Vincent",
+		"When": { "Relationship:Jodi": "Married" },
+        "Entries": {
+			"Mon8_2":"Before she moved out with you, Mom made me stop playing just to show me Dad sleeping in.$u#$e#Then she started crying. It was really weird.$u",
+			"Fri":"Oh no... Mom's made us lentil soup for tonight.$s",
+			"Fri2":"Mom made us curry for tonight. Does that have curry powder in it?$u#$e#It does? Awwwww.$s",
+					}
+        },
+
+						{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Kent",
+		"When": { "Relationship:Jodi": "Married" },
+        "Entries": {
+			"Resort_Chair": "This is a great place to bond with my children. I really appreciate you fixing it up.",
+			"Sat": "You've really become a part of this community. I'm glad to hear it.",
+			"Wed8":"I have to wonder if the boys are any better off with me here.$s#$b#Sam admonishes me for doubting. It doesn't make much sense to me, but I guess that's something I have to take on faith.",
+			"Wed10":"@, I know you want to help me, and I appreciate it. But some things will never be the same again.#$b#What's a man to do? It's miles away from perfect, but all I can do each day is my best for the kids...#$b#...and then pray to Yoba it's enough.",
+			"Sat10":"Treat Jodi well please. She's really given a lot for Sam and Vincent... And for me.#$e#She deserves to be happy...$s",
+			"Sun2":"Jodi's cooking is nice. Even is she isn't at the house, she still cooks for us sometimes...",
+					}
+        },
+	
+					{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Sam",
+		"When": { "Relationship:Jodi": "Married" },
+        "Entries": {
+			"fall_Wed": "Hey... something smells good, like pizza.#$e#Do you smell that? Maybe Dad ordered something from Gus.",
+			"fall_Thu6": "I guess I should start thinking about moving out soon...$s#$e#...Even if she's not home, sometimes Mom still makes fish casserole for us. I don't think she would do it for me if I move out...$s#$e#I hate making decisions.",
+			"winter_Sun": "Try not to make a mess in the house, tomorrow is my turn to clean it.",
+			"summer_Thu6_1": "Sometimes I can hear my Dad pacing up and down the hallway at night.$s#$b#...I wonder if he misses Mom...$s",
+			"fall_Tue8":"I did a little cleaning up around the house. I have to do my part, now that she isn't always around.",
+			"winter_Sun6":"Try not to make a mess in the house. tomorrow is my turn to clean it.",
+			"winter_Sun10":"I guess I should start thinking about moving out soon...$s#$e#...Even is she's not home, sometimes Mom still make fish casserole for us. I don't think she would do it for me if I move out...$s#$e#I hate making decisions.",
+					}
+        },
+	
+			{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Jodi",
+		"When": { "HasSeenEvent":"297839" },
+        "Entries": {
+				"summer_Mon10": "Grapes are one of the few fruits I can get Vincent to eat. He just gobbles them up.$h#$e#Will you be growing any on your farm later this year?",
+				"summer_Tue10": "Do you ever have trouble sleeping, @? Lately I have been sleeping better.",
+				"summer_Wed10": "If I was rich the first thing I'd do would be to hire a maid and a chef.#$e#My goodness, that would be nice!$h",
+				"spring_Sun10": "I'm thankful for the education that Vincent gets from Penny. He wouldn't get as much one-on-one attention at a public school.#$e#Plus, commuting out of town to a public school is off the table, anyway.", 
+				"summer_Thu10": "You are truly a good person, @. Thank you for all you've done for me.",
+				"summer_Fri10": "Have any fun weekend plans?.$h",
+				"summer_Sat10": "Have you heard Sam play his guitar recently? He's actually really good!$h#$b#...If a bit loud.",
+				"summer_Sun10": "I had enough time to take a nap the other day. I'd almost forgotten what it's like.$h",
+				"fall_Mon10": "I want Sam to make some achievable goals for his future, but every time I talk with him about it, he just says he has everything under control.$s#$b#It's difficult being a parent when I know it's no longer my job to solve his problems for him.$s",
+				"fall_Tue10": "I've always believed that childhood is something that should be cherished and protected, but...#$e#Maybe I made some mistakes. I just wanted the best for Sam and Vincent. Did I try too hard?$s",
+				"fall_Wed10": "I can't stand to think about the war too much. But sometimes, I can't help but worry what kind of world Sam and Vincent will inherit.$s#$e#What else is there to do but carry on?",
+				"fall_Thu10": "I'm thankful for the education that Vince gets from Penny. He wouldn't get as much one-on-one attention at a public school.#$e#Plus, commuting out of town to a public school is off the table, anyway.", 
+				"fall_Fri10": "I'm glad you moved into town, @. There are few people I've met who are as generous and caring as you.",
+				"fall_Sat10": "If I was rich the first thing I'd do would be to hire a maid and a chef.#$e#My goodness, that would be nice!$h",
+				"fall_Sun10": "I wonder what Caroline is doing.",
+				"winter_Mon10": "Do you ever have trouble sleeping, @? Lately I have been sleeping better.",
+				"winter_Tue10": "You must get your daily exercise pretty easily with your farmwork, huh?$h#$e#I only work out once per week. Maybe I should try to do it more often",
+				"winter_Wed10": "Hi @. Have any fun weekend plans?.$h",
+				"winter_Thu10": "Vincent's grades have gotten a little better.$h#$e#As a mom, you never stop worrying, but it does ease my mind a little bit.",
+				"winter_Fri10": "Not too long before the year ends, huh? I can't believe it's already almost over.",
+				"winter_Sat10": "You are truly a good person, @. Thank you for all you've done for me.",
+				"winter_Sun10": "Have you heard Sam play his guitar recently? He's actually really good!$h#$b#...If a bit loud.",
+				"spring_Mon10": "I want Sam to make some achievable goals for his future, but every time I talk with him about it, he just says he has everything under control.$s#$b#It's difficult being a parent when I know it's no longer my job to solve his problems for him.$s",
+				"spring_Tue10": "Exercise is important for staying healthy. I always make sure to set aside some time for it.",
+				"spring_Wed10": "Hmm... I wonder if I should pick up some allergy medicine for Sam today...",
+				"spring_Thu10": "I had enough time to take a nap the other day. I'd almost forgotten what it's like.$h",
+				"spring_Fri10": "The springtime air is wonderful.$h#$b#Just... please don't bring any spring flowers near Sam, he's terribly allergic.#$e#He had a deathly serious reaction once, when he was little. I can't remember ever being more scared.$s",
+				"spring_Sat10": "If I was rich the first thing I'd do would be to hire a maid and a chef.#$e#My goodness, that would be nice!$h",
+				"spring_Sun10": "You are truly a good person, @. Thank you for all you've done for me.",
+				"give_flowersA": "For... for me?!$7#$b#.....$6#$b#Yes. I want to be your girlfriend.$6#$b#But... I don't want to keep this a secret @...$2#$b#I'll talk to Kent and the children and tomorrow night I'll pay you a visit at the farm so we can talk, ok?.",
+				"give_flowersB": "For... for me?!$7#$b#.....$6#$b#Yes. I want to be your girlfriend.$6#$b#But... I don't want to keep this a secret @...$2#$b#I'll talk to Kent and the childrens and tomorrow's night I'll pay you a visit at the farm so we can talk, ok?.",
+				"give_pendant": "...!$8#$b#This pendant... that means....$8#$b#...You know my past marriage didn't end well @... So I'm a little scared of going further.$8#$b#But I have learned that it would be a mistake not to live the life I want out of fear.. and I want a life together with you.$6#$b#So yes @. Of course I want to marry you!.$6#$b#I'll talk to mayor Lewis about the ceremony. It shouldn't take more than three days to get everything ready.$6",
+				"stardrop_gift": "@, I love you... And I thought that this gift would be a good way to show that love to you...$7#$b#Thank you so much, my sweet husband.$1#$b#Thank you for being there for me when I needed it.$7",
+				"rejectNPCA": "What? No, sorry.$2",
+				"rejectNPCB": "I'm not interested in you that way @$2",
+			}
+        },
+		
+		{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/rainy",
+		"When": { "HasSeenEvent":"297839" },
+        "Entries": {
+			"Jodi": "At least this rain is good for your farm @.#$e#You have to teach me a little about farming when you have some free time. I would like to learn.",
+			},
+        },
+
+		
+	//ENGAGEMENT DIALOGUE	
+		{
+		"Action": "EditData",
+		"Target": "Data/EngagementDialogue",
+		"Entries": {
+			"Jodi0": "I wonder what it is like living on a farm...#$b#Well, I'll find out in a few days...",
+			"Jodi1": "When you showed up in town, I never thought I'd be marrying you some day.#$e#Life is strange, right?$l",
+			},
+		},
+	
+	//Jodi-SPECIFIC MARRIAGE DIALOGUE	
+		{
+        "Action": "Load",
+        "Target": "Characters/Dialogue/MarriageDialogueJodi",
+        "FromFile": "assets/MarriageDialogueJodi.json",
+        },
+		{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueJodi",
+        "Entries": {
+		"spouseRoom_Jodi": "Good morning Honey.#$e#*Yawn* I feel so sleepy...",
+		"Rainy_Day_0": "It's raining outside. Make sure you don't catch cold, dear.#$e#Stay indoors as much as possible.#$e#I worry about you sometimes!",
+        "Rainy_Day_1": "It's raining! That means we don't have to water the crops today.#$e#Nature can be a big help sometimes.#$e#Have you fed the animals yet, honey?",
+        "Rainy_Day_2": "Good morning! I woke up early from the sound of the rain and made you some breakfast. [194 195 210 211 216]  #$e#Stay warm and don't work too hard. I want you to stay healthy.",
+        "Rainy_Day_3": "What's on your agenda today, dear?#$e#I don't want to go outside in this weather... I'll just do some things around the house.#$e#Maybe I'll make something hot for dinner.",
+		"Rainy_Day_4": "Any dinner requests for tonight?",
+		"Rainy_Night_0": "The rain makes it feel like we're all alone.$6#$e#I'm cold... Aren't you ready to tuck into bed?$6",
+        "Rainy_Night_1": "Make sure you change into something warm. I don't want you to get sick.#$e#Can you hear the rain pattering on the roof, @?",
+        "Rainy_Night_2": "Ah...The soothing sound of rain overhead... I'm going to sleep well tonight.",
+        "Rainy_Night_3": "The rain makes our home seem so cozy.^It's nights like this I'm glad we have a quality roof.",
+        "Rainy_Night_4": "I made some soup for dinner. [199 218 219 727 730]#$e#You need something hot on a day like this!",
+        "Rainy_Night_5": "I'm glad you're home... It's a good night to stay inside.",
+		"Indoor_Day_0": "Good morning ~<#$e#Ready for a hard day's work? I am.",
+        "Indoor_Day_1": "Hi, honey! Smells good, doesn't it? I made you breakfast! [194 195 210 211 216]#$e#You need food to stay energized throughout the day.",
+        "Indoor_Day_2": "Did you sleep well?#$e#I've got some chores to do in here.",
+        "Indoor_Day_3": "Did you have any strange dreams last night?#$e#I did, but all I remember is that it had something to do with a %adj %noun. Weird.$s#$e#Hehe. Dreams don't mean anything... do they, Honey?#$e#Well, we can't spend all day chit-chatting. You have work to do!",
+        "Indoor_Day_4": "Good morning, dear. Another day of farm chores, huh?#$e#I'll be cheering for you. <",
+		"Indoor_Night_0": "Did you get everything done today, @?#$e#I did some house chores... but now I'm so tired.#$e#I'm ready for bed whenever you are.",
+        "Indoor_Night_1": "Wow, you look like you did a lot of work today.#$e#Now you should just relax and kick back for the night.",
+        "Indoor_Night_2": "I'm glad you're home.#$e#I'm not used to being alone at night.$2",
+        "Indoor_Night_3": "Are you done with your work for the day? I'm ready to have some fun.$7#$e#But if you're tired I understand.$6",
+        "Indoor_Night_4": "*phew*! I just finished my chores. Now we can spend some time together.#$e#So, tell me about your day.",
+		"OneKid_0": "Have you spent any time with %kid1 today?",
+        "OneKid_1": "I wonder if %kid1 will grow up to be a farmer like you?.",
+        "OneKid_2": "Don't worry, I'll feed %kid1 today. You can just focus on running the farm.",
+        "OneKid_3": "Life change a lot when you have kids, right?.",
+        "TwoKids_0": "I already gave %kid1 and %kid2 their breakfast. They were hungry!",
+        "TwoKids_1": "We have to make sure and give %kid1 a lot of attention now that we have %kid2. We don't want any jealousy between them.",
+        "TwoKids_2": "You know, I think %kid2 has your nose.",
+        "TwoKids_3": "Living at the farm is so nice @. I'm glad we can raise %kid1 and %kid2 here",
+		"Good_0": "It's hard to believe we're finally married...",
+        "Good_1": "You know, it's surprising that we ended together. I'm so happy about it though.",
+        "Good_2": "Are you enjoying our married life, @?#$e#I am.",
+        "Good_3": "Wow, you look really handsome today!^Wow, you look beautiful today.",
+        "Good_4": "This place is my home now... I'm happy here.",
+        "Good_5": "I was just admiring my wedding amulet... The shell is flawless. It must have cost you a fortune!",
+        "Good_6": "Be careful out there! Sometimes I worry about you falling into a mine shaft.",
+        "Good_7": "@? I just want to say that I appreciate all the hard work you do for our household.",
+        "Good_8": "Don't worry about me... I know you've got a lot of responsibilities outside of the house. I'm fine in here by myself!",
+        "Good_9": "Oh, I'm not bored... I'm just enjoying what we have here.#$e#It's a simple life, but I like it.$h",
+		"spring_1": "Well, a new year has arrived. Do you have a plan for what you want to accomplish this year?#$e#I feel pretty hopeful.",
+        "spring_8": "Now that winter's over, we've got lots of productive weather to look forward to.",
+        "spring_23": "Tomorrow is the flower dance... Are you going to dance?.",
+        "summer_1": "Make sure you don't get a heat stroke, dear.#$e#Drink plenty of water and don't overwork yourself.",
+        "summer_8": "Sorry if I smell... I was sweating all night in the heat.",
+        "summer_15": "It's summer... that means the house is full of flies.#$e#Don't worry, I'll take care of them.",
+        "fall_1": "This weather feels pretty nice after the heat of summer.",
+        "fall_8": "Winter's just around the corner. We need to double check the heating system, turn off the valves, and check all the insulation in the house.#$e#Don't worry, I'll take care of it all.",
+        "fall_15": "Have you figured out what you're going to use for our grange display tomorrow?",
+        "fall_26": "Should we go to the Spirit's Eve festival tomorrow night?",
+        "winter_1": "Brrr.... It's cold. I guess winter has arrived.",
+        "winter_7": "Are you going to enter the fishing contest tomorrow?",
+        "winter_28": "Thanks for a great year, @. I'm excited to tackle next year together.",
+		"Rainy_Day_6": "I love to curl up with you on days like this...$6",
+		"summer_Mon10": "Grapes are one of the few fruits I can get Vincent to eat. He just gobbles them up.$h#$e#Will we be growing any on the farm later this year?",
+		"summer_Tue10": "Do you ever have trouble sleeping, @? I sleep so well with you...$6",
+		"summer_Wed10": "If I was rich the first thing I'd do would be to hire a maid and a chef.#$e#My goodness, that would be nice!$h",
+		"spring_Sun10": "I'm thankful for the education that Vince gets from Penny. He wouldn't get as much one-on-one attention at a public school.#$e#Plus, commuting out of town to a public school is off the table, anyway.", 
+		"summer_Thu10": "You are truly a good person, @. Thank you for all you've done for me.",
+		"summer_Fri10": "Want to do anything together this weekend honey?.#$b#Maybe we can go to the spa.$6",
+		"summer_Sat10": "Have you heard Sam play his guitar recently? He's actually really good!$h#$b#...I hope he doesn't bother his neighbors too much.$2",
+		"summer_Sun10": "The other day I taked a nap. I'd never have time for it before, it was nice.",
+		"fall_Mon10": "I want Sam to make some achievable goals for his future, but every time I talk with him about it, he just says he has everything under control.$s#$b#It's difficult being a parent when I know it's no longer my job to solve his problems for him.$2",
+		"fall_Tue10": "I've always believed that childhood is something that should be cherished and protected, but...#$e#Maybe I made some mistakes. I just wanted the best for Sam and Vince. Did I try too hard?$2",
+		"fall_Wed10": "I can't stand to think about the war too much. But sometimes, I can't help but worry what kind of world Sam and Vincent will inherit.$s#$e#What else is there to do but carry on?",		
+		"fall_Thu10": "The valley looks so beautiful this time of the year. I never noticed before...",
+		"fall_Fri10": "I'm glad you moved into town, honey. There are few people I've met who are as generous and caring as you.",
+		"fall_Sat10": "It's getting kind of cold lately.#$b#Maybe later we can cuddle together by the chimney.",
+		"fall_Sun10": "I wonder what Caroline is doing.",
+		"winter_Mon10": "Hey Honey. I feel so energetic today!.",
+		"winter_Tue10": "You must get your daily exercise pretty easily with your farmwork, huh?$h#$e#I only work out once per week. Maybe I should try to do it more often",
+		"winter_Wed10": "Do we have enough wood stockpiled to pass the winter @?. I can talk with Robin if we need some more.",
+		"winter_Thu10": "Now that I have time, maybe I should try finding a hobby.#$e#What do you think?.",
+		"winter_Fri10": "Not too long before the year ends, huh? I can't believe it's already almost over.",
+		"winter_Sat10": "I love the winter view, but the walk to my old house get difficult with all the snow.#$e#Mmm, Do you think we can afford a sled and six huskies?.1",
+		"winter_Sun10": "It's so cold today... I hope it gets warmer soon.",
+		"spring_Mon10": "I want Sam to make some achievable goals for his future, but every time I talk with him about it, he just says he has everything under control.$s#$b#It's difficult being a parent when I know it's no longer my job to solve his problems for him.$s",
+		"spring_Tue10": "Exercise is important for staying healthy. I always make sure to set aside some time for it.",
+		"spring_Wed10": "Hmm... I wonder if I should pick up some allergy medicine for Sam today...",
+		"spring_Thu10": "I had enough time to take a nap the other day. I'd almost forgotten what it's like.$h",
+		"spring_Fri10": "The springtime air is wonderful.$h#$b#Just... please don't bring any spring flowers near Sam's, he's terribly allergic.#$e#He had a deathly serious reaction once, when he was little. I can't remember ever being more scared.$s",
+		"spring_Sat10": "If I was rich the first thing I'd do would be to hire a maid and a chef.#$e#My goodness, that would be nice!$h",
+		"spring_Sun10": "You are truly a good person, @. Thank you for all you've done for me.",
+			},
+        },
+		
+		//Marriage
+
+        {
+        "Action": "EditData",
+        "Target": "Strings/Events",
+        "Entries": {
+			"HaveBabyQuestion": "...What would you say to having a child with me?",
+        	"HaveBabyQuestion_Adoption": "... What would you say to adopting a child with me??",
+			    },
+
+            "When": { "Relationship:Jodi": "Married" },
+		},
+		
+// S C H E D U L E		
+		
+		{
+      	"Action": "EditData",
+        "Target": "Characters/schedules/Jodi",
+		"When": { "Relationship:Jodi": "Dating, Engaged, Married" },
+		"Entries": {
+		"rain": "730 SamHouse 6 5 0 jodi_dishes/1020 BusStop -1 23 3/1600 SamHouse 6 5 0 jodi_dishes/1730 SamHouse 4 12 2 jodi_sit_down/1830 SamHouse 5 5 0/1930 BusStop -1 23 3",
+        "spring_11": "730 SamHouse 3 5 2 /1130 Hospital 13 14 3 \"Strings\\schedules\\Jodi:spring_11.001\"/1330 Hospital 2 7 1 \"Strings\\schedules\\Jodi:spring_11.002\"/1600 SamHouse 12 22 3 \"Strings\\schedules\\Jodi:spring_11.003\"/1930 BusStop -1 23 3",
+        "spring_18": "730 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 SamHouse 7 5 0/1020 SamHouse 4 5 0/1040 SamHouse 6 5 0 jodi_dishes/1130 Hospital 12 14 0/1330 Hospital 4 6 1 \"Strings\\schedules\\Jodi:spring_18.000\"/1600 BusStop -1 23 3",
+        "marriage_Tue": "730 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 SeedShop 22 17 1/1300 SeedShop 21 17 2 jodi_exercise/1600 SeedShop 24 14 2 \"Strings\\schedules\\Jodi:Tue.000\"/1930 BusStop -1 23 3",	
+        "marriage_Wed": "730 SamHouse 6 5 0 jodi_dishes/1030 SamHouse 7 5 0/1100 JojaMart 14 21 1/1330 JojaMart 9 14 3/1400 JojaMart 5 7 1/1440 JojaMart 20 5 0/1530 JojaMart 27 13 1/1600 JojaMart 11 25 3/1750 BusStop -1 23 3",
+        "JojaMart_Replacement": "SeedShop 2 22 3",
+		"marriage_Thu": "730 SamHouse 6 5 0 jodi_dishes/1030 SamHouse 7 5 0/1200 BusStop -1 23 3",
+		"marriage_Mon": "730 SamHouse 6 5 0 jodi_dishes/1030 SamHouse 7 5 0/1200 BusStop -1 23 3",
+        "marriage_Fri": "GOTO marriage_Wed",
+        "marriage_Sat": "730 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 SamHouse 7 5 0/1020 SamHouse 4 5 0/1100 CommunityCenter 24 8 2 jodi_sit_down/1230 BusStop -1 23 3",
+        "winter_17": "730 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 BusStop -1 23 3/1330 Town 22 72 1/1630 Beach 20 24 2 \"Strings\\schedules\\Jodi:winter_17.000\"/1230 BusStop -1 23 3",
+        "marriage_Sun": "730 SamHouse 6 5 0 jodi_dishes/900 SamHouse 5 5 0/1000 SeedShop 38 20 0/1400 SeedShop 2 20 3/1530 BusStop -1 23 3",
+        "spring": "730 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 SamHouse 7 5 0/1030 BusStop -1 23 3/1330 Town 22 72 1/1430 BusStop -1 23 3"
+		}
+		},
+		
+		{
+      	"Action": "EditData",
+      	"Target": "Strings/schedules/Jodi",
+		"When": { "Relationship:Jodi": "Dating, Engaged, Married" },
+		"Entries": {
+			"spring_11.001": "Be brave, Vincent. you're already a big boy.",
+			"spring_11.003": "Vincent was very brave at the doctor's today. I'm proud of him.",
+			"winter_17.000": "It must be so thrilling to travel the world like they do... I should plan a trip.",
+			"Tue.000": "Ohhh... My arms feel like gelatin... $s",
+			"spring.000": "Shhh... he's asleep.",
+			"spring_18.000": "Hey @. Today is my yearly health appoinment.",
+			"spring_11.002": "Doctor Harvey? I'm worried about Vincent's height. Isn't he a little short for his age?",
+			"spring_11.000": "Vincent hates going to the doctor more than anything, but he'll just have to deal with it."
+			}
+    	},
+
+
+// F E S T I V A L   D I A L O G U E
+
+		{
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {
+           "Relationship:Jodi": "Dating, Engaged, Married"
+            },
+        "Entries": {
+			"Jodi": "Vincent loves this festival... it's a joy to see him so happy.",
+            "Jodi_y2": "I miss participating in the egg hunt...$1",
+            }
+        },
+
+
+		{
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {
+            "Relationship:Jodi": "Dating, Engaged, Married"
+            },
+        "Entries": {
+            "Jodi": "Are you going to be dancing today, @?",
+            }
+        },
+
+		{
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "When": {
+            "Relationship:Jodi": "Dating, Engaged, Married"
+            },
+        "Entries": {
+            "Jodi": "There! I just saw something glowing!#$b#Oh... It's gone.#$b#No matter, more will come soon.#$b#I used to envy the jellies... they look so free.",
+            }
+        },
+
+
+		{
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": {
+            "Relationship:Jodi": "Dating, Engaged, Married"
+            },
+        "Entries": {
+            "Jodi": "Vincent's upset that I won't let him go into the haunted maze... Mmm, maybe next year I'll finally let him. He's growing so fast...",
+            }
+        },
+		
+		{
+		 "Action": "EditData",
+        "Target": "Data/Festivals/summer11.xnb",
+        "Entries":
+        {
+		"Jodi": "These little dumplings are beyond delicious.$h#$e#I wish Gus would share his recipes more often.",
+			}
+        },
+
+// E V E N T S
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Events/farmhouse",
+		"Entries": {
+		"132743/t 1900 2400/f Jodi 3000": "nightTime/10 16/farmer -400 -400 0 Jodi 7 14 0/skippable/pause 1300/playSound doorOpen/warp farmer 12 20/pause 300/faceDirection Jodi 2/pause 100/speak Jodi \"Welcome home honey.\"/move farmer 0 -3 3/move farmer -4 0 0/move farmer 0 -3 3/positionOffset farmer -3 0/faceDirection Jodi 1/pause 500/animate Jodi false true 500 24/animate farmer true true 200 101/playSound dwop/pause 200/specificTemporarySprite heart 8 14/pause 1500/stopAnimation Jodi/stopAnimation farmer/speak Jodi \"Dinner is ready. I made some roasted veggies.\"/pause 50/question fork0 \" #It smells wonderful, but you didn't have to, it was my turn to make dinner today.\"/speak Jodi \"I know, but I was in the mood to cook something tasty for you.\"/pause 250/emote farmer 20/globalFade/viewport -1000 -1000/pause 1000/message \".......\"/message \".....\"/message \"...\"/warp Jodi 8 14/positionOffset Jodi 0 -17/warp farmer 7 14/faceDirection farmer 0/faceDirection Jodi 0/animate Jodi false true 100 16 17/viewport 8 14 true/pause 1300/speak Jodi \"So @...$6\"/question fork0 \" #Yes?\"/speak Jodi \"Would you like to... mmm... do it tonight?$6\"/pause 50/faceDirection farmer 1/pause 50/question fork0 \" #Of course!\"/stopAnimation Jodi/pause 100/faceDirection Jodi 3/speak Jodi \"Good... because there is something I want to try with you.$6\"/speak Jodi \".....$6#$b#.....$8#$b#.....$5\"/question fork0 \" #Well? What do you want to try?\"/speak Jodi \"F-Forget it... It's just a silly fantasy. You're not gonna like it anyway.$9\"/question fork0 \" #Try me.\"/speak Jodi \"It's just...$8#$b#I don't want you to think less of me @.$9\"/question fork0 \" #I'll never think less of you because of a sexual fantasy Jodi. Fantasies are just fantasies.\"/speak Jodi \"*Smile*$6#$b#You're so nice @.$6#$b#Ok... Here I go.$6#$b#I want you to act today as if you were my son while we make love.$6\"/question fork0 \" #As if I were Sam?\"/speak Jodi \"Oh no no no. You have to be you, I just want us to act as if we were mother and son.$8\"/question fork0 \" #Just that? No problem.\"/speak Jodi \"Really?$7\"/question fork0 \" #Yeah. How do you want to do it?\"/pause 150/textAboveHead Jodi \"Ok. Let me explain...\"/globalFade/viewport -1000 -1000/message \".......\"/message \".....\"/message \"...\"/faceDirection farmer 0/playMusic 50s/warp Jodi 9 14/faceDirection Jodi 0/warp farmer -300 -300/viewport 9 16 true/pause 1300/playSound doorOpen/warp farmer 12 20/pause 250/move farmer 0 -3 3/move farmer -3 0 0/faceDirection Jodi 2/textAboveHead Jodi \"Hey sweetie.\"/move farmer 0 -2 0/pause 50/question fork0 \" #Hi mom.\"/speak Jodi \"How was your day?$6\"/question fork0 \" #Not so good... work was pretty stressful...\"/speak Jodi \"Really? You must be so tired...$6#$b#Want me to give you a massage to help you relax a little?$6\"/question fork0 \" #Yes please.\"/textAboveHead Jodi \"Ok... Come here.\"/globalFade/viewport -1000 -1000/pause 500/message \"Slowly, Jodi start massaging your shoulders from behind.\"/speak Jodi \"You're so tense... Yeah, Mommy will help you relax.$6\"/message \"Without stopping the massage, Jodi begin to kiss your neck.\"/speak Jodi \"Do you like it?$6\"/question fork0 \" #Yes mom, keep going...\"/speak Jodi \"Of course.$6\"/message \"Jodi's hand reach for your crotch, and begin to massage your already hard cock over your trousers.\"/message \"You turn around and kiss her in the lips,   intertwining your tongue with hers.\"/message \"Bit by bit, you remove each other clothes while your tongues keep playing together.\"/message \"When you both are completely naked, you close your mouth around her left nipple and begin to suck it.\"/message \"As you do so, your finger trace a line along her slit. She's very wet already.\"/speak Jodi \"Ahh... Yes, touch me sweetie.$6\"/message \"Jodi grabs your cock and you introduce two fingers inside her. She stares intently at you while you begin to masturbate each other.\"/speak Jodi \"Yeah, just like that...!$6\"/message \"You keep going for a couple of minutes until Jodi grabs your hand, stopping you.\"/speak Jodi \"Lay down sweetie... Mommy wants to fuck you...$6\"/message \"You do so, and Jodi climbs on top of you, positioning her wet entrance against your cock.\"/message \"Not wasting any time, Jodi drops her hips, impaling herself in your cock.\"/speak Jodi \"Aahhh!!$6\"/pause 50/addTemporaryActor Jodi3 16 32 8 16 0 true character/warp farmer 8 16/faceDirection farmer 2/animate farmer false true 500 108/animate Jodi3 false true 150 0 1 2 3/warp Jodi -200 -200/positionOffset Jodi3 -1 -13/pause 500/playSound slimeHit/pause 800/playSound slimeHit/pause 800/viewport 8 16 true/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/speak Jodi \"Yes... fuck me sweetie...!!$6\"/animate Jodi3 false true 120 0 1 2 3/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/textAboveHead Jodi3 \"Aahh... Aahhh!!\"/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/pause 750/playSound slimeHit/textAboveHead Jodi3 \"Oh fuck!!\"/animate Jodi3 false true 90 0 1 2 3/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/textAboveHead Jodi3 \"Yes!! Flood mommy's pussy!!!\"/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/textAboveHead Jodi3 \"!!!!!!\"/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/playSound slimeHit/pause 500/pause 500/textAboveHead Jodi3 \"Aaahhh!!!!!!!\"/screenFlash 1/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/animate Jodi3 false true 90 0/pause 2000/emote Jodi3 20/globalFade/viewport -1000 -1000/pause 1500/speak Jodi \"@, that was just incredible.$6#$b#Can we please do this often?$7\"/end",
+				             }
+        },
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Events/farmhouse",
+		 "When": {
+            "Relationship:Jodi": "Dating"
+            },
+		"Entries": {
+		 "297361/t 2000 2400": "50s/-1000 -1000/farmer -400 -400 0 Jodi -400 -400 0/addTemporaryActor Jodi2 16 32 -400 -400 0 true character/skippable/pause 1300/playSound stoneStep/pause 300/playSound stoneStep/pause 330/playSound stoneStep/pause 300/speak Jodi \"It's me.\"/pause 500/playSound doorOpen/pause 500/warp farmer 10 16/faceDirection farmer 1/warp Jodi2 11 16/positionOffset farmer 10 19/faceDirection Jodi2 3/pause 1300/viewport 11 17 true/pause 1300/speak Jodi \"I talked with Kent and the children already.#$b#Vincent took it surprisingly well. I guess he already knew there was something between us... You were always visiting me, after all.#$b#He even told me that I look so happy when I'm talking with you... He's more perceptive than he looks.#$b#I think Sam wasn't exactly happy with it... but he told me that if being with you makes me happy, he will respect my decision.#$b#*Smile* I'm so proud of them.#$b#Regarding Kent, we had a long long talk...$2#$b#I told him about my relationship with you... and he confessed about some things he did in the army...$2#$b#...He fell in love with a woman named Sarah, the staff sergeant of his platoon...$2#$b#...She died four months before coming back to the republic.$2#$b#I wonder if that's the reason he changed so much...$2#$b#*Sigh* I guess we just weren't meant for each other... We jumped onto our marriage so young...$2#$b#Still, he is a good man and the father of my two children. I want him to be happy, so I'll keep trying to help him with his PTSD.$2#$b#But let's talk about more pleasant things @...#$b#I wasn't sure if you were interested in me. I'm so happy that you gave me those flowers.#$b#I like you too @... for quite some time now, in fact.$6#$b#....$6#$b#You know why I came here, right?.$6#$b#I'm not a shy teenager anymore...$6#$b# I want to be with you tonight @. Without any shame or guilt.$6#$b#So... do you want the same?.$6\"/pause 100/emote farmer 20/speak Jodi \"Great... Then come here and kiss me...$6\"/pause 500/animate farmer false true 2000 101/positionOffset farmer 3 0/pause 100/positionOffset farmer 3 0/pause 100/positionOffset farmer 3 0/animate Jodi2 false true 2000 27/positionOffset Jodi2 -3 0/pause 140/positionOffset Jodi2 -3 0/playSound dwop/specificTemporarySprite heart 11 15/globalFade/viewport -1000 -1000/warp farmer 11 16/warp Jodi2 11 16/faceDirection farmer 2/faceDirection Jodi 2/animate farmer false true 500 108/animate Jodi2 false true 200 43 47 51 47/positionOffset Jodi 2 -20/positionOffset farmer 2 14/pause 2500/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/viewport 12 17 true/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/textAboveHead Jodi2 \"Mmmm!!\"/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/textAboveHead Jodi2 \"Mmmhh!!\"/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/pause 400/playSound gulp/globalFade/viewport -1000 -1000/pause 400/playSound gulp/pause 400/playSound gulp/speak Jodi \"!!... Wait @... I want to feel you inside...$6\"/pause 2000/playSound fishSlap/speak Jodi \"Aahh...$6\"/pause 500/animate Jodi2 false true 200 48 49 50 49/playSound slimeHit/pause 1000/playSound slimeHit/pause 1000/playSound slimeHit/pause 1000/playSound slimeHit/positionOffset Jodi2 -2 0/viewport 12 17 true/pause 1000/playSound slimeHit/pause 1000/playSound slimeHit/pause 1000/playSound slimeHit/speak Jodi \"...@!!!$6\"/animate Jodi2 false true 180 48 49 50 49/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/textAboveHead Jodi2 \"Yes!... Fuck me harder...!!\"/animate Jodi2 false true 160 48 49 50 49/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/playSound slimeHit/playSound slimeHit/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/playSound slimeHit/playSound slimeHit/playSound slimeHit/pause 800/playSound slimeHit/pause 800/playSound slimeHit/textAboveHead Jodi2 \"!!!!! Just... a bit more!!\"/animate Jodi2 false true 130 48 49 50 49/playSound slimeHit/pause 600/playSound slimeHit/pause 600/playSound slimeHit/pause 600/playSound slimeHit/pause 600/playSound slimeHit/pause 600/playSound slimeHit/pause 600/playSound slimeHit/pause 600/playSound slimeHit/pause 600/playSound slimeHit/pause 600/playSound slimeHit/pause 600/playSound slimeHit/pause 600/playSound slimeHit/pause 600/playSound slimeHit/playSound slimeHit/pause 600/playSound slimeHit/pause 600/playSound slimeHit/pause 600/playSound slimeHit/pause 600/playSound slimeHit/playSound slimeHit/playSound slimeHit/playSound slimeHit/playSound slimeHit/pause 600/playSound slimeHit/pause 600/playSound slimeHit/textAboveHead Jodi2 \"Aahhhh!!!!!\"/screenFlash 1/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/animate Jodi2 false true 200 50/pause 2000/emote Jodi2 20/globalFade/viewport -1000 -1000/pause 1500/speak Jodi \"@...$6#$b#It might sound silly, but I really want to snuggle with you in bed...$6#$b#You don't mind if I stay for the night, right?.$6\"/end newDay",
+		             }
+        },
+
+		{
+		"Action": "EditData",
+		"Target": "Data/Events/farmhouse",
+		"Entries": {
+		 "297836/e 1000018/f Jodi 2500 Kent 2500/t 2200 2400/w rainy": "none/-10000 -1000/farmer 7 14 0 Jodi -400 -400 0/skippable/addTemporaryActor Jodi2 16 32 -400 -400 0 true character/viewport 11 17 true/pause 1300/playSound stoneStep/pause 300/playSound stoneStep/pause 330/playSound stoneStep/pause 300/move farmer 0 0 1/pause 50/move farmer 0 0 2/emote farmer 8/move farmer 0 2 1/move farmer 5 0 2/move farmer 0 4 1 true/globalFade/viewport -1000 -1000/pause 500/warp farmer 11 18/warp Jodi2 12 18/positionOffset farmer 0 16/positionOffset farmer 10 0/positionOffset Jodi2 7 0/faceDirection farmer 1/faceDirection Jodi2 3/playSound doorOpen/pause 1000/viewport 12 17 true/pause 1300/speak Jodi \"@... Sorry to bother you so late...$10\"/emote farmer 16/pause 100/question fork0 \" #Jodi, you're crying! What happened?.\"/speak Jodi \"I... I had a talk with Kent... And it didn't went well...$10#$b#He... He's like a robot @...$10#$b#I-I confessed about cheating on him with Caroline... Just... Just to get a reaction out of him...$10#$b#I just needed to know that I'm still important to him... That he can still feel something...$10#$b#But there was nothing...$10#$b#He just stood there with that empty expression on his face, and told me how he have no right to judge anyone.$10#$b#I don't even know if he cares anymore... It's as if he left his soul at the war.$10#$b#@... I...$10#$b#...I feel so alone...$11\"/question fork0 \" #I know Jodi... Come here.\"/animate farmer false true 100 101/positionOffset farmer 3 0/pause 100/positionOffset farmer 3 0/pause 100/positionOffset farmer 3 0/pause 100/positionOffset farmer 3 0/animate Jodi2 false true 250 27/positionOffset Jodi2 -3 0/pause 150/positionOffset Jodi2 -3 0/pause 100/positionOffset Jodi2 -3 0/pause 100/positionOffset Jodi2 -3 0/pause 100/positionOffset Jodi2 -3 0/pause 2500/textAboveHead Jodi2 \"*Sob* *Sob* Sorry...\"/pause 2500/stopAnimation Jodi2/positionOffset Jodi2 3 0/stopAnimation farmer/positionOffset farmer -3 0/pause 250/speak Jodi \"@, what should I do?. I don't know if I can keep going on like this...$11\"/question fork0 \"(What should I say?).#You have the right to be happy Jodi...#He need you Jodi...\"/fork 297836_Jodi/speak Jodi \"I know...$10#$b#I'm just being selfish... He went through a lot after all.$10\"/speak Jodi \"Thank you @... I'll be going home now...$10\"/globalFade/viewport -1000 -1000/playSound doorClose/end",
+		 
+		 "297836_Jodi": "speak Jodi \".....$11#$b#You're right...$11#$b#I suppose I was already convinced before coming here... I just needed someone to say it out loud.$11#$b#I... I'll talk to him when I feel ready...$10#$b#Thank you @...$11\"/globalFade/viewport -1000 -1000/playSound doorClose/addMailReceived JodiNoContent/end",
+		             }
+        },
+		
+		
+		
+				{
+		"Action": "EditData",
+		"Target": "Data/Events/farmhouse",
+		"Entries": {
+		 "297836/e 1000018/f Jodi 2500/y 3/t 2200 2400/w rainy": "none/-10000 -1000/farmer 7 14 0 Jodi -400 -400 0/addTemporaryActor Jodi2 16 32 -400 -400 0 true character/viewport 11 17 true/pause 1300/playSound stoneStep/pause 300/playSound stoneStep/pause 330/playSound stoneStep/pause 300/move farmer 0 0 1/pause 50/move farmer 0 0 2/emote farmer 8/move farmer 0 2 1/move farmer 5 0 2/move farmer 0 4 1 true/globalFade/viewport -1000 -1000/pause 500/warp farmer 11 18/warp Jodi2 12 18/positionOffset farmer 0 16/positionOffset farmer 10 0/positionOffset Jodi2 7 0/faceDirection farmer 1/faceDirection Jodi2 3/playSound doorOpen/pause 1000/viewport 12 17 true/pause 1300/speak Jodi \"@... Sorry to bother you so late...$10\"/emote farmer 16/pause 100/question fork0 \" #Jodi, you're crying! What happened?.\"/speak Jodi \"I... I had a talk with Kent... And it didn't went well...$10#$b#He... He's like a robot @...$10#$b#I-I confessed about cheating on him with Caroline... Just... Just to get a reaction out of him...$10#$b#I just needed to know that I'm still important to him... That he can still feel something...$10#$b#But there was nothing...$10#$b#He just stood there with that empty expression on his face, and told me how he have no right to judge anyone.$10#$b#I don't even know if he cares anymore... It's as if he left his soul at the war.$10#$b#@... I...$10#$b#...I feel so alone...$11\"/question fork0 \" #I know Jodi... Come here.\"/animate farmer false true 100 101/positionOffset farmer 3 0/pause 100/positionOffset farmer 3 0/pause 100/positionOffset farmer 3 0/pause 100/positionOffset farmer 3 0/animate Jodi2 false true 250 27/positionOffset Jodi2 -3 0/pause 150/positionOffset Jodi2 -3 0/pause 100/positionOffset Jodi2 -3 0/pause 100/positionOffset Jodi2 -3 0/pause 100/positionOffset Jodi2 -3 0/pause 2500/textAboveHead Jodi2 \"*Sob* *Sob* Sorry...\"/pause 2500/stopAnimation Jodi2/positionOffset Jodi2 3 0/stopAnimation farmer/positionOffset farmer -3 0/pause 250/speak Jodi \"@, what should I do?. I don't know if I can keep going on like this...$11\"/question fork0 \"(What should I say?).#You have the right to be happy Jodi...#He need you Jodi...\"/fork 297836_Jodi/speak Jodi \"I know...$10#$b#I'm just being selfish... He went through a lot after all.$10\"/speak Jodi \"Thank you @... I'll be going home now...$10\"/globalFade/viewport -1000 -1000/playSound doorClose/end",
+		 
+		 "297836_Jodi": "speak Jodi \".....$11#$b#You're right...$11#$b#I suppose I was already convinced of it before coming here... I just needed someone to say it out loud.$11#$b#I... I'll talk to him when I feel ready...$10#$b#Thank you @...$11\"/globalFade/viewport -1000 -1000/playSound doorClose/addMailReceived JodiNoContent/end",
+		             }
+        },
+		
+		
+		
+		{
+		"Action": "EditData",
+		"Target": "Data/Events/farmhouse",
+        "Entries": {
+		        "297839/n JodiNoContent": "none/-500 -500/farmer 5 5 3/viewport -500 -500 true/end",
+				             }
+        },
+		
+		
+//M O V I E    T H E A T E R
+		{
+		"Action": "EditData",
+		"Target": "Strings/Characters",
+		"When": { "Relationship:Jodi": "Dating, Engaged, Married" },
+		"Entries": {
+			"MovieInvite_Spouse_Jodi": "Of course @! I would love to.",
+			},
+		},
+		
+//CHANGE SPRITE
+{
+          "Action": "EditImage",
+          "Target": "Characters/Jodi",
+          "FromFile": "Assets/Sprites/Jodi.png",
+          "Update": "OnLocationChange, OnTimeChange"
+       },
+
+                          {
+          "Action": "EditImage",
+          "Target": "Characters/Jodi",
+          "FromFile": "Assets/Sprites/JodiMarriage.png",
+			"When": {
+				"DayEvent": "wedding",
+				"Time": "0600",
+				"LocationName": "Town",
+				"Hearts:Jodi": "9, 10, 11",
+				},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+                          {
+          "Action": "EditImage",
+          "Target": "Characters/Kent",
+          "FromFile": "Assets/Sprites/KentJodi.png",
+			"When": {
+				"DayEvent": "wedding",
+				"Time": "0600",
+				"LocationName": "Town",
+				"Hearts:Jodi": "9, 10, 11",
+				},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		
+		    {
+       "Action": "Load",
+       "Target": "Characters/Jodi3",
+       "FromFile": "assets/sprites/Jodi3.png",
+       },
+   
+
+	   //{
+     //Adds SVE NPCs to wedding events
+    // "Action": "EditData",
+     //"Target": "Data/CustomWeddingGuestPositions",
+     //"Entries": {
+       // "Andy": "32 67 0",
+     //}
+	//},
+	   		  
+
+	   
+
+
+
+	],
+}

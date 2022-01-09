@@ -1,0 +1,208 @@
+{
+    "Changes":
+    [
+    //sprites
+       {
+          "Action":"EditImage",
+          "Target":"Characters/Farmer/farmer_base",
+          "FromFile":"sprites/farmer_base.png"
+       },
+       {
+          "Action":"EditImage",
+          "Target":"Characters/Farmer/shirts",
+       "FromFile":"sprites/shirts.png"
+       },
+       {
+          "Action":"EditImage",
+          "Target":"Characters/Farmer/pants",
+          "FromFile":"sprites/pants.png"
+       },
+    
+       {
+          "Action": "Load",
+          "Target": "Data/Events/BathHouse_MensLocker",
+          "FromFile":"data/SVE/BasicStories/mlocker.json"
+       },
+       {
+          "Action": "Load",
+          "Target": "Data/Events/BathHouse_WomensLocker",
+          "FromFile":"data/SVE/BasicStories/wlocker.json"
+       },	
+ //Abigail
+ {
+    "Action": "Include",
+    "FromFile":"data/SVE/BasicStories/Abigail.json"
+ },
+ //Halley
+ {
+    "Action": "Include",
+    "When": 
+    {
+       "HasMod |contains=Pseudodiego.XtardewValley": "false"
+    },
+    "FromFile":"data/SVE/BasicStories/Haley.json"
+ },
+ {
+   "Action": "Include",
+   "When": 
+   {
+      "HasMod |contains=Pseudodiego.XtardewValley": "true"
+   },
+   "FromFile":"data/SVE/BasicStories/xHaley.json"
+},
+ //Emily
+ {
+    "Action": "Include",
+    "When": 
+    {
+       "HasMod |contains=Pseudodiego.XtardewValley": "false"
+    },
+    "FromFile":"data/SVE/BasicStories/Emily.json"
+ },
+ {
+   "Action": "Include",
+   "When": 
+   {
+      "HasMod |contains=Pseudodiego.XtardewValley": "true"
+   },
+   "FromFile":"data/SVE/BasicStories/xEmily.json"
+},
+ //Jodi  
+ {
+    "Action": "Include",
+    "When": 
+    {
+       "HasMod |contains=Pseudodiego.XtardewValley": "false"
+    },
+    "FromFile":"data/SVE/BasicStories/Jodi.json"
+ },
+ {
+   "Action": "Include",
+   "When": 
+   {
+      "HasMod |contains=Pseudodiego.XtardewValley": "true"
+   },
+   "FromFile":"data/SVE/BasicStories/xJodi.json"
+},
+ //Caroline
+ {
+    "Action": "Include",
+    "FromFile":"data/SVE/BasicStories/Caroline.json"
+ },
+ //Leah 
+ {
+    "Action": "Include",
+    "When": 
+    {
+       "HasMod |contains=Pseudodiego.XtardewValley": "false"
+    },
+    "FromFile":"data/SVE/BasicStories/Leah.json"
+ },
+ {
+   "Action": "Include",
+   "When": 
+   {
+      "HasMod |contains=Pseudodiego.XtardewValley": "true"
+   },
+   "FromFile":"data/SVE/BasicStories/xLeah.json"
+},
+ //Penny
+ {
+    "Action": "Include",
+    "When": 
+    {
+       "HasMod |contains=Pseudodiego.XtardewValley": "false"
+    },
+    "FromFile":"data/SVE/BasicStories/Penny.json"
+ },
+ {
+   "Action": "Include",
+   "When": 
+   {
+      "HasMod |contains=Pseudodiego.XtardewValley": "true"
+   },
+   "FromFile":"data/SVE/BasicStories/xPenny.json"
+},
+ //Maru
+ {
+    "Action": "Include",
+    "FromFile":"data/SVE/BasicStories/Maru.json"
+ },
+ //Robin
+ {
+    "Action": "Include",
+    "FromFile":"data/SVE/BasicStories/Robin.json"
+ },
+ //AfterMariege
+ {
+    "Action": "Include",
+    "When":
+    {
+      "HasMod |contains=aedenthorn.MultipleSpouses": "false"
+    },
+    "FromFile":"data/SVE/BasicStories/AfterMariege.json"
+ },
+ {
+   "Action": "Include",
+   "When":
+   {
+     "HasMod |contains=aedenthorn.MultipleSpouses": "true"
+   },
+   "FromFile":"data/SVE/BasicStories/AfterMariegeMultipleSpouses.json"
+},
+ //Bath
+ {
+    "Action": "Include",
+    "FromFile":"data/SVE/BasicStories/Bath.json"
+ },
+ //Dating Update
+    {
+       "Action": "Include",
+       "FromFile":"data/SVE/DatingUpdate/Beach/Beach.json"
+    },
+    {
+       "Action": "Include",
+       "FromFile":"data/SVE/DatingUpdate/Saloon/Saloon.json"
+    },
+    {
+       "Action": "Include",
+       "FromFile":"data/SVE/DatingUpdate/ForestCamp/Forest.json"
+    },
+    {
+       "Action": "Include",
+       "FromFile":"data/SVE/DatingUpdate/Mountain/Mountain.json"
+    },
+    {
+       "Action": "Include",
+       "FromFile":"data/SVE/DatingUpdate/SecretForest/Woods.json"
+    },
+    {
+       "Action": "Include",
+       "FromFile":"data/SVE/DatingUpdate/Dinner/DinnerFarmHouse.json"
+    },
+    {
+       "Action": "Include",
+       "FromFile":"data/SVE/DatingUpdate/PhonePhrases/PhonePhrases.json"
+    },
+ 
+    {
+       "Action":"EditMap",
+       "Target":"Maps/HaleyHouse",
+       "MapTiles":
+       [
+          {
+             "Position":
+             {
+                "X":9,
+                "Y":7
+             },
+             "Layer":"Buildings",
+             "SetProperties":
+             {
+                "Action":"MessageOnce 307020000 Wow, seems that Haley hide here her private photo!"
+             }
+          }
+       ]
+    }
+    ]
+}

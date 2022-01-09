@@ -1,0 +1,149 @@
+{
+    "Changes":
+    [
+    //sprites
+       {
+          "Action":"EditImage",
+          "Target":"Characters/Farmer/farmer_base",
+          "FromFile":"sprites/farmer_base.png"
+       },
+       {
+          "Action":"EditImage",
+          "Target":"Characters/Farmer/shirts",
+       "FromFile":"sprites/shirts.png"
+       },
+       {
+          "Action":"EditImage",
+          "Target":"Characters/Farmer/pants",
+          "FromFile":"sprites/pants.png"
+       },
+    
+       {
+          "Action": "Load",
+          "Target": "Data/Events/BathHouse_MensLocker",
+          "FromFile":"data/Vanilla/BasicStories/mlocker.json"
+       },
+       {
+          "Action": "Load",
+          "Target": "Data/Events/BathHouse_WomensLocker",
+          "FromFile":"data/Vanilla/BasicStories/wlocker.json"
+       },	
+ //Abigail
+ {
+    "Action": "Include",
+    "FromFile":"data/Vanilla/BasicStories/Abigail.json"
+ },
+ //Halley
+ {
+    "Action": "Include",
+    "FromFile":"data/Vanilla/BasicStories/Haley.json"
+ },
+ //Emily
+ {
+    "Action": "Include",
+    "FromFile":"data/Vanilla/BasicStories/Emily.json"
+ },
+ //Jodi  
+ {
+    "Action": "Include",
+    "FromFile":"data/Vanilla/BasicStories/Jodi.json"
+ },
+ //Caroline
+ {
+    "Action": "Include",
+    "FromFile":"data/Vanilla/BasicStories/Caroline.json"
+ },
+ //Leah 
+ {
+    "Action": "Include",
+    "FromFile":"data/Vanilla/BasicStories/Leah.json"
+ },
+ //Penny
+ {
+    "Action": "Include",
+    "FromFile":"data/Vanilla/BasicStories/Penny.json"
+ },
+ //Maru
+ {
+    "Action": "Include",
+    "FromFile":"data/Vanilla/BasicStories/Maru.json"
+ },
+ //Robin
+ {
+    "Action": "Include",
+    "FromFile":"data/Vanilla/BasicStories/Robin.json"
+ },
+ //AfterMariege
+ {
+    "Action": "Include",
+    "When":
+    {
+      "HasMod |contains=aedenthorn.MultipleSpouses": "false"
+    },
+    "FromFile":"data/Vanilla/BasicStories/AfterMariege.json"
+ },
+ {
+   "Action": "Include",
+   "When":
+   {
+     "HasMod |contains=aedenthorn.MultipleSpouses": "true"
+   },
+   "FromFile":"data/Vanilla/BasicStories/AfterMariegeMultipleSpouses.json"
+},
+ //Bath
+ {
+    "Action": "Include",
+    "FromFile":"data/Vanilla/BasicStories/Bath.json"
+ },
+ //Dating Update
+    {
+       "Action": "Include",
+       "FromFile":"data/Vanilla/DatingUpdate/Beach/Beach.json"
+    },
+    {
+       "Action": "Include",
+       "FromFile":"data/Vanilla/DatingUpdate/Saloon/Saloon.json"
+    },
+    {
+       "Action": "Include",
+       "FromFile":"data/Vanilla/DatingUpdate/ForestCamp/Forest.json"
+    },
+    {
+       "Action": "Include",
+       "FromFile":"data/Vanilla/DatingUpdate/Mountain/Mountain.json"
+    },
+    {
+       "Action": "Include",
+       "FromFile":"data/Vanilla/DatingUpdate/SecretForest/Woods.json"
+    },
+    {
+       "Action": "Include",
+       "FromFile":"data/Vanilla/DatingUpdate/Dinner/DinnerFarmHouse.json"
+    },
+    {
+       "Action": "Include",
+       "FromFile":"data/Vanilla/DatingUpdate/PhonePhrases/PhonePhrases.json"
+    },
+
+ 
+    {
+       "Action":"EditMap",
+       "Target":"Maps/HaleyHouse",
+       "MapTiles":
+       [
+          {
+             "Position":
+             {
+                "X":9,
+                "Y":10
+             },
+             "Layer":"Buildings",
+             "SetProperties":
+             {
+                "Action":"MessageOnce 307020000 Wow, seems that Haley hide here her private photo!"
+             }
+          }
+       ]
+    }
+    ]
+}

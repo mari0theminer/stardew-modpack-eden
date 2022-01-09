@@ -2,22 +2,23 @@
 {
 //SPECIAL DIALOGUE
 "Introduction": "I'm thankful Joja cleared the rockslide. Lewis and I went through so much trouble getting them to remove the rocks.$2#$b#Joja refuses to apologize...$3#$e#I'll see you again soon, dear. I'm happy to have finally met you!$1#$b#It's lovely having another farmer in the valley.$4",
+"pamHouseUpgrade": "I envy Robin's craftsmanship. She designed Pam's new home herself!$1",
+"pamHouseUpgradeAnonymous": "I envy Robin's craftsmanship. She designed Pam's new home herself!$1",
 "Resort_Entering": "I don't usually travel with others in our community. This is fun already!$1",
 "Resort_Leaving": "This was a very eventful day!$4",
-"Resort_Shore": "%Susan is taking in the view.",
+"Resort_Shore": "I had to conquer my fear of the ocean to get here. I'd say it was well worth it.$0",
 "Resort_Chair": "With weather like this, I bet you could grow tropical crops here with ease.$0",
 "Resort_Bar": "I'm craving something fruity.$0",
 "Resort": "I'm tempted to take an island flower back home with me.$1#$e#No, no, no... I can't separate it from its friends.$2",
 
 
 //SPECIFIC TILE DIALOGUE
-"SusanHouse_4_15": "I'm thankful Joja cleared the rockslide. Lewis and I went through so much trouble getting them to remove the rocks.$2#$b#Joja refuses to apologize...$3#$e#I'll see you again soon, dear. I'm happy to have finally met you!$1#$b#It's lovely having another farmer in the valley.$4",
-"SusanHouse_24_6": "Excuse me. I'm sleeping.$2",
+"Custom_SusanHouse_4_15": "I'm thankful Joja cleared the rockslide. Lewis and I went through so much trouble getting them to remove the rocks.$2#$b#Joja refuses to apologize...$3#$e#I'll see you again soon, dear. I'm happy to have finally met you!$1#$b#It's lovely having another farmer in the valley.$4",
+"Custom_SusanHouse_24_6": "Excuse me. I'm sleeping.$2",
 "SeedShop_14_20": "Wonderful to see you, @! Buying seeds from Pierre today?$0",
-"Summit_14_17": "Breathtaking view, isn't it?$0",
 "ArchaeologyHouse_16_5": "The library has a few crafting manuals I often reference. They're very helpful.$1",
-"SusanHouse_3_16": "Okay, Sophia! Watch closely!$0",
-"SusanHouse_9_17": "Come back soon, sweetie!$0",
+"Custom_SusanHouse_3_16": "Okay, Sophia! Watch closely!$0",
+"Custom_SusanHouse_9_17": "Come back soon, sweetie!$0",
 
 //SPRING AND GENERAL DIALOGUE
 "spring_1": "Ah! The beginning of spring, my favorite season. It's lovely seeing the flowers.$1#$e#Good luck farming this year!$0",
@@ -92,7 +93,7 @@
 "fall_Wed10": "I like you because you understand that life should be an adventure, @.$4#$b#Some people might think that running a farm is boring, but you and I know that it takes so much time, patience, and creativity to do well.$4#$e#May our lives continue to be as rich as they have been so far, sweetie.$4", 
 "fall_Thu": "*sigh*... Andy was a bit much at the saloon last night. He just doesn't have a filter.$2#$e#We're all special in our own little ways.$0#$e#Have an enjoyable day, dear.$1",
 "fall_Thu8": "I saw Andy walking with Joja boxes the other day. He seemed to be having a nice day.$0#$b#I don't support Joja, but that doesn't mean I'll judge others who do.$0#$e#Why don't I support Joja? Well...the world is a precious place with limited resources, sweetie. I think they're squandering it.$2",
-"Fall_Fri": "Mushrooms pop up in Cindersap Forest this time of year. Might forage for some soon.$0#$e#Andy and Leah usually take all of them, though...$3",
+"fall_Fri": "Mushrooms pop up in Cindersap Forest this time of year. Might forage for some soon.$0#$e#Andy and Leah usually take all of them, though...$3",
 "fall_Fri4": "There were hazelnuts around the mountain river today. I'm going to roast them!$0#$e#Roasted hazelnuts are rich and delicious. I'll share some with you sometime.$1",
 "fall_Fri10": "I found another bounty of hazelnuts and roasted them this morning! Here's some for you!$1[607]#$e#Enjoy, sweetie.$4",
 "fall_Sat": "Managing grape trellises is different from ordinary crops. I need to think about how to correctly route the vines.$2#$e#I'll try asking Sophia. She knows everything there is to know about grapes.$1",
